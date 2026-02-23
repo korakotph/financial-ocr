@@ -1,8 +1,12 @@
 fastapi
-uvicorn
+uvicorn[standard]
 psycopg2-binary
 sqlalchemy
 minio
 pydantic
 python-multipart
 typhoon-ocr
+paddlepaddle
+paddleocr
+opencv-python-headless
+requests
