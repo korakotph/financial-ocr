@@ -1,0 +1,20 @@
+stages:
+  - build
+  - deploy
+
+build_backend:
+  stage: build
+  script:
+    - docker build -t registry.gitlab.com/project/backend ./backend
+    - docker push registry.gitlab.com/project/backend
+
+build_frontend:
+  stage: build
+  script:
+    - docker build -t registry.gitlab.com/project/frontend ./frontend
+    - docker push registry.gitlab.com/project/frontend
+
+deploy:
+  stage: deploy
+  script:
+    - kubectl apply -f k8s/

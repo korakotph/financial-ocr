@@ -1,0 +1,21 @@
+# node
+node_modules
+.next
+
+# python
+__pycache__
+*.pyc
+.env
+
+# docker
+*.log
+
+# OS
+.DS_Store
+
+# vscode
+.vscode
+
+# database
+pgdata
+minio_data
