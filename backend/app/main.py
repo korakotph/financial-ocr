@@ -1,6 +1,7 @@
 from fastapi import FastAPI, UploadFile, File, Depends
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
+from fastapi.middleware.cors import CORSMiddleware
 import shutil, uuid, os
 
 from app.ocr import extract_text
@@ -18,6 +19,13 @@ Document = models.Document
 from sqlalchemy.orm import Session
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # create tables
 Base.metadata.create_all(bind=engine)
@@ -39,44 +47,6 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # app.mount("/static", StaticFiles(directory="static"), name="static")
 app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 
-
-# @app.get("/", response_class=HTMLResponse)
-# def ui():
-#     with open("static/index.html", encoding="utf-8") as f:
-#         return f.read()
-    
-# @app.get("/summary/page", response_class=HTMLResponse)
-# def summary_page():
-#     with open("static/summary.html", encoding="utf-8") as f:
-#         return f.read()
-    
-@app.get("/detail/{doc_id}", response_class=HTMLResponse)
-def detail_page(doc_id: str):
-    for file in os.listdir(OUTPUT_DIR):
-        if doc_id in file:
-            with open(os.path.join(OUTPUT_DIR, file), encoding="utf-8") as f:
-                data = json.load(f)
-            return HTMLResponse(
-                content=open("static/detail.html", encoding="utf-8").read()
-                .replace("__DATA__", json.dumps(data, ensure_ascii=False))
-            )
-    
-@app.get("/api/document/{doc_id}")
-def get_document(doc_id: str, db: Session = Depends(get_db)):
-    doc = db.query(Document).filter(Document.id == doc_id).first()
-    if not doc:
-        return {"error": "document_not_found"}
-
-    return {
-        "id": doc.id,
-        "filename": doc.filename,
-        "stored_filename": doc.stored_filename,
-        "created_at": doc.created_at.isoformat(),
-        "ocr": doc.ocr,
-        "analysis": doc.analysis
-    }
-
-
 @app.post("/analyze")
 def analyze_document(file: UploadFile = File(...),db: Session = Depends(get_db)):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -90,13 +60,23 @@ def analyze_document(file: UploadFile = File(...),db: Session = Depends(get_db))
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
 
+    import time
+    t0 = time.time()
+
     # OCR
     ocr_result = extract_text(file_path)
-    trimmed_text = trim_ocr(ocr_result["text"])
+    t_ocr = time.time()
+    print(f"[TIMING] OCR: {t_ocr - t0:.2f}s | chars={ocr_result.get('char_count',0)}", flush=True)
 
-    # AI Analysis
-    analysis = analyze_finance(ocr_result)
-    # analysis = analyze_finance(trimmed_text)
+    trimmed_text = trim_ocr(ocr_result["text"])
+    print(f"[TIMING] trim: chars {ocr_result.get('char_count',0)} → {len(trimmed_text)}", flush=True)
+
+    # AI Analysis — ใช้ trimmed text เพื่อลด token และเพิ่มความเร็ว
+    ocr_for_analysis = {**ocr_result, "text": trimmed_text}
+    analysis = analyze_finance(ocr_for_analysis)
+    t_ai = time.time()
+    print(f"[TIMING] AI:  {t_ai - t_ocr:.2f}s", flush=True)
+    print(f"[TIMING] Total: {t_ai - t0:.2f}s", flush=True)
     # รวมผลลัพธ์ทั้งหมด
     result = {
         "id": file_id,
@@ -181,3 +161,29 @@ def summary(db: Session = Depends(get_db)):
         })
 
     return results
+
+@app.get("/detail/{doc_id}", response_class=HTMLResponse)
+def detail_page(doc_id: str):
+    for file in os.listdir(OUTPUT_DIR):
+        if doc_id in file:
+            with open(os.path.join(OUTPUT_DIR, file), encoding="utf-8") as f:
+                data = json.load(f)
+            return HTMLResponse(
+                content=open("static/detail.html", encoding="utf-8").read()
+                .replace("__DATA__", json.dumps(data, ensure_ascii=False))
+            )
+    
+@app.get("/api/document/{doc_id}")
+def get_document(doc_id: str, db: Session = Depends(get_db)):
+    doc = db.query(Document).filter(Document.id == doc_id).first()
+    if not doc:
+        return {"error": "document_not_found"}
+
+    return {
+        "id": doc.id,
+        "filename": doc.filename,
+        "stored_filename": doc.stored_filename,
+        "created_at": doc.created_at.isoformat(),
+        "ocr": doc.ocr,
+        "analysis": doc.analysis
+    }
