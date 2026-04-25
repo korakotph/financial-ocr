@@ -1,9 +1,9 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, use } from 'react'
 import { useRouter } from 'next/navigation'
 
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8010'
 
 const STATUS = {
   NORMAL:   { bg: '#dcfce7', color: '#15803d', label: 'ปกติ' },
@@ -52,7 +52,7 @@ function fmt(v) {
 }
 
 export default function DocumentDetail({ params }) {
-  const { id } = params
+  const { id } = use(params)
   const router = useRouter()
   const [doc, setDoc] = useState(null)
   const [loading, setLoading] = useState(true)
