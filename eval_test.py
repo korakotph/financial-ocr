@@ -10,6 +10,7 @@ Usage:
 
 import argparse
 import json
+import math
 import random
 import sys
 import time
@@ -57,6 +58,97 @@ def upload_file(base_url: str, file_path: Path) -> dict:
 
 def classify(result: dict) -> int:
     return 1 if result.get("analysis", {}).get("status") == "success" else 0
+
+
+def extract_canonical_text(result: dict) -> str:
+    """Extract key text fields from analysis result for BLEU comparison."""
+    analysis = result.get("analysis", {})
+    if analysis.get("status") != "success":
+        return ""
+    data = analysis.get("data", {})
+    parts = []
+    if data.get("document_type"):
+        parts.append(str(data["document_type"]))
+    if data.get("document_number"):
+        parts.append(str(data["document_number"]))
+    seller = data.get("seller") or {}
+    if seller.get("name"):
+        parts.append(str(seller["name"]))
+    buyer = data.get("buyer") or {}
+    if buyer.get("name"):
+        parts.append(str(buyer["name"]))
+    for item in data.get("items") or []:
+        desc = item.get("description") or item.get("name") or ""
+        if desc:
+            parts.append(str(desc))
+    amount = data.get("amount") or {}
+    if amount.get("total") is not None:
+        parts.append(str(amount["total"]))
+    return " ".join(parts)
+
+
+# ─── BLEU ─────────────────────────────────────────────────────────────────────
+
+def _ngrams(tokens: list, n: int) -> dict:
+    counts = {}
+    for i in range(len(tokens) - n + 1):
+        ng = tuple(tokens[i:i + n])
+        counts[ng] = counts.get(ng, 0) + 1
+    return counts
+
+
+def sentence_bleu(reference: str, hypothesis: str, max_n: int = 2) -> float:
+    """Sentence-level BLEU-2 with brevity penalty (no external deps)."""
+    ref_tok = reference.lower().split()
+    hyp_tok = hypothesis.lower().split()
+    if not ref_tok or not hyp_tok:
+        return 0.0
+
+    precisions = []
+    for n in range(1, max_n + 1):
+        ref_ng = _ngrams(ref_tok, n)
+        hyp_ng = _ngrams(hyp_tok, n)
+        total = sum(hyp_ng.values())
+        if total == 0:
+            precisions.append(0.0)
+            continue
+        matches = sum(min(c, ref_ng.get(ng, 0)) for ng, c in hyp_ng.items())
+        precisions.append(matches / total)
+
+    if all(p == 0 for p in precisions):
+        return 0.0
+
+    log_avg = sum(math.log(p) if p > 0 else -999 for p in precisions) / len(precisions)
+    bp = 1.0 if len(hyp_tok) >= len(ref_tok) else math.exp(1 - len(ref_tok) / len(hyp_tok))
+    return bp * math.exp(log_avg)
+
+
+def compute_bleu_scores(baseline: dict, comparison_rounds: list) -> dict:
+    """
+    For each round R > 1, compute per-file and average BLEU score
+    comparing extracted text vs Round 1 baseline.
+    Returns {round_num: {avg: float, per_file: {filename: float}}}
+    """
+    scores = {}
+    for r_idx, round_data in enumerate(comparison_rounds, start=2):
+        per_file = {}
+        file_scores = []
+        for fname, b_entry in baseline.items():
+            r_entry = round_data.get(fname)
+            if r_entry is None:
+                continue
+            ref  = b_entry.get("text", "")
+            hyp  = r_entry.get("text", "")
+            if not ref and not hyp:
+                continue
+            score = sentence_bleu(ref, hyp) if ref else 0.0
+            per_file[fname] = round(score, 4)
+            file_scores.append(score)
+        scores[r_idx] = {
+            "avg": round(sum(file_scores) / len(file_scores), 4) if file_scores else 0.0,
+            "per_file": per_file,
+        }
+    return scores
 
 
 # ─── Metrics ──────────────────────────────────────────────────────────────────
@@ -160,7 +252,7 @@ def main():
     print(f"Log      : {log_path}")
     print("=" * 70)
 
-    # round_results[r][filename] = {label, status, elapsed}
+    # round_results[r][filename] = {label, status, elapsed, text}
     round_results   = []
     round_files     = []
     round_timing    = []
@@ -192,13 +284,14 @@ def main():
                 label_val = classify(result)
                 status    = result.get("analysis", {}).get("status", "unknown")
                 doc_id    = result.get("id", "?")
+                text      = extract_canonical_text(result)
                 suffix = f"{'OK ' if label_val else 'FAIL'}  {fmt_time(elapsed):>8}  status={status}"
                 print(suffix)
                 log_file.write(line_prefix + suffix + "\n")
                 log_file.flush()
                 this_round[file_path.name] = {
                     "label": label_val, "status": status,
-                    "id": doc_id, "elapsed": elapsed
+                    "id": doc_id, "elapsed": elapsed, "text": text,
                 }
                 elapsed_times.append(elapsed)
 
@@ -209,7 +302,7 @@ def main():
                 log_file.write(line_prefix + suffix + "\n")
                 log_file.flush()
                 this_round[file_path.name] = {
-                    "label": 0, "status": "connection_error", "elapsed": elapsed
+                    "label": 0, "status": "connection_error", "elapsed": elapsed, "text": "",
                 }
                 log("  Aborting — API unreachable.")
                 round_results.append(this_round)
@@ -226,7 +319,7 @@ def main():
                 log_file.write(line_prefix + suffix + "\n")
                 log_file.flush()
                 this_round[file_path.name] = {
-                    "label": 0, "status": str(e), "elapsed": elapsed
+                    "label": 0, "status": str(e), "elapsed": elapsed, "text": "",
                 }
                 elapsed_times.append(elapsed)
 
@@ -288,17 +381,14 @@ def _save_and_report(round_results, round_files, round_timing, json_path, log_fi
         log("\n  Only 1 round — nothing to compare. Run with --rounds >= 2.")
         log("=" * 70)
         _write_json(json_path, n_rounds, round_files, round_results,
-                    round_timing, [], {}, log)
+                    round_timing, [], {}, {}, log)
         return
 
     # Compare rounds 2..N vs round 1
-    # y_true = round 1 labels, y_pred = round r labels (for files seen in both)
     per_round_metrics = []
     inconsistent_per_file = {fname: [] for fname in baseline_files}
 
     for r_idx in range(1, n_rounds):
-        # Only evaluate files that appear in both round 1 and this round
-        this_files = [f.name for f in round_files[r_idx]]
         common = [f for f in baseline_files if f in round_results[r_idx]]
 
         y_true = [baseline.get(f, {}).get("label", 0) for f in common]
@@ -313,7 +403,6 @@ def _save_and_report(round_results, round_files, round_timing, json_path, log_fi
         for line in _format_metrics(m, timing=t):
             log(line)
 
-        # Track which files flipped
         for fname, yt, yp in zip(common, y_true, y_pred):
             if yt != yp:
                 inconsistent_per_file[fname].append({
@@ -322,7 +411,7 @@ def _save_and_report(round_results, round_files, round_timing, json_path, log_fi
                     "this_round": "success" if yp == 1 else "failure",
                 })
 
-    # Average consistency across rounds 2..N
+    # Average consistency
     if per_round_metrics:
         metrics_only = [m for _, m, _, _ in per_round_metrics]
         avg = avg_metrics(metrics_only)
@@ -342,7 +431,17 @@ def _save_and_report(round_results, round_files, round_timing, json_path, log_fi
     else:
         avg = {}
 
-    # Files that changed result vs baseline
+    # BLEU scores
+    bleu = compute_bleu_scores(baseline, round_results[1:])
+    if bleu:
+        avg_bleu = sum(v["avg"] for v in bleu.values()) / len(bleu)
+        log("\n" + "-" * 70)
+        log(f"  BLEU SCORE (text consistency vs Round 1)")
+        for rn, data in bleu.items():
+            log(f"    Round {rn} avg BLEU : {data['avg']:.4f}  ({data['avg']*100:.1f}%)")
+        log(f"    Overall avg BLEU  : {avg_bleu:.4f}  ({avg_bleu*100:.1f}%)")
+
+    # Inconsistent files
     flipped = {f: v for f, v in inconsistent_per_file.items() if v}
     log("\n" + "-" * 70)
     log(f"  INCONSISTENT FILES ({len(flipped)} files changed result vs round 1)")
@@ -360,11 +459,11 @@ def _save_and_report(round_results, round_files, round_timing, json_path, log_fi
 
     log("=" * 70)
     _write_json(json_path, n_rounds, round_files, round_results,
-                round_timing, per_round_metrics, avg, log, flipped)
+                round_timing, per_round_metrics, avg, bleu, log, flipped)
 
 
 def _write_json(json_path, n_rounds, round_files, round_results,
-                round_timing, per_round_metrics, avg, log, flipped=None):
+                round_timing, per_round_metrics, avg, bleu, log, flipped=None):
     output_data = {
         "config": {
             "rounds": n_rounds,
@@ -386,6 +485,7 @@ def _write_json(json_path, n_rounds, round_files, round_results,
             for rn, m, t, cf in per_round_metrics
         ],
         "average_consistency": avg,
+        "bleu_scores": bleu,
         "inconsistent_files": flipped or {},
     }
     with open(json_path, "w", encoding="utf-8") as f:

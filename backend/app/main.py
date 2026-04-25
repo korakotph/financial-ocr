@@ -3,8 +3,10 @@ from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-import shutil, uuid, os
+import shutil, uuid, os, json as _json
 from pathlib import Path
+
+REPORT_DIR_PATH = Path(__file__).parent.parent.parent / "report"
 
 from app.ocr import extract_text
 from app.typhoon_ai import analyze_finance, get_prompt, PROMPT_FILE
@@ -220,3 +222,26 @@ def reset_prompt():
     if PROMPT_FILE.exists():
         PROMPT_FILE.unlink()
     return {"prompt": FINANCE_PROMPT}
+
+@app.get("/reports")
+def list_reports():
+    if not REPORT_DIR_PATH.exists():
+        return []
+    files = sorted(
+        [{"filename": f.name, "modified": f.stat().st_mtime}
+         for f in REPORT_DIR_PATH.glob("*.json")],
+        key=lambda x: x["modified"],
+        reverse=True,
+    )
+    return files
+
+@app.get("/reports/{filename}")
+def get_report(filename: str):
+    safe = Path(filename).name
+    if not safe.endswith(".json"):
+        raise HTTPException(status_code=400, detail="invalid_filename")
+    path = REPORT_DIR_PATH / safe
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="report_not_found")
+    with open(path, encoding="utf-8") as f:
+        return _json.load(f)
