@@ -58,6 +58,8 @@ services:
       OLLAMA_MODEL: scb10x/llama3.1-typhoon2-8b-instruct
     ports:
       - "8010:8000"
+    volumes:
+      - ./report:/app/report
 
   frontend:
     build: ./frontend
