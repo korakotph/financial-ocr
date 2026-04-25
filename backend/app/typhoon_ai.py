@@ -1,7 +1,15 @@
 import os
 import requests
 import json
+from pathlib import Path
 from app.prompt import FINANCE_PROMPT
+
+PROMPT_FILE = Path(__file__).parent.parent / "prompt.txt"
+
+def get_prompt() -> str:
+    if PROMPT_FILE.exists():
+        return PROMPT_FILE.read_text(encoding="utf-8")
+    return FINANCE_PROMPT
 
 # Typhoon Cloud API (OpenAI-compatible) — เร็วกว่า local Ollama มาก
 TYPHOON_API_KEY = os.getenv("TYPHOON_API_KEY", "sk-u5s6zbDHJKpQHrCYJk9oFDOqNHGyqMDh0hmGEgqR9pVJlLcV")
@@ -26,7 +34,7 @@ def analyze_finance(ocr_result: dict):
         "messages": [
             {
                 "role": "user",
-                "content": FINANCE_PROMPT.replace("{OCR_TEXT}", ocr_result["text"])
+                "content": get_prompt().replace("{OCR_TEXT}", ocr_result["text"])
             }
         ],
         "temperature": 0,

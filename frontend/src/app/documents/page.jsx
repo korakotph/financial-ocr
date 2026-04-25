@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8010'
 
 const STATUS = {
   NORMAL:   { bg: '#dcfce7', color: '#15803d' },
@@ -90,7 +90,7 @@ export default function DocumentsPage() {
             <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 13.5 }}>
               <thead>
                 <tr style={{ borderBottom: '1px solid #e2e8f0', background: '#f8fafc' }}>
-                  {['ชื่อไฟล์', 'ประเภท', 'ผู้ขาย', 'ผู้ซื้อ', 'ยอดรวม (฿)', 'สถานะ', 'วันที่'].map(h => (
+                  {['ชื่อไฟล์', 'ประเภท', 'ผู้ขาย', 'ผู้ซื้อ', 'ยอดรวม (฿)', 'สถานะ', 'วันที่', ''].map(h => (
                     <th key={h} style={{
                       padding: '10px 16px', textAlign: h === 'ยอดรวม (฿)' ? 'right' : 'left',
                       fontSize: 11, fontWeight: 700, color: '#94a3b8',
@@ -103,8 +103,7 @@ export default function DocumentsPage() {
                 {filtered.map(doc => (
                   <tr
                     key={doc.id}
-                    onClick={() => router.push(`/documents/${doc.id}`)}
-                    style={{ borderBottom: '1px solid #f1f5f9', cursor: 'pointer', transition: 'background 0.1s' }}
+                    style={{ borderBottom: '1px solid #f1f5f9', transition: 'background 0.1s' }}
                     onMouseEnter={e => e.currentTarget.style.background = '#f8fafc'}
                     onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
                   >
@@ -130,6 +129,18 @@ export default function DocumentsPage() {
                     <td style={{ padding: '11px 16px' }}><Badge status={doc.status} /></td>
                     <td style={{ padding: '11px 16px', color: '#94a3b8', fontSize: 12, whiteSpace: 'nowrap' }}>
                       {fmtDate(doc.created_at)}
+                    </td>
+                    <td style={{ padding: '11px 16px' }}>
+                      <button
+                        onClick={() => router.push(`/documents/${doc.id}`)}
+                        style={{
+                          background: '#eef2ff', color: '#6366f1', border: 'none',
+                          borderRadius: 6, padding: '5px 12px', fontSize: 12,
+                          fontWeight: 600, cursor: 'pointer', whiteSpace: 'nowrap',
+                        }}
+                      >
+                        รายละเอียด →
+                      </button>
                     </td>
                   </tr>
                 ))}
