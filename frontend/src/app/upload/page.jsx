@@ -2,7 +2,7 @@
 
 import { useState, useRef } from 'react'
 
-const API = 'http://localhost:8000'
+const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8010'
 
 const STATUS_COLOR = {
   success:           { bg: '#dcfce7', text: '#166534' },

@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef } from 'react'
 
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8010'
 
 export default function PromptPage() {
   const [text, setText]       = useState('')
@@ -88,8 +88,8 @@ export default function PromptPage() {
       {/* Header */}
       <div className="page-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexShrink: 0 }}>
         <div>
-          <h1>Prompt Editor</h1>
-          <p>แก้ไข prompt ที่ใช้วิเคราะห์เอกสาร — มีผลทันทีกับเอกสารที่อัพโหลดใหม่</p>
+          <h1 style={{ margin: '0 0 3px', fontSize: 20, fontWeight: 700, color: '#0f172a' }}>Prompt Editor</h1>
+          <p style={{ margin: 0, fontSize: 13, color: '#64748b' }}>แก้ไข prompt ที่ใช้วิเคราะห์เอกสาร — มีผลทันทีกับเอกสารที่อัพโหลดใหม่</p>
         </div>
         <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
           {isDirty && (
