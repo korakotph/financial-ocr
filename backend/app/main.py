@@ -6,7 +6,7 @@ from pydantic import BaseModel
 import shutil, uuid, os, json as _json
 from pathlib import Path
 
-REPORT_DIR_PATH = Path(__file__).parent.parent.parent / "report"
+REPORT_DIR_PATH = Path(os.environ.get("REPORT_DIR", "/app/report"))
 
 from app.ocr import extract_text
 from app.typhoon_ai import analyze_finance, get_prompt, PROMPT_FILE
