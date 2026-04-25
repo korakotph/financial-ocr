@@ -1,0 +1,55 @@
+{
+  "id": "8610ac15-0919-4c0f-9c7d-a1b5b84698ec",
+  "filename": "เอกสาร_invoice_page-0155.jpg",
+  "stored_filename": "20260418_125536_8610ac15-0919-4c0f-9c7d-a1b5b84698ec_เอกสาร_invoice_page-0155.jpg",
+  "created_at": "2026-04-18T12:56:29.885583",
+  "ocr": {
+    "text": "บริษัท อีซี เคลียร์ จำกัด EASY CLEAR CO., LTD.\nเลขประจำตัวผู้เสียภาษีอากร 0105557106587 สำนักงานใหญ่\n\nใบเสร็จรับเงิน (RECEIPT)/ ใบกำกับภาษี(TAX INVOICE)\n\nเลขที่ E202601052\nวันที่ 9/1/2569\n\nชื่อ/ที่อยู่ลูกค้า บริษัท บาร์เธอร์ แอนด์ บาร์เธอร์ จำกัด\nที่อยู่ 77/77 หมู่ 3 ถ.ศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\n\nเลขประจำตัวผู้เสียภาษี 0105548117733 สำนักงานใหญ่\nเลขที่อ้างอิง Vessel : KMTC POHANG V.2513S BL : SNLFSHILX300245 E202512339\n\n<table><tr><td>ลำดับที่</td><td>รหัสสินค้า/รายละเอียด</td><td>จำนวน</td><td>หน่วยละ</td><td>จำนวนเงิน</td></tr><tr><td>1.</td><td>Clearance service fee</td><td>1</td><td></td><td>6,500.00</td></tr></table>\n\nหมายเหตุ\n\nรวมเป็นเงิน 6,500.00\nจำนวนภาษีมูลค่าเพิ่ม 7% 455.00\nจำนวนเงินรวม 6,955.00\nหัก ณ ที่จ่าย 3% 195.00\nหัก ณ ที่จ่าย 1%\n\nหกพันเจ็ดร้อยหกสิบบาทถ้วน\n\nจำนวนเงินรวมทั้งสิ้น 6,760.00\n\nบริษัท อีซีเคลียร์ จำกัด\n\nลงชื่อผู้รับ Easy Clear Co.,Ltd.\nวันที่ 9/1/2569\n\nเลขที่ 1159/51 ถนน ประชาพัฒนา แขวงทับยาว เขตลาดกระบัง กรุงเทพฯ 10520\nโทร.0874824200, 02-1346252 Email : easyclear1978@gmail.com",
+    "char_count": 1037,
+    "word_count": 92,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "Clearance service fee",
+          "quantity": 1,
+          "unit_price": 6500,
+          "total": 6500
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 6500,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 6500,
+        "vat_rate": 7,
+        "vat_amount": 455,
+        "total": 6955
+      },
+      "confidence_note": "Mismatch between stated total (6,760.00) and calculated total (6,955.00); using calculated value based on VAT logic."
+    }
+  }
+}

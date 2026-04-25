@@ -1,0 +1,55 @@
+{
+  "id": "60f9c3fa-5929-4c3f-bece-e64991950cf9",
+  "filename": "เอกสาร_invoice_page-0045.jpg",
+  "stored_filename": "20260418_130529_60f9c3fa-5929-4c3f-bece-e64991950cf9_เอกสาร_invoice_page-0045.jpg",
+  "created_at": "2026-04-18T13:06:16.620397",
+  "ocr": {
+    "text": "K.S.PACKAGING CO., LTD.\nบริษัท เค.เอส.บรรจุภัณฑ์ จำกัด K.S. PACKAGING CO., LTD.\n\nเลขประจำตัวผู้เสียภาษีอากร 0135559003289\nสำนักงานใหญ่\n\n7/19 ม.1 ต.ระแหง อ.ลาดหลุมแก้ว จ.ปทุมธานี 12140\n7/19 Moo 1 T.Rahang A.Lardlumkaew Patumtani 12140\nTel. 02-599-1799, 090-953-4222\n\nเอกสารออกเป็นชุด\nต้นฉบับสำหรับลูกค้า ORIGINAL - CUSTOMER\n\nลูกค้า BROTR\nCustomer บราเธอร์ แอนด์ บราเธอร์ จำกัด\n77/77 หมู่ 3 ถ.ศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nเลขประจำตัวผู้เสียภาษี/Tax ID. 0105548117733 สำนักงานใหญ่\nโทร/Tel. 02-0902345-49 แฟ็กซ์ 02-0902350\nอ้างอิง/Refer PO6901/148\nขนส่งโดย/Transported by\n\nเลขที่ใบกำกับ IV6901058\nOrder No. :\nวันที่ Date : 28/01/69\nเครดิตเทอม Credit Term : 30วัน Date ครบกำหนด Due Date : 27/02/69\nเลขที่ใบสั่งขาย Sales Order No.: SO6901015 ลวท. 14/01/69\nพนักงานขาย Saleman No. 0001-ออฟฟิศ\nเขตการขาย Sales Area\n\n<table><tr><td>ลำดับ<br/>No.</td><td>รหัสสินค้า/รายละเอียด<br/>Product Code/Description</td><td>จำนวน<br/>Quantity</td><td>หน่วยละ<br/>Unit Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>1</td><td>กล่องกระดาษลูก 3 ชั้น 39x50x31cm.</td><td>543กล่อง</td><td>22.000</td><td>11,946.00</td></tr></table>\n\nได้รับสินค้าตามรายการข้างบนนี้ไว้ถูกต้อง และอยู่ในสภาพเรียบร้อยทุกประการ สินค้าตามใบส่งของนี้ แม้จะได้มอบแก่ผู้ซื้อแล้วก็ยังเป็นทรัพย์สินของผู้ขายจนกว่าผู้ซื้อจะชำระเงินให้แก่บริษัทจนครบถ้วน\n\nหมายเหตุ : กรุณาชำระเงินเข้า บัญชีธนาคารกรุงเทพ สาขาปทุมธานี ประเภทออมทรัพย์ เลขที่บัญชี 084-702-4437 หรือสั่งจ่ายเช็คในนาม \"บริษัท เค.เอส.บรรจุภัณฑ์ จำกัด\" เท่านั้น\n\n(หนึ่งหมื่นสองพันเจ็ดร้อยแปดสิบสองบาทยี่สิบสองสตางค์)\n\nรวมเป็นเงิน / Total 11,946.00\nหักส่วนลด / Discount 0.00\nยอดหลังหักส่วนลด / After Discount 11,946.00\nหักเงินมัดจำ / Deposit AI 0.00\nจำนวนเงินหลังหักมัดจำ / Amount after deposit 11,946.00\nจำนวนภาษีมูลค่าเพิ่ม / Vat 7.00 % 836.22\nจำนวนเงินรวมทั้งสิ้น / Grand Total 12,782.22\n\nผู้ส่งของ เดียง\nวันที่ 28/01/69\n\nผู้รับของ นันยะ\nวันที่ 27/1/69\n\nในนาม บริษัท เค.เอส.บรรจุภัณฑ์ จำกัด\nผู้รับมอบอำนาจ อดุลย์\nวันที่ 28/01/69",
+    "char_count": 1955,
+    "word_count": 170,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "กล่องกระดาษลูก 3 ชั้น 39x50x31cm.",
+          "quantity": 543,
+          "unit_price": 22.0,
+          "total": 11946.0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 11946.0,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 11946.0,
+        "vat_rate": 7,
+        "vat_amount": 836.22,
+        "total": 12782.22
+      },
+      "confidence_note": null
+    }
+  }
+}

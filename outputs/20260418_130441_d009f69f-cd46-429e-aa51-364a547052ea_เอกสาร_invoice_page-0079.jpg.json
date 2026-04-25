@@ -1,0 +1,55 @@
+{
+  "id": "d009f69f-cd46-429e-aa51-364a547052ea",
+  "filename": "เอกสาร_invoice_page-0079.jpg",
+  "stored_filename": "20260418_130441_d009f69f-cd46-429e-aa51-364a547052ea_เอกสาร_invoice_page-0079.jpg",
+  "created_at": "2026-04-18T13:05:01.077454",
+  "ocr": {
+    "text": "DINA INDUSTRY COMPANY LIMITED\n5/1 หมู่ 2 ตำบลบางแก้ว อำเภอบางพลี จังหวัดสมุทรปราการ 10540\n5/1 Moo 2, BANGKAEW, BANGPLEE, SAMUTPRAKARN 10540 THAILAND\nTEL. 0-2753-6104\nเลขประจำตัวผู้เสียภาษี / TAX ID 0-1155-55017-43-9\n\nใบกำกับภาษี / ใบส่งสินค้า / ใบแจ้งหนี้\nTAX INVOICE / DELIVERY ORDER / INVOICE\n(เอกสารออกเป็นชุด)\n\nชื่อและที่อยู่ลูกค้า\nCustomer Name &amp; Address\nบริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)\n77/77 หมู่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด\nจังหวัดนนทบุรี 11120\nเลขประจำตัวผู้เสียภาษี 0105548117733\n\n<table><tr><td>เลขที่ No.</td><td>IV6900043</td></tr><tr><td>วันที่ Date</td><td>31/1/2026</td></tr></table><table><tr><td>รหัสลูกค้า Code</td><td>ใบสั่งซื้อเลขที่ Customer PO.No.</td><td>การชำระเงิน Payment</td><td>กำหนดชำระเงิน Due Date</td><td>ผู้ขาย Sales</td></tr><tr><td>BAB</td><td>OR6901/044</td><td>30days</td><td></td><td>Chatpon</td></tr></table><table><tr><td>ลำดับที่ Item</td><td>รายการ Description</td><td>หน่วย Unit</td><td>จำนวน Qty.</td><td>ราคาต่อหน่วย Unit Price</td><td>จำนวนเงิน Amount</td></tr><tr><td>1</td><td>รหัสสินค้า : LCB-B2030-0001 x00144:ถุงมุ้งคลุม เกรดB 120*120*150CM T=0.03MM</td><td>PCS</td><td>300</td><td>28.00</td><td>8,400.00</td></tr></table>\n\nผิด ตก ยกเว้น E.&amp;O.E.\n\n1.ได้รับสินค้าตามรายการข้างบนนี้ไว้ถูกต้อง และอยู่ในสภาพเรียบร้อยทุกประการ\n2.สินค้าตามใบส่งของนี้ หากมีการผิดพลาดประการใด โปรดแจ้งให้บริษัทฯ ทราบภายใน 3 วัน หลังจากวันที่ได้รับสินค้า มิฉะนั้น บริษัทฯ จะไม่รับผิดชอบใดๆ ทั้งสิ้น\n3.สินค้าตามใบส่งของนี้ แม้จะได้ส่งมอบแก่ผู้ซื้อแล้ว ก็ยังคงเป็นทรัพย์สินของผู้ขาย จนกว่าผู้ซื้อจะได้ชำระเงินเสร็จเรียบร้อยแล้ว\n4.บัญชีค้างเกินกำหนดถูกคิดดอกเบี้ยในอัตรา 2% ต่อเดือน\n\n<table><tr><td>มูลค่าสินค้า Total</td><td>8,400.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม Value Added Tax</td><td>588.00</td></tr><tr><td>รวมทั้งสิ้น Net Total</td><td>8,988.00</td></tr></table>\n\n-(แปดพันเก้าร้อยแปดสิบแปดบาทถ้วน)-\n\nได้รับสินค้าตามรายการข้างบนนี้ไว้ถูกต้องเรียบร้อยแล้ว\nAlready received and accepted that everything correct\n\n\n[Handwritten signature]\n\nผู้รับสินค้า / RECEIVER\nวันที่/Date 31/1/69\n\nผู้ส่งสินค้า / DELIVERER\nวันที่/Date 31/1/69\n\nในนาม For\nบริษัท ดีวายเอ็นเอ อินดัสตรี้ จำกัด DYN A INDUSTRY CO., LTD.\n\n[Handwritten signature]\n\nผู้มีอำนาจลงนาม / AUTHORIZED SIGNATURE\nวันที่/Date 31/1/69",
+    "char_count": 2254,
+    "word_count": 154,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "IV6900043",
+      "document_date": "2026-01-31",
+      "seller": {
+        "name": "Chatpon",
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": "BAB",
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "รหัสสินค้า : LCB-B2030-0001 x00144:ถุงมุ้งคลุม เกรดB 120*120*150CM T=0.03MM",
+          "quantity": 300,
+          "unit_price": 28,
+          "total": 8400
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 8400,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 8400,
+        "vat_rate": 7,
+        "vat_amount": 588,
+        "total": 8988
+      },
+      "confidence_note": null
+    }
+  }
+}

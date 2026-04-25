@@ -1,0 +1,61 @@
+{
+  "id": "36ca55db-b979-47bb-8039-321a7bd33265",
+  "filename": "เอกสาร_invoice_page-0168.jpg",
+  "stored_filename": "20260418_125313_36ca55db-b979-47bb-8039-321a7bd33265_เอกสาร_invoice_page-0168.jpg",
+  "created_at": "2026-04-18T12:53:53.943932",
+  "ocr": {
+    "text": "5R WINNER ENGINEERING\n\n**เลขประจำตัวผู้เสียภาษี:** 0103552000851 **สำนักงานใหญ่**\n\n**หจก. เอส.อาร์. วินเนอร์ เอ็นจิเนียริ่ง**\n53/673 หมู่ 2 ถนนสมาฟ้าคราม ตำบลคูคต อำเภอลำลูกกา จังหวัดปทุมธานี 12130\nโทร. 02-987-3505\nwww.srwinner.com\n\n**ต้นฉบับ / ORIGINAL**\nใบกำกับภาษี / ใบส่งสินค้า / ใบแจ้งหนี้\nTAX INVOICE / DELIVERY / INVOICE\n\nเอกสารออกเป็นชุด\n\n**ชื่อลูกค้า (NAME):** บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)\n77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี\nโทรศัพท์ 02-090-2345-49 โทรสาร 02-090-2350\nเลขประจำตัวผู้เสียภาษี 0105548117733\n\n**เลขที่ใบกำกับภาษี:** IV6901047\n**วันที่:** 12/01/2569\n**เครดิต:** 30 **วัน ครบกำหนด:** 11/02/2569\n**เลขที่ใบสั่งซื้อ:** PO6901/077\n**พนักงานขาย:** รุ่งโรจน์\n\n<table><tr><td>ลำดับ<br/>Item</td><td>รายการ<br/>Description</td><td>จำนวน<br/>Qty.</td><td>ราคาต่อหน่วย<br/>Unit Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>1</td><td>กรรไกรด้ามของมังกรมงก์ SOLO No.909-7.5 (GMP)</td><td>10</td><td>300.00</td><td>3,000.00</td></tr><tr><td>2</td><td>กัตเตอร์ Stanley 10-175</td><td>10</td><td>140.00</td><td>1,400.00</td></tr></table>\n\n**หมายเหตุ / Remark**\n1. กรุณาสั่งจ่ายเช็คในนาม \"หจก. เอส.อาร์. วินเนอร์ เอ็นจิเนียริ่ง\" ขีดคร่อม \"A/C PAYEE ONLY\" Payment by cheque in Favour of \" SR WINNER ENGINEERING. And cross \"A/C PAYEE ONLY\"\n2. ห้างฯ ขอสงวนสิทธิ์การเป็นเจ้าของสินค้าจนกว่าจะได้รับการชำระเงินเป็นที่เรียบร้อยแล้ว\n\n**รวมเป็นเงิน** 4,400.00\n**หักส่วนลด** -\n**ยอดหลังหักส่วนลด** 4,400.00\n**หัก เงินมัดจำ** -\n**จำนวนเงินหลังหักเงินมัดจำ** 308.00\n**บวก VAT 7%** 28.57\n**จำนวนเงินทั้งสิ้น** 4,708.57\n\n**สี่พันเจ็ดร้อยแปดบาทถ้วน**\n\n**ผู้รับสินค้า/Received By**\nสาริยา\nวันที่ 12 / ม.ค. / 69\n\n**ผู้ส่งสินค้า/Delivery By**\nนารายณ์\nวันที่ ..../..../......\n\n**หจก. เอส.อาร์. วินเนอร์ เอ็นจิเนียริ่ง**\nวัฒนา\nผู้รับมอบอำนาจ / Authorized Signature\nวันที่ 12 / 01 / 69",
+    "char_count": 1833,
+    "word_count": 155,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "กรรไกรด้ามของมังกรมงก์ SOLO No.909-7.5 (GMP)",
+          "quantity": 10,
+          "unit_price": 300,
+          "total": 3000
+        },
+        {
+          "name": "กัตเตอร์ Stanley 10-175",
+          "quantity": 10,
+          "unit_price": 140,
+          "total": 1400
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 4400,
+        "discount": {
+          "rate": null,
+          "amount": 308,
+          "note": null
+        },
+        "subtotal": 4092,
+        "vat_rate": 7,
+        "vat_amount": 28.57,
+        "total": 4708.57
+      },
+      "confidence_note": null
+    }
+  }
+}

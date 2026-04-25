@@ -1,0 +1,61 @@
+{
+  "id": "b6c06d5c-652d-4183-baf9-1efb1d3cfe85",
+  "filename": "เอกสาร_invoice_page-0192.jpg",
+  "stored_filename": "20260418_125120_b6c06d5c-652d-4183-baf9-1efb1d3cfe85_เอกสาร_invoice_page-0192.jpg",
+  "created_at": "2026-04-18T12:51:39.551198",
+  "ocr": {
+    "text": "SG บริษัท เอสจี อินโนเวชั่น จำกัด (สำนักงานใหญ่)\nSG INNOVATION CO.,LTD.\n20/6 หมู่1 ต.ธนู อ.อุทัย จ.พระนครศรีอยุธยา 13000\n20/6 Moo1 Thanu, Uthai District, PhraNakhonSiAyutthaya 13000\nโทร/Tel : 095-851-3533 เลขประจำตัวผู้เสียภาษี/Tax ID : 0-1055-67087-36-4\n\nใบกำกับภาษี / ใบเสร็จรับเงิน\nTAX INVOICE / RECEIPT\nต้นฉบับ/ORIGINAL\n\nเอกสารออกเป็นชุด\n<table><tr><td>ชื่อลูกค้า/Customer</td><td>บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)</td></tr><tr><td>ที่อยู่ลูกค้า/Address</td><td>77/77 หมู่ที่ 3 ถ.ตรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120</td></tr><tr><td></td><td>เลขประจำตัวผู้เสียภาษี 0105548117733</td></tr><tr><td>โทร/Tel.</td><td></td></tr></table><table><tr><td>เลขที่/No.</td><td>2601-004</td></tr><tr><td>วันที่/Date</td><td>14/01/26</td></tr><tr><td>อ้างถึง/Our Ref.</td><td></td></tr><tr><td>กำหนดส่ง/Delivery</td><td></td></tr><tr><td>เงื่อนไขการชำระเงิน/Payment</td><td></td></tr></table><table><tr><td>ลำดับที่ Item</td><td>รายการ Description</td><td>จำนวน Quantity</td><td>ราคาต่อหน่วย Unit Price</td><td>จำนวนเงิน Amount</td></tr><tr><td>1</td><td>ไบโอเซรั่มออโรแมนทิน ขนาด 30มิลลิลิตร</td><td>100</td><td>800.00</td><td>80,000.00</td></tr><tr><td>2</td><td>ไบโอเซรั่มออโรแมนทิน สินค้าแถม ขนาด 30มิลลิลิตร</td><td>15</td><td>0.00</td><td>-</td></tr></table>\n\nหมายเหตุ / Remark :\nใบเสร็จรับเงินนี้ออกให้ล่วงหน้ามีผลสมบูรณ์ เมื่อมีการโอนเงินแล้ว\nโอนชื่อบัญชี บ.เอสจี อินโนเวชั่น จก. ธ.ไทยพาณิชย์ 782-292415-7\n(กรุณาส่งสำเนาใบจ่ายเงินที่ aromantinthailand@gmail.com )\n\n<table><tr><td>มูลค่าก่อนภาษี/Amount</td><td>74,766.36</td></tr><tr><td>ส่วนลด/Discount</td><td></td></tr><tr><td>ยอดรวมก่อนภาษี/Amount Total</td><td>74,766.36</td></tr><tr><td>ภาษีมูลค่าเพิ่ม/VAT 7%</td><td>5,233.64</td></tr><tr><td>**ราคารวมทั้งสิ้น/Net Total**</td><td>**80,000.00**</td></tr></table>\n\n(ตัวอักษร) แปดหมื่นบาทถ้วน\n\nสำหรับลูกค้า\nได้รับสินค้าข้างต้นถูกต้องและเรียบร้อยแล้ว\nAdisa\n(ผู้มีอำนาจลงนามประทับตรา)\n15/01/2567\n(วันที่/Date)\n\nS\nT.P.\n(ผู้มีอำนาจลงนามประทับตรา)\n\n\n(วันที่/Date)\n(ผู้รับเงิน)",
+    "char_count": 2001,
+    "word_count": 96,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "2601-004",
+      "document_date": "2026-01-14",
+      "seller": {
+        "name": "SG INNOVATION CO.,LTD.",
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": "บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)",
+        "tax_id": "0105548117733",
+        "address": "77/77 หมู่ที่ 3 ถ.ตรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120"
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ไบโอเซรั่มออโรแมนทิน ขนาด 30มิลลิลิตร",
+          "quantity": 100,
+          "unit_price": 800,
+          "total": 80000
+        },
+        {
+          "name": "ไบโอเซรั่มออโรแมนทิน สินค้าแถม ขนาด 30มิลลิลิตร",
+          "quantity": 15,
+          "unit_price": 0,
+          "total": 0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 80000,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 74766.36,
+        "vat_rate": 7,
+        "vat_amount": 5233.64,
+        "total": 80000
+      },
+      "confidence_note": null
+    }
+  }
+}

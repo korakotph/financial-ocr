@@ -1,0 +1,56 @@
+{
+  "id": "678202d9-5f16-4a2a-bceb-a47c7515b759",
+  "filename": "เอกสาร_invoice_page-0038.jpg",
+  "stored_filename": "20260420_132644_678202d9-5f16-4a2a-bceb-a47c7515b759_เอกสาร_invoice_page-0038.jpg",
+  "created_at": "2026-04-20T13:27:03.100266",
+  "ocr": {
+    "text": "SIAM CUTTING EQUIPMENT LTD., PART.\n48 ซอยประชาอุทิศ 79 ถนนประชาอุทิศ แขวงทุ่งครุ เขตทุ่งครุ กรุงเทพฯ 10140\n48 Soi Pracha-Uthit 79 Pracha-Uthit Rd., Thungkru, Bangkok 10140\nTel. 0-2871-5675-7 Fax. 0-2871-7831 E-mail : siam_cutting_1994@hotmail.com\n\nต้นฉบับ Original\nใบกำกับภาษี/ใบส่งสินค้า Tax Invoice / Delivery Order\nเอกสารออกเป็นชุด\n\nเลขประจำตัวผู้เสียภาษีอากร 0103537032926 สำนักงานใหญ่\n\nนาม Name: บ0010 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่\nที่อยู่ Address: 77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี\nเลขประจำตัวผู้เสียภาษี: 0105548117733\nใบสั่งเลขที่ PO.No.: OR6901/101\nทศพร\n\nเลขที่ใบกำกับ Invoice No.: IVC6900314\nวันที่ Date: 28/01/2026\nกำหนดชำระ Terms: 30 วัน\nวันครบกำหนด Due Date: 27/02/2026\n\n<table><tr><td>ลำดับ<br/>No.</td><td>รายละเอียดสินค้า<br/>Description</td><td>จำนวน<br/>Quantity</td><td>หน่วยละ<br/>Unit</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>1</td><td>ค่าลับคมใบมีด ยาว 54.8\"</td><td>2 เล่ม</td><td>400.00</td><td>800.00</td></tr></table>\n\n1. โปรดสั่งจ่ายเช็คขีดคร่อมในนาม \"ห้างหุ้นส่วนจำกัด สยามคัทติ้ง อีควิปเม้นท์\"\n2. การชำระเงินด้วยเช็คจะสมบูรณ์เมื่อห้างฯ ได้เรียกเก็บเงินตามเช็คเรียบร้อยแล้ว\n3. สินค้ามีปัญหา หรือใบกำกับภาษีไม่ถูกต้อง เปลี่ยน/คืน/แก้ไข ภายใน 7 วัน\n\n(แปดร้อยห้าสิบหกบาทถ้วน)\n\nรวมราคาทั้งสิ้น Net Amount: 800.00\nภาษีมูลค่าเพิ่ม Vat Amount: 7 %: 56.00\nรวมจำนวนเงินทั้งสิ้น Total Amount: 856.00\n\nได้รับสิ่งของตามรายการข้างบนนี้ถูกต้องและอยู่ในสภาพเรียบร้อย Received the above goods in good order and condition\n\nลายมือชื่อผู้รับสินค้า/วันที่ Signature of Receiver/Date: ทศพร\nลายมือชื่อผู้ส่งสินค้า/วันที่ Signature of Deliverer/Date:\n\nรับรองทุกตัวเรียบร้อย Certified Correct and Justify ห้างหุ้นส่วนจำกัด สยามคัทติ้ง อีควิปเม้นท์ SIAM CUTTING EQUIPMENT LTD., PART\nลายมือชื่อผู้มีอำนาจลงนาม Authorized Signature: ทศพร\nผู้มีอำนาจลงนาม Authorized Signature: ทศพร\n\n<page_number>4</page_number>",
+    "char_count": 1871,
+    "word_count": 155,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ค่าลับคมใบมีด ยาว 54.8\"",
+          "unit": "เล่ม",
+          "quantity": 2,
+          "unit_price": 400.0,
+          "total": 800.0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 800.0,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 800.0,
+        "vat_rate": 7,
+        "vat_amount": 56.0,
+        "total": 856.0
+      },
+      "confidence_note": null
+    }
+  }
+}

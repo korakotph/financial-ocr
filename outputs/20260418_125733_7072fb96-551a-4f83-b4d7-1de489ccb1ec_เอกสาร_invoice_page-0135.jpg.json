@@ -1,0 +1,55 @@
+{
+  "id": "7072fb96-551a-4f83-b4d7-1de489ccb1ec",
+  "filename": "เอกสาร_invoice_page-0135.jpg",
+  "stored_filename": "20260418_125733_7072fb96-551a-4f83-b4d7-1de489ccb1ec_เอกสาร_invoice_page-0135.jpg",
+  "created_at": "2026-04-18T12:57:52.048729",
+  "ocr": {
+    "text": "บริษัท ออลล์คัม (ประเทศไทย) จำกัด สำนักงานใหญ่\n1168/20 อาคารอุบลพันธ์ทาวเวอร์ ชั้นที่ 14 ถนนพระราม 4 แขวงทุ่งมหาเมฆ เขตสาทร กรุงเทพมหานคร 10120 โทร. 02 613 0700 แฟกซ์. 02 613 0799\n1168/20 Lumpini Tower 14th Floor, Rama IV Road, Tungmahamek, Sathorn, Bangkok 10120 Tel. 02 613 0700 Fax. 02 613 0799\nเลขประจำตัวผู้เสียภาษีอากร/TAX IDENTIFICATION NO. 0105538028118\n\nเอกสารออกเป็นชุด\n\nต้นฉบับใบเสร็จรับเงิน/ต้นฉบับใบกำกับภาษี\nORIGINAL RECEIPT/ORIGINAL TAX INVOICE\n\nเลขที่ 232332\nNO.\nวันที่ 09/01/2026\nDATE :\n\n705824\nชื่อลูกค้า CUSTOMER NAME บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่\nที่อยู่ ADDRESS 77/77 หมู่ที่ 3 ถ.ศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nเลขประจำตัวผู้เสียภาษี TAX IDENTIFICATION NO. 0105548117733\nรหัสลูกค้า CUSTOMER NO. 705824\n\n<table><tr><td>ลำดับที่ /NO.</td><td>เลขที่ใบแจ้งหนี้ /INVOICE NO.</td><td>รายการ DESCRIPTION</td><td>จำนวน QTY.</td><td>ราคาต่อหน่วย UNIT PRICE</td><td>จำนวนเงิน (บาท) AMOUNT (BAHT)</td></tr><tr><td>1</td><td>HT7270729</td><td>Pallet rental charges of .</td><td>30/11/2025</td><td></td><td>2,550.00</td></tr></table>\n\nยอดเงิน (AMOUNT) 2,550.00\nบวก ภาษีมูลค่าเพิ่ม (VAT 7%) 178.50\nยอดเงินรวม (TOTAL) 2,728.50\nหัก ภาษี ณ ที่จ่าย (WITHHOLDING TAX) 127.50\nยอดรวมสุทธิ (NET TOTAL) 2,601.00\n\nTwo Thousand Six Hundred One Baht and No Satang\n\nชำระโดย PAYMENT BY\n( ) เงินสด CASH\n( ) เช็คธนาคาร BANK\n( ) โอนเข้าบัญชีธนาคาร TRANSFER\nสาขา BRANCH\nเลขที่ CHEQUE NO.\n\nผู้รับมอบอำนาจ / AUTHORIZED SIGNATURE\nผู้รับเงิน / COLLECTOR\n\nถ้าชำระด้วยเช็ค ใบเสร็จรับเงินนี้จะไม่สมบูรณ์จนกว่าจะเข้าบัญชีของบริษัทในธนาคารเรียบร้อยแล้ว และใบเสร็จนี้ต้องมีลายเซ็นผู้รับมอบอำนาจและผู้รับเงินจึงจะถูกต้อง If payment is made by cheque, receipt will not be valid until the cheque is honored by bank. This receipt is valid only when it bears the signature of Authorized official and Collector",
+    "char_count": 1818,
+    "word_count": 198,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "HT7270729",
+      "document_date": "2025-11-30",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "Pallet rental charges of .",
+          "quantity": 1,
+          "unit_price": 2550,
+          "total": 2550
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 2550,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 2550,
+        "vat_rate": 7,
+        "vat_amount": 178.5,
+        "total": 2728.5
+      },
+      "confidence_note": null
+    }
+  }
+}

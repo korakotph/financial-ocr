@@ -1,0 +1,61 @@
+{
+  "id": "b7f7f136-b7ee-48fa-a16e-6e03c412137a",
+  "filename": "เอกสาร_invoice_page-0015.jpg",
+  "stored_filename": "20260418_131055_b7f7f136-b7ee-48fa-a16e-6e03c412137a_เอกสาร_invoice_page-0015.jpg",
+  "created_at": "2026-04-18T13:11:46.142868",
+  "ocr": {
+    "text": "สำนักงานใหญ่ : 488 หมู่ที่ 7 ต.ท่าตูม อ.ศรีมหาโพธิ จ.ปราจีนบุรี 25140\nสาขาที่ 00001 : 162 หมู่ที่ 4 ต.ผักกะ อ.วัฒนานคร จ.สระแก้ว 27160\nโทรศัพท์ (037) 481 120 โทรสาร (037) 481 121\nเลขประจำตัวผู้เสียภาษีอากร 0255552000411\nสาขาที่ออกใบกำกับภาษี คือ สำนักงานใหญ่\n\nHead Office : 488 Moo 7 Tatoom, Srimahaphote, Prachinburi 25140\nBranch 00001 : 162 Moo 4 Phakkha, Watthanakankhon, Sakaeo 27160\nTEL : (037) 481 120 , FAX : (037) 481 121\n\nต้นฉบับใบกำกับภาษี/ใบส่งของ/ใบแจ้งหนี้\nORIGINAL TAX INVOICE/DELIVERY ORDER/INVOICE เลขที่ No. IV6901368\n\nชื่อลูกค้า Name บริษัท มราเซอร์ แอนด์ บราเซอร์ จำกัด\nที่อยู่ Address 77/77 หมู่ที่ 3 ถนนศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nเลขประจำตัวผู้เสียภาษี 0105548117733\nสำนักงานใหญ่\n\n<table><tr><td>รหัสลูกค้า<br/>CUST.NO.</td><td>วัน/เดือน/ปี<br/>DATE</td><td>เงื่อนไขชำระเงิน<br/>TERMS</td><td>วันครบกำหนดชำระเงิน<br/>Due date</td><td>งานเลขที่<br/>JOB NO.</td><td>ใบสั่งซื้อเลขที่<br/>CUST.ORDER NO.</td><td>พนักงานขาย<br/>SALESMAN NAME</td><td>อัตราภาษีร้อยละ<br/>TAX RATE</td></tr><tr><td>006</td><td>26/01/69</td><td>30</td><td>25/02/69</td><td>S06900271</td><td>P06901/186</td><td>00001-โรงงาน</td><td>7.00</td></tr></table><table><tr><td>รหัสสินค้า<br/>PROD.NO.</td><td>รายการสินค้า<br/>DESCRIPTION</td><td>จำนวนหน่วย<br/>QUANTITY UNIT</td><td>ราคาต่อหน่วย<br/>UNIT PRICE</td><td>จำนวนเงิน (ไม่รวมภาษี)<br/>AMOUNT (WITHOUT OUT TAX)</td></tr><tr><td>11076-SS150</td><td>E00019 ม้วนพลาสติกopp20//CPP30 ขนาด780mm. *500m.</td><td>30.0002,070.0000</td><td></td><td>62,100.00</td></tr><tr><td>11076-SS110</td><td>E00014 ม้วนพลาสติกopp20//CPP30 ขนาด630mm. *500m.</td><td>30.0001,690.0000</td><td></td><td>50,700.00</td></tr><tr><td colspan=\"4\">รวมราคาทั้งสิ้น<br/>TOTAL AMOUNT</td><td>112,800.00</td></tr><tr><td colspan=\"4\">จำนวนภาษีมูลค่าเพิ่ม<br/>VALUE ADDED TAX</td><td>7,896.00</td></tr><tr><td colspan=\"4\">จำนวนเงินรวมทั้งสิ้น<br/>TOTAL AMOUNT</td><td>120,696.00</td></tr></table>\n\n(หนึ่งแสนสองหมื่นหกร้อยเก้าสิบหกบาทถ้วน)\n\nบริษัทฯ จะคิดดอกเบี้ย 1.5% ต่อเดือน และค่าใช้จ่ายอื่นๆ เมื่อชำระบิลเกินกำหนด เมื่อได้รับสิ่งของตามรายการข้างบนนี้ถูกต้อง ในสภาพดีเรียบร้อย และยอมรับเงื่อนไขการชำระเงินข้างบน\n\nผู้รับสินค้า/วันที่ Receiver/Date 26/01/69\nจัดส่งโดย Delivery By\nออกโดย Made Out\nเจ้าหน้าที่ผู้ได้รับมอบอำนาจ Authorized Signature\n\nต้นฉบับสีขาว : ลูกค้า สำเนาสีเหลือง : ลูกค้า สำเนาสีเขียว : วางบิล สำเนาสีฟ้า : บัญชี สำเนาสีชมพู : บัญชี",
+    "char_count": 2380,
+    "word_count": 153,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "S06900271",
+      "document_date": "26/01/69",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": "006",
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "E00019 ม้วนพลาสติกopp20//CPP30 ขนาด780mm. *500m.",
+          "quantity": 30,
+          "unit_price": 2070,
+          "total": 62100
+        },
+        {
+          "name": "E00014 ม้วนพลาสติกopp20//CPP30 ขนาด630mm. *500m.",
+          "quantity": 30,
+          "unit_price": 1690,
+          "total": 50700
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 112800,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 112800,
+        "vat_rate": 7,
+        "vat_amount": 7896,
+        "total": 120696
+      },
+      "confidence_note": null
+    }
+  }
+}

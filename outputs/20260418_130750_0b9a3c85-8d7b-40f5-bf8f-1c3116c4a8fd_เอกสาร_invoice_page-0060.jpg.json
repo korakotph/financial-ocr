@@ -1,0 +1,55 @@
+{
+  "id": "0b9a3c85-8d7b-40f5-bf8f-1c3116c4a8fd",
+  "filename": "เอกสาร_invoice_page-0060.jpg",
+  "stored_filename": "20260418_130750_0b9a3c85-8d7b-40f5-bf8f-1c3116c4a8fd_เอกสาร_invoice_page-0060.jpg",
+  "created_at": "2026-04-18T13:08:06.020102",
+  "ocr": {
+    "text": "Head Office 9/9 Moo 5 Phaholyothin Road,\nKlong - Neung, Klong Luang, Pathumthani 12120\nTel. 0-2516-4907-10 Fax : 0-2516-4906\n\n**PKIMAX**\nGENERAL CO.,LTD.\n\nสำนักงานใหญ่ เลขที่ 9/9 หมู่ 5 ถ.พหลโยธิน\nต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 12120\nโทรศัพท์ 0-2516-4907-10 โทรสาร : 0-2516-4906\n\nต้นฉบับใบกำกับภาษี/ใบส่งสินค้า\nORIGINAL TAX INVOICE/DELIVERY ORDER\n\nเลขประจำตัวผู้เสียภาษีอากร 0105531060831\nสำหรับลูกค้า/CUSTOMER\nเอกสารออกเป็นชุด NO. IV6901513\n\nลูกค้า/ที่อยู่-NAME/ADDRESS\nบริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\n77/77 ม.3 ถนนตรีสมาน ต.บ้านใหม่\nอ.ปากเกร็ด จ.นนทบุรี\n11120\nเลขประจำตัวผู้เสียภาษี 0105548117733 สำนักงานใหญ่\n\nรหัสลูกค้า ACCOUNT CODE 20130\nวันที่ DATE 29/01/69\nเงื่อนไขการชำระเงิน TERM OF PAYMENT วัน\nใบสั่งซื้อเลขที่ P.O.NO.OR6901/060\nสถานที่ส่ง DESTINATION เชียงราก\n\n<table><tr><td>รหัสสินค้า PRODUCT CODE</td><td>รายการ DESCRIPTION</td><td>จำนวน QUANTITY</td><td>หน่วยละ UNIT PRICE</td><td>จำนวนเงิน AMOUNT</td></tr><tr><td>20130-023-00</td><td>ลัง34x59x32.5cm. ด้านA+B</td><td>250</td><td>29.00</td><td>7,250.00</td></tr></table>\n\nรวมเงิน TOTAL 7,250.00\nภาษีมูลค่าเพิ่ม VAT 7.0% 507.50\nยอดรวม NET TOTAL 7,757.50\n\nบาท BAHT (เจ็ดพันเจ็ดร้อยห้าสิบเจ็ดบาทห้าสิบสตางค์)\n\nได้รับสินค้าไว้ถูกต้องและเรียบร้อยแล้ว\nGOODS RECEIVED IN GOOD ORDER AND CONDITION\nผู้รับของ RECEIVED BY ศรีชม\nวันที่รับของ DATE 29/11/69\n\nกรรมสิทธิ์ในตัวสินค้า ยังคงเป็นของผู้ขายจนกว่าผู้ซื้อจะชำระเงินจนครบถ้วน\n\nผู้อนุมัติ APPROVED BY วันที่ DATE 29/11/69\n\n1 ตม-154 (กรุงเทพฯ) นายประยูร\nทะเบียนรถ/พนักงานขับรถ\n\nหมายเหตุ",
+    "char_count": 1500,
+    "word_count": 133,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ลัง34x59x32.5cm. ด้านA+B",
+          "quantity": 250,
+          "unit_price": 29,
+          "total": 7250
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 7250,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 7250,
+        "vat_rate": 7,
+        "vat_amount": 507.5,
+        "total": 7757.5
+      },
+      "confidence_note": null
+    }
+  }
+}

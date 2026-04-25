@@ -1,0 +1,55 @@
+{
+  "id": "0b56f808-4c9f-4def-8eee-09ed9999f57a",
+  "filename": "เอกสาร_invoice_page-0143.jpg",
+  "stored_filename": "20260418_125448_0b56f808-4c9f-4def-8eee-09ed9999f57a_เอกสาร_invoice_page-0143.jpg",
+  "created_at": "2026-04-18T12:55:15.787284",
+  "ocr": {
+    "text": "TOYO .INK (THAILAND) CO., LTD. (HEAD OFFICE)\n34/1 SOI SERITHAI 58,\nMINBURI SUB-DISTRICT, MINBURI DISTRICT, BANGKOK 10510\nTEL : (662)906-3315, (662)517-0143 FAX : (662)919-8610, (662)518-3003\n\nartience\n(เอกสารออกเป็นชุด)\nเลขประจำตัวผู้เสียภาษี 0105514005339\nP. 1/1 16:47:39\n\nขายให้ / SOLD TO\nต้นฉบับใบกำกับภาษี/ORIGINAL TAX INVOICE\nสถานที่ส่ง / SHIP TO\nจุดรับสินค้าใหม่\n\nบจก.บราเธอร์ แอนด์ บราเธอร์\n77/77 หมู่ที่ 3 ถ.ศรีสมาน\nต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี\nZAA_J\n\nORDER NO. 1001653086\nDeliv.NO. 2002135907\nINVOICE NO. 9T12610487\n\n11120 02-0902345\n(สำนักงานใหญ่)\nTAX ID:0105548117733\n\n<table><tr><td>รหัสลูกค้า / CUST. CODE</td><td>วันที่ / DATE</td><td>เทอม / TERMS</td><td>กำหนดชำระเงิน / DUE DATE</td><td>พนักงานขาย / SALESMAN</td><td>สกุลเงิน / CURRENCY</td></tr><tr><td>1000016360</td><td>09/01/26</td><td>Cash 20 days later</td><td>29/01/26</td><td>A4232088</td><td>THB 1,000.00</td></tr></table><table><tr><td>เบสั่งซื้อเลขที่ P.O. NO.</td><td>รหัส CODE</td><td>รายการสินค้า DESCRIPTION</td><td>บรรจุ PACKING</td><td>จำนวน QUANTITY</td><td>หน่วย UNIT</td><td>ราคาต่อหน่วย UNIT PRICE</td><td>จำนวนเงิน AMOUNT</td></tr><tr><td>P06812/363</td><td>M11075901 S21</td><td>CK SP ECD 52220 RED 112610828 ( 5.000)</td><td>1.000 5.000 5.000 MFG.DATE:06/01/26</td><td>5.000 KG</td><td>EXP. DATE:06/01/26</td><td>590.00</td><td>2,950.00</td></tr></table>\n\nส่วนลด (DISCOUNT)\n\nรวมราคา (TOTAL) 2,950.00\n\nภาษีมูลค่าเพิ่ม (VAT 7%) 206.50\n\nรวมเงินทั้งสิ้น (NET TOTAL) 3,156.50\n\n(ตัวอักษร)\nสามพันหนึ่งร้อยห้าสิบหกบาทห้าสิบสตางค์\n\n1) ได้รับสินค้าตามรายการข้างบนนี้ถูกต้องเรียบร้อยแล้ว\n2) สินค้าตามใบส่งนี้ หากมีการแสดงร้าวหรือขาดตกบกพร่องประการใด โปรดแจ้งให้ทางบริษัททราบภายใน 3 วัน\n3) กรณีชำระเงินเกินกว่ากำหนดที่ตกลงไว้ ต้องเสียดอกเบี้ยตามอัตรา ที่กฎหมายกำหนดไว้\n\nเซาริยา\nผู้รับสินค้า (ประทับตราถ้ามี)\nวันที่ 1/1/67 เวลา ............ น.\n\nผู้ส่งสินค้า SENT BY\n\n\nในนาม บริษัท โตโย่ฮังค์ (ประเทศไทย) จำกัด\nFOR TOYO INK (THAILAND) CO., LTD.\n\nผู้ตรวจสอบ CHECKED BY",
+    "char_count": 1946,
+    "word_count": 162,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": "2026-01-09",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": "1000016360",
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "CK SP ECD 52220 RED 112610828",
+          "quantity": 5,
+          "unit_price": 590,
+          "total": 2950
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 2950,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 2950,
+        "vat_rate": 7,
+        "vat_amount": 206.5,
+        "total": 3156.5
+      },
+      "confidence_note": null
+    }
+  }
+}

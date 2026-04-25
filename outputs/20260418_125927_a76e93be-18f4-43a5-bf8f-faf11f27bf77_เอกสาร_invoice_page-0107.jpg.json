@@ -1,0 +1,61 @@
+{
+  "id": "a76e93be-18f4-43a5-bf8f-faf11f27bf77",
+  "filename": "เอกสาร_invoice_page-0107.jpg",
+  "stored_filename": "20260418_125927_a76e93be-18f4-43a5-bf8f-faf11f27bf77_เอกสาร_invoice_page-0107.jpg",
+  "created_at": "2026-04-18T13:00:16.187859",
+  "ocr": {
+    "text": "TKP\nTHAI KU SANG PLASTIC CO.,LTD. (HEAD OFFICE)\n719 หมู่ที่ 3 ซอยประชาอุทิศ 90 ถนนประชาอุทิศ ตำบลบ้านคลองสวน\nอำเภอพระสมุทรเจดีย์ จังหวัดสมุทรปราการ 10290\nโทร. 0-2816-1475-6 แฟกซ์. 0-2461-1937\nเลขประจำตัวผู้เสียภาษีอากร 0115537002310\n\nเอกสารออกเป็นชุด\nต้นฉบับ - ลูกค้า\nORIGINAL - CUSTOMER\n\nใบกำกับภาษี / ใบส่งสินค้า\nTAX INVOICE/DELIVERY ORDER\n\nรหัสลูกค้า Code: 8057\nนามลูกค้า Name: บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)\nที่อยู่ Address: 77/77 หมู่3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120\n\nวันที่ Date: 07/01/2569\nเลขที่ใบกำกับ Order No.: 001/43322\nพนักงานขาย Salesman No.: -\nกำหนดชำระเงิน Term: 30 วัน\nครบกำหนด Due Date: 06/02/2569\n\nหมายเหตุ Remark:\n\n<table><tr><td>Product Code</td><td>Description</td><td>Quantity</td><td>Unit</td><td>Amount</td></tr><tr><td>001</td><td>ฟิล์มหดไซส์ 37cm. x 70cm. (0.6) ขีดแบน</td><td>200 กก.</td><td>68.00</td><td>13,600.00</td></tr><tr><td>001</td><td>ฟิล์มหดไซส์ 29cm. x 55cm. (0.6) ขีดแบน</td><td>300 กก.</td><td>68.00</td><td>20,400.00</td></tr></table>\n\nPO : 6812/357\n\nผิด ตก ยกเว้น E. &amp; O.E.\n\nสามหมื่นหกพันสามร้อยแปดสิบบาทถ้วน\n\nรวมเงิน Sub Total: 34,000.00\nภาษีมูลค่าเพิ่ม V.A.T.: 7.00% 2,380.00\nยอดเงินสุทธิ Net Total: 36,380.00\n\nชำระเงินโดย :\n☐ เงินสด\n☐ เช็คธนาคาร สาขา เลขที่ ลงวันที่ (ในกรณีชำระเงินด้วยเช็คโปรดสั่งจ่ายและขีดคร่อมในนาม บริษัทฯ เท่านั้น)\n\nผู้รับของ / Receiver\nได้รับสินค้าตามรายการถูกต้องแล้ว\nวันที่/Date 9 / 1 / 69\n\nผู้ส่งของ / Delivered By\nวันที่/Date 1 / 1 / 69\n\nผู้รับเงิน / Collector\n\nผู้จัดการ / Manager\nปัญญาวา\nวันที่/Date 1 / 1 / 69\n\nหมายเหตุ : กรุณาจ่ายเช็คขีดคร่อมในนาม บริษัท ไทยคู่สร้างพลาสติก จำกัด เท่านั้น ใบเสร็จรับเงินฉบับนี้จะสมบูรณ์ต่อเมื่อมีลายมือชื่อผู้รับเงินและกรณีจ่ายเป็นเช็คก็ต่อเมื่อเช็คนั้นได้ยื่นเงินที่ธนาคารเรียบร้อยแล้ว",
+    "char_count": 1750,
+    "word_count": 167,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ฟิล์มหดไซส์ 37cm. x 70cm. (0.6) ขีดแบน",
+          "quantity": 200,
+          "unit_price": 68,
+          "total": 13600
+        },
+        {
+          "name": "ฟิล์มหดไซส์ 29cm. x 55cm. (0.6) ขีดแบน",
+          "quantity": 300,
+          "unit_price": 68,
+          "total": 20400
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 34000,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 34000,
+        "vat_rate": 7,
+        "vat_amount": 2380,
+        "total": 36380
+      },
+      "confidence_note": null
+    }
+  }
+}

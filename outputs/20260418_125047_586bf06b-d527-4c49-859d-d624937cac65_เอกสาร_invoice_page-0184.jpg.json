@@ -1,0 +1,55 @@
+{
+  "id": "586bf06b-d527-4c49-859d-d624937cac65",
+  "filename": "เอกสาร_invoice_page-0184.jpg",
+  "stored_filename": "20260418_125047_586bf06b-d527-4c49-859d-d624937cac65_เอกสาร_invoice_page-0184.jpg",
+  "created_at": "2026-04-18T12:51:03.225842",
+  "ocr": {
+    "text": "OILSQUARE\n\nบริษัท สแควร์ กรุ๊ป จำกัด (สำนักงานใหญ่)\n1038-1039 ถนนประชาชื่น แขวงวงศ์สว่าง เขตบางซื่อ กรุงเทพ 10800\nเลขประจำตัวผู้เสียภาษี 0105558177101\nโทร. 021024295\nhttp://www.oilsquare.com/\n\nลูกค้า\nบริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)\n77/77 หมู่3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี\n11120\nเลขประจำตัวผู้เสียภาษี 0105548117733\n\nใบกำกับภาษี\nต้นฉบับ\n\n<table><tr><td>เลขที่</td><td>INV2026010106</td></tr><tr><td>วันที่</td><td>12/01/2026</td></tr><tr><td>ครบกำหนด</td><td>12/01/2026</td></tr><tr><td>ผู้ขาย</td><td>Oilsquare Oilsquare</td></tr><tr><td>อ้างอิง</td><td>QT2026010247</td></tr></table><table><tr><td>#</td><td>รายละเอียด</td><td>จำนวน</td><td>ราคาต่อหน่วย</td><td>ยอดรวม</td></tr><tr><td>1</td><td>Eneos BONNOC TS 150 2OL</td><td>2</td><td>1,825.00</td><td>3,650.00</td></tr></table>\n\nรวมเป็นเงิน 3,650.00 บาท\nภาษีมูลค่าเพิ่ม 7% 255.50 บาท\nจำนวนเงินรวมทั้งสิ้น 3,905.50 บาท\n(สามพันเก้าร้อยห้าบาทห้าสิบสตางค์)\n\nหมายเหตุ\nสินค้าไม่รวมค่าส่ง\nยืนราคา 7 วัน นับจากวันที่ออกใบเสนอราคา\n\nจัดส่งภายใน 7 วันหลังได้รับยอดโอน โดยชำระเงินมาที่\n\nชื่อบัญชี : บจก. สแควร์ กรุ๊ป\nธนาคารกสิกร 009-1-50933-4\nสาขามันปี่ฟาร์ด มาบุญครองเซ็นเตอร์\n\n606901/32\n\nในนาม บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\n\nสาริยา 12/1/69\nผู้รับสินค้า / บริการ\nวันที่\n\nในนาม บริษัท-สแควร์ กรุ๊ป จำกัด\n\nวีณา 12/1/26\nผู้อนุมัติ\nวันที่",
+    "char_count": 1330,
+    "word_count": 92,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "INV2026010106",
+      "document_date": "2026-01-12",
+      "seller": {
+        "name": "Oilsquare Oilsquare",
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "Eneos BONNOC TS 150 2OL",
+          "quantity": 2,
+          "unit_price": 1825,
+          "total": 3650
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 3650,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 3650,
+        "vat_rate": 7,
+        "vat_amount": 255.5,
+        "total": 3905.5
+      },
+      "confidence_note": null
+    }
+  }
+}

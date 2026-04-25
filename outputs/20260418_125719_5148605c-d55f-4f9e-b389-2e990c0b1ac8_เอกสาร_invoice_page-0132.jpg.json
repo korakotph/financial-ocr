@@ -1,0 +1,73 @@
+{
+  "id": "5148605c-d55f-4f9e-b389-2e990c0b1ac8",
+  "filename": "เอกสาร_invoice_page-0132.jpg",
+  "stored_filename": "20260418_125719_5148605c-d55f-4f9e-b389-2e990c0b1ac8_เอกสาร_invoice_page-0132.jpg",
+  "created_at": "2026-04-18T12:57:51.314706",
+  "ocr": {
+    "text": "ห้างหุ้นส่วนจำกัด สำนักพิมพ์ฟิสิกส์เซ็นเตอร์ PHYSICS CENTER PRESS LIMITED PARTNERSHIP\nใบกำกับภาษีออกโดยสำนักงานใหญ่\n45, 47 ซอยจรัญสนิทวงศ์ 40 ถนนจรัญสนิทวงศ์ แขวงบางยี่ขัน เขตบางพลัด กรุงเทพฯ 10700\nโทร. 0-2433-7704-6, 0-2433-7755-7 โทรสาร 0-2433-7703\n\nต้นฉบับ (Original)\nใบกำกับภาษี / ใบแจ้งหนี้ TAX INVOICE / INVOICE\n(เอกสารออกเป็นชุด)\n\n45, 47 Soi Charunsanitwong 40 Charunsanitwong Road Bangyeekhan Bangplad Bangkok 10700\nTel. 0-2433-7704-6, 0-2433-7755-7 Fax 0-2433-7703\nเลขประจำตัวผู้เสียภาษี 0103525004507\n\n<table><tr><td>รหัสลูกค้า Tax ID.</td><td>556 0105548117733</td></tr><tr><td>ชื่อลูกค้า Name</td><td>บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่</td></tr><tr><td>ที่อยู่ Address</td><td>77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120</td></tr></table>\n\nเลขที่ No. 2569/01055\nวันที่ Date 9/01/2569\n\nเงื่อนไขการชำระเงิน Credit Term 90 วัน\nกำหนดชำระเงิน Payment Due\n\n<table><tr><td>ลำดับที่ Item</td><td>รายการ Description</td><td>จำนวนหน่วย Quantity</td><td>ราคาต่อหน่วย Unit Price</td><td>จำนวนเงิน Amount</td></tr><tr><td>1</td><td>G-ถุงกระดาษน้ำตาลหูเกลียว ซุปเปอร์เซฟไซส์ 15x8x21 ซม.1x50</td><td>15,000</td><td>1.95</td><td>29,250.00</td></tr><tr><td>2</td><td>G-ของกระดาษพับข้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 12x4.5x12 ซม.</td><td>20,000</td><td>0.28</td><td>5,600.00</td></tr><tr><td>3</td><td>G-ของกระดาษพับข้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 12x4.5x17.5 ซม.</td><td>20,000</td><td>0.32</td><td>6,400.00</td></tr><tr><td>4</td><td>G-ของกระดาษพับข้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 15.3x4.5x20.5</td><td>20,000</td><td>0.40</td><td>8,000.00</td></tr></table>\n\nPO6812/341\n\nได้ตรวจรับสินค้าตามรายการข้างต้นในสภาพที่ถูกต้องเรียบร้อยแล้ว\n(Received the above mentioned goods in good condition)\nผู้รับสินค้า Received by ทรรศ\nSignature \nวันที่รับสินค้า Received Date 9/11/69\n\nห้าหมื่นสองพันหกร้อยเก้าสิบเจ็ดบาทห้าสิบสตางค์\n\n<table><tr><td>มูลค่าสินค้า/ บริการก่อนภาษี Total before VAT</td><td>49,250.00</td></tr><tr><td>ส่วนลด Discount 0.00%</td><td>0.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม VAT 7%</td><td>3,447.50</td></tr><tr><td>จำนวนเงินรวมทั้งสิ้น Net Total</td><td>52,697.50</td></tr></table>\n\nผู้ส่งสินค้า Delivered by ณรงค์\nผู้รับมอบอำนาจ Authorized Signature",
+    "char_count": 2192,
+    "word_count": 138,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": "บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่",
+        "tax_id": "556 0105548117733",
+        "address": "77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120"
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "G-ถุงกระดาษน้ำตาลหูเกลียว ซุปเปอร์เซฟไซส์ 15x8x21 ซม.1x50",
+          "quantity": 15000,
+          "unit_price": 1.95,
+          "total": 29250
+        },
+        {
+          "name": "G-ของกระดาษพับข้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 12x4.5x12 ซม.",
+          "quantity": 20000,
+          "unit_price": 0.28,
+          "total": 5600
+        },
+        {
+          "name": "G-ของกระดาษพับข้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 12x4.5x17.5 ซม.",
+          "quantity": 20000,
+          "unit_price": 0.32,
+          "total": 6400
+        },
+        {
+          "name": "G-ของกระดาษพับข้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 15.3x4.5x20.5",
+          "quantity": 20000,
+          "unit_price": 0.4,
+          "total": 8000
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 49250,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 49250,
+        "vat_rate": 7,
+        "vat_amount": 3447.5,
+        "total": 52697.5
+      },
+      "confidence_note": null
+    }
+  }
+}

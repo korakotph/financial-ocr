@@ -1,0 +1,3321 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 100
+  },
+  "ground_truth": {
+    "เอกสาร invoice_page-0001.jpg": 1,
+    "เอกสาร invoice_page-0002.jpg": 1,
+    "เอกสาร invoice_page-0003.jpg": 1,
+    "เอกสาร invoice_page-0004.jpg": 1,
+    "เอกสาร invoice_page-0005.jpg": 1,
+    "เอกสาร invoice_page-0006.jpg": 1,
+    "เอกสาร invoice_page-0007.jpg": 1,
+    "เอกสาร invoice_page-0008.jpg": 1,
+    "เอกสาร invoice_page-0009.jpg": 1,
+    "เอกสาร invoice_page-0010.jpg": 1,
+    "เอกสาร invoice_page-0011.jpg": 1,
+    "เอกสาร invoice_page-0012.jpg": 1,
+    "เอกสาร invoice_page-0014.jpg": 1,
+    "เอกสาร invoice_page-0015.jpg": 1,
+    "เอกสาร invoice_page-0016.jpg": 1,
+    "เอกสาร invoice_page-0017.jpg": 1,
+    "เอกสาร invoice_page-0018.jpg": 1,
+    "เอกสาร invoice_page-0019.jpg": 1,
+    "เอกสาร invoice_page-0020.jpg": 1,
+    "เอกสาร invoice_page-0021.jpg": 1,
+    "เอกสาร invoice_page-0022.jpg": 1,
+    "เอกสาร invoice_page-0023.jpg": 1,
+    "เอกสาร invoice_page-0024.jpg": 1,
+    "เอกสาร invoice_page-0025.jpg": 1,
+    "เอกสาร invoice_page-0026.jpg": 1,
+    "เอกสาร invoice_page-0027.jpg": 1,
+    "เอกสาร invoice_page-0028.jpg": 1,
+    "เอกสาร invoice_page-0029.jpg": 1,
+    "เอกสาร invoice_page-0030.jpg": 1,
+    "เอกสาร invoice_page-0031.jpg": 1,
+    "เอกสาร invoice_page-0032.jpg": 1,
+    "เอกสาร invoice_page-0033.jpg": 1,
+    "เอกสาร invoice_page-0035.jpg": 1,
+    "เอกสาร invoice_page-0036.jpg": 1,
+    "เอกสาร invoice_page-0037.jpg": 1,
+    "เอกสาร invoice_page-0038.jpg": 1,
+    "เอกสาร invoice_page-0039.jpg": 1,
+    "เอกสาร invoice_page-0040.jpg": 1,
+    "เอกสาร invoice_page-0041.jpg": 1,
+    "เอกสาร invoice_page-0042.jpg": 1,
+    "เอกสาร invoice_page-0043.jpg": 1,
+    "เอกสาร invoice_page-0044.jpg": 1,
+    "เอกสาร invoice_page-0045.jpg": 1,
+    "เอกสาร invoice_page-0046.jpg": 1,
+    "เอกสาร invoice_page-0047.jpg": 1,
+    "เอกสาร invoice_page-0048.jpg": 1,
+    "เอกสาร invoice_page-0049.jpg": 1,
+    "เอกสาร invoice_page-0052.jpg": 1,
+    "เอกสาร invoice_page-0053.jpg": 1,
+    "เอกสาร invoice_page-0054.jpg": 1,
+    "เอกสาร invoice_page-0055.jpg": 1,
+    "เอกสาร invoice_page-0056.jpg": 1,
+    "เอกสาร invoice_page-0057.jpg": 1,
+    "เอกสาร invoice_page-0058.jpg": 1,
+    "เอกสาร invoice_page-0059.jpg": 1,
+    "เอกสาร invoice_page-0060.jpg": 1,
+    "เอกสาร invoice_page-0061.jpg": 1,
+    "เอกสาร invoice_page-0062.jpg": 1,
+    "เอกสาร invoice_page-0063.jpg": 1,
+    "เอกสาร invoice_page-0064.jpg": 1,
+    "เอกสาร invoice_page-0065.jpg": 1,
+    "เอกสาร invoice_page-0066.jpg": 1,
+    "เอกสาร invoice_page-0067.jpg": 1,
+    "เอกสาร invoice_page-0068.jpg": 1,
+    "เอกสาร invoice_page-0069.jpg": 1,
+    "เอกสาร invoice_page-0070.jpg": 1,
+    "เอกสาร invoice_page-0071.jpg": 1,
+    "เอกสาร invoice_page-0072.jpg": 1,
+    "เอกสาร invoice_page-0073.jpg": 1,
+    "เอกสาร invoice_page-0074.jpg": 1,
+    "เอกสาร invoice_page-0075.jpg": 1,
+    "เอกสาร invoice_page-0076.jpg": 1,
+    "เอกสาร invoice_page-0077.jpg": 1,
+    "เอกสาร invoice_page-0079.jpg": 1,
+    "เอกสาร invoice_page-0080.jpg": 1,
+    "เอกสาร invoice_page-0081.jpg": 1,
+    "เอกสาร invoice_page-0082.jpg": 1,
+    "เอกสาร invoice_page-0083.jpg": 1,
+    "เอกสาร invoice_page-0084.jpg": 1,
+    "เอกสาร invoice_page-0085.jpg": 1,
+    "เอกสาร invoice_page-0086.jpg": 1,
+    "เอกสาร invoice_page-0087.jpg": 1,
+    "เอกสาร invoice_page-0088.jpg": 1,
+    "เอกสาร invoice_page-0089.jpg": 1,
+    "เอกสาร invoice_page-0090.jpg": 1,
+    "เอกสาร invoice_page-0092.jpg": 1,
+    "เอกสาร invoice_page-0093.jpg": 1,
+    "เอกสาร invoice_page-0094.jpg": 1,
+    "เอกสาร invoice_page-0095.jpg": 1,
+    "เอกสาร invoice_page-0096.jpg": 1,
+    "เอกสาร invoice_page-0097.jpg": 1,
+    "เอกสาร invoice_page-0098.jpg": 1,
+    "เอกสาร invoice_page-0099.jpg": 1,
+    "เอกสาร invoice_page-0100.jpg": 1,
+    "เอกสาร invoice_page-0101.jpg": 1,
+    "เอกสาร invoice_page-0103.jpg": 1,
+    "เอกสาร invoice_page-0104.jpg": 1,
+    "เอกสาร invoice_page-0105.jpg": 1,
+    "เอกสาร invoice_page-0106.jpg": 1,
+    "เอกสาร invoice_page-0107.jpg": 1,
+    "เอกสาร invoice_page-0108.jpg": 1,
+    "เอกสาร invoice_page-0109.jpg": 1,
+    "เอกสาร invoice_page-0110.jpg": 1,
+    "เอกสาร invoice_page-0111.jpg": 1,
+    "เอกสาร invoice_page-0113.jpg": 1,
+    "เอกสาร invoice_page-0114.jpg": 1,
+    "เอกสาร invoice_page-0115.jpg": 1,
+    "เอกสาร invoice_page-0116.jpg": 1,
+    "เอกสาร invoice_page-0117.jpg": 1,
+    "เอกสาร invoice_page-0118.jpg": 1,
+    "เอกสาร invoice_page-0119.jpg": 1,
+    "เอกสาร invoice_page-0120.jpg": 1,
+    "เอกสาร invoice_page-0121.jpg": 1,
+    "เอกสาร invoice_page-0122.jpg": 1,
+    "เอกสาร invoice_page-0123.jpg": 1,
+    "เอกสาร invoice_page-0124.jpg": 1,
+    "เอกสาร invoice_page-0126.jpg": 1,
+    "เอกสาร invoice_page-0127.jpg": 1,
+    "เอกสาร invoice_page-0128.jpg": 1,
+    "เอกสาร invoice_page-0129.jpg": 1,
+    "เอกสาร invoice_page-0130.jpg": 1,
+    "เอกสาร invoice_page-0131.jpg": 1,
+    "เอกสาร invoice_page-0132.jpg": 1,
+    "เอกสาร invoice_page-0133.jpg": 1,
+    "เอกสาร invoice_page-0134.jpg": 1,
+    "เอกสาร invoice_page-0135.jpg": 1,
+    "เอกสาร invoice_page-0136.jpg": 1,
+    "เอกสาร invoice_page-0137.jpg": 1,
+    "เอกสาร invoice_page-0138.jpg": 1,
+    "เอกสาร invoice_page-0139.jpg": 1,
+    "เอกสาร invoice_page-0140.jpg": 1,
+    "เอกสาร invoice_page-0141.jpg": 1,
+    "เอกสาร invoice_page-0142.jpg": 1,
+    "เอกสาร invoice_page-0143.jpg": 1,
+    "เอกสาร invoice_page-0144.jpg": 1,
+    "เอกสาร invoice_page-0145.jpg": 1,
+    "เอกสาร invoice_page-0146.jpg": 1,
+    "เอกสาร invoice_page-0148.jpg": 1,
+    "เอกสาร invoice_page-0149.jpg": 1,
+    "เอกสาร invoice_page-0150.jpg": 1,
+    "เอกสาร invoice_page-0151.jpg": 1,
+    "เอกสาร invoice_page-0152.jpg": 1,
+    "เอกสาร invoice_page-0153.jpg": 1,
+    "เอกสาร invoice_page-0154.jpg": 1,
+    "เอกสาร invoice_page-0155.jpg": 1,
+    "เอกสาร invoice_page-0156.jpg": 1,
+    "เอกสาร invoice_page-0157.jpg": 1,
+    "เอกสาร invoice_page-0158.jpg": 1,
+    "เอกสาร invoice_page-0159.jpg": 1,
+    "เอกสาร invoice_page-0160.jpg": 1,
+    "เอกสาร invoice_page-0161.jpg": 1,
+    "เอกสาร invoice_page-0162.jpg": 1,
+    "เอกสาร invoice_page-0163.jpg": 1,
+    "เอกสาร invoice_page-0164.jpg": 1,
+    "เอกสาร invoice_page-0165.jpg": 1,
+    "เอกสาร invoice_page-0166.jpg": 1,
+    "เอกสาร invoice_page-0167.jpg": 1,
+    "เอกสาร invoice_page-0168.jpg": 1,
+    "เอกสาร invoice_page-0169.jpg": 1,
+    "เอกสาร invoice_page-0170.jpg": 1,
+    "เอกสาร invoice_page-0171.jpg": 1,
+    "เอกสาร invoice_page-0172.jpg": 1,
+    "เอกสาร invoice_page-0173.jpg": 1,
+    "เอกสาร invoice_page-0174.jpg": 1,
+    "เอกสาร invoice_page-0175.jpg": 1,
+    "เอกสาร invoice_page-0176.jpg": 1,
+    "เอกสาร invoice_page-0177.jpg": 1,
+    "เอกสาร invoice_page-0178.jpg": 1,
+    "เอกสาร invoice_page-0179.jpg": 1,
+    "เอกสาร invoice_page-0180.jpg": 1,
+    "เอกสาร invoice_page-0181.jpg": 1,
+    "เอกสาร invoice_page-0182.jpg": 1,
+    "เอกสาร invoice_page-0183.jpg": 1,
+    "เอกสาร invoice_page-0184.jpg": 1,
+    "เอกสาร invoice_page-0185.jpg": 1,
+    "เอกสาร invoice_page-0186.jpg": 1,
+    "เอกสาร invoice_page-0187.jpg": 1,
+    "เอกสาร invoice_page-0188.jpg": 1,
+    "เอกสาร invoice_page-0189.jpg": 1,
+    "เอกสาร invoice_page-0190.jpg": 1,
+    "เอกสาร invoice_page-0191.jpg": 1,
+    "เอกสาร invoice_page-0192.jpg": 1,
+    "เอกสาร invoice_page-0193.jpg": 1,
+    "เอกสาร invoice_page-0194.jpg": 1,
+    "เอกสาร invoice_page-0195.jpg": 1,
+    "เอกสาร invoice_page-0196.jpg": 1,
+    "เอกสาร invoice_page-0197.jpg": 1,
+    "เอกสาร invoice_page-0198.jpg": 1,
+    "เอกสาร invoice_page-0199.jpg": 1,
+    "เอกสาร invoice_page-0200.jpg": 1,
+    "เอกสาร invoice_page-0201.jpg": 1,
+    "เอกสาร invoice_page-0202.jpg": 1,
+    "เอกสาร invoice_page-0203.jpg": 1,
+    "เอกสาร invoice_page-0204.jpg": 1
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "files": 100,
+      "metrics": {
+        "tp": 100,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 12.35839439999836,
+        "max": 209.1951599999993,
+        "avg": 20.973596181000175,
+        "total": 2097.3596181000175
+      },
+      "results": {
+        "เอกสาร invoice_page-0001.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5a37edfc-962b-4e43-b677-f462c690b462",
+          "elapsed": 17.054837599996972
+        },
+        "เอกสาร invoice_page-0002.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2a8378ce-c2dd-4ac8-bcce-7a360a62e391",
+          "elapsed": 43.7824686999993
+        },
+        "เอกสาร invoice_page-0004.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "58571a54-a728-4a35-b57a-c934b4125287",
+          "elapsed": 21.557361500003026
+        },
+        "เอกสาร invoice_page-0006.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2fd145a4-0a90-4116-82b4-cb83139ff2fb",
+          "elapsed": 14.414241200000106
+        },
+        "เอกสาร invoice_page-0007.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a724e4c7-edba-4a93-961d-5dece291c0bf",
+          "elapsed": 16.45665000000008
+        },
+        "เอกสาร invoice_page-0008.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a990018b-76ce-4e1d-9e91-0dad569f91b8",
+          "elapsed": 14.265854500001296
+        },
+        "เอกสาร invoice_page-0011.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f2567eb0-4dc4-4e54-aab4-b6e9a8331a9d",
+          "elapsed": 20.427804000002652
+        },
+        "เอกสาร invoice_page-0016.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d5c39146-b48f-4a27-8344-85c39370b30b",
+          "elapsed": 15.872285099998408
+        },
+        "เอกสาร invoice_page-0017.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b445057e-187e-4bc5-8ab9-4e6bb06bddbf",
+          "elapsed": 20.521935299999313
+        },
+        "เอกสาร invoice_page-0019.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b3c39769-d59d-4447-81fb-a8759dd85365",
+          "elapsed": 17.488469399999303
+        },
+        "เอกสาร invoice_page-0021.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6dac7291-798c-47a3-b3ff-bb4d0f8671ca",
+          "elapsed": 17.455455000002985
+        },
+        "เอกสาร invoice_page-0022.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c70840ba-f055-481a-b830-a32ed3c1dccd",
+          "elapsed": 16.6343590999968
+        },
+        "เอกสาร invoice_page-0023.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3f5cda37-6db2-4820-bef3-e711e6bd05b8",
+          "elapsed": 16.69474260000061
+        },
+        "เอกสาร invoice_page-0024.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f9410654-c795-4a04-b76f-76804e14cb1d",
+          "elapsed": 16.886320699999487
+        },
+        "เอกสาร invoice_page-0025.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6c3d75b6-10ad-438b-b957-f03dbf4cf413",
+          "elapsed": 20.347463199999765
+        },
+        "เอกสาร invoice_page-0026.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f71ab566-f44e-47bd-aaf4-3812fdf2fd9f",
+          "elapsed": 16.505740100001276
+        },
+        "เอกสาร invoice_page-0027.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "43662761-c5ad-4379-a9f0-f67f16376f81",
+          "elapsed": 17.73703459999888
+        },
+        "เอกสาร invoice_page-0029.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a64b1cf9-7afb-4009-b30f-7d864b881446",
+          "elapsed": 15.935585499999434
+        },
+        "เอกสาร invoice_page-0030.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c6610044-d85a-49f4-af34-711ad7c39d3c",
+          "elapsed": 21.644497299999784
+        },
+        "เอกสาร invoice_page-0031.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7fd11268-d155-4e44-9ef6-676dc4d33164",
+          "elapsed": 18.329186799997842
+        },
+        "เอกสาร invoice_page-0033.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2b0d3828-1b5c-4ff7-906a-bf584e42732d",
+          "elapsed": 18.86376240000027
+        },
+        "เอกสาร invoice_page-0035.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "117e3aab-eede-4343-a281-78324787630f",
+          "elapsed": 13.47101610000027
+        },
+        "เอกสาร invoice_page-0042.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "13a6d416-2462-4f86-9409-07a7c25fada6",
+          "elapsed": 15.530277699999715
+        },
+        "เอกสาร invoice_page-0043.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fb40cc33-93cf-4446-b67a-fd1598d8fb69",
+          "elapsed": 17.108293199999025
+        },
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9ca336cd-f7b7-4025-92cd-7413d78f3e6a",
+          "elapsed": 20.60430339999948
+        },
+        "เอกสาร invoice_page-0045.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8689f33e-312e-48bd-b3f8-2117704e4347",
+          "elapsed": 20.270401400000992
+        },
+        "เอกสาร invoice_page-0047.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b30cd238-912e-4aec-879a-79ae19d8d222",
+          "elapsed": 19.44373170000108
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e320c140-a188-417a-a773-dca094cc2158",
+          "elapsed": 20.92557510000188
+        },
+        "เอกสาร invoice_page-0057.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cc8eb795-200a-4c86-bba9-2b6a7bb1bf54",
+          "elapsed": 16.20653939999829
+        },
+        "เอกสาร invoice_page-0058.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "94a63c05-cb4f-47c4-bd41-e77682fe07c1",
+          "elapsed": 15.164694099999906
+        },
+        "เอกสาร invoice_page-0059.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c44c2c03-6cdb-4832-8715-74a5e025302c",
+          "elapsed": 14.974105299999792
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7b83c20d-b4a0-4cc8-b298-0e25987bb5fa",
+          "elapsed": 12.35839439999836
+        },
+        "เอกสาร invoice_page-0061.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "41274c20-240f-4ac6-81b3-5e262053443b",
+          "elapsed": 24.344228400001157
+        },
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b6a36209-2595-4edb-9301-c46941ff7dcc",
+          "elapsed": 17.729533300000185
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6f4cf96f-5ca2-49ae-b2b2-a721cd1c0239",
+          "elapsed": 28.976578900001186
+        },
+        "เอกสาร invoice_page-0064.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5933e495-3edd-4bf7-bfe7-e4048580f0af",
+          "elapsed": 17.476948500003346
+        },
+        "เอกสาร invoice_page-0065.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dec7e32e-1093-49e4-8e5b-5522d70db460",
+          "elapsed": 15.080830200000491
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "09e5f55a-dba7-4cb0-8de7-4ec90c31e026",
+          "elapsed": 21.832333300000755
+        },
+        "เอกสาร invoice_page-0067.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ebf9fbb1-66bf-410e-af23-c0c7adbec5cb",
+          "elapsed": 22.300199900000734
+        },
+        "เอกสาร invoice_page-0068.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d3bc7721-1972-4eb1-a097-27fce3088fcd",
+          "elapsed": 22.135944099998596
+        },
+        "เอกสาร invoice_page-0069.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d6d2188e-65ca-45d3-b618-2bf003451b8d",
+          "elapsed": 20.9535864999998
+        },
+        "เอกสาร invoice_page-0070.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "06d4266c-0ece-46f1-be7a-d22dc488abb4",
+          "elapsed": 15.874225200001092
+        },
+        "เอกสาร invoice_page-0073.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d07c163b-5c22-4b27-b585-1e76357b64f6",
+          "elapsed": 18.92158340000242
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9467f794-b37d-4080-885f-e3acb33fa470",
+          "elapsed": 19.8894618000013
+        },
+        "เอกสาร invoice_page-0080.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4f5d8518-b1b9-4660-8839-e16a541c024e",
+          "elapsed": 21.420800200001395
+        },
+        "เอกสาร invoice_page-0081.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "15c8e6ef-c045-4e28-9d28-fec5535d15d0",
+          "elapsed": 17.056114500002877
+        },
+        "เอกสาร invoice_page-0082.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "46cbee45-3cf4-43fd-8ddd-e88f487a2728",
+          "elapsed": 22.0532125000027
+        },
+        "เอกสาร invoice_page-0083.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "988b697e-067d-43e3-898e-7e4c1c47eaa2",
+          "elapsed": 21.830772299999808
+        },
+        "เอกสาร invoice_page-0085.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f01329ef-d98d-4b05-920d-548b5b6f74c1",
+          "elapsed": 14.151196299997537
+        },
+        "เอกสาร invoice_page-0088.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0f0b8df7-1153-41ff-9b1e-a4e61ee5ad15",
+          "elapsed": 24.592059999999037
+        },
+        "เอกสาร invoice_page-0089.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e3cd2e9e-54b7-42ca-b246-90217b6f4b6f",
+          "elapsed": 18.109650299997156
+        },
+        "เอกสาร invoice_page-0099.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a3b48f47-6cf3-4c00-b7d5-3dffee2c5aab",
+          "elapsed": 20.076180600000953
+        },
+        "เอกสาร invoice_page-0100.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6eed8261-cb40-477d-9182-f167aa7e1ec2",
+          "elapsed": 209.1951599999993
+        },
+        "เอกสาร invoice_page-0101.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e6aaae6b-e979-4da3-861c-71eeb25f4988",
+          "elapsed": 15.103501700003108
+        },
+        "เอกสาร invoice_page-0104.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9fc61284-524a-4fd3-897f-8514deb19676",
+          "elapsed": 30.906351699999504
+        },
+        "เอกสาร invoice_page-0105.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6485f8ce-5830-4f9a-a796-78f578d5b9c4",
+          "elapsed": 16.409608000001754
+        },
+        "เอกสาร invoice_page-0108.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "706e713f-c91d-4dbd-ab04-b0de14a9e0e6",
+          "elapsed": 13.95776620000106
+        },
+        "เอกสาร invoice_page-0109.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5e50c909-7b00-4b4c-a54d-cdf3aa1c84d1",
+          "elapsed": 13.63876419999724
+        },
+        "เอกสาร invoice_page-0111.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ed3a7e5d-e953-448b-b745-4552a96dec28",
+          "elapsed": 23.776622499997757
+        },
+        "เอกสาร invoice_page-0114.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4cd4b977-04d7-451a-b9e6-c6f5ebffc316",
+          "elapsed": 23.56440819999989
+        },
+        "เอกสาร invoice_page-0116.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e155960d-6996-4c67-96bb-1566b561ea04",
+          "elapsed": 19.667875099999947
+        },
+        "เอกสาร invoice_page-0118.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "519e6109-b9db-4595-848b-4b8a560c5bcf",
+          "elapsed": 18.22329080000054
+        },
+        "เอกสาร invoice_page-0119.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f623cd14-2b12-4e20-9a65-26164cb434d5",
+          "elapsed": 16.19498290000047
+        },
+        "เอกสาร invoice_page-0120.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cfbf4eb0-e5fc-43d6-85a4-bc8706010de1",
+          "elapsed": 34.697512599999754
+        },
+        "เอกสาร invoice_page-0122.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "afee1631-0f43-4c93-9222-a3265b01908a",
+          "elapsed": 21.343010399999912
+        },
+        "เอกสาร invoice_page-0124.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "92e8bbe5-db86-4ad6-a984-ae2f3ae114b1",
+          "elapsed": 14.083788699997967
+        },
+        "เอกสาร invoice_page-0126.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c4aa9f91-ac79-423f-9cd4-07ef417e61bc",
+          "elapsed": 24.12035240000114
+        },
+        "เอกสาร invoice_page-0128.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3e08fa3c-56a3-411b-b895-55068aa6ea21",
+          "elapsed": 15.022401599999284
+        },
+        "เอกสาร invoice_page-0130.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ba9059a6-2160-44b9-a103-20a0467677d2",
+          "elapsed": 15.54440009999962
+        },
+        "เอกสาร invoice_page-0133.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "088dad64-6ef7-4287-bf1a-01b762a8d0e3",
+          "elapsed": 20.562149899997166
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "843032db-0929-4a36-8773-d29db32cf164",
+          "elapsed": 13.889058900000236
+        },
+        "เอกสาร invoice_page-0141.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8f789359-0dbd-416e-8e46-6cfa482de67c",
+          "elapsed": 13.455997599998227
+        },
+        "เอกสาร invoice_page-0146.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "792df48c-a1df-40bf-a411-8b6416b4bc4f",
+          "elapsed": 16.749431700001878
+        },
+        "เอกสาร invoice_page-0150.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "12aa3271-3991-4bcf-9ada-479356534a29",
+          "elapsed": 22.41735880000124
+        },
+        "เอกสาร invoice_page-0151.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ea0cd8e7-a580-4359-87bc-9743a4f6675f",
+          "elapsed": 16.17137720000028
+        },
+        "เอกสาร invoice_page-0154.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "47c11f93-ed54-4214-a9af-a72ab0c89738",
+          "elapsed": 19.13245520000055
+        },
+        "เอกสาร invoice_page-0157.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a9415566-0cea-4938-9991-b6e7075aa913",
+          "elapsed": 12.923905499999819
+        },
+        "เอกสาร invoice_page-0163.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1a5fd571-01b8-4454-b2ff-8ecb3368c9eb",
+          "elapsed": 14.322206799999549
+        },
+        "เอกสาร invoice_page-0164.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6331a5b0-f71b-41f6-a453-8b87c113aa96",
+          "elapsed": 13.99917429999914
+        },
+        "เอกสาร invoice_page-0167.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "524a272d-229b-46a6-9d0d-5ee37d027873",
+          "elapsed": 21.40969419999965
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2a02fd85-dd03-41a6-b1a2-6e9fb4bdb806",
+          "elapsed": 15.073734199999308
+        },
+        "เอกสาร invoice_page-0173.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b6db3022-6080-4ca7-9fe6-e9bbc587741d",
+          "elapsed": 20.106576199999836
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "eee0878a-fc5d-481b-8e28-2a5b06425c5a",
+          "elapsed": 16.46950040000229
+        },
+        "เอกสาร invoice_page-0175.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7e71e0e8-39c1-49b8-8336-c1f3af90f423",
+          "elapsed": 34.968173600002046
+        },
+        "เอกสาร invoice_page-0176.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0a750080-8466-47dc-8958-c821512cf493",
+          "elapsed": 21.960965600002964
+        },
+        "เอกสาร invoice_page-0178.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e9d1bf2e-8e61-42ac-bf86-3d2f324cbcf4",
+          "elapsed": 23.578859000001103
+        },
+        "เอกสาร invoice_page-0180.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1bc5748f-f686-4c37-852e-5ca7d4d3e517",
+          "elapsed": 31.14245850000225
+        },
+        "เอกสาร invoice_page-0181.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "80ae79b4-bbed-4e14-8ac6-e8212e0b6eec",
+          "elapsed": 20.040181699998357
+        },
+        "เอกสาร invoice_page-0183.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "09bca7e6-63e8-44a1-9931-0e32bcdd9c4f",
+          "elapsed": 22.359392200000002
+        },
+        "เอกสาร invoice_page-0189.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5620225d-1bb7-478d-9fe9-3b59730da2f2",
+          "elapsed": 17.09304500000144
+        },
+        "เอกสาร invoice_page-0190.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3463b3f0-ba10-41fc-8fa2-28c609501b83",
+          "elapsed": 18.718061999999918
+        },
+        "เอกสาร invoice_page-0191.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "181cd0e1-158a-44c9-a837-eb048e5c1e07",
+          "elapsed": 12.682368900001165
+        },
+        "เอกสาร invoice_page-0192.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d589d730-ea5f-466c-9c29-87a5f706f063",
+          "elapsed": 21.652060199998232
+        },
+        "เอกสาร invoice_page-0195.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b23a5ef0-a998-4a56-8611-fa034e5019d8",
+          "elapsed": 21.719500600000174
+        },
+        "เอกสาร invoice_page-0196.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dc173c18-f6c7-4e6b-969e-ffe730e4e5ad",
+          "elapsed": 19.754131500001677
+        },
+        "เอกสาร invoice_page-0198.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9ff92ec1-c1e9-4da6-b894-a859938e1848",
+          "elapsed": 16.53423599999951
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "41610fc8-3125-4262-b29d-3ce31f2cede6",
+          "elapsed": 14.942649000000529
+        },
+        "เอกสาร invoice_page-0202.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "31c2bb9f-ec15-49f3-90a6-200b5f4bdf49",
+          "elapsed": 15.63472449999972
+        },
+        "เอกสาร invoice_page-0203.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a165fa35-67f3-4c44-9fdc-ca743f931487",
+          "elapsed": 12.93493220000164
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9ec7fa92-17c4-4359-8a31-810bad2a528c",
+          "elapsed": 19.772633000000496
+        }
+      }
+    },
+    {
+      "round": 2,
+      "files": 100,
+      "metrics": {
+        "tp": 100,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 10.473009000001184,
+        "max": 27.1553539000015,
+        "avg": 18.13944275700036,
+        "total": 1813.944275700036
+      },
+      "results": {
+        "เอกสาร invoice_page-0001.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "43ac75d2-051c-4c1d-ac62-bfd71f7f8213",
+          "elapsed": 18.623089900000195
+        },
+        "เอกสาร invoice_page-0005.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "93e3eef0-3ad7-45d3-96bf-283d66707930",
+          "elapsed": 19.529684699999052
+        },
+        "เอกสาร invoice_page-0006.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1dccbdda-2ef9-4163-b190-e6250190de8f",
+          "elapsed": 21.840850199998386
+        },
+        "เอกสาร invoice_page-0007.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "418e382d-90d4-44b8-8803-3b719a9323b8",
+          "elapsed": 14.30137140000079
+        },
+        "เอกสาร invoice_page-0009.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f90d1eeb-ad69-482f-9b15-870684fa06ff",
+          "elapsed": 18.79104820000066
+        },
+        "เอกสาร invoice_page-0010.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "673e1808-eafb-4935-89f5-4d5340095c65",
+          "elapsed": 15.862943299998733
+        },
+        "เอกสาร invoice_page-0012.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "357cf430-6283-4171-b435-5db4ce823fe2",
+          "elapsed": 13.769754100001592
+        },
+        "เอกสาร invoice_page-0014.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "29143c98-46fa-459f-8ec9-5afba5d888a5",
+          "elapsed": 13.715251900001022
+        },
+        "เอกสาร invoice_page-0016.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f5a2f6b0-a47f-490c-883b-ae4c75d6dfe4",
+          "elapsed": 17.590412199999264
+        },
+        "เอกสาร invoice_page-0017.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b97801c6-8e8d-46de-922a-cea6b6483961",
+          "elapsed": 20.54034490000049
+        },
+        "เอกสาร invoice_page-0018.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "17bd3fea-dce1-43d1-ba67-fb64f01631f4",
+          "elapsed": 23.023846800002502
+        },
+        "เอกสาร invoice_page-0019.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "539a929c-fe1e-4fd5-b7de-9f5e3f7e2b1c",
+          "elapsed": 23.213936699998158
+        },
+        "เอกสาร invoice_page-0023.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "72d65e13-32e1-45c2-b2d4-fd1a16452843",
+          "elapsed": 16.629786600002262
+        },
+        "เอกสาร invoice_page-0031.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "70ba38ad-81e7-472f-b222-7d147732c84a",
+          "elapsed": 15.498768900000869
+        },
+        "เอกสาร invoice_page-0038.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8ff42e98-f84c-4cce-9cd3-9aefdea61215",
+          "elapsed": 13.370816200000263
+        },
+        "เอกสาร invoice_page-0042.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5fe07bad-cab4-424c-b134-932459462c46",
+          "elapsed": 14.851864200001728
+        },
+        "เอกสาร invoice_page-0043.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b2df0d85-68b2-4b41-8722-c0cabb3e4298",
+          "elapsed": 19.248697099999845
+        },
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1f2a5c10-56c2-4fb6-9c74-1090d43231a7",
+          "elapsed": 15.746715799999947
+        },
+        "เอกสาร invoice_page-0045.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "239985d8-11f4-4623-8e1c-192b47bb4293",
+          "elapsed": 17.476719900001626
+        },
+        "เอกสาร invoice_page-0048.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c188ced7-e3fc-42cb-a805-67af50f9e8a8",
+          "elapsed": 17.295920500000648
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0803f7ca-cf5e-4775-a391-d690354a268a",
+          "elapsed": 18.563470099998085
+        },
+        "เอกสาร invoice_page-0054.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e24fd17d-e6cd-4bc9-bb6f-d2c68b36fc47",
+          "elapsed": 19.477937999999995
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "00d22f6f-98a0-41c4-8345-fc0a0b48ec6a",
+          "elapsed": 20.461680900003557
+        },
+        "เอกสาร invoice_page-0059.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c0f32a54-f743-4364-9990-2afabf6c2b53",
+          "elapsed": 13.849522700002126
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "653d0124-5bb9-4649-bfd3-fb4c3ebbb944",
+          "elapsed": 12.728015400000004
+        },
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6b1a478c-5d86-41af-a247-996b7a3dc2dd",
+          "elapsed": 16.909851399999752
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "20c68162-c5ac-411f-bc6b-979cc24a8915",
+          "elapsed": 21.474622899997485
+        },
+        "เอกสาร invoice_page-0065.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f4de26ee-f4cf-4ea6-8a0a-8d0fe89f345d",
+          "elapsed": 15.62979550000091
+        },
+        "เอกสาร invoice_page-0067.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "782f6a84-f801-4303-89ea-3b7289faa60e",
+          "elapsed": 22.922033900002134
+        },
+        "เอกสาร invoice_page-0068.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "64e4ed1e-b7b2-45a9-a869-1bd5091d8d8b",
+          "elapsed": 20.940252399999736
+        },
+        "เอกสาร invoice_page-0069.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3b42f66a-be9f-498a-9ec9-e4c6e453e54d",
+          "elapsed": 25.211647399999492
+        },
+        "เอกสาร invoice_page-0073.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "499ad907-6104-4260-a5de-86e19e3c7fee",
+          "elapsed": 18.65071430000171
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2c05d589-91a9-4c2f-b62e-afef0064b172",
+          "elapsed": 14.968723199999658
+        },
+        "เอกสาร invoice_page-0076.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "654910fe-f5b7-4ab6-91a4-bbeaf7070606",
+          "elapsed": 18.918469600001117
+        },
+        "เอกสาร invoice_page-0084.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7aed0179-071c-44ea-984a-ac642f1a9321",
+          "elapsed": 20.99007790000178
+        },
+        "เอกสาร invoice_page-0085.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d1d5b4af-779d-431a-872d-cc7530842ff1",
+          "elapsed": 13.018598099999508
+        },
+        "เอกสาร invoice_page-0086.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8cbda25e-911c-4cde-9f0d-72c60ef3b747",
+          "elapsed": 12.577100899998186
+        },
+        "เอกสาร invoice_page-0090.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0d97e28b-3f47-4564-a0fe-5bc4ad80eda1",
+          "elapsed": 18.488639999999577
+        },
+        "เอกสาร invoice_page-0093.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a485f905-8edb-4dd5-99b0-8e3e80cea62c",
+          "elapsed": 18.90268890000152
+        },
+        "เอกสาร invoice_page-0094.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "27902c8b-b917-44c0-896a-b2365a6ede7f",
+          "elapsed": 19.81791389999853
+        },
+        "เอกสาร invoice_page-0096.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "18d779eb-be3e-491c-b849-a7da6d0e0f30",
+          "elapsed": 17.003004900001542
+        },
+        "เอกสาร invoice_page-0098.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a87719f2-ed7f-474f-a430-250e3a26ef1a",
+          "elapsed": 18.492828999998892
+        },
+        "เอกสาร invoice_page-0099.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dec40b9c-35d4-47e9-bf03-710d5fd4b3a3",
+          "elapsed": 25.2321852999994
+        },
+        "เอกสาร invoice_page-0100.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fda020e9-f0ae-4b11-89f4-1061ff32283e",
+          "elapsed": 24.667114500000025
+        },
+        "เอกสาร invoice_page-0103.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "595f1585-2853-44dd-a494-2c4dc40dd222",
+          "elapsed": 15.90278870000111
+        },
+        "เอกสาร invoice_page-0104.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e32620d8-92e8-45b1-bffe-85dcdd7ca622",
+          "elapsed": 16.74286420000135
+        },
+        "เอกสาร invoice_page-0114.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "62345465-0771-42ed-8be9-3948472cfc83",
+          "elapsed": 19.374056100001326
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "37a1eb9a-c7d2-4012-97db-d811fefbd696",
+          "elapsed": 18.868568900001264
+        },
+        "เอกสาร invoice_page-0116.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a7726cf0-2ce8-4cd9-8212-088088210708",
+          "elapsed": 20.29920199999833
+        },
+        "เอกสาร invoice_page-0117.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2869abb3-73ce-4b33-91b3-befb01a0e06c",
+          "elapsed": 17.734482500000013
+        },
+        "เอกสาร invoice_page-0118.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "25e7c55b-a8e2-4203-9418-31baced18bdb",
+          "elapsed": 17.708033900002192
+        },
+        "เอกสาร invoice_page-0119.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "12f648b8-1420-400a-b439-a4938e38c12a",
+          "elapsed": 20.948610700001154
+        },
+        "เอกสาร invoice_page-0120.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a6e546a8-e617-4d89-880b-f7b94fec701a",
+          "elapsed": 23.81635980000283
+        },
+        "เอกสาร invoice_page-0122.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "73f78a9a-81b8-4513-af9d-aa0ce45f4699",
+          "elapsed": 19.642533600002935
+        },
+        "เอกสาร invoice_page-0127.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "140e241c-130a-4b18-b3b4-f61cd3e5dc40",
+          "elapsed": 23.91253190000134
+        },
+        "เอกสาร invoice_page-0128.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2460c7e0-23ed-4ac7-88c7-a9ed8fa826e9",
+          "elapsed": 20.924104099998658
+        },
+        "เอกสาร invoice_page-0131.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a0a55af9-1436-43e8-a153-0cd49a07bbf9",
+          "elapsed": 15.126363599996694
+        },
+        "เอกสาร invoice_page-0132.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c08b90cd-2483-4f81-9d0c-01b9f5d1d08d",
+          "elapsed": 27.1553539000015
+        },
+        "เอกสาร invoice_page-0134.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b2dd6f73-900f-4242-9750-98d3f1f3bece",
+          "elapsed": 19.28266799999983
+        },
+        "เอกสาร invoice_page-0137.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8693765b-98b2-42cb-81d6-777ac225b0cb",
+          "elapsed": 16.00963739999861
+        },
+        "เอกสาร invoice_page-0139.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "56698f2a-8190-4840-abca-da8153afd110",
+          "elapsed": 16.30783159999919
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "468a9f86-a8fc-4b63-8796-7eb8430770a1",
+          "elapsed": 16.815236200000072
+        },
+        "เอกสาร invoice_page-0141.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "48f76746-b000-4359-95fd-70814f48487c",
+          "elapsed": 12.477702399999544
+        },
+        "เอกสาร invoice_page-0143.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e4e1265d-7747-4d67-8ea4-c0df988b66df",
+          "elapsed": 21.663971500001935
+        },
+        "เอกสาร invoice_page-0145.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7c630a82-4454-4fd9-a1fa-3a0137c6e210",
+          "elapsed": 13.52266459999737
+        },
+        "เอกสาร invoice_page-0148.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b219e63e-96f5-4ebc-ab85-47bec07c3ebc",
+          "elapsed": 18.976495999999315
+        },
+        "เอกสาร invoice_page-0154.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9da7d22f-10f0-4525-a421-655bbf9f8059",
+          "elapsed": 13.893278100000316
+        },
+        "เอกสาร invoice_page-0155.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0f853f78-b5b4-4175-bfcd-6b6329afbcc2",
+          "elapsed": 10.473009000001184
+        },
+        "เอกสาร invoice_page-0156.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6e6cec72-008b-4c4a-a856-94a2f78806f2",
+          "elapsed": 14.014555099998688
+        },
+        "เอกสาร invoice_page-0157.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dacc76a7-b687-4590-9c71-ec4959ce16ad",
+          "elapsed": 19.3723628000007
+        },
+        "เอกสาร invoice_page-0158.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "61cafe27-ae27-49a9-b8e6-9227daddb9a7",
+          "elapsed": 13.800235700000485
+        },
+        "เอกสาร invoice_page-0159.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0dce9cca-5f99-49b4-9090-4043bb736ddd",
+          "elapsed": 14.992839300000924
+        },
+        "เอกสาร invoice_page-0160.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c524130d-0e92-49a9-93eb-11f339cc536d",
+          "elapsed": 14.65290620000087
+        },
+        "เอกสาร invoice_page-0161.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "feef8b66-6285-4914-ba13-86882bb22561",
+          "elapsed": 23.93088799999896
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "12682461-86f5-4768-82a4-3d2cdedcc297",
+          "elapsed": 17.93070269999953
+        },
+        "เอกสาร invoice_page-0163.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4e5b931d-ed60-453a-922d-2178a4918b17",
+          "elapsed": 12.151429699999426
+        },
+        "เอกสาร invoice_page-0164.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "567897d0-02e8-435f-a986-776bebccd67b",
+          "elapsed": 15.795438999997714
+        },
+        "เอกสาร invoice_page-0166.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7c9d15c1-77dc-4464-8941-38954019f032",
+          "elapsed": 16.80961799999932
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1f866bd4-9271-4555-859d-cad72b7016a3",
+          "elapsed": 19.548653800000466
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "85efe130-afb8-47ba-9ab7-63bb82597f90",
+          "elapsed": 12.513263200002257
+        },
+        "เอกสาร invoice_page-0172.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dd877b2c-3e58-4713-b99b-3e37b82848ec",
+          "elapsed": 13.003168999999616
+        },
+        "เอกสาร invoice_page-0173.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1cce3469-de08-40c3-bc76-a71b2b5acd42",
+          "elapsed": 21.62315949999902
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ba297f97-167a-4df0-9a5a-a2642249773b",
+          "elapsed": 16.953810400002112
+        },
+        "เอกสาร invoice_page-0176.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "580aac5e-6f06-4df6-b86b-68e9b51d5bee",
+          "elapsed": 19.163565299997572
+        },
+        "เอกสาร invoice_page-0177.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ddba4af2-2869-439e-b6cb-08804826f881",
+          "elapsed": 25.650974199998018
+        },
+        "เอกสาร invoice_page-0178.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a5fc2e4a-3956-4f5d-bdd4-9e749ca347e9",
+          "elapsed": 18.232703000001493
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0b0abafb-a798-4aff-b10b-809451b1a69f",
+          "elapsed": 20.40160730000207
+        },
+        "เอกสาร invoice_page-0181.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "775587b7-c8fe-45d7-9c88-79b16871b4fe",
+          "elapsed": 21.281390800002555
+        },
+        "เอกสาร invoice_page-0183.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5831895f-f5bf-4dd0-929a-71286a67d5a1",
+          "elapsed": 18.286206700002367
+        },
+        "เอกสาร invoice_page-0185.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "df079971-f42d-4923-92bf-79f5d7027408",
+          "elapsed": 22.344160900000134
+        },
+        "เอกสาร invoice_page-0186.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9be60e34-5914-4637-a085-7a1122316d25",
+          "elapsed": 18.2611014000031
+        },
+        "เอกสาร invoice_page-0187.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f65006e8-a72d-4e8d-a30d-678bad5d0d22",
+          "elapsed": 21.09418150000056
+        },
+        "เอกสาร invoice_page-0188.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0f2293f8-8bb2-4176-b9fc-683ac551189c",
+          "elapsed": 15.507350800002314
+        },
+        "เอกสาร invoice_page-0189.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "66963cf0-e4f1-4456-b604-e8a16408ade3",
+          "elapsed": 25.03782030000002
+        },
+        "เอกสาร invoice_page-0193.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4d8e9af1-5460-48d0-9bd4-438254e0cb29",
+          "elapsed": 18.212880800001585
+        },
+        "เอกสาร invoice_page-0194.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d493eef8-6adc-4608-a079-b0ef0c5139d0",
+          "elapsed": 16.00334560000192
+        },
+        "เอกสาร invoice_page-0200.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4b1e20db-72d8-4e67-849f-238ca68a318a",
+          "elapsed": 15.65262100000109
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0ba7bbd3-70a6-435a-8481-54328d4e771a",
+          "elapsed": 17.224637899998925
+        },
+        "เอกสาร invoice_page-0203.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "406d4d39-d726-4bd6-9cf2-0055c35553ef",
+          "elapsed": 15.692007300000114
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2b19679d-1a46-4b29-8f8b-08a4d66738be",
+          "elapsed": 20.40762520000135
+        }
+      }
+    },
+    {
+      "round": 3,
+      "files": 100,
+      "metrics": {
+        "tp": 100,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 11.277354999998352,
+        "max": 153.13236880000477,
+        "avg": 20.226293569000372,
+        "total": 2022.6293569000372
+      },
+      "results": {
+        "เอกสาร invoice_page-0002.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f921e9f0-a65d-4629-b649-afb7f8838dad",
+          "elapsed": 25.464106299998093
+        },
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5da7736e-217b-4cca-8f48-9e277342a1fb",
+          "elapsed": 24.290143300000636
+        },
+        "เอกสาร invoice_page-0004.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7bda2250-78de-49f9-bdb6-c7aa6b13a69b",
+          "elapsed": 14.82554810000147
+        },
+        "เอกสาร invoice_page-0005.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "58a52691-a179-48a9-91f5-ee970778b11d",
+          "elapsed": 19.838617599998543
+        },
+        "เอกสาร invoice_page-0006.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "382a2d61-13ff-42d8-b6f8-e19e2b2a3975",
+          "elapsed": 14.921295700001792
+        },
+        "เอกสาร invoice_page-0007.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8a212cf2-362e-4439-9479-9844f03d6e89",
+          "elapsed": 14.329847299999528
+        },
+        "เอกสาร invoice_page-0009.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1a0fde77-07a4-4c5c-9d7f-891a01fbeebe",
+          "elapsed": 12.67769799999951
+        },
+        "เอกสาร invoice_page-0010.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "20482dd8-3073-40a5-9f25-826fa26565de",
+          "elapsed": 18.886703899999702
+        },
+        "เอกสาร invoice_page-0011.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a9c21f4e-bd51-420b-8143-6206be87a1df",
+          "elapsed": 12.4141243999984
+        },
+        "เอกสาร invoice_page-0012.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e692f4ba-b332-4da4-ba6b-727f69b493e5",
+          "elapsed": 18.42159840000022
+        },
+        "เอกสาร invoice_page-0014.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b4aac2ab-81a2-4316-8d4e-a009526419a9",
+          "elapsed": 11.489141999998537
+        },
+        "เอกสาร invoice_page-0015.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8d7c6ea1-33fe-4270-b820-6bd0c475a2e0",
+          "elapsed": 16.447910600003524
+        },
+        "เอกสาร invoice_page-0016.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c6b6ad1c-2a13-43f6-90ce-6e72ebe25ae6",
+          "elapsed": 17.225116400000843
+        },
+        "เอกสาร invoice_page-0018.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "434b9a5f-1744-4fef-b720-e57ef369a518",
+          "elapsed": 23.02859190000163
+        },
+        "เอกสาร invoice_page-0019.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e56a7e05-74f3-484d-8170-2962230c00d3",
+          "elapsed": 19.37137299999813
+        },
+        "เอกสาร invoice_page-0022.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "36556dc7-846c-4c71-8518-dbeca9919a57",
+          "elapsed": 18.042935899997246
+        },
+        "เอกสาร invoice_page-0023.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f03b4607-556c-4e79-900c-162905deaa93",
+          "elapsed": 18.34148749999804
+        },
+        "เอกสาร invoice_page-0024.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "263b3f9d-2460-4df1-93b4-b173536f5bef",
+          "elapsed": 16.047133300002315
+        },
+        "เอกสาร invoice_page-0028.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dbfb1435-f21e-4cc2-a37f-caa2152ba3b5",
+          "elapsed": 17.531457900000532
+        },
+        "เอกสาร invoice_page-0029.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dd047f3a-b42d-42bb-90d7-eaa4774fc8c5",
+          "elapsed": 19.19794980000006
+        },
+        "เอกสาร invoice_page-0030.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1f8dbdae-ead6-4d73-99b2-48ce4a4dcfa9",
+          "elapsed": 20.915853700000298
+        },
+        "เอกสาร invoice_page-0031.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cabe26b2-cfb5-464c-8a33-6d6044f81aaa",
+          "elapsed": 20.9132230000032
+        },
+        "เอกสาร invoice_page-0039.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "daf4298e-ce6a-49fd-9577-5e5b22ef5a03",
+          "elapsed": 23.008070799998677
+        },
+        "เอกสาร invoice_page-0040.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "25559ba7-b3e1-4481-ac1b-681d83ba1746",
+          "elapsed": 18.516115700000228
+        },
+        "เอกสาร invoice_page-0041.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7bf301af-0e1c-4478-9c0d-7df2a54fc138",
+          "elapsed": 12.43100720000075
+        },
+        "เอกสาร invoice_page-0043.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "832a0d35-f97a-4187-bfb3-ac8777fdd8e6",
+          "elapsed": 20.657062700000097
+        },
+        "เอกสาร invoice_page-0045.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e982f042-3134-4c53-b409-6cfb1828b8e6",
+          "elapsed": 17.747139600000082
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "67c42079-8acc-43d2-a908-84a62ad62e59",
+          "elapsed": 20.72189750000689
+        },
+        "เอกสาร invoice_page-0052.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "04dbe548-8360-45ac-ab2d-9cd6a9221fa4",
+          "elapsed": 17.7090651000035
+        },
+        "เอกสาร invoice_page-0054.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d9b25569-a799-4a3a-a6b4-4e2adf1974ce",
+          "elapsed": 19.016653900005622
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0545ee55-e363-41fb-a83b-476ef12316bd",
+          "elapsed": 26.326711999994586
+        },
+        "เอกสาร invoice_page-0058.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "76941479-d010-4559-8987-d3cd05acb6ec",
+          "elapsed": 17.609598000002734
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "33621df9-5cfb-4348-a359-25d76523b73c",
+          "elapsed": 15.776280599995516
+        },
+        "เอกสาร invoice_page-0061.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "02787751-f6e0-4e99-b4c6-622a44f2b874",
+          "elapsed": 19.76423249999789
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "34c0f550-b13c-4fd7-8d7b-5df7693e9fca",
+          "elapsed": 24.719117999993614
+        },
+        "เอกสาร invoice_page-0071.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3afcc787-7e4f-4b1c-bd24-059309989cee",
+          "elapsed": 15.020766299996467
+        },
+        "เอกสาร invoice_page-0072.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "784c312a-ce89-47cc-88c3-1b9e8724e66d",
+          "elapsed": 16.941493800004537
+        },
+        "เอกสาร invoice_page-0073.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f8a334ac-54f3-4f61-ae16-06a9775c7fca",
+          "elapsed": 22.357894299995678
+        },
+        "เอกสาร invoice_page-0074.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3a30660f-9711-46eb-8b44-d817db038459",
+          "elapsed": 24.765288099995814
+        },
+        "เอกสาร invoice_page-0076.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a9a00d45-a530-450a-9a37-431529c813f8",
+          "elapsed": 28.403014399998938
+        },
+        "เอกสาร invoice_page-0077.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "09f662f6-04ee-47b7-afc8-533c9ceab091",
+          "elapsed": 12.966553699996439
+        },
+        "เอกสาร invoice_page-0082.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8dae6237-9243-4844-bbcb-38daecee6ec7",
+          "elapsed": 19.205694600001152
+        },
+        "เอกสาร invoice_page-0085.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d7b4daac-e327-4869-a3f4-98a56e7427c7",
+          "elapsed": 15.935884400001669
+        },
+        "เอกสาร invoice_page-0086.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "50fba024-66dd-4d3e-8d0f-b0e7588d10b6",
+          "elapsed": 24.705708100002084
+        },
+        "เอกสาร invoice_page-0089.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a1c4a2d6-68fd-41b6-80a4-99c75905ae51",
+          "elapsed": 20.827597700001206
+        },
+        "เอกสาร invoice_page-0094.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "48ae828f-2d4b-4d5d-85fe-f5d08c47fdc4",
+          "elapsed": 19.95690569999715
+        },
+        "เอกสาร invoice_page-0096.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "43b6d305-5e43-4d18-9eb8-b9ea5b22d84d",
+          "elapsed": 18.69387409999763
+        },
+        "เอกสาร invoice_page-0097.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4327bfc2-3686-49d2-b552-7a798e9b6688",
+          "elapsed": 20.818412900000112
+        },
+        "เอกสาร invoice_page-0100.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "55051620-0eac-4bc2-94f9-3a82ffecb122",
+          "elapsed": 153.13236880000477
+        },
+        "เอกสาร invoice_page-0101.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3eb26e7a-18a3-420a-8d68-a6e10e2873e2",
+          "elapsed": 17.64697139999771
+        },
+        "เอกสาร invoice_page-0103.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f1f2d116-d952-441a-9bc4-a76e732543b7",
+          "elapsed": 18.652652299999318
+        },
+        "เอกสาร invoice_page-0104.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3af4f23e-18be-436b-91b0-02ae35fe9218",
+          "elapsed": 17.847194100002525
+        },
+        "เอกสาร invoice_page-0106.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "366e8737-77b0-415e-b88a-261362d0eb3c",
+          "elapsed": 24.7583392000015
+        },
+        "เอกสาร invoice_page-0107.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5741be9c-200a-4243-9e9c-e6591fba0b15",
+          "elapsed": 15.327288299995416
+        },
+        "เอกสาร invoice_page-0111.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "960d3a85-1644-4085-815e-8bd523c7a500",
+          "elapsed": 21.815583000003244
+        },
+        "เอกสาร invoice_page-0113.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d00c040d-262e-4242-ac71-4f3b50267316",
+          "elapsed": 15.301387300001807
+        },
+        "เอกสาร invoice_page-0114.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1a031723-31fc-4c5f-824f-0af2a34c622c",
+          "elapsed": 16.17974150000373
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "66b08a7b-f330-4fef-8d0c-273750432865",
+          "elapsed": 15.682386199994653
+        },
+        "เอกสาร invoice_page-0116.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "491da6d7-1de9-49b4-89ae-d88d5d45e047",
+          "elapsed": 18.44959630000085
+        },
+        "เอกสาร invoice_page-0118.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0b7b78fd-1597-477b-84f4-8dfe9b0b5f70",
+          "elapsed": 17.332885000003444
+        },
+        "เอกสาร invoice_page-0119.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c646cc0a-1802-4580-9b78-5c4808e79d7d",
+          "elapsed": 16.829412300001422
+        },
+        "เอกสาร invoice_page-0121.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6ba61eab-7fad-426f-9d86-8453ba8d72e4",
+          "elapsed": 25.212187899996934
+        },
+        "เอกสาร invoice_page-0122.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4196f3b2-52d6-413e-8dde-9f519aa9858a",
+          "elapsed": 21.203436300005706
+        },
+        "เอกสาร invoice_page-0123.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "01b88155-5373-4a59-8357-c8a774ef06b9",
+          "elapsed": 22.534261500004504
+        },
+        "เอกสาร invoice_page-0128.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "32d4e5e8-0030-46e0-b2f2-b573631bae41",
+          "elapsed": 15.767549800002598
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "67a98f68-f5d3-4b9c-ad14-cb1e22fafa24",
+          "elapsed": 21.78535920000286
+        },
+        "เอกสาร invoice_page-0131.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9762b5bd-c004-4cbc-9b09-7521be50c042",
+          "elapsed": 15.228012999999919
+        },
+        "เอกสาร invoice_page-0132.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9c691cad-183e-4768-a22e-02c27f59035d",
+          "elapsed": 24.61362700000609
+        },
+        "เอกสาร invoice_page-0138.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5229eece-1c4d-4ef5-b30f-b199e0b5fc9e",
+          "elapsed": 16.294084400004067
+        },
+        "เอกสาร invoice_page-0141.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f58b1f20-27b6-489f-8bc4-17544594fb3c",
+          "elapsed": 13.938296800006356
+        },
+        "เอกสาร invoice_page-0142.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6321ff0e-9f4d-46c8-a0b1-731022b4cebd",
+          "elapsed": 21.007080999996106
+        },
+        "เอกสาร invoice_page-0145.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2d151c86-c2f3-42f7-b398-8bf9e666c5e6",
+          "elapsed": 11.277354999998352
+        },
+        "เอกสาร invoice_page-0153.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0ab31f8b-6e05-4bc5-b0eb-a0bcf0d3fd03",
+          "elapsed": 15.498352900001919
+        },
+        "เอกสาร invoice_page-0157.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e4e87e04-0a12-4975-b5b8-420b721c1c80",
+          "elapsed": 12.807627000001958
+        },
+        "เอกสาร invoice_page-0159.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bb971a0b-640e-4cd5-8960-88d78bdeb44b",
+          "elapsed": 14.320505700001377
+        },
+        "เอกสาร invoice_page-0163.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3165bbf0-9519-48c4-91ad-2306e5165071",
+          "elapsed": 15.636955699999817
+        },
+        "เอกสาร invoice_page-0166.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4524444d-3b65-4ef9-8ec0-98dffda5b3a8",
+          "elapsed": 20.60891480000282
+        },
+        "เอกสาร invoice_page-0167.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e9107f8c-870c-4daa-83f2-1c95991c3284",
+          "elapsed": 21.319363700000395
+        },
+        "เอกสาร invoice_page-0169.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d818fe8e-36f4-40df-a287-06d47b46359a",
+          "elapsed": 22.487703599996166
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d55a0bac-5ad9-46fd-8726-1659ef223710",
+          "elapsed": 14.198664400006237
+        },
+        "เอกสาร invoice_page-0171.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0b6ff37f-e3cf-4aa3-96ea-5322b04170de",
+          "elapsed": 17.76352990000305
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6ae30316-ad31-4f6a-8b74-30e7990146fe",
+          "elapsed": 16.158013799999026
+        },
+        "เอกสาร invoice_page-0175.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2977e030-f50b-4151-a0b2-69a4a2ed98a0",
+          "elapsed": 31.495522999997775
+        },
+        "เอกสาร invoice_page-0177.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7bf7b29d-6ddb-4573-b722-4abd52484fbc",
+          "elapsed": 30.270680400004494
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "760fa541-f2d9-44d1-8c7d-7d5550c20493",
+          "elapsed": 20.349575499996718
+        },
+        "เอกสาร invoice_page-0180.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "99b781a5-a321-422c-a1c0-7eab9bbcb9b2",
+          "elapsed": 24.14635680000356
+        },
+        "เอกสาร invoice_page-0181.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "faf30aa6-f846-45bd-a445-a7308408a990",
+          "elapsed": 24.104936399999133
+        },
+        "เอกสาร invoice_page-0185.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a03a57ad-c85c-47ea-b76f-da133c99a170",
+          "elapsed": 19.844050400002743
+        },
+        "เอกสาร invoice_page-0188.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c4f7ab2e-07db-4fea-954f-7465aa1938fd",
+          "elapsed": 15.596191099997668
+        },
+        "เอกสาร invoice_page-0189.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b0e272bd-984d-49ef-8e99-ab95c5ca9c4d",
+          "elapsed": 21.55337359999976
+        },
+        "เอกสาร invoice_page-0190.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6bddfcde-5c98-430f-83d2-af79089ccf62",
+          "elapsed": 18.925325900003372
+        },
+        "เอกสาร invoice_page-0191.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "aa626bfb-676d-43cd-b556-5b3e332e2626",
+          "elapsed": 16.01871960000426
+        },
+        "เอกสาร invoice_page-0193.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2d7ebe13-5d1d-4c58-bb2f-78de4294503e",
+          "elapsed": 20.41487199999392
+        },
+        "เอกสาร invoice_page-0195.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f18a80c2-543a-4e89-8b83-504120206456",
+          "elapsed": 19.648599599997397
+        },
+        "เอกสาร invoice_page-0196.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b3d45d1a-a8ad-4f35-982d-df24113392dd",
+          "elapsed": 18.92947510000522
+        },
+        "เอกสาร invoice_page-0199.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "80e8eacb-4c08-4165-ac8d-d4822b477cbc",
+          "elapsed": 16.30362430000241
+        },
+        "เอกสาร invoice_page-0200.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1b48c14b-6ad3-422c-b860-292067be20d9",
+          "elapsed": 15.191784199996619
+        },
+        "เอกสาร invoice_page-0202.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a4c1b6f0-0c13-4d6e-a5db-1521734585f7",
+          "elapsed": 21.29680599999847
+        },
+        "เอกสาร invoice_page-0203.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5d85b142-aa45-43a8-ad7f-806e232103c9",
+          "elapsed": 15.444107099996472
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6d7d4654-55b5-4b99-a689-aa2e634fbee6",
+          "elapsed": 15.254767099999299
+        }
+      }
+    },
+    {
+      "round": 4,
+      "files": 100,
+      "metrics": {
+        "tp": 100,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 11.57857939999667,
+        "max": 212.81184400000348,
+        "avg": 20.570453185999796,
+        "total": 2057.0453185999795
+      },
+      "results": {
+        "เอกสาร invoice_page-0001.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f151d749-4992-429b-b13f-53d2e17ac6df",
+          "elapsed": 17.31909440000163
+        },
+        "เอกสาร invoice_page-0002.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "25ed6297-9720-4ec6-a758-be1255676d21",
+          "elapsed": 34.3829545999979
+        },
+        "เอกสาร invoice_page-0005.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8eb2ebc9-240e-45fb-b0dd-3282e4be1f05",
+          "elapsed": 17.969865799997933
+        },
+        "เอกสาร invoice_page-0006.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4c5efdc0-2e3a-4305-9067-f37ba10645ee",
+          "elapsed": 15.81458030000067
+        },
+        "เอกสาร invoice_page-0007.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6b8ddc4f-0316-4f94-89ef-b995e8391263",
+          "elapsed": 16.142839599997387
+        },
+        "เอกสาร invoice_page-0008.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1768f51b-d91f-4277-bb16-5b78fd877ade",
+          "elapsed": 16.083221600005345
+        },
+        "เอกสาร invoice_page-0009.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ab450777-d043-4757-a210-5734d70c72b3",
+          "elapsed": 14.806640800001333
+        },
+        "เอกสาร invoice_page-0010.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8d45d052-76c0-437e-b0d6-726f61dc30ea",
+          "elapsed": 14.802066100004595
+        },
+        "เอกสาร invoice_page-0011.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b7ed1622-89e5-4f3c-b6de-579114cfd6d9",
+          "elapsed": 14.37805309999385
+        },
+        "เอกสาร invoice_page-0018.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2a30e8b2-788a-4963-9232-24cf4c710ad0",
+          "elapsed": 24.51574840000103
+        },
+        "เอกสาร invoice_page-0019.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "75e115a4-a07b-4eca-9289-ca505a9aafd0",
+          "elapsed": 20.778963599994313
+        },
+        "เอกสาร invoice_page-0020.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ceee88fd-61f9-4e35-8893-2404c1545509",
+          "elapsed": 19.30251539999881
+        },
+        "เอกสาร invoice_page-0021.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "29243383-2583-49c1-80e4-5950b5a68144",
+          "elapsed": 24.62936510000145
+        },
+        "เอกสาร invoice_page-0024.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "65ff1406-55dc-4818-9204-c27b9a9a9efe",
+          "elapsed": 13.591563499998301
+        },
+        "เอกสาร invoice_page-0025.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9bf6b881-0302-49fc-a0ec-4c533ac4858a",
+          "elapsed": 25.76833859999897
+        },
+        "เอกสาร invoice_page-0027.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "83399d49-e859-4c60-b3df-7f66bfac9bfd",
+          "elapsed": 13.43783170000097
+        },
+        "เอกสาร invoice_page-0032.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ec31e8c2-df3e-49d0-b55d-3c38fd05e618",
+          "elapsed": 22.311040000000503
+        },
+        "เอกสาร invoice_page-0033.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "52d3ebb5-9b79-4dec-a968-386bccea97fb",
+          "elapsed": 14.408775100004277
+        },
+        "เอกสาร invoice_page-0035.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f460f3b6-1f32-428d-b7b5-44fe66cb2df2",
+          "elapsed": 18.199997999996413
+        },
+        "เอกสาร invoice_page-0036.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "889f6c9b-ecbc-43e5-9889-209908e80484",
+          "elapsed": 20.762016399996355
+        },
+        "เอกสาร invoice_page-0037.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f8f0d649-aaed-460c-9c31-c3e733b399fd",
+          "elapsed": 18.900137099997664
+        },
+        "เอกสาร invoice_page-0038.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b8cb9ef2-1eaf-4d40-aded-442c6415d671",
+          "elapsed": 21.046053599995503
+        },
+        "เอกสาร invoice_page-0040.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "11594aad-e67b-441b-9726-3a16f81d5562",
+          "elapsed": 13.35199830000056
+        },
+        "เอกสาร invoice_page-0042.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cd54e279-25e3-4517-a738-c5cb6181ca51",
+          "elapsed": 17.867342199999257
+        },
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d5f863b4-dc56-49b9-991d-5d4b55377026",
+          "elapsed": 16.02715700000408
+        },
+        "เอกสาร invoice_page-0045.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1dcced5d-6bae-444c-a720-f5df43c2e50b",
+          "elapsed": 29.72160730000178
+        },
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "59879b2d-b262-4f30-93f2-faa763075c4b",
+          "elapsed": 22.916700899993884
+        },
+        "เอกสาร invoice_page-0047.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "27832c2f-1a3d-43bc-b706-da3f7c4c14f0",
+          "elapsed": 21.58468939999875
+        },
+        "เอกสาร invoice_page-0048.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0295434b-faa8-48fd-986c-38793ebd2953",
+          "elapsed": 26.113012800000433
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "459c3837-e646-42a9-afc8-f6bedd4bbb59",
+          "elapsed": 24.517670200002613
+        },
+        "เอกสาร invoice_page-0052.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fa54ad8a-2a56-4bdb-a985-d46aec817834",
+          "elapsed": 14.649048699997365
+        },
+        "เอกสาร invoice_page-0054.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "50040c99-eb5e-4927-aabb-321c0c219368",
+          "elapsed": 15.950520899998082
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "99ba2a72-7a0b-4871-894a-1c07288ab398",
+          "elapsed": 20.197253199999977
+        },
+        "เอกสาร invoice_page-0056.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fe150860-a635-4022-80b9-a7bb86712031",
+          "elapsed": 14.884087700003874
+        },
+        "เอกสาร invoice_page-0058.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2500e54f-61b4-4b31-a5c7-579031c87899",
+          "elapsed": 17.48508149999543
+        },
+        "เอกสาร invoice_page-0059.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "67546101-4de7-4f03-9367-34119d8d96fc",
+          "elapsed": 14.278576900003827
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e401c928-f2d2-41a6-a983-f5c4b44881f9",
+          "elapsed": 14.20517490000202
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c367287e-a724-4600-9e8d-8cad69545e43",
+          "elapsed": 22.191984200006118
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "98ca4281-60fe-4a7a-a1d9-581c84eee51b",
+          "elapsed": 32.24352589999762
+        },
+        "เอกสาร invoice_page-0068.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d5361e0e-e637-4eaf-a317-b2268cb0f843",
+          "elapsed": 21.007520300001488
+        },
+        "เอกสาร invoice_page-0069.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "98e47a96-6990-4a17-b1bf-a4e4334bca18",
+          "elapsed": 19.989397199999075
+        },
+        "เอกสาร invoice_page-0070.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "64157486-0c4d-483e-9c52-163dc34c024a",
+          "elapsed": 22.36648490000516
+        },
+        "เอกสาร invoice_page-0073.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9dca684c-8977-482c-a5ba-4b5b24dbe7b5",
+          "elapsed": 16.76032689999556
+        },
+        "เอกสาร invoice_page-0077.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2dc56959-b517-4307-a654-33a65537d11b",
+          "elapsed": 18.62897699999303
+        },
+        "เอกสาร invoice_page-0079.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "01ec87de-a07e-4762-b642-150e030d727c",
+          "elapsed": 20.357636600005208
+        },
+        "เอกสาร invoice_page-0083.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e72d3cbc-582c-4fda-9c47-ad875da637c6",
+          "elapsed": 26.133072500000708
+        },
+        "เอกสาร invoice_page-0084.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4f81b5a8-bbec-439a-8e0b-70e85ee34202",
+          "elapsed": 34.466987699997844
+        },
+        "เอกสาร invoice_page-0086.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1a1fee37-78ab-4b22-a499-ca1f8a558439",
+          "elapsed": 14.45662799999991
+        },
+        "เอกสาร invoice_page-0090.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "765dcaad-8256-4196-a1a3-72adf492ee72",
+          "elapsed": 24.18309539999609
+        },
+        "เอกสาร invoice_page-0092.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6525f3e6-d327-42c6-8f9d-2f8dea6e5f08",
+          "elapsed": 24.355824799997208
+        },
+        "เอกสาร invoice_page-0094.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7adc4801-d08d-471a-85fc-0940ddcde7b5",
+          "elapsed": 20.888843499997165
+        },
+        "เอกสาร invoice_page-0096.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5814eaa8-38d8-436e-b98f-e0362df421ee",
+          "elapsed": 15.690795300004538
+        },
+        "เอกสาร invoice_page-0098.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7d56fe58-6b12-4dcb-8c84-26bc42dbaf7c",
+          "elapsed": 20.667085799999768
+        },
+        "เอกสาร invoice_page-0100.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "28236c80-b7bb-4b93-a2e6-8290a552cf57",
+          "elapsed": 212.81184400000348
+        },
+        "เอกสาร invoice_page-0103.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "78e7fbff-8704-4298-be9c-28d38f5c31b6",
+          "elapsed": 17.79416919999494
+        },
+        "เอกสาร invoice_page-0104.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1340e759-b4ca-407a-8e25-5cdbf5b1c21d",
+          "elapsed": 16.57010280000395
+        },
+        "เอกสาร invoice_page-0105.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a5887a54-379f-4711-8879-e7e2133e350d",
+          "elapsed": 14.807785100005276
+        },
+        "เอกสาร invoice_page-0108.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5c44cebe-f3b8-4f04-8f35-0146d27be171",
+          "elapsed": 19.49698669999634
+        },
+        "เอกสาร invoice_page-0109.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cbe59844-7c0c-4329-946a-5b36bd7498e8",
+          "elapsed": 25.63793870000518
+        },
+        "เอกสาร invoice_page-0110.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e1c77b68-07d4-47f1-9152-ca2671d71705",
+          "elapsed": 13.418853399998625
+        },
+        "เอกสาร invoice_page-0111.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f65d0d68-a318-4b9d-828b-ac8cbfa56458",
+          "elapsed": 25.688184899998305
+        },
+        "เอกสาร invoice_page-0113.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e2e093e0-59c7-4905-8eea-c136012a0b7c",
+          "elapsed": 18.54663439999422
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "549321b1-51f7-4c29-a8c5-2cfb3b198d5b",
+          "elapsed": 19.68379840000125
+        },
+        "เอกสาร invoice_page-0116.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4f7a4301-db56-4486-82d6-f16d69ae1b14",
+          "elapsed": 23.173889699995925
+        },
+        "เอกสาร invoice_page-0117.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "56730691-f87d-4692-8823-354e37a89541",
+          "elapsed": 15.326463099998364
+        },
+        "เอกสาร invoice_page-0119.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "74319644-1059-4e4a-a23b-50123200dbdb",
+          "elapsed": 18.386248299997533
+        },
+        "เอกสาร invoice_page-0121.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4a0bece9-a465-4fa9-9dc9-8de04d3be5d9",
+          "elapsed": 19.609189900002093
+        },
+        "เอกสาร invoice_page-0124.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f17f577b-5a04-4755-9449-d8a165f09088",
+          "elapsed": 12.83935680000286
+        },
+        "เอกสาร invoice_page-0126.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "48239c76-2089-4d98-9479-530b211db673",
+          "elapsed": 19.526070599997183
+        },
+        "เอกสาร invoice_page-0127.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "191b2a4d-f43d-4cb2-9d06-7e3a034802bc",
+          "elapsed": 15.924226700000872
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c938cc1a-2a89-4005-ae19-3315e19f0bbf",
+          "elapsed": 18.327355099994747
+        },
+        "เอกสาร invoice_page-0130.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5f0911d8-b1cb-47e1-8f98-37dfee580a99",
+          "elapsed": 18.686611099998117
+        },
+        "เอกสาร invoice_page-0131.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "52299ee1-6895-4533-ae60-d9a58b5d45f2",
+          "elapsed": 14.197315799996431
+        },
+        "เอกสาร invoice_page-0132.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d3cece02-699f-4145-8da2-dff7c806be1f",
+          "elapsed": 24.04428860000189
+        },
+        "เอกสาร invoice_page-0134.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e603591c-1b96-4186-985e-0f25842910d9",
+          "elapsed": 21.560435500003223
+        },
+        "เอกสาร invoice_page-0135.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "eae7a012-2688-447e-8ff3-6171e01623c1",
+          "elapsed": 16.616925499998615
+        },
+        "เอกสาร invoice_page-0138.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1ebf78f4-5c54-4feb-8e0a-e611621f9ff0",
+          "elapsed": 18.351079000000027
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7aa0a8f1-5861-4645-95a2-633b3c367e40",
+          "elapsed": 12.03676689999702
+        },
+        "เอกสาร invoice_page-0142.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "71e6448e-b97e-499d-9571-ca9942e2ad80",
+          "elapsed": 18.49861950000195
+        },
+        "เอกสาร invoice_page-0145.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "76c86c55-0238-452c-846c-b5e92bb776ec",
+          "elapsed": 12.176581499996246
+        },
+        "เอกสาร invoice_page-0150.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5b6cda25-ed81-40a3-b5af-3d9796b5062b",
+          "elapsed": 19.143801600002917
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "97e20e2b-9815-44fa-b31b-c4779bd260b6",
+          "elapsed": 13.795532500000263
+        },
+        "เอกสาร invoice_page-0155.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "400af1eb-df89-4f4f-b011-7f29fd7f62d8",
+          "elapsed": 14.50733069999842
+        },
+        "เอกสาร invoice_page-0156.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "40a8705a-f71a-451d-9042-36461896a4d0",
+          "elapsed": 13.014343100003316
+        },
+        "เอกสาร invoice_page-0157.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9b028ab7-e11d-47a3-bd4e-7be2763eeb6c",
+          "elapsed": 13.061130300004152
+        },
+        "เอกสาร invoice_page-0158.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "00b69557-feb0-484e-9b02-4ae9ba8371dd",
+          "elapsed": 13.30743000000075
+        },
+        "เอกสาร invoice_page-0163.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "057b238f-dfd1-405a-9042-a5bf1d18fe63",
+          "elapsed": 17.030417000001762
+        },
+        "เอกสาร invoice_page-0164.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "46a93521-afc0-4473-8de2-f5cbb371c25a",
+          "elapsed": 13.260355999998865
+        },
+        "เอกสาร invoice_page-0165.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6e608117-2c43-4c8c-8d6b-06d37e632478",
+          "elapsed": 22.55231769999955
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d3140c28-fa3a-434b-930f-392dddfe35f4",
+          "elapsed": 12.00062340000295
+        },
+        "เอกสาร invoice_page-0171.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a5c1fa5b-b6d2-410a-aca2-110443c181fa",
+          "elapsed": 18.21479210000689
+        },
+        "เอกสาร invoice_page-0177.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cd70c786-0e3a-474a-9ee4-08dd1730b468",
+          "elapsed": 20.180305899993982
+        },
+        "เอกสาร invoice_page-0181.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fd2c43ff-10dc-4eed-89ab-97c9f794bd3c",
+          "elapsed": 19.91001619999588
+        },
+        "เอกสาร invoice_page-0184.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f98a5d46-98c2-4805-b4cf-ac20b442fed3",
+          "elapsed": 11.57857939999667
+        },
+        "เอกสาร invoice_page-0187.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5d4e539e-f7e1-48b4-ad1a-aabfebd442f7",
+          "elapsed": 16.489154599999893
+        },
+        "เอกสาร invoice_page-0188.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d546f349-969e-4026-b3f2-27c033c0de06",
+          "elapsed": 17.028055000002496
+        },
+        "เอกสาร invoice_page-0194.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f542c830-6b16-4dcf-82a9-97b16647af42",
+          "elapsed": 18.08907460000046
+        },
+        "เอกสาร invoice_page-0197.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a19a6713-a5fd-48bf-bae9-6923edf344c2",
+          "elapsed": 14.884484299996984
+        },
+        "เอกสาร invoice_page-0202.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e38799b4-902c-4896-95d5-2c4b80003232",
+          "elapsed": 12.37614620000386
+        },
+        "เอกสาร invoice_page-0203.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "010f0f65-f746-472f-9335-863be43f88a6",
+          "elapsed": 15.393936100001156
+        }
+      }
+    },
+    {
+      "round": 5,
+      "files": 100,
+      "metrics": {
+        "tp": 100,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 11.115112099992984,
+        "max": 153.44354069999827,
+        "avg": 20.770657981999683,
+        "total": 2077.0657981999684
+      },
+      "results": {
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0d89e3c0-3dee-43f6-a0b6-2bc80d1d7fc5",
+          "elapsed": 24.46877939999831
+        },
+        "เอกสาร invoice_page-0005.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5bb183e6-d89d-4544-9892-89bbc1d05b7a",
+          "elapsed": 17.638546099995438
+        },
+        "เอกสาร invoice_page-0006.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e51d8fcd-aca8-4a7f-8928-f272495bccaa",
+          "elapsed": 13.676081199999317
+        },
+        "เอกสาร invoice_page-0007.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "86fdae60-035f-47af-ad4e-566077e73902",
+          "elapsed": 17.509407999998075
+        },
+        "เอกสาร invoice_page-0008.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "24288583-8673-48b0-afdb-ddb3b7eaea81",
+          "elapsed": 11.76436829999875
+        },
+        "เอกสาร invoice_page-0014.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "57f3eea0-afa9-469a-a9ae-172052545303",
+          "elapsed": 13.225173200000427
+        },
+        "เอกสาร invoice_page-0015.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ce1cddf4-ced1-4582-aa45-28f1635e728c",
+          "elapsed": 25.795772500001476
+        },
+        "เอกสาร invoice_page-0018.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f119c209-bf4c-4dea-b1fc-7af10621ad81",
+          "elapsed": 18.03088249999564
+        },
+        "เอกสาร invoice_page-0020.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "974b74c6-f922-4905-bbd9-e595a7bcc607",
+          "elapsed": 15.370170100002724
+        },
+        "เอกสาร invoice_page-0023.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a13a18c0-d959-4208-90cd-206ba348c291",
+          "elapsed": 22.856710100000782
+        },
+        "เอกสาร invoice_page-0026.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "54d48078-fe3e-43b9-9a09-f0d7a308deb3",
+          "elapsed": 14.253832800000964
+        },
+        "เอกสาร invoice_page-0027.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cfc30b83-5a57-4544-aa04-2179cbfcc3de",
+          "elapsed": 17.40223590000096
+        },
+        "เอกสาร invoice_page-0031.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "687606e8-6f41-4905-b995-6307eac34aee",
+          "elapsed": 17.52584560000105
+        },
+        "เอกสาร invoice_page-0035.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "865fe465-4aa9-4ffc-9697-492547d63df9",
+          "elapsed": 12.305353600000672
+        },
+        "เอกสาร invoice_page-0036.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f9a408f1-a718-46f2-ae56-97337f7e42a5",
+          "elapsed": 17.2063605000003
+        },
+        "เอกสาร invoice_page-0039.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c0337069-11cf-4545-a4e3-fb439405bbc1",
+          "elapsed": 22.308195199999318
+        },
+        "เอกสาร invoice_page-0041.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2d6dec1a-28cc-445a-8a3d-2ea68bef320b",
+          "elapsed": 14.62734850000561
+        },
+        "เอกสาร invoice_page-0045.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "291abfe7-d969-4107-a6f3-1f53424f3beb",
+          "elapsed": 14.196051500002795
+        },
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1b4e9c53-a9a7-4b85-bb5b-aee2e5220696",
+          "elapsed": 17.228547699996852
+        },
+        "เอกสาร invoice_page-0048.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6e7a140d-68f1-4365-8a3f-2ee86348d9fb",
+          "elapsed": 18.886916700001166
+        },
+        "เอกสาร invoice_page-0052.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ef19335b-308d-4265-a4a5-3b8d328acf3c",
+          "elapsed": 15.03643230000307
+        },
+        "เอกสาร invoice_page-0053.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ac4cf8ad-1934-46e0-b701-22e15086b841",
+          "elapsed": 20.9543685000026
+        },
+        "เอกสาร invoice_page-0054.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f62020f5-d978-4957-9d60-0f6d09083c37",
+          "elapsed": 22.43565479999961
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3e022b95-2f51-4377-99a5-8d179abdd9a7",
+          "elapsed": 21.861928300000727
+        },
+        "เอกสาร invoice_page-0056.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "540ee4f2-b4ab-48ec-8052-59b2ff663bc5",
+          "elapsed": 15.837461200004327
+        },
+        "เอกสาร invoice_page-0059.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "52cd5a07-0748-4443-86a1-cca428f8bd85",
+          "elapsed": 14.619486000003235
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4f76139a-53f1-4cc2-9778-43303b3b673b",
+          "elapsed": 14.645552500005579
+        },
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0f294006-5c83-48d9-94cc-cd7cbe10f869",
+          "elapsed": 20.449189999999362
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3cee6331-928d-4f79-a018-f15e224ace58",
+          "elapsed": 25.599020599998767
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b85c8ea3-ecfe-4c1b-b0a6-a792f0b2d1b3",
+          "elapsed": 14.740291900001466
+        },
+        "เอกสาร invoice_page-0067.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4b18492a-385e-4bfe-8b60-4c2aaa6935e5",
+          "elapsed": 20.089784600000712
+        },
+        "เอกสาร invoice_page-0068.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "eb1f3221-5201-40ff-a89c-e55b1b382035",
+          "elapsed": 22.072648199995456
+        },
+        "เอกสาร invoice_page-0070.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8dd7abdb-7975-4563-bc90-d8789cc7ee0f",
+          "elapsed": 18.317724000000453
+        },
+        "เอกสาร invoice_page-0072.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "87ddac8e-a620-4767-8398-9bc63b7a893f",
+          "elapsed": 17.17809649999981
+        },
+        "เอกสาร invoice_page-0074.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "113d1b03-a88a-4d33-af4f-d2871ebdd473",
+          "elapsed": 21.215110999997705
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3cf23710-ff03-4f93-a227-e1c467881ca1",
+          "elapsed": 17.207779199998186
+        },
+        "เอกสาร invoice_page-0076.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8c8f1512-201b-4169-8abd-6a16168fc5aa",
+          "elapsed": 32.59778119999828
+        },
+        "เอกสาร invoice_page-0077.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f9598001-a5a3-4a11-b654-675df44555d2",
+          "elapsed": 12.417291400000977
+        },
+        "เอกสาร invoice_page-0081.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "efec94fe-95ff-4d9d-9540-a4b7c0ea7c56",
+          "elapsed": 16.763669100000698
+        },
+        "เอกสาร invoice_page-0083.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "50d88051-3007-4883-b214-c3453dfd2596",
+          "elapsed": 33.28681399999914
+        },
+        "เอกสาร invoice_page-0084.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cfac9ec6-294c-4cde-96e2-144d5ce80da0",
+          "elapsed": 18.553622200000973
+        },
+        "เอกสาร invoice_page-0087.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2f6a5d5e-a92b-4289-beab-cd52695f9e6e",
+          "elapsed": 23.43114339999738
+        },
+        "เอกสาร invoice_page-0092.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5948bad4-e0d5-46cb-87bf-39cbe376814c",
+          "elapsed": 17.98632300000463
+        },
+        "เอกสาร invoice_page-0094.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0b40b421-ef23-4e1b-9c98-a98ddb14197a",
+          "elapsed": 18.581956099995296
+        },
+        "เอกสาร invoice_page-0095.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "62818b31-30a1-416c-a9b7-4d3b03aa07ed",
+          "elapsed": 13.455161099998804
+        },
+        "เอกสาร invoice_page-0100.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "961db6b4-ed69-4fc7-bd35-7800893ceb3d",
+          "elapsed": 153.44354069999827
+        },
+        "เอกสาร invoice_page-0103.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a36a826b-aa3e-4654-83d2-5ad3c639be0a",
+          "elapsed": 17.078456499999447
+        },
+        "เอกสาร invoice_page-0104.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5c8df829-5e86-44d2-a148-d75901ad036e",
+          "elapsed": 20.322569099997054
+        },
+        "เอกสาร invoice_page-0105.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8ee68183-042e-492c-bc96-00e77c91e73f",
+          "elapsed": 20.99441410000145
+        },
+        "เอกสาร invoice_page-0106.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "47d04294-5f3b-4a26-819a-68830d999e38",
+          "elapsed": 30.846879600001557
+        },
+        "เอกสาร invoice_page-0107.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f203d63f-f2fa-46c8-8255-ce38e2c80d3f",
+          "elapsed": 24.779716999997618
+        },
+        "เอกสาร invoice_page-0108.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0936c01f-76db-47fd-9eab-999f834f58f4",
+          "elapsed": 18.163130500004627
+        },
+        "เอกสาร invoice_page-0109.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3338661b-3a86-4b8e-88f5-349718b167e9",
+          "elapsed": 22.087210399993637
+        },
+        "เอกสาร invoice_page-0110.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5a1341d5-f2c1-4072-9351-bc650f97fa53",
+          "elapsed": 16.99609480000072
+        },
+        "เอกสาร invoice_page-0117.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "de02802c-7e64-4a74-9368-87af735d8660",
+          "elapsed": 16.981789099998423
+        },
+        "เอกสาร invoice_page-0118.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e8740325-114a-4ff9-98bb-87627ca058a6",
+          "elapsed": 17.136921400000574
+        },
+        "เอกสาร invoice_page-0119.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f5dcb6eb-10b6-4425-bb74-d78185342921",
+          "elapsed": 20.715665000003355
+        },
+        "เอกสาร invoice_page-0121.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b2c2d288-43ca-412e-af8c-90b0138fa9e7",
+          "elapsed": 29.795756799998344
+        },
+        "เอกสาร invoice_page-0124.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "af9e28e7-8bba-4d5d-a2a1-d9c6ea3e1783",
+          "elapsed": 19.416208300004655
+        },
+        "เอกสาร invoice_page-0126.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "926b59a3-ef81-45a7-bb74-8e3ada539a1e",
+          "elapsed": 27.123005000001285
+        },
+        "เอกสาร invoice_page-0127.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bf90a08e-9f29-489a-86e7-e1b5dcbdd483",
+          "elapsed": 23.27145329999621
+        },
+        "เอกสาร invoice_page-0131.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cef84c3d-49bd-4e87-8a9f-a8418d8417f2",
+          "elapsed": 18.238924999997835
+        },
+        "เอกสาร invoice_page-0134.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "60900405-1650-412b-a62a-37dd9996ed13",
+          "elapsed": 20.266064800001914
+        },
+        "เอกสาร invoice_page-0136.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "54ffb9b2-ff45-4fa0-ad68-36fa104cdf51",
+          "elapsed": 22.699109100001806
+        },
+        "เอกสาร invoice_page-0139.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c5f74c2c-57f2-4cf4-b62c-dbe61298091d",
+          "elapsed": 18.265224999995553
+        },
+        "เอกสาร invoice_page-0144.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a37ea568-047c-42f0-a3eb-4cb53cdb6896",
+          "elapsed": 82.09846400000242
+        },
+        "เอกสาร invoice_page-0145.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cca88656-cefc-4590-9658-9d3092f08c24",
+          "elapsed": 13.134901700002956
+        },
+        "เอกสาร invoice_page-0146.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5d88b1ff-f3e3-45d7-a142-33b411bdf1be",
+          "elapsed": 13.943365899998753
+        },
+        "เอกสาร invoice_page-0148.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d9891948-4b12-4a47-b49b-18ec8213beb2",
+          "elapsed": 19.656691500000306
+        },
+        "เอกสาร invoice_page-0149.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4865f81a-da34-486d-80bb-189469569377",
+          "elapsed": 32.473445299998275
+        },
+        "เอกสาร invoice_page-0153.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "194a9e85-8b7d-400e-b40e-c8743ee8389b",
+          "elapsed": 15.446862899996631
+        },
+        "เอกสาร invoice_page-0154.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bb95e5eb-da10-42f7-9021-d410c9022561",
+          "elapsed": 13.60228410000127
+        },
+        "เอกสาร invoice_page-0156.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "130b3576-ef33-4007-adb3-6939908bb3ae",
+          "elapsed": 11.115112099992984
+        },
+        "เอกสาร invoice_page-0157.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9ebdbd81-aa92-4a6e-91cc-a31e3b50ced4",
+          "elapsed": 13.59797129999788
+        },
+        "เอกสาร invoice_page-0158.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "262e1ace-50e9-4745-9c0d-79cc2b43b462",
+          "elapsed": 11.535108299998683
+        },
+        "เอกสาร invoice_page-0159.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "838a76f8-284e-418a-a25e-78bcada4884a",
+          "elapsed": 18.606053799994697
+        },
+        "เอกสาร invoice_page-0161.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "38221c41-1d91-4271-ad97-5e61fccd2af6",
+          "elapsed": 24.001168199996755
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "538d6188-d6fa-44a6-bcc5-d4123d5f0b1f",
+          "elapsed": 18.359031199994206
+        },
+        "เอกสาร invoice_page-0164.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "514abb73-23ff-4727-9d8f-b676dffc5b76",
+          "elapsed": 12.734319499999401
+        },
+        "เอกสาร invoice_page-0165.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "02519eb5-a354-4495-9ee5-c572119caa14",
+          "elapsed": 22.22554630000377
+        },
+        "เอกสาร invoice_page-0166.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fbe43e15-375c-4414-9c67-5c12023b4d50",
+          "elapsed": 18.99419659999694
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c1a950c7-cdbd-4543-8824-eb75ef361bd2",
+          "elapsed": 15.446651999998721
+        },
+        "เอกสาร invoice_page-0169.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ef68edf9-a2f1-4a89-a6d3-283b502b82e4",
+          "elapsed": 18.192042099995888
+        },
+        "เอกสาร invoice_page-0171.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "984e80d6-3ce9-48e9-995c-1fa4fc3cdae6",
+          "elapsed": 17.10426980000193
+        },
+        "เอกสาร invoice_page-0172.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1a8b24a2-eb6d-458d-9452-9d76c5365091",
+          "elapsed": 17.944405900001584
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cb84695d-6805-445f-8b1b-e5f6a90ed2e6",
+          "elapsed": 21.23907969999709
+        },
+        "เอกสาร invoice_page-0175.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "956a0bd8-f354-4788-8427-cbe37b1c816e",
+          "elapsed": 28.11770790000446
+        },
+        "เอกสาร invoice_page-0177.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a03d9145-b4a5-4952-bb3f-5de73b1dedc8",
+          "elapsed": 23.801989599996887
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9a4fb7ea-0654-4ad6-99ec-eeaaa854fd21",
+          "elapsed": 18.166403600000194
+        },
+        "เอกสาร invoice_page-0180.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "71bbf00e-6825-4342-ac66-e4d160a251bd",
+          "elapsed": 25.903655100002652
+        },
+        "เอกสาร invoice_page-0182.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "60201c23-b1a4-4ead-9a22-22135f344152",
+          "elapsed": 18.360596800004714
+        },
+        "เอกสาร invoice_page-0183.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "eafb7dce-a029-468f-886a-cdb7b905f448",
+          "elapsed": 16.480108100004145
+        },
+        "เอกสาร invoice_page-0185.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "18cd25e1-f532-4063-88ee-2554fe022fe9",
+          "elapsed": 18.602266499998223
+        },
+        "เอกสาร invoice_page-0187.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bc035527-1858-40f3-a7c6-6a011419e5c1",
+          "elapsed": 19.187587899999926
+        },
+        "เอกสาร invoice_page-0191.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "77644963-bb62-44fc-96c0-727c60785411",
+          "elapsed": 12.84476889999496
+        },
+        "เอกสาร invoice_page-0193.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5d51632e-97e9-4946-a9ed-d3b25892b8e1",
+          "elapsed": 16.984144399997604
+        },
+        "เอกสาร invoice_page-0198.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c7b0733f-5b24-4e2f-9384-ba0ad535b8c9",
+          "elapsed": 12.095580000001064
+        },
+        "เอกสาร invoice_page-0199.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d1ec02a5-3f78-4617-8e08-09c6d7beab6a",
+          "elapsed": 13.569916299995384
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6f77cb46-577f-4244-a215-d3006b8b9047",
+          "elapsed": 14.367077199996857
+        },
+        "เอกสาร invoice_page-0202.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9c9a9150-38b4-43a7-bf5a-7ce210efa280",
+          "elapsed": 12.900017699997989
+        }
+      }
+    }
+  ],
+  "average_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "inconsistent_files": []
+}

@@ -1,0 +1,61 @@
+{
+  "id": "274a9535-dbba-4c9b-b919-7a942f581eff",
+  "filename": "เอกสาร_invoice_page-0073.jpg",
+  "stored_filename": "20260418_130357_274a9535-dbba-4c9b-b919-7a942f581eff_เอกสาร_invoice_page-0073.jpg",
+  "created_at": "2026-04-18T13:04:41.133867",
+  "ocr": {
+    "text": "ThaiPrint Inter Group\n\n89/38 หมู่ที่ 8 ถนนบางรักใหญ่ - บ้านใหม่ ต.เสาธงหิน อ.บางใหญ่ จ.นนทบุรี 11140\nเลขที่ผู้เสียภาษี 0-1255-64010-43-3 | (สำนักงานใหญ่)\nโทร: 021494518, 0817707544, Line ID : @thaiprint.co.th | sales@thaiprint.co.th\nwww.thaiprint.co.th\n\n**Invoice**\nใบแจ้งหนี้/ใบส่งของ\n\nต้นฉบับ / Original\nIN-000003293\n\nชื่อลูกค้า Customer Name: บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\nเลขที่ผู้เสียภาษี Tax ID: 0-1055-48117-73-3 (สำนักงานใหญ่)\nที่อยู่ Address: ชั้น - เลขที่ 77/77 หมู่ 3 ถนน ศรีสมาน ตำบล/แขวง บ้านใหม่ อำเภอ/เขต ปากเกร็ด จังหวัด นนทบุรี 11120 โทร: 080-056-6487\n\nวันที่ Issue Date: 30/01/2569\nกำหนดชำระ Due Date: 30/01/2569\nชื่อผู้ติดต่อ Contact Name: คุณป๋า\nพนักงานขาย Salesman: กัมพล\nใบเสนอราคา Quotation No: QT-000005612\nเอกสารอ้างอิง Ref Document:\n\nที่อยู่จัดส่ง Ship To:\nชื่อโปรเจกต์ Project Name:\n\n<table><tr><td>ลำดับที่<br/>No.</td><td>รายการ<br/>Description</td><td>จำนวน<br/>Quantity</td><td>ราคา/หน่วย<br/>Unit Price</td><td>ส่วนลด<br/>Discount</td><td>จำนวนเงิน (THB)<br/>Amount</td></tr><tr><td>1</td><td>ค่าจ้างสกรีน พิมพ์ 1 สี 1 ด้าน มี 2 แบบฉะ 250 ชิ้น</td><td>500</td><td>4.00</td><td>0.00</td><td>2,000.00</td></tr><tr><td>2</td><td>ค่าฟิล์ม ที่ใช้ทำบล็อก</td><td>1</td><td>250.00</td><td>0.00</td><td>250.00</td></tr></table>\n\nรวมเป็นเงิน Subtotal: 2,250.00\nหักส่วนลดพิเศษ Special Discount: 0.00\nยอดรวมหลังหักส่วนลด After Discount: 2,250.00\nจำนวนภาษีมูลค่าเพิ่ม 7 % Value Added Tax: 157.50\nจำนวนเงินรวมทั้งสิ้น Total: 2,407.50\n\nหมายเหตุและเงื่อนไข (Terms &amp; Conditions) OR6901/038\nธนาคารกสิกรไทย\nสาขา เซ็นทรัล เวลเกต\nเลขที่บัญชี 1023572350\nชื่อบัญชี บริษัท ไทยพริ้นท์ อินเตอร์กรุ๊ป จำกัด\nLine ID : @thaiprint.co.th\n\nผู้รับ / Receiver Signature: \nวันที่ / Date: \n\nตราประทับบริษัท\n\nผู้ส่ง / Sender Signature: \nวันที่ / Date: 30/01/69\n\nKompol P.\n\nผู้มีอำนาจลงนาม / Authorized Signature: \nวันที่ / Date: 30/01/2569\n\n89/38 หมู่ 8 ถ.บางรักใหญ่ - บ้านใหม่ ต.เสาธงหิน อ.บางใหญ่ จ.นนทบุรี 11140 Line ID : @thaiprint.co.th",
+    "char_count": 1948,
+    "word_count": 188,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ค่าจ้างสกรีน พิมพ์ 1 สี 1 ด้าน มี 2 แบบฉะ 250 ชิ้น",
+          "quantity": 500,
+          "unit_price": 4.0,
+          "total": 2000.0
+        },
+        {
+          "name": "ค่าฟิล์ม ที่ใช้ทำบล็อก",
+          "quantity": 1,
+          "unit_price": 250.0,
+          "total": 250.0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 2250.0,
+        "discount": {
+          "rate": null,
+          "amount": 0.0,
+          "note": null
+        },
+        "subtotal": 2250.0,
+        "vat_rate": 7,
+        "vat_amount": 157.5,
+        "total": 2407.5
+      },
+      "confidence_note": null
+    }
+  }
+}

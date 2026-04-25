@@ -1,0 +1,55 @@
+{
+  "id": "f0e13d89-2ab9-4287-b8f0-7506a690642a",
+  "filename": "เอกสาร_invoice_page-0040.jpg",
+  "stored_filename": "20260418_130940_f0e13d89-2ab9-4287-b8f0-7506a690642a_เอกสาร_invoice_page-0040.jpg",
+  "created_at": "2026-04-18T13:09:59.027748",
+  "ocr": {
+    "text": "AMATA\nบริษัท อมตะ พริ้นท์ติ้ง ซัพพลายส์ จำกัด AMATA PRINTING SUPPLIES CO., LTD.\n190/2 หมู่ 8 ซ.สุขสวัสดิ์84 ถ.สุขสวัสดิ์ ต.ในคลองบางปลากด อ.พระสมุทรเจดีย์ จ.สมุทรปราการ 10290\n190/2 Moo 8 Soi Suksawad-84, Suksawad Rd., NaiKlongbangprakod, Prasamut Chedi, Samutprakarn 10290\nTel : (66) 02-406-0749 (Auto) Fax : (66) 02-406-0743-4\n\nต้นฉบับใบกำกับภาษี/ใบส่งของ ORIGINAL TAX INVOICE / DELIVERY ORDER\n\n(สำนักงานใหญ่)\nใบกำกับภาษี\n\nเลขที่ NO. IV6901139\nวันที่ DATE 28/01/69\nเงื่อนไขการชำระเงิน TERMS OF PAYMENT 30\nครบกำหนด DUE DATE 27/02/69\nผู้ซื้อเลขที่ P/O NO. OR6901/040\nผู้ขายเลขที่ P/O NO. 001-หน้าร้าน\n\nชื่อลูกค้า CUSTOMER NAME บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\nที่อยู่ ADDRESS 77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่\nอำเภอปากเกร็ด จังหวัดนนทบุรี\nโทร. TEL. 11120\nแฟ็กซ์ FAX. 02-090-2345-49 ต่อ 11-12\nสถานที่ส่งสินค้า SEND TO เลขประจำตัวผู้เสียภาษี 0105548117733 สำนักงานใหญ่\n\n<table><tr><td>ลำ ITEM</td><td>รายการ DESCRIPTION</td><td>จำนวน QTY</td><td>หน่วย UNIT</td><td>ราคาต่อหน่วย UNIT PRICE</td><td>จำนวนเงิน AMOUNT</td></tr><tr><td>1</td><td>กระดาษน้ำตาล T1 125g 86x102cm</td><td>30.95</td><td>รีม</td><td>1,882.33</td><td>58,258.11</td></tr></table>\n\nFM-SA-02, Issued 01/03/64, Rev. 00\n(หกหมนสองพันสามรอยสามสิบหกบาทสิบแปดสตางค์)\n\nได้รับสินค้าตามรายการข้างบนโดยครบถ้วนในสภาพเรียบร้อย และยอมรับเงื่อนไขการชำระเงินทุกประการ\n\nผู้รับสินค้า/RECEIVER  วันที่/DATE 28/11/69\nผู้ส่งสินค้า/DELIVERER  วันที่/DATE 28/11/69\n\nในนาม บริษัท อมตะ พริ้นท์ติ้ง ซัพพลายส์ จำกัด For AMATA PRINTING SUPPLIES CO., LTD.\n\nผู้มีอำนาจลงนาม AUTHORIZED SIGNATURE \nต้นฉบับ - ลูกค้า\n\n1. โปรดยึดคร่อมเช็ค สั่งจ่ายในนาม บริษัท อมตะ พริ้นท์ติ้ง ซัพพลายส์ จำกัด\n2. บริษัทจะคิดดอกเบี้ยในอัตราร้อยละ 1.5 ต่อเดือน และค่าใช้จ่ายอื่น ๆ เมื่อครบกำหนดชำระเงินแล้วไม่ชำระ\n3. กรุณาตรวจเช็คสินค้าทุกครั้ง หากปรากฏว่าสินค้าเสียหายหรือไม่ครบถ้วนและถูกต้องตามรายการ กรุณาแจ้งให้บริษัทฯทราบภายใน 7 วัน มิฉะนั้นบริษัทฯจะถือว่าท่านได้รับสินค้าถูกต้องเรียบร้อยแล้วทุกประการ",
+    "char_count": 1928,
+    "word_count": 169,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "กระดาษน้ำตาล T1 125g 86x102cm",
+          "quantity": 30.95,
+          "unit_price": 1882.33,
+          "total": 58258.11
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 58258.11,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 58258.11,
+        "vat_rate": 7,
+        "vat_amount": 4078.07,
+        "total": 62336.18
+      },
+      "confidence_note": null
+    }
+  }
+}

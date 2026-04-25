@@ -1,0 +1,56 @@
+{
+  "id": "9f33739c-0fdb-4402-91b4-ac17819d6550",
+  "filename": "เอกสาร_invoice_page-0197.jpg",
+  "stored_filename": "20260420_134449_9f33739c-0fdb-4402-91b4-ac17819d6550_เอกสาร_invoice_page-0197.jpg",
+  "created_at": "2026-04-20T13:45:04.070024",
+  "ocr": {
+    "text": "PRRP บริษัท แปรงรุ่งเรืองพัฒนา จำกัด (สำนักงานใหญ่)\nPRANG RUNG RUEANG PATTANA CO.,LTD. (HEAD OFFICE)\n27 ซอยกาญจนาภิเษก 0010 ถนนกาญจนาภิเษก แขวงบางแค เขตบางแค กรุงเทพฯ 10160\n27 SOI KANCHANAPHISEK 0010 KANCHANAPHISEK ROAD, BANGKHAE, BANGKHAE, BANGKOK 10160\nTel. 02-8025346-8 Fax. 02-8025349\n\nใบกำกับภาษี/ใบส่งสินค้า\nTAX INVOICE/DELIVERY ORDER\nต้นฉบับ-ลูกค้า\n(เอกสารออกเป็นชุด)\n\nเลขประจำตัวผู้เสียภาษี 0105551001791\nรหัสลูกค้า BROTHER\nCUSTOMER CODE\nชื่อลูกค้า บจก. บราเธอร์ แอนด์ บราเธอร์ ( สำนักงานใหญ่ )\nCUSTOMER NAME\nที่อยู่ 77/77 หมู่ที่ 3 ถนนศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nADDRESS\n\nเลขที่ใบกำกับภาษี IV6901041\nTAX NO.\nวันที่ 14/01/69\nDATE\nเครดิต วัน\nCREDIT DATE\nครบกำหนด 14/01/69\nDUE DATE\nเลขที่ใบสั่งซื้อ\nPURCHASE ORDER\n\n<table><tr><td>ลำดับที่</td><td>รายการ<br/>DESCRIPTION</td><td>จำนวน<br/>QUANTITY</td><td>หน่วยละ<br/>UNIT PRICE</td><td>จำนวนเงิน<br/>AMOUNT</td></tr><tr><td>1</td><td>แปรงแกน PE Size : 15x30xL. 1335xH.60 mm.</td><td>2.00 Kg.</td><td>1,900.00</td><td>3,800.00</td></tr></table>\n\nหมายเหตุ\nเงินรวม AMOUNT 3,800.00\nภาษีมูลค่าเพิ่ม 7 % VAT 266.00\nจำนวนเงินรวมทั้งสิ้น TOTAL AMOUNT 4,066.00\n\n( สี่พันหกสิบหกบาทถ้วน )\n\nได้รับสินค้าตามรายการข้างบนนี้ไว้ถูกต้อง และอยู่ในสภาพเรียบร้อยทุกประการ\n\nชำระโดย PAID BY\n☐ เงินสด/CASH\n☐ เช็ค/CHEQUE\n☐ เงินโอน/TRANSFER\nธนาคาร CHEQUE BANK\nสาขา BRANCH\nเลขที่ No.\nวันที่ DATE\n\nผู้รับสินค้า/วันที่ RECEIVER/DATE\nผู้ส่งสินค้า/วันที่ DELIVERED/DATE\nผู้รับเงิน/วันที่ COLLECTOR/DATE\n\nในนาม บริษัท แปรงรุ่งเรืองพัฒนา จำกัด\nPRANG RUNG RUEANG PATTANA CO.,LTD.\n\n ลายเซ็น \nผู้รับมอบอำนาจ AUTHORIZED SIGNATURE\n\nกรณีชำระเงินด้วยเช็ค โปรดสั่งจ่ายและขีดคร่อมในนาม บริษัทฯ เท่านั้น และใบเสร็จนี้จะสมบูรณ์เมื่อมีการเรียกเก็บเงินตามเช็คได้ครบถ้วนตามจำนวนแล้ว",
+    "char_count": 1710,
+    "word_count": 153,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "แปรงแกน PE Size : 15x30xL. 1335xH.60 mm.",
+          "unit": "Kg.",
+          "quantity": 2,
+          "unit_price": 1900,
+          "total": 3800
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 3800,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 3800,
+        "vat_rate": 7,
+        "vat_amount": 266,
+        "total": 4066
+      },
+      "confidence_note": null
+    }
+  }
+}

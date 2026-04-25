@@ -1,0 +1,55 @@
+{
+  "id": "5c9afc91-00f0-4b65-b48f-5078b5d74623",
+  "filename": "เอกสาร_invoice_page-0057.jpg",
+  "stored_filename": "20260418_130723_5c9afc91-00f0-4b65-b48f-5078b5d74623_เอกสาร_invoice_page-0057.jpg",
+  "created_at": "2026-04-18T13:08:45.059026",
+  "ocr": {
+    "text": "PRIMA GENERAL CO.,LTD.\nHead Office 9/9 Moo 5 Phaholyothin Road,\nKlong - Neung, Klong Luang, Pathumthani 12120\nTel. 0-2516-4907-10 Fax : 0-2516-4906\n\n<figure>\nภาพโลโก้ของบริษัท Pkimax General Co.,Ltd. ซึ่งมีตัวอักษร \"PKIMAX\" และข้อความ \"GENERAL CO.,LTD.\" อยู่ด้านล่าง\n</figure><figure>\nภาพโลโก้ขององค์กรต่างๆ ได้แก่ URS, UKAS MANAGEMENT SYSTEMS และ ISO 9001\n</figure>\n\nสำนักงานใหญ่ เลขที่ 9/9 หมู่ 5 ถ.พหลโยธิน ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 12120\nโทรศัพท์ : 0-2516-4907-10 โทรสาร : 0-2516-4906\n\n**ต้นฉบับใบกำกับภาษี/ใบส่งสินค้า**\n**ORIGINAL TAX INVOICE/DELIVERY ORDER**\n\nเลขประจำตัวผู้เสียภาษีอากร 0105531060831\nสำหรับลูกค้า/CUSTOMER\nเอกสารออกเป็นชุด NO. IV6901523\n\nลูกค้า/ที่อยู่-NAME/ADDRESS\nบริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\n77/77 ม.3 ถนนศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nเลขประจำตัวผู้เสียภาษี 0105548117733 สำนักงานใหญ่\n\nรหัสลูกค้า ACCOUNT CODE 20130\nวันที่ DATE 29/01/69\nเงื่อนไขการชำระเงิน TERM OF PAYMENT วัน\nใบสั่งซื้อเลขที่ P/O.NO.OR6901/056\nสถานที่ส่ง DESTINATION เชียงราก\n\n<table><tr><td>รหัสสินค้า<br/>PRODUCT CODE</td><td>รายการ<br/>DESCRIPTION</td><td>จำนวน<br/>QUANTITY</td><td>หน่วยละ<br/>UNIT PRICE</td><td>จำนวนเงิน<br/>AMOUNT</td></tr><tr><td>20130-021-00</td><td>สัง41x49x36cm.</td><td>250</td><td>44.00</td><td>11,000.00</td></tr></table><table><tr><td>รวมเงิน<br/>TOTAL</td><td>11,000.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม<br/>VAT 7.0%</td><td>770.00</td></tr><tr><td>ยอดรวม<br/>NET TOTAL</td><td>11,770.00</td></tr></table>\n\nบาท BAHT (หนึ่งหมื่นหนึ่งพันเจ็ดร้อยเจ็ดสิบบาทถ้วน)\n\nได้รับสินค้าไว้ถูกต้องและเรียบร้อยแล้ว GOODS RECEIVED IN GOOD ORDER AND CONDITION\nผู้รับของ RECEIVED BY ทวีนพร\nวันที่รับของ DATE 29/11/69\n\nกรรมสิทธิ์ในตัวสินค้า ยังคงเป็นของผู้ขายจนกว่าผู้ซื้อจะชำระเงินจนครบถ้วน\n\nผู้อนุมัติ APPROVED BY Amr - วันที่ DATE 29/11/69\n\n1ฒช-154 (กรุงเทพฯ) นายประยูร\nทะเบียนรถ/พนักงานขับรถ\n\nหมายเหตุ",
+    "char_count": 1843,
+    "word_count": 142,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "สัง41x49x36cm.",
+          "quantity": 250,
+          "unit_price": 44.0,
+          "total": 11000.0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 11000.0,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 11000.0,
+        "vat_rate": 7,
+        "vat_amount": 770.0,
+        "total": 11770.0
+      },
+      "confidence_note": null
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "bd2356d9-561c-40b8-8190-af6f411683f7",
+  "filename": "เอกสาร_invoice_page-0127.jpg",
+  "stored_filename": "20260418_125700_bd2356d9-561c-40b8-8190-af6f411683f7_เอกสาร_invoice_page-0127.jpg",
+  "created_at": "2026-04-18T12:57:54.267097",
+  "ocr": {
+    "text": "สำนักงานใหญ่ : 399/71 หมู่ 13 ตำบลราชาเทวะ อำเภอบางพลี จังหวัดสมุทรปราการ 10540\nโทรศัพท์ 02-101-4423, 086-399-4441, 099-774-6523\nโทรสาร 02-101-4424\n\nเลขประจำตัวผู้เสียภาษีอากร 0105552022377\n\nKPK Q PLUS CO., LTD.\nHead Office : 399/71 Moo 13 Rachatawa,\nBangplee, Samutprakarn 10540\nTel : 02-101-4423, 086-399-4441, 099-774-6523\nFax : 02-101-4424\nE-mail : kpkq-plus@hotmail.com\nE-mail : diecut@kpk-qplus.com\nE-mail : sale@kpk-qplus.com\nwww.kpk-qplus.com\n\nต้นฉบับใบกำกับภาษี\nORIGINAL TAX INVOICE\n\nเอกสารออกเป็นชุด\n\nลูกค้า CUSTOMER บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\nเลขที่ 77/77 หมู่ 3 ถนนศรีสมาน ตำบลบ้านใหม่\nอำเภอปากเกร็ด จังหวัดนนทบุรี 11120\nสำนักงานใหญ่ เลขประจำตัวผู้เสียภาษี 0105548117733\n\nเลขที่ NO. IV6901061 วันที่ DATE 08/01/69\nเลขที่ใบสั่งซื้อ PO6901/070 อัตราภาษีร้อยละ TAX RATE 7.00\nP/O NO.\nเงื่อนไขการชำระเงิน PAYMENT TERM 30 วัน วันครบกำหนด DUE DATE 07/02/69\n\n<table><tr><td>ลำดับที่ ITEM</td><td>รายการ DESCRIPTION</td><td>จำนวน QUANTITY</td><td>หน่วยละ UNIT PRICE</td><td>ส่วนลด DISCOUNT</td><td>จำนวนเงิน AMOUNT</td></tr><tr><td>1</td><td>ค่าเพลทไตดัทเปลี่ยนหน้าต่าง BT427A-0403 -0126</td><td>1.00</td><td>800.00</td><td></td><td>800.00</td></tr></table>\n\nกรุณาตรวจสอบสินค้าก่อนนำไปใช้งานหรือภายใน 3 วัน มิฉะนั้นทางบริษัทฯ จะไม่รับผิดชอบความเสียหายที่เกิดขึ้น ไม่ว่ากรณีใด ๆ ทั้งสิ้น\n\nรวมราคาทั้งสิ้น TOTAL 800.00\nภาษีมูลค่าเพิ่ม VAT 56.00\nรวมเงินทั้งสิ้น GRAND TOTAL 856.00\n\nจำนวนเงิน / TOTAL AMOUNT IN WORDS (แปดร้อยห้าสิบหกบาทถ้วน)\n\nได้รับสินค้าจาก บริษัท เคพีเค คิวพลัส จำกัด ไว้แล้วในสภาพที่สมบูรณ์ถูกต้อง\nRECEIVED GOODS FROM KPK Q PLUS CO., LTD. THE UNDERTMENTIONED GOODS IN GOOD ORDER AND CONDITIONS.\n\nผู้รับสินค้า RECEIVED BY วันที่ DATE\nผู้ส่งสินค้า DELIVERED BY วันที่ DATE 8 1 69\n\nในนาม บริษัท เคพีเค คิวพลัส จำกัด FOR KPK Q PLUS CO., LTD.\n\nผู้มีอำนาจลงนาม AUTHORIZED SIGNATURE",
+    "char_count": 1804,
+    "word_count": 181,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ค่าเพลทไตดัทเปลี่ยนหน้าต่าง BT427A-0403 -0126",
+          "quantity": 1,
+          "unit_price": 800,
+          "total": 800
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 800,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 800,
+        "vat_rate": 7,
+        "vat_amount": 56,
+        "total": 856
+      },
+      "confidence_note": null
+    }
+  }
+}

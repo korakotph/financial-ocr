@@ -1,0 +1,55 @@
+{
+  "id": "190e0970-6cf1-44a7-8d69-6649e964494b",
+  "filename": "เอกสาร_invoice_page-0160.jpg",
+  "stored_filename": "20260418_125624_190e0970-6cf1-44a7-8d69-6649e964494b_เอกสาร_invoice_page-0160.jpg",
+  "created_at": "2026-04-18T12:56:38.272904",
+  "ocr": {
+    "text": "WANJIN\nWANJIN TRADING CO., LTD. (Head Office)\n7/89 หมู่ 2 ตำบลพันท้ายนรสิงห์ อำเภอเมืองสมุทรสาคร จังหวัดสมุทรสาคร 74000\n7/89 M.2 T.Pantainorasingh, A,Muang Samut Sakhon, Samut Sakhon 74000\nTEL : 034-410-588, 099-095-5529 FAX : 034-410-589 เลขประจำตัวผู้เสียภาษีอากร 0105558063181\nWebsite: www.wanjintrading.com E-mail: wanjinthai@gmail.com\n\nTAX INVOICE/DELIVERY ORDER ORIGINAL\n(เอกสารออกเป็นชุด)\n\nสำหรับลูกค้า\n\nลูกค้า : บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)\nCustomer 77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่\nอำเภอปากเกร็ด จ.นนทบุรี 11120\n0955541841\nเลขประจำตัวผู้เสียภาษี 0105548117733\n\nเลขที่ : IV6901061\nNo.\nวันที่ : 10/01/69\nDate\nรหัสลูกค้า : BT\nCustomer Code\n\nเงื่อนไข : 30 Condition\nวัน วันครบกำหนด : 09/02/69 Due Date\nใบสั่งซื้อเลขที่ : 6901/093 PO. No.\n\nพนักงานขาย : 00-ออฟฟิต Salesman\n\n<table><tr><td>รหัสสินค้า<br/>Item Code</td><td>รายการ<br/>Description</td><td>จำนวน<br/>Quantity</td><td>ราคา/หน่วย<br/>Unit/Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>1</td><td>02-GL กาวเม็ดเครื่องทำหูถุง</td><td>1,000.00กิโลกรัม</td><td>90.00</td><td>90,000.00</td></tr></table>\n\n(เก้าหมื่นหกพันสามร้อยบาทถ้วน).\n\n1. ได้รับสินค้าตามรายการข้างบนนี้ในสภาพเรียบร้อยและราคาถูกต้องเรียบร้อยแล้ว\n2. ในกรณีส่งมอบสินค้าแล้ว ให้ชำระเงินตามเงื่อนไข มิฉะนั้น ทางบริษัทฯ ขอสงวนสิทธิ์ที่จะคิดดอกเบี้ย\n\n<table><tr><td>จำนวนเงินรวม<br/>NET TOTAL</td><td>90,000.00</td></tr><tr><td>หัก ส่วนลด ............ %</td><td>0.00</td></tr><tr><td>DISC.</td><td></td></tr><tr><td>จำนวนเงิน<br/>SUB TOTAL</td><td>90,000.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม ......... %</td><td>6,300.00</td></tr><tr><td>VAT</td><td></td></tr><tr><td>รวมเงินทั้งสิ้น<br/>GRAND TOTAL</td><td>96,300.00</td></tr></table>\n\nผู้รับสินค้า Received By พนธุพร\nวันที่ Date 10/1/69\n\nผู้ส่งสินค้า Delivered By กิตติโชติ\nวันที่ Date /\n\nผู้จัดทำ Provider th\nวันที่ Date /\n\nผู้อนุมัติ Approvers ไพศาล\nวันที่ Date / /\n\n<page_number>1</page_number>",
+    "char_count": 1904,
+    "word_count": 143,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "02-GL กาวเม็ดเครื่องทำหูถุง",
+          "quantity": 1000,
+          "unit_price": 90,
+          "total": 90000
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 90000,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 90000,
+        "vat_rate": 7,
+        "vat_amount": 6300,
+        "total": 96300
+      },
+      "confidence_note": null
+    }
+  }
+}

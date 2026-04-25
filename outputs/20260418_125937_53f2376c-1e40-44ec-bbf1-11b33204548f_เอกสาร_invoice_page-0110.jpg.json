@@ -1,0 +1,55 @@
+{
+  "id": "53f2376c-1e40-44ec-bbf1-11b33204548f",
+  "filename": "เอกสาร_invoice_page-0110.jpg",
+  "stored_filename": "20260418_125937_53f2376c-1e40-44ec-bbf1-11b33204548f_เอกสาร_invoice_page-0110.jpg",
+  "created_at": "2026-04-18T13:00:18.758483",
+  "ocr": {
+    "text": "SR WINNER ENGINEERING\nหจก. เอส.อาร์. วินเนอร์ เอ็นจิเนียริง\n53/673 หมู่ 2 ถนนเสมาฟ้าคราม ตำบลดูคต\nอำเภอลำลูกกา จังหวัดปทุมธานี 12130\nโทร. 02-987-3505\nwww.srwinner.com\nเลขประจำตัวผู้เสียภาษี 0103552000851 สำนักงานใหญ่\n\nต้นฉบับ / ORIGINAL\nใบกำกับภาษี / ใบส่งสินค้า / ใบแจ้งหนี้\nTAX INVOICE / DELIVERY / INVOICE\nเอกสารออกเป็นชุด\n\nชื่อลูกค้า (NAME): บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)\n77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี\nโทรศัพท์ 02-090-2345-49\nโทรสาร 02-090-2350\nเลขประจำตัวผู้เสียภาษี 0105548117733\n\nเลขที่ใบกำกับภาษี: IV6901013\nวันที่: 06/01/2569\nเครดิต: 30 วัน ครบกำหนด: 05/02/2569\nเลขที่ใบสั่งซื้อ: PO6812/185\nพนักงานขาย: รุ่งโรจน์\n\n<table><tr><td>ลำดับ<br/>Item</td><td>รายการ<br/>Description</td><td>จำนวน<br/>Qty.</td><td>ราคาต่อหน่วย<br/>Unit Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>1</td><td>ค็อเตอร์ Stanley 10-175</td><td>10</td><td>200.00</td><td>2,000.00</td></tr></table>\n\nหมายเหตุ / Remark\n1. กรุณาสั่งจ่ายเช็คในนาม \"หจก. เอส.อาร์. วินเนอร์ เอ็นจิเนียริ่ง\"\nขีดคร่อม \"A/C PAYEE ONLY\" Payment by cheque in favour of \" SR WINNER ENGINEERING And cross \"A/C PAYEE ONLY\"\n2. ห้างฯ ขอสงวนสิทธิ์การเป็นเจ้าของสินค้าจนกว่าจะได้รับการชำระเงินเป็นที่เรียบร้อยแล้ว\n\nรวมเป็นเงิน 2,000.00\nหักส่วนลด 30% 600.00\nยอดหลังหักส่วนลด 1,400.00\nหัก เงินมัดจำ จำนวนเงินหลังหักเงินมัดจำ บวก VAT 7% 98.00\nจำนวนเงินทั้งสิ้น 1,498.00\n\nหนึ่งพันสี่ร้อยเก้าสิบแปดบาทถ้วน\n\nผู้รับสินค้า/Received By\nวันที่ ..../..../........\n\nผู้ส่งสินค้า/Delivery By\nวันที่ 6 / 1 / 69\n\nหจก. เอส.อาร์. วินเนอร์ เอ็นจิเนียริ่ง\nผู้รับมอบอำนาจ/Authorized Signature\nวันที่ 6 / 1 / 69",
+    "char_count": 1602,
+    "word_count": 146,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ค็อเตอร์ Stanley 10-175",
+          "quantity": 10,
+          "unit_price": 200.0,
+          "total": 2000.0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 2000.0,
+        "discount": {
+          "rate": null,
+          "amount": 2000.0,
+          "note": "หัก เงินมัดจำ"
+        },
+        "subtotal": 0.0,
+        "vat_rate": 7,
+        "vat_amount": 98.0,
+        "total": 1498.0
+      },
+      "confidence_note": null
+    }
+  }
+}

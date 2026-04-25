@@ -1,0 +1,55 @@
+{
+  "id": "b91a2367-dd42-4fca-9f70-3a155e06c641",
+  "filename": "เอกสาร_invoice_page-0007.jpg",
+  "stored_filename": "20260418_131017_b91a2367-dd42-4fca-9f70-3a155e06c641_เอกสาร_invoice_page-0007.jpg",
+  "created_at": "2026-04-18T13:10:32.961745",
+  "ocr": {
+    "text": "PRIMAX GENERAL CO.,LTD.\nHead Office 9/9 Moo 5 Phaholyothin Road,\nKlong - Neung, Klong Luang, Pathumthani 12120\nTel. 0-2516-4907-10 Fax : 0-2516-4906\n\nURS\nISO 9001\nUKAS MANAGEMENT SYSTEMS UKAS\n\nต้นฉบับใบกำกับภาษี/ใบส่งสินค้า\nORIGINAL TAX INVOICE/DELIVERY ORDER\n\nเลขที่ IV6901447 NO.\n\nเอกสารออกเป็นชุด\n\nเลขประจำตัวผู้เสียภาษีอากร 0105531060831\nสำหรับลูกค้า/CUSTOMER\n\nลูกค้า/ที่อยู่-NAME/ADDRESS\nบริษัท บราเธอร์ แอนด์ บราเฮอร์ จำกัด\n77/77 ม.3 ถนนศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nเลขประจำตัวผู้เสียภาษี 0105548117733 สำนักงานใหญ่\n\nรหัสลูกค้า ACCOUNT CODE 20130\nวันที่ DATE 26/01/69\nเงื่อนไขการชำระเงิน TERM OF PAYMENT วัน\nใบสั่งซื้อเลขที่ P/O.NO.OR6901/048\nสถานที่ส่ง DESTINATION เชียงราก\n\n<table><tr><td>รหัสสินค้า<br/>PRODUCT CODE</td><td>รายการ<br/>DESCRIPTION</td><td>จำนวน<br/>QUANTITY</td><td>หน่วยละ<br/>UNIT PRICE</td><td>จำนวนเงิน<br/>AMOUNT</td></tr><tr><td>20130-018-00</td><td>สัง34x65x35cm. ต้านA+B</td><td>200</td><td>32.00</td><td>6,400.00</td></tr></table>\n\nรวมเงิน TOTAL 6,400.00\nภาษีมูลค่าเพิ่ม VAT 7.0% 448.00\nยอดรวม NET TOTAL 6,848.00\n\nบาท BAHT (หกพันแปดร้อยสี่สิบแปดบาทถ้วน)\n\nได้รับสินค้าไว้ถูกต้องและเรียบร้อยแล้ว GOODS RECEIVED IN GOOD ORDER AND CONDITION\nผู้รับของ RECEIVED BY ภัทรนิตย์\nวันที่รับของ DATE 26/1/69\n\nกรรมสิทธิ์ในตัวสินค้า ยังคงเป็นของผู้ขายจนกว่าผู้ซื้อจะชำระเงินจนครบถ้วน\n\nผู้อนุมัติ APPROVED BY ภัทรนิตย์ วันที่ DATE 26/1/69\n\n70-6301 (ขอนแก่น)นายทศพล\nทะเบียนรถ/พนักงานขับรถ\n\nหมายเหตุ",
+    "char_count": 1432,
+    "word_count": 120,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "สัง34x65x35cm. ต้านA+B",
+          "quantity": 200,
+          "unit_price": 32.0,
+          "total": 6400.0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 6400.0,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 6400.0,
+        "vat_rate": 7,
+        "vat_amount": 448.0,
+        "total": 6848.0
+      },
+      "confidence_note": null
+    }
+  }
+}

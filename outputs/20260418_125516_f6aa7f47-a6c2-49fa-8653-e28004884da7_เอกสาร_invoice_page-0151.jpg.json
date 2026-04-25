@@ -1,0 +1,55 @@
+{
+  "id": "f6aa7f47-a6c2-49fa-8653-e28004884da7",
+  "filename": "เอกสาร_invoice_page-0151.jpg",
+  "stored_filename": "20260418_125516_f6aa7f47-a6c2-49fa-8653-e28004884da7_เอกสาร_invoice_page-0151.jpg",
+  "created_at": "2026-04-18T12:55:36.637572",
+  "ocr": {
+    "text": "TIB\nบริษัท ทีบี ยนต์สโตร์ จํากัด (สำนักงานใหญ่)\nTAX ID. 0105546042051\n\nใบกำกับภาษี/ใบส่งของ/ใบแจ้งหนี้\nORIGINAL\nTAX INVOICE/DELIVERY ORDER/INVOICE\n(สำหรับลูกค้า)\n\nเอกสารออกเป็นชุด\n09505\n\nชื่อ Name บริษัท บาเธอร์แอนด์ บาเธอร์ อ๊าคัน\nเลขประจำตัวผู้เสียภาษี Tax ID. 0105548117733\nที่อยู่ Address 77/77 ม.3 ถ.ศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nโทรศัพท์ Tel. 02-0902345-49 โทรสาร Fax. 02-0902350\n\nรหัสลูกค้า Code 00313\nใบสั่งซื้อเลขที่ P/O No. PO6812/234\nพนักงานขาย Salesman (เรณมาศ จรมาศ)\n\nเลขที่ No. IV6900125\nวันที่ Date 9/1/2569\nเงื่อนไขการชำระเงิน Term of Payment 30 วัน\n\n<table><tr><td>ที่ Item</td><td>รายการ Description</td><td>ปริมาณ Quantity</td><td>ราคา/หน่วย Unit Price</td><td>จำนวนเงิน Amount</td></tr><tr><td>1</td><td>ถุง IPP 63+5cm.x18cm.x0.15 (4.5x7\")</td><td>200.00 แผ่น</td><td>33.5000</td><td>6,700.00</td></tr></table>\n\nตัวอักษร IN LETTER\n(เจ็ดพันหนึ่งร้อยบาทถ้วน)\n\nรวมเงิน Sub Total 6,700.00\nภาษีมูลค่าเพิ่ม Vat 7.00% 469.00\nรวมเป็นเงินทั้งสิ้น Net Total 7,169.00\n\nหมายเหตุ : หากมีรายการสินค้าไม่ถูกต้อง โปรดแจ้งบริษัทฯ ทราบภายใน 7 วัน นับจากวันที่ได้รับสินค้า มิฉะนั้น บริษัทฯ จะไม่รับผิดชอบความเสียหายใด ๆ ทั้งสิ้น\nREMARK : Any queries, defects or shortages relating to goods on this ticket to be notified with in 7 days otherwise claims will not be entertained.\n: ได้รับสินค้าตามรายการข้างต้นไว้ถูกต้องในสภาพเรียบร้อยแล้ว โปรดลงชื่อประทับตรา\n: Received as per above in good order and condition, please stamp and approve.\n\nชำระโดย\n☐ เงินสด CASH\n☐ โอน T/T\n☐ เช็ค CHEQUE\n\nธนาคาร BANK\nสาขา BRANCH\nเลขที่ NO.\nวันที่ DATE\n\nผู้รับสินค้า/Received by\nวันที่/DATE 9/1/69\n\nผู้ส่งสินค้า/Delivered by\nวันที่/DATE 9/1/69\n\nผู้รับเงิน/Recipient\n\nผู้มีอำนาจลงนาม/Authorized Signature\nวันที่/DATE 9/1/69\n\nสินค้าตามรายการข้างต้น แม้จะได้ส่งมอบแก่ผู้ซื้อแล้วก็ยังเป็นทรัพย์สินของผู้ขาย จนกว่าผู้ซื้อได้ชำระเงินเรียบร้อยแล้ว",
+    "char_count": 1835,
+    "word_count": 182,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ถุง IPP 63+5cm.x18cm.x0.15 (4.5x7\")",
+          "quantity": 200,
+          "unit_price": 33.5,
+          "total": 6700
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 6700,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 6700,
+        "vat_rate": 7,
+        "vat_amount": 469,
+        "total": 7169
+      },
+      "confidence_note": null
+    }
+  }
+}

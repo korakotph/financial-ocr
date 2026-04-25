@@ -1,0 +1,61 @@
+{
+  "id": "4f32d47c-9c47-424f-aa77-b145c8559d9d",
+  "filename": "เอกสาร_invoice_page-0017.jpg",
+  "stored_filename": "20260418_131112_4f32d47c-9c47-424f-aa77-b145c8559d9d_เอกสาร_invoice_page-0017.jpg",
+  "created_at": "2026-04-18T13:11:32.967908",
+  "ocr": {
+    "text": "สำนักงานใหญ่ : 399/71 หมู่ 13 ตำบลราชาเทวะ อำเภอบางพลี จังหวัดสมุทรปราการ 10540\nโทรศัพท์ 02-101-4423, 086-399-4441, 099-774-6523\nโทรสาร 02-101-4424\n\nเลขประจำตัวผู้เสียภาษีอากร 0105552022377\n\nKPK Q PLUS\nHead Office : 399/71 Moo 13 Rachatawa,\nBangplee, Samutprakarn 10540\nTel : 02-101-4423, 086-399-4441, 099-774-6523\nFax : 02-101-4424\nE-mail : kpkq-plus@hotmail.com\nE-mail : diecuti@kpk-qplus.com\nE-mail : sale@kpk-qplus.com\nwww.kpk-qplus.com\n\nต้นฉบับใบกำกับภาษี ORIGINAL TAX INVOICE\nเอกสารออกเป็นชุด\n\nลูกค้า CUSTOMER บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\nเลขที่ 77/77 หมู่ 3 ถนนศรีสมาน ตำบลบ้านใหม่\nอำเภอปากเกร็ด จังหวัดนนทบุรี 11120\nสำนักงานใหญ่ เลขประจำตัวผู้เสียภาษี 0105548117733\n\n<table><tr><td>เลขที่ NO.</td><td>IV6901352</td><td>วันที่ DATE</td><td>26/01/69</td></tr><tr><td>เลขที่ใบสั่งซื้อ P/O NO.</td><td>OR6901/053</td><td>อัตราภาษีร้อยละ TAX RATE</td><td>7.00</td></tr><tr><td>เงื่อนไขการชำระเงิน PAYMENT TERM</td><td>30 วัน</td><td>วันครบกำหนด DUE DATE</td><td>25/02/69</td></tr></table><table><tr><td>ลำดับที่ ITEM</td><td>รายการ DESCRIPTION</td><td>จำนวน QUANTITY</td><td>หน่วยละ UNIT PRICE</td><td>ส่วนลด DISCOUNT</td><td>จำนวนเงิน AMOUNT</td></tr><tr><td>1</td><td>ค่าเพลทไดดัท CM428A-500-0126+ตัวเมีย</td><td>1.00</td><td>7,150.00</td><td></td><td>7,150.00</td></tr><tr><td>2</td><td>ค่าเพลทไดดัท CM429A-500-0126</td><td>1.00</td><td>5,750.00</td><td></td><td>5,750.00</td></tr></table>\n\nกรุณาตรวจสอบสินค้าก่อนนำไปใช้งานหรือภายใน 3 วัน มิฉะนั้นทางบริษัทฯ จะไม่รับผิดชอบความเสียหายที่เกิดขึ้น ไม่ว่ากรณีใด ๆ ทั้งสิ้น\n\n<table><tr><td>รวมราคาทั้งสิ้น TOTAL</td><td>12,900.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม VAT 7.00</td><td>903.00</td></tr><tr><td>รวมเงินทั้งสิ้น GRAND TOTAL</td><td>13,803.00</td></tr></table>\n\nจำนวนเงิน / TOTAL AMOUNT IN WORDS\n(หนึ่งหมื่นสามพันแปดร้อยสามบาทถ้วน)\n\nได้รับสินค้าจาก บริษัท เคพีเค คิวพลัส จำกัด ไว้แล้วในสภาพที่สมบูรณ์ถูกต้อง\nRECEIVED GOODS FROM KPK Q PLUS CO., LTD. THE UNDERMENTIONED GOODS IN GOOD ORDER AND CONDITIONS.\n\nผู้รับสินค้า RECEIVED BY นราณย์ วันที่ 26/01/69\nDATE\n\nผู้ส่งสินค้า DELIVERED BY วันที่ 26/01/69\nDATE\n\nในนาม บริษัท เคพีเค คิวพลัส จำกัด FOR KPK Q PLUS CO., LTD.\nผู้มีอำนาจลงนาม AUTHORIZED SIGNATURE  (handwritten signature)",
+    "char_count": 2194,
+    "word_count": 165,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "IV6901352",
+      "document_date": "26/01/69",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ค่าเพลทไดดัท CM428A-500-0126+ตัวเมีย",
+          "quantity": 1,
+          "unit_price": 7150,
+          "total": 7150
+        },
+        {
+          "name": "ค่าเพลทไดดัท CM429A-500-0126",
+          "quantity": 1,
+          "unit_price": 5750,
+          "total": 5750
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 12900,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 12900,
+        "vat_rate": 7,
+        "vat_amount": 903,
+        "total": 13803
+      },
+      "confidence_note": null
+    }
+  }
+}

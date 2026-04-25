@@ -1,0 +1,55 @@
+{
+  "id": "b0cc13dd-3c68-4ec5-a896-b9a6f5e7b718",
+  "filename": "เอกสาร_invoice_page-0119.jpg",
+  "stored_filename": "20260418_130123_b0cc13dd-3c68-4ec5-a896-b9a6f5e7b718_เอกสาร_invoice_page-0119.jpg",
+  "created_at": "2026-04-18T13:01:42.074254",
+  "ocr": {
+    "text": "K.S.PACKAGING CO., LTD.\nบริษัท เค.เอส.บรรจุภัณฑ์ จำกัด K.S. PACKAGING CO., LTD.\n\nเลขประจำตัวผู้เสียภาษีอากร 0135559003289\nสำนักงานใหญ่\n\nใบกำกับภาษี / ใบส่งสินค้า TAX INVOICE / INVOICE\n\nเอกสารออกเป็นชุด\nต้นฉบับสำหรับลูกค้า ORIGINAL - CUSTOMER\n\nลูกค้า BROTR Customer บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\n77/77 หมู่ 3 ถ.ศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nเลขประจำตัวผู้เสียภาษี/Tax ID. 0105548117733 สำนักงานใหญ่\nโทร/Tel. 02-0902345-49 แฟ็กซ์ 02-0902350\nอ้างอิง/Refer P06812/116\nขนส่งโดย/Transported by\n\nเลขที่ใบกำกับ IV6901006 Order No. :\nวันที่ Date : 07/01/69\nเครดิตเทอม Credit Term : 30วัน Date ครบกำหนด Due Date : 06/02/69\nเลขที่ใบสั่งขาย Sales Order No. SO6812012 ลวท. 09/12/68\nพนักงานขาย Saleman No. 0001-ออฟฟิศ\nเขตการขาย Sales Area\n\n<table><tr><td>ลำดับ<br/>No.</td><td>รหัสสินค้า/รายละเอียด<br/>Product Code/Description</td><td>จำนวน<br/>Quantity</td><td>หน่วยละ<br/>Unit Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>1</td><td>ก. ลูกฟูกอเนกประสงค์+ฝาหน้าต่าง 31x50. 7x9. 3cm.</td><td>2,972 ชุด</td><td>15.000</td><td>44,580.00</td></tr></table>\n\nได้รับสินค้าตามรายการข้างบนนี้ไว้ถูกต้อง และอยู่ในสภาพเรียบร้อยทุกประการ สินค้าตามใบส่งของนี้ แม้จะได้มอบแก่ผู้ซื้อแล้วก็ยังเป็นทรัพย์สินของผู้ขายจนกว่าผู้ซื้อจะชำระเงินให้แก่บริษัทจนครบถ้วน\n\nหมายเหตุ : กรุณาชำระเงินเช่า บัญชีธนาคารกรุงเทพ สาขาปทุมธานี ประเภทออมทรัพย์ เลขที่บัญชี 084-702-4437 หรือสั่งจ่ายเช็คในนาม \"บริษัท เค.เอส.บรรจุภัณฑ์ จำกัด\" เท่านั้น\n\n(สี่หมื่นเจ็ดพันเจ็ดร้อยบาทหกสิบสตางค์)\n\nรวมเป็นเงิน / Total 44,580.00\nหักส่วนลด / Discount 0.00\nยอดหลังหักส่วนลด / After Discount 44,580.00\nหักเงินมัดจำ / Deposit A1 0.00\nจำนวนเงินหลังหักมัดจำ / Amount after deposit 44,580.00\nจำนวนภาษีมูลค่าเพิ่ม / Vat 7.00 % 3,120.60\nจำนวนเงินรวมทั้งสิ้น / Grand Total 47,700.60\n\nผู้ส่งของ เดียว\nวันที่ 07/01/69\n\nผู้รับของ พนัยพร\nวันที่ 7/1/69\n\nผู้รับมอบอำนาจ อดุลลี\nวันที่ 07/01/69\n\nในนาม บริษัท เค.เอส.บรรจุภัณฑ์ จำกัด",
+    "char_count": 1885,
+    "word_count": 164,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ก. ลูกฟูกอเนกประสงค์+ฝาหน้าต่าง 31x50. 7x9. 3cm.",
+          "quantity": 2972,
+          "unit_price": 15.0,
+          "total": 44580.0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 44580.0,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 44580.0,
+        "vat_rate": 7,
+        "vat_amount": 3120.6,
+        "total": 47700.6
+      },
+      "confidence_note": null
+    }
+  }
+}

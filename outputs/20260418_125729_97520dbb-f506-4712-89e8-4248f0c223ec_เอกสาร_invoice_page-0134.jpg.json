@@ -1,0 +1,55 @@
+{
+  "id": "97520dbb-f506-4712-89e8-4248f0c223ec",
+  "filename": "เอกสาร_invoice_page-0134.jpg",
+  "stored_filename": "20260418_125729_97520dbb-f506-4712-89e8-4248f0c223ec_เอกสาร_invoice_page-0134.jpg",
+  "created_at": "2026-04-18T12:57:51.040652",
+  "ocr": {
+    "text": "ห้างหุ้นส่วนจำกัด สำนักพิมพ์ฟิสิกส์เซ็นเตอร์\nPHYSICS CENTER PRESS LIMITED PARTNERSHIP\nใบกำกับภาษีออกโดยสำนักงานใหญ่\n45, 47 ซอยจรัญสนิทวงศ์ 40 ถนนจรัญสนิทวงศ์ แขวงบางยี่ขัน เขตบางพลัด กรุงเทพฯ 10700\nโทร. 0-2433-7704-6, 0-2433-7755-7 โทรสาร 0-2433-7703\n\nต้นฉบับ (Original)\nใบกำกับภาษี / ใบแจ้งหนี้\nTAX INVOICE / INVOICE\n(เอกสารออกเป็นชุด)\n\n45, 47 Soi Charunsanitwong 40 Charunsanitwong Road Bangyeekhan Bangplad Bangkok 10700\nTel. 0-2433-7704-6, 0-2433-7755-7 Fax 0-2433-7703\nเลขประจำตัวผู้เสียภาษี 0103525004507\n\n<table><tr><td>รหัสลูกค้า<br/>Tax ID.</td><td>556<br/>0105548117733</td></tr><tr><td>ชื่อลูกค้า<br/>Name</td><td>บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่</td></tr><tr><td>ที่อยู่<br/>Address</td><td>77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120</td></tr></table>\n\nเลขที่ No. 2569/01053\nวันที่ Date 9/01/2569\n\nเงื่อนไขการชำระเงิน Credit Term 90 วัน\nกำหนดชำระเงิน Payment Due\n\n<table><tr><td>ลำดับที่<br/>Item</td><td>รายการ<br/>Description</td><td>จำนวนหน่วย<br/>Quantity</td><td>ราคาต่อหน่วย<br/>Unit Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>1</td><td>กระดาษน้ำตาล 70 แกรม หน้า 5 ซม. X 6000 เมตร</td><td>325</td><td>30.00</td><td>9,750.00</td></tr></table>\n\nPO6901/096\n\nได้ตรวจรับสินค้าตามรายการข้างต้นในสภาพที่ถูกต้องเรียบร้อยแล้ว\n(Received the above mentioned goods in good condition)\n\n<table><tr><td>มูลค่าสินค้า/บริการก่อนภาษี<br/>Total before VAT</td><td>9,750.00</td></tr><tr><td>ส่วนลด<br/>Discount</td><td>0.00%</td><td>0.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม<br/>VAT</td><td>7%</td><td>682.50</td></tr><tr><td>จำนวนเงินรวมทั้งสิ้น<br/>Net Total</td><td></td><td>10,432.50</td></tr></table>\n\nผู้รับสินค้า Signature พร้อม\nวันที่รับสินค้า Received Date 9/11/69\n\nหนึ่งหมื่นสี่ร้อยสามสิบสองบาทห้าสิบสตางค์\n\nผู้ส่งสินค้า Delivered by พร้อม\nผู้รับมอบอำนาจ Authorized Signature พร้อม",
+    "char_count": 1843,
+    "word_count": 118,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": "บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่",
+        "tax_id": "0105548117733",
+        "address": "77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120"
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "กระดาษน้ำตาล 70 แกรม หน้า 5 ซม. X 6000 เมตร",
+          "quantity": 325,
+          "unit_price": 30.0,
+          "total": 9750.0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 9750.0,
+        "discount": {
+          "rate": null,
+          "amount": 0.0,
+          "note": null
+        },
+        "subtotal": 9750.0,
+        "vat_rate": 7,
+        "vat_amount": 682.5,
+        "total": 10432.5
+      },
+      "confidence_note": null
+    }
+  }
+}

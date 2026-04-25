@@ -1,0 +1,55 @@
+{
+  "id": "076af797-8eff-4e7c-90a3-f5f85360a738",
+  "filename": "เอกสาร_invoice_page-0196.jpg",
+  "stored_filename": "20260418_125135_076af797-8eff-4e7c-90a3-f5f85360a738_เอกสาร_invoice_page-0196.jpg",
+  "created_at": "2026-04-18T12:51:53.975565",
+  "ocr": {
+    "text": "ต้นฉบับใบกำกับภาษี\nTAX INVOICE\n(เอกสารออกเป็นชุด)\n\nบริษัท พีเอ็มซี มิลเลนเนียม จำกัด\nPMC MILLENNIUM COMPANY LIMITED\n17/4 หมู่ 10 ต.คลองข่อย อ.ปากเกร็ด จ.นนทบุรี 11120 โทร. 0-2159-6323-5 แฟ็กซ์. 0-2159-6326\n17/4 Moo 10, Klongkhoi, Pakkreed, Nonthaburi 11120 LINE : prcmill, E-mail : prcmlennium@gmail.com\n\nสำนักงานใหญ่\nเลขประจำตัวผู้เสียภาษี 0125543007972\n\nรหัสลูกค้า (Customer Code) : 5403001\nชื่อลูกค้า (Name) : บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\nที่อยู่ (Address) : สำนักงานใหญ่ เลขที่ 77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลป้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120 โทร. 0 2090 2345 49 F.O 2090 2350\n\nเลขที่ (No.) : IV6968145\nวันที่ (Date) : 14/01/69\n\n<table><tr><td>เลขที่ใบสั่งซื้อ<br/>PURCHASE ORDER NO.</td><td>พนักงานขาย<br/>(SALESMAN)</td><td>เงื่อนไขการชำระเงิน<br/>(CREDIT TERM)</td><td>กำหนดการชำระเงิน<br/>(PAYMENT DUE)</td></tr><tr><td>P06811/287</td><td>0002-สุรางคนา0628463733</td><td>60 วัน</td><td>15/03/69</td></tr></table><table><tr><td>ลำดับที่<br/>(ITEM)</td><td>รายการ<br/>(DESCRIPTION)</td><td>จำนวนหน่วย<br/>(QUANTITY)</td><td>ราคาต่อหน่วย<br/>(UNIT PRICE)</td><td>จำนวนเงิน<br/>(AMOUNT)</td></tr><tr><td>1</td><td>P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.)</td><td>500 กก</td><td>36.50</td><td>18,250.00</td></tr></table>\n\nหมายเหตุ :\n1. ใบกำกับภาษีไม่ถูกต้อง โปรดแจ้งแก้ไขภายใน 7 วันหากพ้นกำหนดแล้วจะไม่รับผิดชอบใด ๆ ทั้งสิ้น\n2. กรุณาชำระเช็ค(ขีดคร่อม)/โอนเงิน ในนาม บริษัท พีเอ็มซี มิลเลนเนียม จำกัด เท่านั้น บริษัทจะคิดดอกเบี้ยในอัตราร้อยละ 1.25 ต่อเดือน หากชำระเกินกำหนด แจ้งหลักฐานการชำระเงิน LINE:prcmill หรือ E-mail:pmcmlennium@gmail.com\n3. ของทางการโอนเงิน ธนาคารกรุงเทพ เลขที่บัญชี : 207-0-745035 สาขาห้าแยกปากเกร็ด ธนาคารกสิกรไทย เลขที่บัญชี : 470-2-555898 สาขาถนนแจ้งวัฒนะ\n\nมูลค่าสินค้า/บริการก่อนภาษี\n(TOTAL BEFORE VAT)\n18,250.00\n\nภาษีมูลค่าเพิ่ม\n(VAT)\n7.00\n1,277.50\n\n(ตัวอักษร) ( หนึ่งหมื่นเก้าพันห้าร้อยยี่สิบเจ็ดบาทห้าสิบสตางค์ )\n\nจำนวนเงินรวมทั้งสิ้น\n(NET TOTAL)\n19,527.50\n\nได้ตรวจรับสินค้าตามรายการข้างต้น ในสภาพที่ถูกต้องเรียบร้อยแล้ว\n(Received the above mentioned Goods in good condition)\n\nลงชื่อผู้รับสินค้า Signature พร้อมลายเซ็น\nวันที่รับสินค้า Received Date 14/1/69\n\nผู้มีอำนาจลงนาม  (handwritten signature) \n(Authorized Signature)\n\n04145",
+    "char_count": 2182,
+    "word_count": 171,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": "P06811/287",
+      "document_date": "15/03/69",
+      "seller": {
+        "name": "0002-สุรางคนา0628463733",
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.)",
+          "quantity": 500,
+          "unit_price": 36.5,
+          "total": 18250
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 18250,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 18250,
+        "vat_rate": 7,
+        "vat_amount": 1277.5,
+        "total": 19527.5
+      },
+      "confidence_note": null
+    }
+  }
+}

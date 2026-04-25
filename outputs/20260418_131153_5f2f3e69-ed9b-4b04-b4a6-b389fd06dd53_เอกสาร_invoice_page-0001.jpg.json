@@ -1,0 +1,55 @@
+{
+  "id": "5f2f3e69-ed9b-4b04-b4a6-b389fd06dd53",
+  "filename": "เอกสาร_invoice_page-0001.jpg",
+  "stored_filename": "20260418_131153_5f2f3e69-ed9b-4b04-b4a6-b389fd06dd53_เอกสาร_invoice_page-0001.jpg",
+  "created_at": "2026-04-18T13:12:16.761527",
+  "ocr": {
+    "text": "สำนักงานใหญ่ : 488 หมู่ที่ 7 ต.ท่าตูม อ.ศรีมหาโพธิ จ.ปราจีนบุรี 25140\nสาขาที่ 00001 : 162 หมู่ที่ 4 ต.ผักกะ อ.วัฒนานคร จ.สระแก้ว 27160\nโทรศัพท์ (037) 481 120 โทรสาร (037) 481 121\nเลขประจำตัวผู้เสียภาษีอากร 0255552000411\nสาขาที่ออกใบกำกับภาษี คือ สำนักงานใหญ่\n\nต้นฉบับใบกำกับภาษี/ใบส่งของ/ใบแจ้งหนี้\nORIGINAL TAX INVOICE/DELIVERY ORDER/INVOICE เลขที่ No. IV6901210\n\nชื่อลูกค้า Name บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\nที่อยู่ Address 77/77 หมู่ที่ 3 ถนนศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nเลขประจำตัวผู้เสียภาษี 0105548117733\nสำนักงานใหญ่\n\n<table><tr><td>รหัสลูกค้า<br/>CUST.NO.</td><td>วัน/เดือน/ปี<br/>DATE</td><td>เงื่อนไขชำระเงิน<br/>TERMS</td><td>วันครบกำหนดชำระเงิน<br/>Due date</td><td>งานเลขที่<br/>JOB NO.</td><td>ใบสั่งซื้อเลขที่<br/>GUST.ORDER NO.</td><td>พนักงานขาย<br/>SALESMAN NAME</td><td>อัตราภาษีร้อยละ<br/>TAX RATE</td></tr><tr><td>0C 6</td><td>15/01/69</td><td>30</td><td>14/02/69</td><td>S06900117</td><td>P06901/069</td><td>00001-โรงงาน</td><td>7.00</td></tr></table><table><tr><td>รหัสสินค้า<br/>PROD.NO.</td><td>รายการสินค้า<br/>DESCRIPTION</td><td>จำนวนหน่วย<br/>QUANTITY UNIT</td><td>ราคาต่อหน่วย<br/>UNIT PRICE</td><td>จำนวนเงิน (ไม่รวมภาษี)<br/>AMOUNT (WITH OUT TAX)</td></tr><tr><td>11067-SS090</td><td>E00013 ม้วนพลาสติกopp20//CPP30 ขนาด 580mm. *500m.</td><td>30.000</td><td>1,590.0000</td><td>47,700.00</td></tr></table>\n\n(ห้าหมื่นหนึ่งพันสามสิบเก้าบาทถ้วน)\n\nรวมราคาทั้งสิ้น TOTAL AMOUNT 47,700.00\nจำนวนภาษีมูลค่าเพิ่ม VALUE ADDED TAX 3,339.00\nจำนวนเงินรวมทั้งสิ้น TOTAL AMOUNT 51,039.00\n\nบริษัทฯ จะคิดดอกเบี้ย 1.5% ต่อเดือน และค่าใช้จ่ายอื่นๆ เมื่อชำระบิลเกินกำหนด เมื่อได้รับสิ่งของตามรายการข้างบนนี้ถูกต้อง ในสภาพดีเรียบร้อย และยอมรับเงื่อนไขการชำระเงินข้างบน\n\nผู้รับสินค้า/วันที่ Receiver/Date\nจัดส่งโดย Delivery By\nสุดารัตน์\nออกโดย Made Out\nเจ้าหน้าที่ผู้ได้รับมอบอำนาจ Authorized Signature\n\nต้นฉบับสีขาว : ลูกค้า สำเนาสีเหลือง : ลูกค้า สำเนาสีเขียว : วางบิล สำเนาสีฟ้า : บัญชี สำเนาสีชมพู : บัญชี",
+    "char_count": 1942,
+    "word_count": 127,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "P06901/069",
+      "document_date": "15/01/69",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": "0C 6",
+        "address": null
+      },
+      "receiver": {
+        "name": "00001-โรงงาน",
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "E00013 ม้วนพลาสติกopp20//CPP30 ขนาด 580mm. *500m.",
+          "quantity": 30,
+          "unit_price": 1590,
+          "total": 47700
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 47700,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 47700,
+        "vat_rate": 7,
+        "vat_amount": 3339,
+        "total": 51039
+      },
+      "confidence_note": null
+    }
+  }
+}

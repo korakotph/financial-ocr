@@ -1,0 +1,55 @@
+{
+  "id": "e382eaf3-cee5-404b-9952-cf16520e87df",
+  "filename": "เอกสาร_invoice_page-0122.jpg",
+  "stored_filename": "20260418_125638_e382eaf3-cee5-404b-9952-cf16520e87df_เอกสาร_invoice_page-0122.jpg",
+  "created_at": "2026-04-18T12:57:01.608132",
+  "ocr": {
+    "text": "TOYOTA (THAILAND) CO., LTD.\n34/1 SOI SERITHAI 58,\nMINBURI SUB-DISTRICT, MINBURI DISTRICT, BANGKOK 10510\nTEL : (662)906-3315, (662)517-0143 FAX: (662)919-8610, (662)518-3003\n\n(เอกสารออกเป็นชุด)\nเลขประจำตัวผู้เสียภาษี\n0105514005339\n\nขายให้ / SOLD TO\nบจก.บราเธอร์ แอนด์ บราเธอร์\n77/77 หมู่ที่ 3 ถ.ศรีสมาน\nต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี\n\nต้นฉบับใบกำกับภาษี/ORIGINAL TAX INVOICE\nสถานที่ส่ง / SHIP TO\nจุดรับสินค้าใหม่\n\nP. 1/1 14:42:24\n\nZAA J\n\nORDER NO. 1001646612\nDeliv.NO. 2002134488\nINVOICE NO. 9T12610346\n\n11120 02-0902345 (สำนักงานใหญ่) TAX ID:0105549117733\n\n<table><tr><td>รหัสลูกค้า / CUST. CODE</td><td>วันที่ / DATE</td><td>เทอม / TERMS</td><td>กำหนดชำระเงิน / DUE DATE</td><td>พนักงานขาย / SALESMAN</td><td>สกุลเงิน / CURRENCY</td></tr><tr><td>1000016360</td><td>08/01/26</td><td>Cash 20 days later</td><td>28/01/26</td><td>AA232088</td><td>THB 1.00000</td></tr></table><table><tr><td>เบล็งซื้อเลขที่ P.O. NO.</td><td>รหัส CODE</td><td>รายการสินค้า DESCRIPTION</td><td>บรรจุ PACKING</td><td>จำนวน QUANTITY</td><td>หน่วย UNIT</td><td>ราคาต่อหน่วย UNIT PRICE</td><td>จำนวนเงิน AMOUNT</td></tr><tr><td>P06812/308</td><td>M11076043 T32</td><td>CK SP ECD 47620 MAGENTA PROC 112610701 (9.000)</td><td>1.000<br/>9.000<br/>9.000 MFC.<br/>DATE :06/01/26</td><td>9.000 KG</td><td></td><td>240.00</td><td>2,160.00</td></tr></table>\n\nCOA\nP.O.(1)\n\n<table><tr><td>ส่วนลด (DISCOUNT)</td><td></td></tr><tr><td>รวมราคา (TOTAL)</td><td>2,160.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม (VAT 7%)</td><td>161.20</td></tr><tr><td>รวมเงินทั้งสิ้น (NET TOTAL)</td><td>2,311.20</td></tr></table>\n\n(ตัวอักษร) สองพันสามร้อยสิบเอ็ดบาทยี่สิบสตางค์\n\n1) ได้รับสินค้าตามรายการข้างบนนี้ถูกต้องเรียบร้อยแล้ว\n2) สินค้าตามใบส่งนี้ หากมีการแตกร้าวหรือขาดตกบกพร่องประการใด โปรดแจ้งให้ทางบริษัททราบภายใน 3 วัน\n3) กรณีชำระเงินเกินกว่ากำหนดที่ตกลงไว้ ต้องเสียดอกเบี้ยตามอัตรา ที่กฎหมายกำหนดไว้\n\nในนาม บริษัท โตโยต้า (ประเทศไทย) จำกัด\nFOR TOYO INK (THAILAND) CO., LTD.\n\nผู้รับสินค้า (ประทับตราถ้ามี)\nวันที่ 8/1/60 เวลา ............ น.\n\nผู้ส่งสินค้า SENT BY\n\n\nผู้ตรวจสอบ CHECKED BY\n\nR . TR-K BANK",
+    "char_count": 2050,
+    "word_count": 155,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "P06812/308",
+      "document_date": "2026-01-08",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": "1000016360",
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "CK SP ECD 47620 MAGENTA PROC 112610701 (9.000)",
+          "quantity": 9,
+          "unit_price": 240,
+          "total": 2160
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 2160,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 2160,
+        "vat_rate": 7,
+        "vat_amount": 161.2,
+        "total": 2311.2
+      },
+      "confidence_note": null
+    }
+  }
+}

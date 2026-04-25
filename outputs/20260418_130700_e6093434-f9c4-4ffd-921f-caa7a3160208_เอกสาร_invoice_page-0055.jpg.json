@@ -1,0 +1,55 @@
+{
+  "id": "e6093434-f9c4-4ffd-921f-caa7a3160208",
+  "filename": "เอกสาร_invoice_page-0055.jpg",
+  "stored_filename": "20260418_130700_e6093434-f9c4-4ffd-921f-caa7a3160208_เอกสาร_invoice_page-0055.jpg",
+  "created_at": "2026-04-18T13:07:47.993268",
+  "ocr": {
+    "text": "บริษัท พีเอ็มซี มิลเลนเนียม จำกัด\nPMC MILLENNIUM COMPANY LIMITED\n17/4 Moo 10, Klongkhoi, Pakkred, Nonthaburi 11120\nโทร. 0-2159-6323-5 แฟ็กซ์. 0-2159-6326\n17/4 Moo 10, Klongkhoi, Pakkred, Nonthaburi 11120 LINE : pmcmlll, E-mail : pmcmlennium@gmail.com\n\nต้นฉบับใบกำกับภาษี\nTAX INVOICE\n(เอกสารออกเป็นชุด)\n\nสำนักงานใหญ่\nเลขประจำตัวผู้เสียภาษี 0125543007972\n\n<table><tr><td>รหัสลูกค้า (Customer Code)</td><th colspan=\"2\">5403001<td>เลขประจำตัวผู้เสียภาษี 0105548117733</td></th></tr><tr><td>ชื่อลูกค้า (Name)</td><td colspan=\"2\">บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด</td><td></td></tr><tr><td>ที่อยู่ (Address)</td><td colspan=\"2\">สำนักงานใหญ่ เลขที่ 77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120</td><td></td></tr></table>\n\nเลขที่ (No.) : IV6968393\nวันที่ (Date) : 29/01/69\n\nส่งวาง+ในเสร็จ/โดย BBL\n\n<table><tr><td>เลขที่ใบสั่งซื้อ<br/>PURCHASE ORDER NO.</td><td>พนักงานขาย<br/>(SALESMAN)</td><td>เงื่อนไขการชำระเงิน<br/>(CREDIT TERM)</td><td>กำหนดการชำระเงิน<br/>(PAYMENT DUE)</td></tr><tr><td>OR6901/032</td><td>0002-สุรางคนา0628683733</td><td>60 วัน</td><td>30/03/69</td></tr></table><table><tr><td>ลำดับที่<br/>(ITEM)</td><td>รายการ<br/>(DESCRIPTION)</td><td>จำนวนหน่วย<br/>(QUANTITY)</td><td>ราคาต่อหน่วย<br/>(UNIT PRICE)</td><td>จำนวนเงิน<br/>(AMOUNT)</td></tr><tr><td>1</td><td>P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.)</td><td>500 กก</td><td>35.50</td><td>17,750.00</td></tr></table>\n\nหมายเหตุ :\n1. ใบกำกับภาษีไม่ถูกต้อง โปรดแจ้งแก้ไขภายใน 7 วัน หากพ้นกำหนดแล้วจะไม่รับผิดชอบใด ๆ ทั้งสิ้น\n2. กรุณาชำระเช็ค(ขีดคร่อม)/โอนเงิน ในนาม บริษัท พีเอ็มซี มิลเลนเนียม จำกัด เท่านั้น บริษัทจะคิดดอกเบี้ยในอัตราร้อยละ 1.25 ต่อเดือน หากชำระเกินกำหนด แจ้งหลักฐานการชำระเงิน LINE:pmcmlll หรือ E-mail:pmcmlennium@gmail.com\n3. ช่องทางการโอนเงิน ธนาคารกรุงเทพ เลขที่บัญชี : 207-0-745035 สาขาทำแยกปากเกร็ด ธนาคารกสิกรไทย เลขที่บัญชี : 470-2-555898 สาขาถนนแจ้งวัฒนะ\n\n<table><tr><td>มูลค่าสินค้า/บริการก่อนภาษี<br/>(TOTAL BEFORE VAT)</td><td>17,750.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม 7.00%<br/>(VAT)</td><td>1,242.50</td></tr><tr><td>**จำนวนเงินรวมทั้งสิ้น<br/>(NET TOTAL)**</td><td>**18,992.50**</td></tr></table>\n\n(หนึ่งหมื่นแปดพันเก้าร้อยเก้าสิบสองบาทห้าสิบสตางค์).\n\nได้ตรวจรับสินค้าตามรายการข้างต้น ในสภาพที่ถูกต้องเรียบร้อยแล้ว\n(Received the above mentioned Goods in good condition)\n\nลงชื่อผู้รับสินค้า Signature\nผู้ส่งสินค้า 29 / 1 / 67\nวันที่รับสินค้า Received Date 29 / 1 / 67\n\nผู้มีอำนาจลงนาม Authorized Signature\n04393",
+    "char_count": 2440,
+    "word_count": 158,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "OR6901/032",
+      "document_date": "30/03/69",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": "บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด",
+        "tax_id": "0105548117733",
+        "address": "สำนักงานใหญ่ เลขที่ 77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120"
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.)",
+          "quantity": 500,
+          "unit_price": 35.5,
+          "total": 17750
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 17750,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 17750,
+        "vat_rate": 7,
+        "vat_amount": 1242.5,
+        "total": 18992.5
+      },
+      "confidence_note": null
+    }
+  }
+}

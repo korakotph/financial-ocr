@@ -1,0 +1,67 @@
+{
+  "id": "0f1ae37b-2288-4713-80e3-71f57613810a",
+  "filename": "เอกสาร_invoice_page-0088.jpg",
+  "stored_filename": "20260418_130142_0f1ae37b-2288-4713-80e3-71f57613810a_เอกสาร_invoice_page-0088.jpg",
+  "created_at": "2026-04-18T13:02:13.493349",
+  "ocr": {
+    "text": "ห้างหุ้นส่วนจำกัด สำนักพิมพ์ฟิสิกส์เซ็นเตอร์\nPHYSICS CENTER PRESS LIMITED PARTNERSHIP\nใบกำกับภาษีออกโดยสำนักงานใหญ่\n45, 47 ซอยจรัญสนิทวงศ์ 40 ถนนจรัญสนิทวงศ์ แขวงบางยี่ขัน เขตบางพลัด กรุงเทพฯ 10700\nโทร. 0-2433-7704-6, 0-2433-7755-7 โทรสาร 0-2433-7703\n\nต้นฉบับ (Original)\nใบกำกับภาษี / ใบแจ้งหนี้\nTAX INVOICE / INVOICE\n(เอกสารออกเป็นชุด)\n\n45, 47 Soi Charunsanitwong 40 Charunsanitwong Road Bangyeekhan Bangplad Bangkok 10700\nTel. 0-2433-7704-6, 0-2433-7755-7 Fax 0-2433-7703\nเลขประจำตัวผู้เสียภาษี 0103525004507\n\n<table><tr><td>รหัสลูกค้า<br/>Tax ID.</td><td>556<br/>0105548117733</td></tr><tr><td>ชื่อลูกค้า<br/>Name</td><td>บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่</td></tr><tr><td>ที่อยู่<br/>Address</td><td>77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลป่านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120</td></tr></table>\n\nเลขที่ No. 2569/01024\nวันที่ Date 5/01/2569\n\nเงื่อนไขการชำระเงิน Credit Term 90 วัน\nกำหนดชำระเงิน Payment Due\n\n<table><tr><td>ลำดับที่<br/>Item</td><td>รายการ<br/>Description</td><td>จำนวนหน่วย<br/>Quantity</td><td>ราคาต่อหน่วย<br/>Unit Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>1</td><td>G-ถุงกระดาษน้ำตาลทูเกลียว 19x13x21 ซม.</td><td>25,000</td><td>3.00</td><td>75,000.00</td></tr><tr><td>2</td><td>G-ซองกระดาษน้ำตาลขยายช่าง 12x4.5x12 ซม.,100 ใบ</td><td>300,000</td><td>0.28</td><td>84,000.00</td></tr><tr><td>3</td><td>G-ถุงกระดาษขาวทูเกลียว 19x13x21 ซม.</td><td>5,000</td><td>3.60</td><td>18,000.00</td></tr><tr><td colspan=\"4\">PO6812/160</td><td></td></tr></table>\n\nได้ตรวจรับสินค้าตามรายการข้างต้นในสภาพที่ถูกต้องเรียบร้อยแล้ว\n(Received the above mentioned goods in good condition)\n\n<table><tr><td>มูลค่าสินค้า/บริการก่อนภาษี<br/>Total before VAT</td><td>177,000.00</td></tr><tr><td>ส่วนลด<br/>Discount</td><td>0.00%</td><td>0.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม<br/>VAT</td><td>7%</td><td>12,390.00</td></tr><tr><td>จำนวนเงินรวมทั้งสิ้น<br/>Net Total</td><td></td><td>189,390.00</td></tr></table>\n\nผู้รับสินค้า Signature พร้อม\nวันที่รับสินค้า Received Date 5/11/69\n\nผู้ส่งสินค้า Delivered by ภนฺทวาส\n\nหนึ่งแสนแปดหมื่นเก้าพันสามร้อยเก้าสิบบาทถ้วน\n\nผู้รับมอบอำนาจ Authorized Signature\n\n\nแลกตัว",
+    "char_count": 2122,
+    "word_count": 117,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "PO6812/160",
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": "บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่",
+        "tax_id": "0105548117733",
+        "address": "77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลป่านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120"
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "G-ถุงกระดาษน้ำตาลทูเกลียว 19x13x21 ซม.",
+          "quantity": 25000,
+          "unit_price": 3.0,
+          "total": 75000.0
+        },
+        {
+          "name": "G-ซองกระดาษน้ำตาลขยายช่าง 12x4.5x12 ซม.,100 ใบ",
+          "quantity": 300000,
+          "unit_price": 0.28,
+          "total": 84000.0
+        },
+        {
+          "name": "G-ถุงกระดาษขาวทูเกลียว 19x13x21 ซม.",
+          "quantity": 5000,
+          "unit_price": 3.6,
+          "total": 18000.0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 177000.0,
+        "discount": {
+          "rate": null,
+          "amount": 0.0,
+          "note": null
+        },
+        "subtotal": 177000.0,
+        "vat_rate": 7,
+        "vat_amount": 12390.0,
+        "total": 189390.0
+      },
+      "confidence_note": null
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "6aa79a7f-f0be-43e0-9ae9-ad157aa80db9",
+  "filename": "เอกสาร_invoice_page-0018.jpg",
+  "stored_filename": "20260420_133614_6aa79a7f-f0be-43e0-9ae9-ad157aa80db9_เอกสาร_invoice_page-0018.jpg",
+  "created_at": "2026-04-20T13:36:34.820880",
+  "ocr": {
+    "text": "LOTUS PACK\nบริษัท โลตัส แพค จำกัด (สำนักงานใหญ่)\n595/9-595/10 หมู่ที่ 17 ซอย บางพลีพัฒนา ถ.เทพารักษ์ กม.24 ต.บางเสาธง อ.บางเสาธง จ.สมุทรปราการ 10570 เลขประจำตัวผู้เสียภาษี 0105542001181\nโทร 02-705-3688-9 แฟกซ์ 02-705-3690\n\n**ต้นฉบับ**\nใบกำกับภาษี/ใบแจ้งหนี้/ใบส่งของ\n\nลูกค้าบริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)\nที่อยู่ 77/77 หมู่ 3 ถ.ศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nเลขประจำตัวผู้เสียภาษี 0105548117733\nโทร 02-0902345-49\nบกคช 02-0902350\n\nเลขที่ IV6901090\nวันที่ 26/01/2026\nรหัสลูกค้า 10001\nใบสั่งซื้อ PO6901/226\nเครดิต เครดิต 60 วัน\n\n<table><tr><td>ลำดับ</td><td>รหัสสินค้า</td><td>รายการ</td><td>จำนวน</td><td>หน่วย</td><td>หน่วยละ</td><td>ส่วนลด</td><td>จำนวนเงิน</td></tr><tr><td>0001</td><td>A-12 (BRO) 1C</td><td>PAPER CUP 12 OZ (1000/CTN) พิมพ์ลาย</td><td>25,000</td><td>PCS</td><td>0.85</td><td></td><td>21,250.00</td></tr><tr><td>0002</td><td>BRO-01-6/ BRO-02-6</td><td>HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู</td><td>250,000</td><td>PCS</td><td>0.37</td><td></td><td>92,500.00</td></tr><tr><td>0003</td><td>W-00-390 (H) BRO</td><td>WHITE ICE-CREAM 390 CC (1000/CTN) ทรงสูง สีขาว</td><td>25,000</td><td>PCS</td><td>0.85</td><td></td><td>21,250.00</td></tr><tr><td>0004</td><td>A-08 (BRO)</td><td>PAPER CUP 8.0 OZ W/H (1000/CTN) ลายติดหู</td><td>50,000</td><td>PCS</td><td>0.73</td><td></td><td>36,500.00</td></tr></table>\n\nกรุณาสั่งจ่ายเช็คขีดคร่อมในนาม บริษัท โลตัส แพค จำกัด\n\nรวมเป็นเงิน 171,500.00\nภาษีมูลค่าเพิ่ม 7 % 12,005.00\nยอดเงินสุทธิ 183,505.00\n\n(หนึ่งแสนแปดหมื่นสามพันห้าร้อยห้าบาทถ้วน)\n\nสำหรับ บริษัท โลตัส แพค จำกัด\nผู้นำส่ง ประกายทานต์\nผู้บันทึก \nผู้จัดการ Jat\nผิดดอกเว้น E.&amp;O.E.\n\nข้าพเจ้าได้รับสินค้าตามรายการข้างต้นนี้ โดยครบถ้วนถูกต้อง และรับทราบเงื่อนไขต่างๆแล้ว\nผู้รับของ \nตัวบรรจง \nวันที่ 27/1/69",
+    "char_count": 1758,
+    "word_count": 121,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "PAPER CUP 12 OZ (1000/CTN) พิมพ์ลาย (A-12 (BRO) 1C)",
+          "unit": "PCS",
+          "quantity": 25000,
+          "unit_price": 0.85,
+          "total": 21250
+        },
+        {
+          "name": "HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู (BRO-01-6/ BRO-02-6)",
+          "unit": "PCS",
+          "quantity": 250000,
+          "unit_price": 0.37,
+          "total": 92500
+        },
+        {
+          "name": "WHITE ICE-CREAM 390 CC (1000/CTN) ทรงสูง สีขาว (W-00-390 (H) BRO)",
+          "unit": "PCS",
+          "quantity": 25000,
+          "unit_price": 0.85,
+          "total": 21250
+        },
+        {
+          "name": "PAPER CUP 8.0 OZ W/H (1000/CTN) ลายติดหู (A-08 (BRO))",
+          "unit": "PCS",
+          "quantity": 50000,
+          "unit_price": 0.73,
+          "total": 36500
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 0,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 171500,
+        "vat_rate": 7,
+        "vat_amount": 12005,
+        "total": 183505
+      },
+      "confidence_note": null
+    }
+  }
+}

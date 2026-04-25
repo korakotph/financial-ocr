@@ -1,0 +1,61 @@
+{
+  "id": "d5f8ad0b-2262-4aaa-b5d5-0da7325dde36",
+  "filename": "เอกสาร_invoice_page-0036.jpg",
+  "stored_filename": "20260418_130917_d5f8ad0b-2262-4aaa-b5d5-0da7325dde36_เอกสาร_invoice_page-0036.jpg",
+  "created_at": "2026-04-18T13:09:40.642374",
+  "ocr": {
+    "text": "K.S.PACKAGING CO., LTD.\nบจก เค.เอส.บรรจุภัณฑ์ จำกัด K.S. PACKAGING CO., LTD.\n7/19 ม.1 ต.ระแหง อ.ลาดหลุมแก้ว จ.ปทุมธานี 12140\n7/19 Moo 1 T.Rahang A.Lardlumkaew Patumtani 12140\nTel. 02-599-1799, 090-953-4222\n\nเลขประจำตัวผู้เสียภาษีอากร\n0135559003289\nสำนักงานใหญ่\n\nเอกสารออกเป็นชุด\nต้นฉบับสำหรับลูกค้า\nORIGINAL - CUSTOMER\n\nลูกค้า BROTR\nCustomer\nบริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\n77/77 หมู่ 3 ถ.ศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nเลขประจำตัวผู้เสียภาษี/Tax ID. 0105548117733 สำนักงานใหญ่\nโทร/Tel. 02-0902345-49 แฟ็กซ์ 02-0902350\nอ้างอิง/Refer P06901/151\nขนส่งโดย/Transported by\n\nเลขที่ใบกำกับ IV6901052\nOrder No. :\nวันที่ 27/01/69\nDate :\nเครดิตเทอม 30วัน ครบกำหนด 26/02/69\nCredit Term Date Due Date :\nเลขที่ใบสั่งขาย SO6901016\nSales Order No. ลวท. 14/01/69\nพนักงานขาย Saleman No. 0001-ออฟฟิศ\nเขตการขาย Sales Area\n\n<table><tr><td>ลำดับ<br/>No.</td><td>รหัสสินค้า/รายละเอียด<br/>Product Code/Description</td><td>จำนวน<br/>Quantity</td><td>หน่วยละ<br/>Unit Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>1</td><td>กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm.</td><td>600กล่อง</td><td>31.000</td><td>18,600.00</td></tr><tr><td>2</td><td>บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 40x60x41 cm.</td><td>1 ชุด</td><td>1,600.000</td><td>1,600.00</td></tr></table>\n\nได้รับสินค้าตามรายการข้างบนนี้ไว้ถูกต้อง และอยู่ในสภาพเรียบร้อยทุกประการ สินค้าตามใบส่งของนี้ แม้จะได้มอบแก่ผู้ซื้อแล้วก็ยังเป็นทรัพย์สินของผู้ขายจนกว่าผู้ซื้อจะชำระเงินให้แก่บริษัทจนครบถ้วน\n\nหมายเหตุ : กรุณาชำระเงินเช็ค บัญชีธนาคารกรุงเทพ สาขาปทุมธานี ประเภทออมทรัพย์ เลขที่บัญชี 084-702-4437 หรือสั่งจ่ายเช็คในนาม \"บริษัท เค.เอส.บรรจุภัณฑ์ จำกัด\" เท่านั้น\n\n(สองหมื่นหนึ่งพันหกร้อยสิบสี่บาทถ้วน)\n\nรวมเป็นเงิน / Total 20,200.00\nหักส่วนลด / Discount 0.00\nยอดหลังหักส่วนลด / After Discount 20,200.00\nหักเงินมัดจำ / Deposit AI 0.00\nจำนวนเงินหลังหักมัดจำ / Amount after deposit 20,200.00\nจำนวนภาษีมูลค่าเพิ่ม / Vat 7.00 % 1,414.00\nจำนวนเงินรวมทั้งสิ้น / Grand Total 21,614.00\n\nผู้ส่งของ วัลลภ\nวันที่ 29/01/69\n\nผู้รับของ เกรียงไกร\nวันที่ /\n\nในนาม บริษัท เค.เอส.บรรจุภัณฑ์ จำกัด\n\nผู้รับมอบอำนาจ วัลลภ\nวันที่ 29/01/69",
+    "char_count": 2059,
+    "word_count": 176,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm.",
+          "quantity": 600,
+          "unit_price": 31.0,
+          "total": 18600.0
+        },
+        {
+          "name": "บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 40x60x41 cm.",
+          "quantity": 1,
+          "unit_price": 1600.0,
+          "total": 1600.0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 20200.0,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 20200.0,
+        "vat_rate": 7,
+        "vat_amount": 1414.0,
+        "total": 21614.0
+      },
+      "confidence_note": null
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "772210fa-bd76-4f3c-a104-9b76c144da13",
+  "filename": "เอกสาร_invoice_page-0086.jpg",
+  "stored_filename": "20260418_130138_772210fa-bd76-4f3c-a104-9b76c144da13_เอกสาร_invoice_page-0086.jpg",
+  "created_at": "2026-04-18T13:02:07.673614",
+  "ocr": {
+    "text": "บริษัท ฐิติชัยแก๊ส แอนด์ อ๊อกซิเย่น จำกัด (สำนักงานใหญ่)\nTHITICHAGAS &amp; OXYGEN CO.,LTD. (HEAD OFFICE)\n211/1 หมู่ 6 ถนนรังสิต-ปทุมธานี ซอย 37 ตำบลบางพูน อำเภอเมืองปทุมธานี จังหวัดปทุมธานี 12000\n211/1 Moo 6, Rangsit-Pathamthani Rd., Soi 37, T.Bangpoon, A.MuangPatumthani, Pathumthani 12000\nโทร. 02-567-4000 , 02-567-5588 , 02-567-2535-6 แฟกซ์. 02-958-8561\nWebsite : http://www.tco.co.th E-mail : Bangpoon@live.com\n\nORIGINAL TAX INVOICE\nเอกสารออกเป็นชุด\nเลขประจำตัวผู้เสียภาษี 0135541001861\n\nรหัสลูกค้า Code: บ0035\nนามลูกค้า Name: บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\nที่อยู่ Address: 77/77 หมู่ 3 ถ.ศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120\nหมายเหตุ Remark: ch\nสำนักงานใหญ่\nเลขประจำตัวผู้เสียภาษี Tax ID.: 0105548117733\n\nวันที่ Date: 23/12/2568\nเลขที่ใบกำกับ Order No.: IV68-12-0280\nพนักงานขาย Salesman No.: ชนิตา\nกำหนดชำระเงิน Term: เงินสด\nครบกำหนด Due Date:\nเลขที่ใบสั่งซื้อ Purchase Order No.:\n\n<table><tr><td>รหัสสินค้า Product Code</td><td>รายละเอียด Description</td><td>จำนวน Quantity</td><td>หน่วยละ Unit</td><td>ส่วนลด Discount</td><td>จำนวนเงิน Amount</td></tr><tr><td>4SLPG00000080</td><td>แก๊ส LPG 15 กก. 2 วาล์ว (ฟอร์คลิฟท์)</td><td>2 ถัง</td><td>462.00</td><td></td><td>924.00</td></tr></table>\n\nปตท. ก๊าซหุงต้ม\n\nHARRIS\nSUNMI\nผิด ตก ยกเว้น E. &amp; O.E.\n\nเก้าร้อยแปดสิบแปดบาทหกสิบแปดสตางค์\n\nชำระเงินโดย :\n( ) เงินสด\n( ) ชำระโดยเช็ค สาขา เลขที่ ลงวันที่\n( ) โอนเงินเข้าบัญชี บจก.ฐิติชัยแก๊ส แอนด์ อ๊อกซิเย่น / ธ.กสิกรไทย 183-1-05896-6\n(ในกรณีชำระเงินด้วยเช็ค โปรดสั่งจ่ายและขีดคร่อม ในนาม บริษัท ฐิติชัยแก๊ส แอนด์ อ๊อกซิเย่น จำกัด เท่านั้น)\n\nราคาสินค้า Sub Total: 924.00\nภาษีมูลค่าเพิ่ม V.A.T. 7.00%: 64.68\nราคาสินค้ารวมภาษี Net Total: 988.68\n\nผู้รับของ / Receiver: \nได้รับสินค้าตามรายการถูกต้องแล้ว\nวันที่ / Date: \n\nผู้ส่งของ / Delivered By: พธ\nวันที่ / Date: \n\nผู้รับเงิน / Collector:\nวันที่ / Date: \n\nผู้จัดการ / Manager: ชนิตา\nวันที่ / Date: 23/12/68",
+    "char_count": 1881,
+    "word_count": 198,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "แก๊ส LPG 15 กก. 2 วาล์ว (ฟอร์คลิฟท์)",
+          "quantity": 2,
+          "unit_price": 462,
+          "total": 924
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 924,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 924,
+        "vat_rate": 7,
+        "vat_amount": 64.68,
+        "total": 988.68
+      },
+      "confidence_note": null
+    }
+  }
+}

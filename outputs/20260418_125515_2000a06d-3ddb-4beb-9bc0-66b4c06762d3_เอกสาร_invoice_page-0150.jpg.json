@@ -1,0 +1,55 @@
+{
+  "id": "2000a06d-3ddb-4beb-9bc0-66b4c06762d3",
+  "filename": "เอกสาร_invoice_page-0150.jpg",
+  "stored_filename": "20260418_125515_2000a06d-3ddb-4beb-9bc0-66b4c06762d3_เอกสาร_invoice_page-0150.jpg",
+  "created_at": "2026-04-18T12:55:36.796189",
+  "ocr": {
+    "text": "S&amp;P SANSIN PRINTING MACHINE MATERIAL (THAILAND) CO.,LTD.\n30/25 หมู่ที่ 1 นิคมอุตสาหกรรมสินสาคร ถนนเจษฎาวิถี ตำบลโคกขาม อำเภอเมืองสมุทรสาคร จังหวัดสมุทรสาคร 74000\n\nTel. 034-446911 แฟกซ์. 034-446922\nเลขประจำตัวผู้เสียภาษีอากร 0105548138111\nสาขาที่ออกใบกำกับภาษี สำนักงานใหญ่\n\nใบกำกับภาษี/ใบส่งของ\nTAX INVOICE/DELIVERY ORDER\n\nเลขที่ No. IV6901175\nวันที่ Date 09/01/69\n\nชื่อลูกค้า Customer บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)\nที่อยู่ Address เลขที่ 77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่\nอำเภอปากเกร็ด จังหวัดนนทบุรี 11120\nโทร . 02-0902345-49 แฟกซ์. 02-0902350\n\nเลขประจำตัวผู้เสียภาษี 0105548117733\nใบสั่งซื้อเลขที่ Purchase Order No. 6901/066\nพนักงานขาย Salesman Name -\nกำหนดชำระเงิน Payment Term\n\n<table><tr><td>ลำดับที่ No.</td><td>รายการ Description</td><td>จำนวน Qty</td><td>ราคาต่อหน่วย Unit Price</td><td>ส่วนลด Discount</td><td>จำนวนเงิน Amount</td></tr><tr><td>1</td><td>อะไหล่ (ฟอล์ยรองหมึก )</td><td>2.00</td><td>2,600.00</td><td></td><td>5,200.00</td></tr></table>\n\nรวมราคา Sub Total 5,200.00\nหัก Deposit 0.00\nจำนวนเงินหลังหักมัดจำ Total 5,200.00\nภาษีมูลค่าเพิ่ม Value Added Tax 364.00\nจำนวนเงินรวมทั้งสิ้น Grand Total 5,564.00\n\n1. ใบเสร็จรับเงินฉบับนี้จะสมบูรณ์ต่อเมื่อมีลายเซ็นต์ของผู้รับมอบอำนาจและผู้รับเงินของบริษัท และเช็คของท่านผ่านธนาคารแล้ว\n2. หากชำระเงินเกินกว่ากำหนดที่ตกลงไว้ บริษัทจะคิดดอกเบี้ย 1.5% ต่อเดือน\n3. ไม่รับคืนสินค้าที่รับไว้แล้วเกิน 7 วันนับจากวันที่ส่งมอบสินค้า\n4. ในกรณีชำระเงินค่าสินค้าด้วยเช็ค โปรดชัดคร่อม และสั่งจ่ายระบุชื่อ บริษัท ซันซิน พริ้นติ้ง แมชชีน แมทท์เรียล (ประเทศไทย) จำกัด\n5. สินค้าตามรายการข้างต้นยังเป็นกรรมสิทธิ์ของ ผู้ขายอยู่ จนกว่าผู้ซื้อจะชำระค่าสินค้าครบถ้วนเรียบร้อยแล้ว\n\nตัวอักษร (ห้าพันห้าร้อยหกสิบสี่บาทถ้วน).\n\nข้าพเจ้าได้รับสินค้าตามรายการข้างต้นนี้ครบถ้วนถูกต้องและรับทราบเงื่อนไข ต่าง ๆ แล้ว\nI/We have received the above mentioned goods in good condition and deen informed all the conditions\n\nโดยชำระเช็คธนาคาร\nBy cheque of bank\nเลขที่เช็ค Cheq.No.\nเช็คลงวันที่ Cheq. Date\n\nผู้ส่งสินค้า DELIVERER \nวันที่ DATE 9/1/69\n\nเงินสด Cash\nวันที่ Date\n\nผู้รับเงิน Collector\nผู้รักษาเงิน Treasurer\n\nในนาม บัญชี บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)\nS&amp;P SANSIN PRINTING MACHINE MATERIAL (THAILAND) CO.,LTD.\n\nTao TAO\nผู้มีอำนาจลงนาม (AUTHORIZED SIGNATURE)\n\nผู้รับสินค้า RECEIVER \nวันที่ DATE 9/1/69\n\nผู้รับสินค้า RECEIVED BY\nวันที่ DATE 9/1/69",
+    "char_count": 2334,
+    "word_count": 204,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "อะไหล่ (ฟอล์ยรองหมึก )",
+          "quantity": 2,
+          "unit_price": 2600,
+          "total": 5200
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 5200,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 5200,
+        "vat_rate": 7,
+        "vat_amount": 364,
+        "total": 5564
+      },
+      "confidence_note": null
+    }
+  }
+}

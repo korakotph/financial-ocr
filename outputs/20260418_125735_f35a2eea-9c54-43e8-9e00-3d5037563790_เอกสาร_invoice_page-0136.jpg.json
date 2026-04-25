@@ -1,0 +1,73 @@
+{
+  "id": "f35a2eea-9c54-43e8-9e00-3d5037563790",
+  "filename": "เอกสาร_invoice_page-0136.jpg",
+  "stored_filename": "20260418_125735_f35a2eea-9c54-43e8-9e00-3d5037563790_เอกสาร_invoice_page-0136.jpg",
+  "created_at": "2026-04-18T12:58:03.160043",
+  "ocr": {
+    "text": "HUTCHISONPORTS THAILAND\n\nชื่อและที่อยู่สำหรับจัดส่งเอกสาร\n(BBAT)\nBROTHER AND BROTHER CO., LTD.\n77/77 MU 3, SRISAMAN ROAD, BAN MAI SUB-DISTRICT,\nPAK KRET DISTRICT, NONTHABURI PROVINCE,\nTHAILAND, 11120 HEAD OFFICE TAX No.0105548117733\n\nชื่อและที่อยู่ตามภาษีมูลค่าเพิ่ม\nBROTHER AND BROTHER CO., LTD.\n77/77 MU 3, SRISAMAN ROAD, BAN MAI SUB-DISTRICT,\nPAK KRET DISTRICT, NONTHABURI PROVINCE,\nTHAILAND, 11120 HEAD OFFICE TAX No.0105548117733\n\nHutchison Laemchabang Terminal Limited\n88/2 Moo 3 Tungsukhla, Sriracha, Chonburi 20230\nTAX ID. 0105 5471 35401 Branch No. 2\nT +66 3840 8700\nF +66 3840 8748\nhutchisonports.co.th\n\nใบเสร็จรับเงิน/ใบกำกับภาษี (Receipt/tax invoice)\n\nทำเทียบเรือ / Terminal A3\nเลขที่ / No. CA2601-2001850\nวันที่ / Date 09-Jan-2026\nหน้าที่ / Page no. 1/ 1\n\nCA2601-2001850\n12121223\n\n<table><tr><td>รายการสินค้า/บริการ</td><td></td><td>จำนวน</td><td>ราคาต่อหน่วย</td><td>ยอดรวม</td></tr><tr><td>TARIFF DESCRIPTION</td><td>QTY</td><td>RATE</td><td>AMOUNT</td></tr><tr><td colspan=\"4\">REF :</td><td></td></tr><tr><td>306.1.1.1 Lift On Charge,20',Full</td><td>1</td><td>670.00</td><td>670.00</td></tr><tr><td>307.1 Re-Location Charge 20'</td><td>1</td><td>300.00</td><td>300.00</td></tr><tr><td>310.1.1.1 Storage Inward,20',Full: 8-14 days</td><td>6</td><td>250.00</td><td>1,500.00</td></tr><tr><td>310.1.1.1 Storage Inward,20',Full: 1-7 days</td><td>7</td><td>125.00</td><td>875.00</td></tr></table>\n\nHUTCHISONPORTS THAILAND\n\nค่าสินค้าและบริการ / Tariff charges 3,345.00 บาท /Baht\nภาษีมูลค่าเพิ่ม / VAT 7.00% 234.15 บาท /Baht\nจำนวนเงินรวมทั้งสิ้น / Grand total 3,579.15 บาท /Baht\nหักภาษี ณ. ที่จ่าย / WHT 3.00% 100.35 บาท /Baht\nค่าสินค้าและบริการสุทธิ / Net total 3,478.80 บาท /Baht\n\nTHREE THOUSAND FOUR HUNDRED SEVENTY EIGHT BAHT AND 80/100\n\nรับชำระค่าสินค้าและบริการโดย / Paid by RECEIVED BANK TRANSFER\n\nผู้รับสินค้าหรือบริการ/Receiver Cashier/ผู้รับเงิน Warunee\nวันที่/Date วันที่/Date 09-JAN-2026\n\nใบเสร็จรับเงินและใบกำกับภาษีนี้จะสมบูรณ์ต่อเมื่อเช็คได้ผ่านบัญชีธนาคารและมีลายมือชื่อผู้รับเงิน This receipt and tax invoices is not valid until cheque is honoured by bank and only signed by Cashier\n\nกรุณาติดต่อแคชเชียร์เพื่อการแก้ไขใบเสร็จรับเงินฯ หรือขอคืนเงินภายใน 14 วัน นับจากวันที่ในใบเสร็จรับเงินฯ หากพ้นระยะเวลาดังกล่าว ทางบริษัทฯ ขอสงวนสิทธิ์ไม่ดำเนินการแก้ไขใบเสร็จรับเงินฯ หรือคืนเงินในทุกกรณี Please contact Cashier for amendment of the Receipt/Tax Invoice or Refunding within 14 days from the date of payment. Receipt/Tax Invoice will not be allowed to amend or refund if the Company received the request after this specified period.\n\nA member of CK Hutchison Holdings\nเอกสารนี้ได้จัดทำและส่งข้อมูลให้แก่กรมสรรพากรด้วยวิธีการทางอิเล็กทรอนิกส์",
+    "char_count": 2665,
+    "word_count": 258,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "306.1.1.1 Lift On Charge,20',Full",
+          "quantity": 1,
+          "unit_price": 670.0,
+          "total": 670.0
+        },
+        {
+          "name": "307.1 Re-Location Charge 20'",
+          "quantity": 1,
+          "unit_price": 300.0,
+          "total": 300.0
+        },
+        {
+          "name": "310.1.1.1 Storage Inward,20',Full: 8-14 days",
+          "quantity": 6,
+          "unit_price": 250.0,
+          "total": 1500.0
+        },
+        {
+          "name": "310.1.1.1 Storage Inward,20',Full: 1-7 days",
+          "quantity": 7,
+          "unit_price": 125.0,
+          "total": 875.0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 3478.8,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 3478.8,
+        "vat_rate": 7,
+        "vat_amount": 234.15,
+        "total": 3579.15
+      },
+      "confidence_note": null
+    }
+  }
+}

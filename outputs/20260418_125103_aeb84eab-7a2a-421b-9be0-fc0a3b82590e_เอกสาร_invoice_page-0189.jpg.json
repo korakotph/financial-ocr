@@ -1,0 +1,61 @@
+{
+  "id": "aeb84eab-7a2a-421b-9be0-fc0a3b82590e",
+  "filename": "เอกสาร_invoice_page-0189.jpg",
+  "stored_filename": "20260418_125103_aeb84eab-7a2a-421b-9be0-fc0a3b82590e_เอกสาร_invoice_page-0189.jpg",
+  "created_at": "2026-04-18T12:51:21.730156",
+  "ocr": {
+    "text": "3A 3 A CENTER CO., LTD.\nสำนักงานใหญ่ : 57 ซอยรามอินทรา 8 แยก 1 ถนนรามอินทรา แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพฯ 10220\nHEAD OFFICE : 57 SOI RAMINTRA 8 ZONE 1 RAMINTRA ROAD, ANUSAWAREE, BANGKHEN, BANGKOK 10220\nTEL : 02-971-8124-5, 02-971-9057, 02-971-8686-7, 02-001-8839, 086-4902406, 086-4401920, 086-4401921\nFAX : 02-971-9067 Website : www.3acenter.co.th E-mail : adminsale.hq@3acenter.co.th, office.3@3acenter.co.th\nเลขประจำตัวผู้เสียภาษี 0125538005550\n\nเบอร์โทร TEL.\nเลขประจำตัวผู้เสียภาษีอากร/เลขที่บัตรประชาชน TAX ID. : 0105548117733\n\nเอกสารออกเป็นชุด\nเลขที่ No. 70597\nวันที่ Date 13.01.69\n\nชื่อลูกค้า Customer's name บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)\nที่อยู่ Address 77/77 หมู่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120\n\n<table><tr><td>รหัสลูกค้า<br/>Customer Code</td><td>พนักงานขาย<br/>Salesman</td><td>ใบสั่งซื้อเลขที่<br/>P/O No.</td><td>เงื่อนไขการชำระเงิน<br/>Term of Payment</td><td>วันครบกำหนด<br/>Due Date</td></tr><tr><td>1030</td><td>NP103</td><td>6901/015</td><td>30 วัน</td><td>13.02.69</td></tr></table><table><tr><td>ลำดับ<br/>Item</td><td>รายการสินค้า<br/>Description</td><td>จำนวน<br/>Quantity</td><td>ราคาต่อหน่วย<br/>Unit Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>1</td><td>PVC 0.07 MM. X 23 CM. X 700 M. สีใส( 5 ม้วน)</td><td>76.00 Kgs.</td><td>93.00</td><td>7,068.00</td></tr><tr><td>2</td><td>PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 6 ม้วน)</td><td>76.54 Kgs.</td><td>91.00</td><td>6,965.14</td></tr></table>\n\nหมายเหตุ\n\n<table><tr><td>รวม<br/>TOTAL</td><td>14,033.14</td></tr><tr><td>จำนวนเงิน หัก<br/>DEDUCTION AMOUNT</td><td></td></tr><tr><td>จำนวนเงินรวม<br/>SUB TOTAL</td><td>14,033.14</td></tr><tr><td>ภาษีมูลค่าเพิ่ม<br/>VAT 7%</td><td>982.32</td></tr><tr><td>จำนวนเงินสุทธิ<br/>GRAND TOTAL</td><td>15,015.46</td></tr></table>\n\nหนึ่งหมื่นห้าพันสิบห้าบาทสี่สิบหกสตางค์\n\n1. บริษัทฯ ขอสงวนสิทธิ์การแก้ไขใบกำกับภาษี ภายใน 7 วัน นับจากวันส่งสินค้า\n2. สินค้าตามรายการข้างต้น บริษัทฯ ไม่รับคืนหรือแลกเปลี่ยน ภายหลังวันรับสินค้าแล้ว 30 วัน\n3. โปรดชำระด้วยเช็คขีดคร่อมในนาม \"บริษัท 3 เอ เช็นเตอร์ จำกัด\" เท่านั้น\n4. บริษัทฯ จะคิดดอกเบี้ย 1.25% ต่อเดือน เมื่อชำระเงินช้าเกินกำหนด\n\n60616\n\nผู้รับสินค้า Signature\nGoods Received by \nวันที่ 13 / 1 / 69\n\nผู้ส่งสินค้า Signature\nDelivery by \nวันที่ ..../..../........\n\nในนาม บริษัท 3 เอ เช็นเตอร์ จำกัด FOR 3 A CENTER CO., LTD.\n\nSignature\nผู้ได้รับมอบอำนาจ AUTHORIZED SIGNATURE",
+    "char_count": 2386,
+    "word_count": 189,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "6901/015",
+      "document_date": "13.02.69",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": "1030",
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "PVC 0.07 MM. X 23 CM. X 700 M. สีใส( 5 ม้วน)",
+          "quantity": 76,
+          "unit_price": 93,
+          "total": 7068
+        },
+        {
+          "name": "PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 6 ม้วน)",
+          "quantity": 76.54,
+          "unit_price": 91,
+          "total": 6965.14
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 14033.14,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 14033.14,
+        "vat_rate": 7,
+        "vat_amount": 982.32,
+        "total": 15015.46
+      },
+      "confidence_note": null
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "fba89597-b347-499a-9e60-6f3f3ba07d50",
+  "filename": "เอกสาร_invoice_page-0146.jpg",
+  "stored_filename": "20260418_125457_fba89597-b347-499a-9e60-6f3f3ba07d50_เอกสาร_invoice_page-0146.jpg",
+  "created_at": "2026-04-18T12:55:21.525136",
+  "ocr": {
+    "text": "TRANS WORLD LOGISTICS COMPANY LIMITED\n\nต้นฉบับ / Original\nใบเสร็จรับเงิน / ใบกำกับภาษี\nRECEIPT / TAX INVOICE\n\nรหัสลูกค้า/Customer Code : B0001\nชื่อลูกค้า/Customer Name : Brother And Brother Co.,Ltd.\nที่อยู่/Address : 77/77 Moo 3, Srisaman Rd.,Ban Mai, Pakkret,\nNonthaburi 11120 (Head Office)\nเลขประจำตัวผู้เสียภาษี/TAX ID : 0105548117733 ☒ สำนักงานใหญ่\n☐ สาขาที่....................\nโทรศัพท์/Tel. :\nอ้างถึงใบแจ้งหนี้ : IV202512023\n\nเลขที่/No. RE202601005\nวันที่/Date 9/1/2026\nเครดิต 0 ครบกำหนด 0\nเลขที่ใบสั่งขาย\nพนักงานขาย Rushdee Orsantinutsakul\nโทรศัพท์/Tel. 063-731-6876\n\n<table><tr><td>ลำดับ<br/>NO.</td><td>รายละเอียด<br/>DESCRIPTION</td><td>จำนวน<br/>QTY.</td><td>หน่วย<br/>UNIT</td><td>หน่วยละ<br/>UNIT PRICE</td><td>เงินทดรองจ่าย<br/>ADVANCED</td><td>จำนวนเงิน<br/>AMOUNT (THB)</td></tr><tr><td>1</td><td>CHINA to WH Pathum Thani Province TH Service charge</td><td>1.259</td><td>CBM</td><td>4,000.00</td><td>-</td><td>5,036.00</td></tr></table>\n\nMARKING CODE : CTH/BNB\n\n1. โปรดตรวจสอบชื่อและที่อยู่ของท่านเพื่อความถูกต้องภายใน 7 วันที่ได้รับเอกสารนี้\n2. โปรดชำระด้วยเช็คขีดคร่อมในนาม บจก.ทรานส์ เวิลด์ โลจิสติกส์ หรือโอนชำระเข้าบัญชีออมทรัพย์ ธนาคารกสิกรไทย ชื่อบัญชี บจก.ทรานส์ เวิลด์ โลจิสติกส์ เลขที่บัญชี 212-8-22418-4\n3. กรรมสิทธิ์ในใบสินค้าตามใบส่งของนี้ยังถือเป็นของผู้ขายจนกว่าผู้ซื้อจะชำระเงินเรียบร้อยแล้ว\n4. กรณีชำระด้วยเช็ค ใบเสร็จนี้จะสมบูรณ์ต่อเมื่อได้รับเงินตามเช็คแล้วเท่านั้น\n\nรวมเป็นเงิน 5,036.00\nหัก ส่วนลด -\nมูลค่าสินค้าหรือบริการ 4,706.54\nภาษีมูลค่าเพิ่ม 7% 329.46\nจำนวนเงินรวม 5,036.00\n\nตัวอักษร ห้าพันสามสิบหกบาทถ้วน\nจำนวนเงินรวมทั้งสิ้น 5,036.00\n\nชำระเงินโดย ( ) เงินสด ( ) เช็ค ( / เงินโอนเข้าบัญชี ธ.กสิกรไทย ประเภทออมทรัพย์\nเช็คธนาคาร ____________ สาขา ____________\nเลขที่บัญชี ____________ เช็คลงวันที่ ____________\nจำนวนเงิน ____________ บาท\n\nผู้รับเงิน ____________\nวันที่ ____________\n\nในนาม\nบริษัท ทรานส์ เวิลด์ โลจิสติกส์ จำกัด\nTRANS WORLD LOGISTICS CO., LTD\n( นายอมีน วาจิ )\nผู้มีอำนาจลงนาม\n\nFTAU2198127",
+    "char_count": 1945,
+    "word_count": 163,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "CHINA to WH Pathum Thani Province TH Service charge",
+          "quantity": 1.259,
+          "unit_price": 4000,
+          "total": 5036
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 5036,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 5036,
+        "vat_rate": 7,
+        "vat_amount": 329.46,
+        "total": 5036
+      },
+      "confidence_note": "VAT amount does not match subtotal × vat_rate (5036 × 0.07 = 352.52 ≠ 329.46); total does not match subtotal + vat_amount (5036 + 329.46 = 5365.46 ≠ 5036)"
+    }
+  }
+}

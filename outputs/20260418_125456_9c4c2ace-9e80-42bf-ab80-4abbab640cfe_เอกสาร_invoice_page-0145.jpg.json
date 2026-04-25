@@ -1,0 +1,55 @@
+{
+  "id": "9c4c2ace-9e80-42bf-ab80-4abbab640cfe",
+  "filename": "เอกสาร_invoice_page-0145.jpg",
+  "stored_filename": "20260418_125456_9c4c2ace-9e80-42bf-ab80-4abbab640cfe_เอกสาร_invoice_page-0145.jpg",
+  "created_at": "2026-04-18T12:55:11.360931",
+  "ocr": {
+    "text": "บริษัท สุพรชัย จำกัด\nSUPORNCHAI CO.,LTD.\n\n**ใบเสร็จรับเงิน/ใบกำกับภาษี**\n**RECEIPT / TAX INVOICE**\n\nสาขาที่ออกใบกำกับภาษี : สำนักงานใหญ่\nต้นฉบับ\nORIGINAL\n\nลูกค้า CUSTOMER บริษัท ขเรนซอร์ แอนด์ บเรนซอร์ จำกัด\n77/77 ม.3 ถ.ศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nเลขประจำตัวผู้เสียภาษี 0105548117733 สำนักงานใหญ่\n\nเลขที่ NO. RE2601-0067\nวันที่ DATE 09/01/2569\n\n<table><tr><td>ลำดับ<br/>ITEM</td><td>รายละเอียด<br/>DESCRIPTION</td><td>จำนวน<br/>QUANTITY</td><td>ราคา/หน่วย<br/>UNIT PRICE</td><td>จำนวนเงิน<br/>AMOUNT</td></tr><tr><td></td><td>ค่าบริการปั๊ม,ปะงาบ เดือน 11/68</td><td></td><td></td><td>65,425.60</td></tr></table>\n\n(หกหมื่นห้าบาทสี่สิบสตางค์)\n\nรวมค่าบริการ TOTAL 65,425.60\nภาษีมูลค่าเพิ่ม 7 % VAT 7% 4,579.80\nรวมค่าบริการทั้งสิ้น GRAND TOTAL 70,005.40\n\nการชำระเงินด้วยเช็คจะสมบูรณ์ เมื่อบริษัทได้รับเงินตามเช็คเรียบร้อย\n\nเงินสด CASH โอน 68,042.64\nเช็คธนาคาร/สาขา CHEQUE NO. เช็คเลขที่ DATE ลงวันที่ AMOUNT\nในนาม บริษัท สุพรชัย จำกัด FOR SUPORNCHAI CO., LTD.\n\nผู้รับเงิน RECEIVED BY สุรีวรรณ เขียวทน\nวันที่ DATE\n\nผู้รับมอบอำนาจ AUTHORIZED BY Rthm",
+    "char_count": 1062,
+    "word_count": 88,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ค่าบริการปั๊ม,ปะงาบ เดือน 11/68",
+          "quantity": 1,
+          "unit_price": 65425.6,
+          "total": 65425.6
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 65425.6,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 65425.6,
+        "vat_rate": 7,
+        "vat_amount": 4579.8,
+        "total": 70005.4
+      },
+      "confidence_note": null
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "5fbda6eb-b6a1-45c1-9378-f7527ff26a60",
+  "filename": "เอกสาร_invoice_page-0159.jpg",
+  "stored_filename": "20260418_125610_5fbda6eb-b6a1-45c1-9378-f7527ff26a60_เอกสาร_invoice_page-0159.jpg",
+  "created_at": "2026-04-18T12:56:28.924964",
+  "ocr": {
+    "text": "บริษัท ฟูกุซีรุ พลาสติก แพคเก็จจิ้ง จำกัด\nFUKUTSURU PLASTIC PACKAGING CO., LTD.\n889/1 หมู่ 7 ถนนสุขุมวิท ตำบลบางปูใหม่ อำเภอเมืองสมุทรปราการ จังหวัดสมุทรปราการ 10280\n889/1 Moo 7, Sukhumvit Rd., Bangpoomai, Muang Samutprakarn, Samutprakarn 10280\nTEL. (02) 323-9072-6 FAX: (02) 323-9079\n\nสำนักงานใหญ่\nเลขประจำตัวผู้เสียภาษี TAX IDENTIFICATION NO. 0115558001002\n\nต้นฉบับใบกำกับภาษี ORIGINAL TAX INVOICE\n(เอกสารออกเป็นชุด)\n\nเลขที่ No. IV6901107\nวันที่ DATE 10/01/69\n\nรหัสลูกค้า B0122\nชื่อลูกค้า บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\n77/77 ม.3 ถ.ศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\n\nเลขประจำตัวผู้เสียภาษีของผู้ซื้อสินค้า/บริการ\n☐ สำนักงานใหญ่\n☐ สาขา\n\nสำนักงานใหญ่\n\nกำหนดชำระ (วัน) Terms of payment\nครบกำหนดชำระวันที่ Due Date\nผู้สั่งซื้อ Buyer\nเลขที่ใบสั่งซื้อ P.O. NO.\nผู้ขาย Salesman\nเลขที่ DR. NO.\n\n10/01/69\nP06901/071\nANUWAT-นายอนุวัฒน์\n\n<table><tr><td>ลำดับที่ ITEM NO.</td><td>รายการสินค้าหรือบริการ DESCRIPTION</td><td>จำนวนหน่วย QUANTITY WEIGHT</td><td>ราคาต่อหน่วย UNIT PRICE</td><td>จำนวนเงิน (ไม่รวมภาษี) Total</td></tr><tr><td>1</td><td>YD90(ฝาโดม90กระดาษ)_@กล่อง2000</td><td>50</td><td>560.00</td><td>28,000.00</td></tr></table>\n\nรวมเงิน TOTAL 26,168.22\nภาษีมูลค่าเพิ่ม 7% 1,831.78\nรวมเงินสุทธิ NET TOTAL 28,000.00\n\n(สองหมื่นแปดพันบาทถ้วน)\n\nได้รับสินค้าตามรายการข้างต้นไว้ถูกต้องและสภาพเรียบร้อยแล้ว\nRECEIVED THE ABOVE GOODS IN GOOD ORDER &amp; CONDITION\n\n\nผู้รับของ/RECEIVER\nวันที่/DATE 10/11/69\n\n\nCepaon\nผู้ส่งของ/DELIVER\nวันที่/DATE 10-01-69\n\n\nสุทินท์\nผู้รับเงิน/COLLECTOR\nวันที่/DATE\n\n\nธิตินท์\nผู้อนุมัติ AUTHORIZED SIGNATURE\n\n0105548117733",
+    "char_count": 1562,
+    "word_count": 139,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "YD90(ฝาโดม90กระดาษ)_@กล่อง2000",
+          "quantity": 50,
+          "unit_price": 560,
+          "total": 28000
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 28000,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 28000,
+        "vat_rate": 7,
+        "vat_amount": 1831.78,
+        "total": 28000
+      },
+      "confidence_note": "subtotal × vat_rate ≈ vat_amount: 28000 × 0.07 = 1960 ≠ 1831.78; discrepancy detected"
+    }
+  }
+}

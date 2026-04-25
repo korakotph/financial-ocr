@@ -1,0 +1,56 @@
+{
+  "id": "dffb92c7-e839-4d1f-b884-8bf58b5b1105",
+  "filename": "เอกสาร_invoice_page-0085.jpg",
+  "stored_filename": "20260420_133414_dffb92c7-e839-4d1f-b884-8bf58b5b1105_เอกสาร_invoice_page-0085.jpg",
+  "created_at": "2026-04-20T13:34:33.773157",
+  "ocr": {
+    "text": "บริษัท เคพีเค คิวพลัส จำกัด\nสำนักงานใหญ่ : 399/71 หมู่ 13 ตำบลราชาเทวะ อำเภอบางพลี จังหวัดสมุทรปราการ 10540\nโทรศัพท์ 02-101-4423, 086-399-4441, 099-774-6523\nโทรสาร 02-101-4424\n\nเลขประจำตัวผู้เสียภาษีอากร 0105552022377\n\nKPK Q PLUS CO., LTD.\nHead Office : 399/71 Moo 13 Rachatawa,\nBangplee, Samutprakarn 10540\nTel : 02-101-4423, 086-399-4441, 099-774-6523\nFax : 02-101-4424\nE-mail : kpkq-plus@hotmail.com\nE-mail : diecut@kpk-qplus.com\nE-mail : sale@kpk-qplus.com\nwww.kpk-qplus.com\n\nต้นฉบับใบกำกับภาษี\nORIGINAL TAX INVOICE\n\nเอกสารออกเป็นชุด\n\nลูกค้า CUSTOMER\nบริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\nเลขที่ 77/77 หมู่ 3 ถนนศรีสมาน ตำบลบ้านใหม่\nอำเภอปากเกร็ด จังหวัดนนทบุรี 11120\nสำนักงานใหญ่ เลขประจำตัวผู้เสียภาษี 0105548117733\n\nเลขที่ NO. IV6812412 วันที่ DATE 24/12/68\nเลขที่ใบสั่งซื้อ P/O NO. PO6812/335 อัตราภาษีร้อยละ TAX RATE 7.00\nเงื่อนไขการชำระเงิน PAYMENT TERM 30 วัน DUE DATE 23/01/69\n\n<table><tr><td>ลำดับที่ ITEM</td><td>รายการ DESCRIPTION</td><td>จำนวน QUANTITY</td><td>หน่วยละ UNIT PRICE</td><td>ส่วนลด DISCOUNT</td><td>จำนวนเงิน AMOUNT</td></tr><tr><td>1</td><td>ค่าเพลทไตล์ท CM425A-500-1225</td><td>1.00</td><td>4,300.00</td><td></td><td>4,300.00</td></tr></table>\n\nKPQ PLUS\n\nกรุณาตรวจสอบสินค้าก่อนนำไปใช้งานหรือภายใน 3 วัน มิฉะนั้นทางบริษัทฯ จะไม่รับผิดชอบความเสียหายที่เกิดขึ้น ไม่ว่ากรณีใด ๆ ทั้งสิ้น\n\nรวมราคาทั้งสิ้น TOTAL 4,300.00\nภาษีมูลค่าเพิ่ม VAT 7.00 301.00\nรวมเงินทั้งสิ้น GRAND TOTAL 4,601.00\n\nจำนวนเงิน / TOTAL AMOUNT IN WORDS\n(สี่พันหกร้อยหนึ่งบาทถ้วน)\n\nได้รับสินค้าจาก บริษัท เคพีเค คิวพลัส จำกัด ไว้แล้วในสภาพที่สมบูรณ์ถูกต้อง\nRECEIVED GOODS FROM KPK Q PLUS CO., LTD. THE UNDERMENTIONED GOODS IN GOOD ORDER AND CONDITIONS.\n\nผู้รับสินค้า RECEIVED BY \nวันที่ 25/12/68 DATE\n\nผู้ส่งสินค้า DELIVERED BY \nวันที่ 21/06/68 DATE\n\nในนาม บริษัท เคพีเค คิวพลัส จำกัด\nFOR KPK Q PLUS CO., LTD.\n\nผู้มีอำนาจลงนาม AUTHORIZED SIGNATURE",
+    "char_count": 1842,
+    "word_count": 185,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ค่าเพลทไตล์ท CM425A-500-1225",
+          "unit": null,
+          "quantity": 1,
+          "unit_price": 4300,
+          "total": 4300
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 4300,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 4300,
+        "vat_rate": 7,
+        "vat_amount": 301,
+        "total": 4601
+      },
+      "confidence_note": null
+    }
+  }
+}

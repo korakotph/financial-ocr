@@ -1,0 +1,55 @@
+{
+  "id": "13c1562e-0aca-470f-beda-9335fad59541",
+  "filename": "เอกสาร_invoice_page-0129.jpg",
+  "stored_filename": "20260418_125705_13c1562e-0aca-470f-beda-9335fad59541_เอกสาร_invoice_page-0129.jpg",
+  "created_at": "2026-04-18T12:57:34.977167",
+  "ocr": {
+    "text": "AMATA\nบริษัท อมตะ พริ้นท์ติ้ง ซัพพลายส์ จำกัด AMATA PRINTING SUPPLIES CO., LTD.\n190/2 หมู่ 8 ซ.สุขสวัสดิ์84 ถ.สุขสวัสดิ์ ต.ในคลองบางปลากด อ.พระสมุทรเจดีย์ จ.สมุทรปราการ 10290\n190/2 Moo 8 Soi Suksawad 84, Suksawad Rd., NaiKlongbangprakod, Prasamut Chedi, Samutprakarn 10290\nTel : (66) 02-406-0749 (Auto) Fax : (66) 02-406-0743-4\n\nเลขประจำตัวผู้เสียภาษีอากร 0105547121656 *เอกสารออกเป็นชุด*\nชื่อลูกค้า CUSTOMER NAME บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\nที่อยู่ ADDRESS 77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่\nอำเภอปากเกร็ด จังหวัดนนทบุรี\nโทร. TEL. 11120 แฟ็กซ์ FAX. 02-090-2345-49 ต่อ 11-12\nสถานที่ส่งสินค้า SEND TO เลขประจำตัวผู้เสียภาษี 0105548117733 สำนักงานใหญ่\n\nต้นฉบับใบกำกับภาษี/ใบส่งของ ORIGINAL TAX INVOICE / DELIVERY ORDER\n(สำนักงานใหญ่)\nใบกำกับภาษี\n\n<table><tr><td>เลขที่ NO.</td><td>Iv6901027</td></tr><tr><td>วันที่ DATE</td><td>08/01/69</td></tr><tr><td>เงื่อนไขการชำระเงิน TERMS OF PAYMENT</td><td>30</td></tr><tr><td>ครบกำหนด DUE DATE</td><td>07/02/69</td></tr><tr><td>ผู้ซื้อเลขที่ P/O NO.</td><td>P06812/352</td></tr><tr><td>ผู้ขายเลขที่ P/O NO.</td><td>001-หน้าร้าน</td></tr></table><table><tr><td>ลำดับ ITEM</td><td>รายการ DESCRIPTION</td><td>จำนวน QTY</td><td>หน่วย UNIT</td><td>ราคาต่อหน่วย UNIT PRICE</td><td>จำนวนเงิน AMOUNT</td></tr><tr><td>1</td><td>L1-Duplex Board Grey Back 270g 25x36</td><td>21.60</td><td>รีม</td><td>1,763.71</td><td>38,096.14</td></tr></table>\n\nFM-SA-02, Issued 01/03/64, Rev. 00\n(สี่หมื่นเจ็ดร้อยหกสิบสองบาทแปดสิบเจ็ดสตางค์)\n\n<table><tr><td>ส่วนลด DISCOUNT</td><td>0.00</td></tr><tr><td>รวมมูลค่าสินค้า TOTAL</td><td>38,096.14</td></tr><tr><td>ภาษีมูลค่าเพิ่ม VAT</td><td>2,666.73</td></tr><tr><td>รวมทั้งสิ้น GRAND TOTAL</td><td>40,762.87</td></tr></table>\n\nได้รับสินค้าตามรายการข้างบนโดยครบถ้วนในสภาพเรียบร้อย และยอมรับเงื่อนไขการชำระเงินทุกประการ\n\nผู้รับสินค้า/RECEIVER  (signature)  วันที่/DATE 8-1-69\nผู้ส่งสินค้า/DELIVERER  (signature)  วันที่/DATE 8/1/69\n\nในนาม บริษัท อมตะ พริ้นท์ติ้ง ซัพพลายส์ จำกัด For AMATA PRINTING SUPPLIES CO., LTD.\n\nผู้มีอำนาจลงนาม AUTHORIZED SIGNATURE  (signature)\n\n1. โปรดยึดคร่อมเช็ค สั่งจ่ายในนาม บริษัท อมตะ พริ้นท์ติ้ง ซัพพลายส์ จำกัด\n2. บริษัทจะคิดดอกเบี้ยในอัตราร้อยละ 1.5 ต่อเดือน และค่าใช้จ่ายอื่น ๆ เมื่อครบกำหนดชำระเงินแล้วไม่ชำระ\n3. กรุณาตรวจเช็คสินค้าทุกครั้ง หากปรากฏว่าสินค้าเสียหายหรือไม่ครบถ้วนและถูกต้องตามรายการ กรุณาแจ้งให้บริษัทฯทราบภายใน 7 วัน มิฉะนั้นบริษัทฯจะถือว่าท่านได้รับสินค้าถูกต้องเรียบร้อยแล้วทุกประการ\n\nต้นฉบับ - ลูกค้า",
+    "char_count": 2432,
+    "word_count": 172,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "Iv6901027",
+      "document_date": "08/01/69",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "L1-Duplex Board Grey Back 270g 25x36",
+          "quantity": 21.6,
+          "unit_price": 1763.71,
+          "total": 38096.14
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 38096.14,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 38096.14,
+        "vat_rate": 7,
+        "vat_amount": 2666.73,
+        "total": 40762.87
+      },
+      "confidence_note": null
+    }
+  }
+}

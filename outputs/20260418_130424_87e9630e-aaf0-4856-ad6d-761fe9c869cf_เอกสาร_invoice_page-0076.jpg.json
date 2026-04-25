@@ -1,0 +1,55 @@
+{
+  "id": "87e9630e-aaf0-4856-ad6d-761fe9c869cf",
+  "filename": "เอกสาร_invoice_page-0076.jpg",
+  "stored_filename": "20260418_130424_87e9630e-aaf0-4856-ad6d-761fe9c869cf_เอกสาร_invoice_page-0076.jpg",
+  "created_at": "2026-04-18T13:05:48.592091",
+  "ocr": {
+    "text": "Siam Toppan Packaging Co.,Ltd.\n\nบริษัทสยามทบพันแพคเกจจิ้ง จำกัด\nSIAM TOPPAN PACKAGING CO.,LTD.\n543 หมู่ 4 ถ.สุขุมวิท ต.แพรกษา อ.เมือง จ.สมุทรปราการ 10280 (สำนักงานใหญ่)\n543 Moo 4, Sukhumvit Road, Tambon Preksha, Amphur Muang, Samutprakarn,\n10280 Thailand (Head Office)\nเลขประจำตัวผู้เสียภาษี/ TAX ID: 0105533039871\n\nใบกำกับภาษี / ใบจ่ายสินค้า / ใบแจ้งหนี้ DINVSTP/40136\n\nCustomer Code: C0892\nTAX ID: 0105548117733\nCustomer Name: บจก.บราเธอร์ แอนด์ บราเธอร์\nสำนักงานใหญ่\n77/77 ม.3 ถนนศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nZIP Code: 11120 Thailand\nTerm of Payment: 30 days after received bill\nVessel:\nOrigins: Origins of Thailand\nETA Date: 30-01-2026\nPayment Due Date: 01-03-2026\nLicense Plate Carrier:\n\nDate: 30-01-2026\nส่งไปยัง/ รับ ณคลีนจาก\nบจก.บราเธอร์ แอนด์ บราเธอร์\nบริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (โกดังสวน\nพริกไทย คลัง1)\n59/9 ม.6 ตำบลสวนพริกไทย\n\n<table><tr><td>No.</td><td>Sales Order</td><td>P/O No.</td><td>Product Code</td><td>Description</td><td>U.N.</td><td>Quantity</td><td>Unit Price</td><td>Net Price</td></tr><tr><td>1</td><td>SO26/323</td><td>P08812/360</td><td>B&amp;B(057)</td><td>0405039P กล่องสนเด็มบ๊อกซ์ มีหน้าต่าง ป๊อปอัพ ตราฟ 12x16x6 ซม.</td><td>PC</td><td>10,000</td><td>3,90000</td><td>39,000.00</td></tr></table>\n\nคำเตือน\n- ถ้าไม่มีการติดตั้งรายการข้างต้นประการใด ภายใน 14 วัน ทางบริษัทจะถือว่ารายการข้างต้นนี้ถูกต้อง\n- ห้ามขูด ลบ ซีดฝา และ/หรือแก้ไข ข้อความใดๆ ลงบนเอกสารนี้ *บริษัทเป็นผู้ผลิต จึงไม่ต้องรักษาค่าใช้จ่าย*\n- ได้รับต้นฉบับใบกำกับภาษี / ใบจ่ายสินค้า / ใบแจ้งหนี้ แก้ไข-เขตหนี้ ที่มีรายละเอียดผู้รับสินค้าครบตามจำนวนที่ระบุในใบแจ้งหนี้ฉบับนี้ถูกต้องแล้ว\n- ส่วนรับค่าสินค้าที่ไม่ชำระตามกำหนดเวลา บริษัทฯ อาจพิจารณาเรียกเก็บค่าชำระเงินล่วงหน้าในอัตราไม่เกิน 2% ต่อเดือน\n- โปรดชำระด้วยเช็คขีดคร่อม ตั้งแต่ในนาม บริษัท และเขียนเก็บใบเสร็จทุกครั้งที่ชำระเงิน\n- บริษัทฯ ขอสงวนสิทธิ์ที่จะไม่รับคืนสินค้าโดยนับจากวันส่งสินค้าเกิน 180 วัน\n\nNet Price: 39,000.00 THB\nVat 7 %: 2,730.00 THB\nTotal Price: 41,730.00 THB\nส่วนหนึ่งหนึ่งพันเจ็ดร้อยสามสิบบาทถ้วน\n\nผู้ออกเอกสาร (Issued by): \nผู้อนุมัติ (Approved by): \nผู้รับสินค้า (Consigned): กนิช 30/1/69\nผู้รับใบแจ้งหนี้ (INV. Recipient):\nวันที่นัดรับเช็ค (Cheque Date): \n\nหมายเหตุ:\nต้นฉบับสีขาว-ลูกค้า สำเนาสีขาว-ลูกค้า สำเนาสีเหลือง-บัญชี สำเนาสีเขียว-จัดส่ง สำเนาสีฟ้า-รปภ. 1 / 1\n30-01-2026 05:23:47",
+    "char_count": 2289,
+    "word_count": 201,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "0405039P กล่องสนเด็มบ๊อกซ์ มีหน้าต่าง ป๊อปอัพ ตราฟ 12x16x6 ซม.",
+          "quantity": 10000,
+          "unit_price": 390000,
+          "total": 3900000
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 3900000,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 3900000,
+        "vat_rate": 7,
+        "vat_amount": 273000,
+        "total": 4173000
+      },
+      "confidence_note": null
+    }
+  }
+}

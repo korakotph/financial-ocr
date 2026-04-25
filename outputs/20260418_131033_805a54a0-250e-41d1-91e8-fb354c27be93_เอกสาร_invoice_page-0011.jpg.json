@@ -1,0 +1,55 @@
+{
+  "id": "805a54a0-250e-41d1-91e8-fb354c27be93",
+  "filename": "เอกสาร_invoice_page-0011.jpg",
+  "stored_filename": "20260418_131033_805a54a0-250e-41d1-91e8-fb354c27be93_เอกสาร_invoice_page-0011.jpg",
+  "created_at": "2026-04-18T13:10:55.169670",
+  "ocr": {
+    "text": "Head Office 9/9 Moo 5 Phaholyothin Road,\nKlong - Neung, Klong Luang, Pathumthani 12120\nTel: 0-2516-4907-10 Fax : 0-2516-4906\n\n**PKIMAX**\nGENERAL CO.,LTD.\n\n**URS**\nISO 9001\n\n**UKAS MANAGEMENT SYSTEMS**\nUKAS\n\nสำนักงานใหญ่ เลขที่ 9/9 หมู่ 5 ถ.พหลโยธิน\nต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 12120\nโทรศัพท์ 0-2516-4907-10 โทรสาร : 0-2516-4906\n\nเลขประจำตัวผู้เสียภาษีอากร 0105531060831\nต้นฉบับใบกำกับภาษี/ใบส่งสินค้า\nORIGINAL TAX INVOICE/DELIVERY ORDER\nเลขที่ IV6901443 NO.\n\nเอกสารออกเป็นชุด\n\n<table><tr><td>ลูกค้า/ที่อยู่-NAME/ADDRESS</td><td></td><td>รหัสลูกค้า ACCOUNT CODE</td><td>20130</td><td>วันที่ DATE</td><td>26/01/69</td></tr><tr><td>บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด<br/>77/77 ม.3 ถนนศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120</td><td></td><td>เงื่อนไขการชำระเงิน TERM OF PAYMENT</td><td>วัน</td><td>ใบสั่งซื้อเลขที่ P/O.NO.PO6901/149</td><td></td></tr><tr><td colspan=\"2\">เลขประจำตัวผู้เสียภาษี 0105548117733 สำนักงานใหญ่</td><td>สถานที่ส่ง DESTINATION</td><td colspan=\"3\">เชียงราก</td></tr></table><table><tr><td>รหัสสินค้า PRODUCT CODE</td><td>รายการ DESCRIPTION</td><td>จำนวน QUANTITY</td><td>หน่วยละ UNIT PRICE</td><td>จำนวนเงิน AMOUNT</td></tr><tr><td>20130-012-00 สัง Boxjourney x00154</td><td></td><td>3,000</td><td>9.00</td><td>27,000.00</td></tr></table>\n\nรวมเงิน TOTAL 27,000.00\nภาษีมูลค่าเพิ่ม VAT 7.0% 1,890.00\nยอดรวม NET TOTAL 28,890.00\n\nบาท BAHT (สองหมื่นแปดพันแปดร้อยเก้าสิบบาทถ้วน).\n\nได้รับสินค้าไว้ถูกต้องและเรียบร้อยแล้ว\nGOODS RECEIVED IN GOOD ORDER AND CONDITION\nผู้รับของ RECEIVED BY พร้อม\nวันที่รับของ DATE 26/1/69\n\nกรรมสิทธิ์ในตัวสินค้า ยังคงเป็นของผู้ขายจนกว่าผู้ซื้อจะชำระเงินจนครบถ้วน\n\n<table><tr><td>ผู้อนุมัติ APPROVED BY</td><td>วันที่ DATE</td></tr><tr><td>2m.</td><td>26/1/69</td></tr></table>\n\n70-6301 ( ขอนแก่น )นายทศพล\nทะเบียนรถ/พนักงานขับรถ\n\nหมายเหตุ",
+    "char_count": 1793,
+    "word_count": 129,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": "26/01/69",
+      "seller": {
+        "name": "บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด",
+        "tax_id": "0105548117733",
+        "address": "77/77 ม.3 ถนนศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120"
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "Boxjourney x00154",
+          "quantity": 3000,
+          "unit_price": 9,
+          "total": 27000
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 27000,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 27000,
+        "vat_rate": 7,
+        "vat_amount": 1890,
+        "total": 28890
+      },
+      "confidence_note": null
+    }
+  }
+}

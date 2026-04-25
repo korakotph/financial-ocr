@@ -1,0 +1,55 @@
+{
+  "id": "9774e163-9687-417d-bfb6-7a6c687029d4",
+  "filename": "เอกสาร_invoice_page-0109.jpg",
+  "stored_filename": "20260418_125933_9774e163-9687-417d-bfb6-7a6c687029d4_เอกสาร_invoice_page-0109.jpg",
+  "created_at": "2026-04-18T12:59:59.058998",
+  "ocr": {
+    "text": "บริษัท เคพีเค คิวพลัส จำกัด\nสำนักงานใหญ่ : 399/71 หมู่ 13 ตำบลราชาเทวะ อำเภอบางพลี จังหวัดสมุทรปราการ 10540\nโทรศัพท์ 02-101-4423, 086-399-4441, 099-774-6523\nโทรสาร 02-101-4424\n\nเลขประจำตัวผู้เสียภาษีอากร 0105552022377\n\nKPK Q PLUS CO., LTD.\nHead Office : 399/71 Moo 13 Rachatawa,\nBangplee, Samutprakarn 10540\nTel : 02-101-4423, 086-399-4441, 099-774-6523\nFax : 02-101-4424\nE-mail : kpkq-plus@hotmail.com\nE-mail : diecut@kpk-qplus.com\nE-mail : sale@kpk-qplus.com\nwww.kpk-qplus.com\n\nต้นฉบับใบกำกับภาษี\nORIGINAL TAX INVOICE\n\nเอกสารออกเป็นชุด\n\nลูกค้า CUSTOMER บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\nเลขที่ 77/77 หมู่ 3 ถนนศรีสมาน ตำบลบ้านใหม่\nอำเภอปากเกร็ด จังหวัดนนทบุรี 11120\nสำนักงานใหญ่ เลขประจำตัวผู้เสียภาษี 0105548117733\n\n<table><tr><td>เลขที่ NO.</td><td>IV6901043</td><td>วันที่ DATE</td><td>06/01/69</td></tr><tr><td>เลขที่ใบสั่งซื้อ P/O NO.</td><td>P06901/021</td><td>อัตราภาษีร้อยละ TAX RATE</td><td>7.00</td></tr><tr><td>เงื่อนไขการชำระเงิน PAYMENT TERM</td><td>30 วัน</td><td>วันครบกำหนด DUE DATE</td><td>05/02/69</td></tr></table><table><tr><td>ลำดับที่ ITEM</td><td>รายการ DESCRIPTION</td><td>จำนวน QUANTITY</td><td>หน่วยละ UNIT PRICE</td><td>ส่วนลด DISCOUNT</td><td>จำนวนเงิน AMOUNT</td></tr><tr><td>1</td><td>ค่าเพลทไตดัท BT426A-0108-0126</td><td>1.00</td><td>5,750.00</td><td></td><td>5,750.00</td></tr></table>\n\nกรุณาตรวจสอบสินค้าก่อนนำไปใช้งานหรือภายใน 3 วัน มิฉะนั้นทางบริษัทฯ จะไม่รับผิดชอบความเสียหายที่เกิดขึ้น ไม่ว่ากรณีใด ๆ ทั้งสิ้น\n\n<table><tr><td>รวมราคาทั้งสิ้น TOTAL</td><td>5,750.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม VAT</td><td>402.50</td></tr><tr><td>รวมเงินทั้งสิ้น GRAND TOTAL</td><td>6,152.50</td></tr></table>\n\nจำนวนเงิน / TOTAL AMOUNT IN WORDS\n(หกพันหนึ่งร้อยห้าสิบสองบาทห้าสิบสตางค์)\n\nได้รับสินค้าจาก บริษัท เคพีเค คิวพลัส จำกัด ไว้แล้วในสภาพที่สมบูรณ์ถูกต้อง\nRECEIVED GOODS FROM KPK Q PLUS CO., LTD. THE UNDERTMITIONED GOODS IN GOOD ORDER AND CONDITIONS.\n\nผู้รับสินค้า RECEIVED BY วันที่ DATE\nผู้ส่งสินค้า DELIVERED BY วันที่ DATE\n\nในนาม บริษัท เคพีเค คิวพลัส จำกัด\nFOR KPK Q PLUS CO., LTD.\n\nผู้มีอำนาจลงนาม AUTHORIZED SIGNATURE",
+    "char_count": 2061,
+    "word_count": 164,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "IV6901043",
+      "document_date": "06/01/69",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ค่าเพลทไตดัท BT426A-0108-0126",
+          "quantity": 1,
+          "unit_price": 5750,
+          "total": 5750
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 5750,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 5750,
+        "vat_rate": 7,
+        "vat_amount": 402.5,
+        "total": 6152.5
+      },
+      "confidence_note": null
+    }
+  }
+}

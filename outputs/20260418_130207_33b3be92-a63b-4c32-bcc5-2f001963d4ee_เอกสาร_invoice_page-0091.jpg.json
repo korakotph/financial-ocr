@@ -1,0 +1,55 @@
+{
+  "id": "33b3be92-a63b-4c32-bcc5-2f001963d4ee",
+  "filename": "เอกสาร_invoice_page-0091.jpg",
+  "stored_filename": "20260418_130207_33b3be92-a63b-4c32-bcc5-2f001963d4ee_เอกสาร_invoice_page-0091.jpg",
+  "created_at": "2026-04-18T13:02:36.558550",
+  "ocr": {
+    "text": "ต้นฉบับ\n\nPicturian Productionhouse Co.,Ltd.\nบริษัท พิกเจอเรียน โปรดักชั่นเฮาส์ จำกัด (สำนักงานใหญ่)\n98/257 หมู่ที่ 1 ตำบลท่าอิฐ อำเภอปากเกร็ด จังหวัดนนทบุรี รหัสไปรษณีย์ 11120\nโทรศัพท์.088-251-9289\nทะเบียนพาณิชย์/เลขประจำตัวผู้เสียภาษี : 0125561036261\n\n**PICTU RIAN**\n\nใบเสร็จรับเงิน/ ใบกำกับภาษี\nPayment Receipt/ Tax Invoice\n\nวันที่/Date : 5 ม.ค. 2569\nเลขที่/No. : 202601001\nอ้างอิง : IV241220251\n\nลูกค้า/Customer : บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)\nที่อยู่: 77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่\nอำเภอปากเกร็ด จ.นนทบุรี 11120\nเลขประจำตัวผู้เสียภาษี/ Tax ID: 0105548117733\n\n<table><tr><td>ลำดับ<br/>Item</td><td>รายการ<br/>Description</td><td>จำนวน<br/>Qty.</td><td>ราคา/หน่วย<br/>Unit Price</td><td>ราคารวม<br/>Amount</td></tr><tr><td>1</td><td>ที่ปรึกษางานProduction รายเดือน แบรนด์ Boxjourney (สัญญาต่อเนื่อง 12 เดือน) ประจำเดือนมกราคม 2569</td><td>1</td><td>30,000.00</td><td>30,000.00</td></tr></table>\n\n☐ เงินสด ☒ เงินโอน ☐ เช็ค\n\nรวม/Sub Total 30,000.00\nVAT 7% 2,100.00\nภาษีหัก ณ ที่จ่าย 3% 900.00\nรวมสุทธิ/Net Total 31,200.00\n\nชื่อบัญชี บริษัท พิกเจอเรียน โปรดักชั่นเฮาส์ จำกัด\nธนาคาร กสิกรไทย เลขที่บัญชี 051-3-26098-9\nสาขาถนนราชพฤกษ์ (ปตท.ประดับดาว)\nวันที่ได้รับเงิน 5 ม.ค. 2569\n\nจำนวนเงินทั้งสิ้น(ภาษาไทย) : สามหมื่นหนึ่งพันสองร้อยบาทถ้วน\n\nหมายเหตุ*\nโปรดหักภาษี ณ ที่จ่ายในนาม บริษัท พิกเจอเรียน โปรดักชั่นเฮาส์ จำกัด\n\n\n[Handwritten signature]\n\nผู้รับเงิน / Recipient\n\nPICTURIAN",
+    "char_count": 1409,
+    "word_count": 123,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": "2569-01-01",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ที่ปรึกษางานProduction รายเดือน แบรนด์ Boxjourney (สัญญาต่อเนื่อง 12 เดือน) ประจำเดือนมกราคม 2569",
+          "quantity": 1,
+          "unit_price": 30000,
+          "total": 30000
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 30000,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 30000,
+        "vat_rate": 7,
+        "vat_amount": 2100,
+        "total": 31200
+      },
+      "confidence_note": null
+    }
+  }
+}

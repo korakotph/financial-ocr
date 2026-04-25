@@ -1,0 +1,67 @@
+{
+  "id": "38ed38ef-ea2c-4150-847c-c58d534ce8b1",
+  "filename": "เอกสาร_invoice_page-0025.jpg",
+  "stored_filename": "20260418_130821_38ed38ef-ea2c-4150-847c-c58d534ce8b1_เอกสาร_invoice_page-0025.jpg",
+  "created_at": "2026-04-18T13:08:38.733540",
+  "ocr": {
+    "text": "SL Label\n\nบริษัท ไซแมท เลเบล จำกัด สำนักงานใหญ่\nSimat Label Company Limited\n123 ซอยคลองกรุง 31 นิคมอุตสาหกรรมลาดกระบัง ถนนคลองกรุง แขวงลำปลาทิว เขตลาดกระบัง กรุงเทพฯ 10520\n123 Soi Chalongkrung 31, Ladkrabang Industrial Estate, Chalongkrung Road, Lamplatew, Ladkrabang, Bangkok 10520\nTel : (662) 326-0571-4\n\nเลขประจำตัวผู้เสียภาษีอากร 0105551041025\n(เอกสารออกเป็นชุด)\n\nBill To : บริษัท มรานสอร์ แอนด์ บราเธอร์ จำกัด\nสำนักงานใหญ่ เลขที่ 77/77 หมู่ที่ 3 ถนนศรีสมาน\nตำบลบ้านใหม่ อำเภอปากเกร็ด\nจังหวัดนนทบุรี 11120\nThailand\nTax ID: 0105548117733\nTEL : FAX :\n\nInvoice No. AR-L 103381\nDate 27/01/26\nPage 1\nDue Date 26/02/26\n\nShip To : เลขที่ 77/77 หมู่ที่ 3 ถนนศรีสมาน\nตำบลบ้านใหม่ อำเภอปากเกร็ด\nจังหวัดนนทบุรี 11120\nThailand\n\nSales Order No. 81785\nSales Name Sittipoom Thaveekarn\nCustomer P.O. No. PO6812/376\nDelivery No. 107299\n\n<table><tr><td>รหัสสินค้า<br/>Product Code</td><td>รายการ<br/>Description</td><td>จำนวน<br/>Quantity</td><td>ราคา/หน่วย<br/>Unit Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>SIM-11-0068</td><td>Z00460 Fuser Unit 46672506 150k- ชุดทำความร้อน</td><td>1 THB</td><td>14,500.00000</td><td>THB 14,500.00</td></tr><tr><td>SIM-11-0071</td><td>I00387 OKI-46983601 PLATE-UPPER ASSY</td><td>1 THB</td><td>9,954.00000</td><td>THB 9,954.00</td></tr><tr><td>SIM-11-0072</td><td>I00388 OKI-46990901 FEED-O-ASSY BY ORDER</td><td>1 THB</td><td>7,200.00000</td><td>THB 7,200.00</td></tr></table>\n\n**ยกเว้นการหักภาษี ณ ที่จ่าย เนื่องจากบริษัทประกอบกิจการเป็นผู้ผลิตตาม ท.ป.4/2528**\n\n**No withholding tax**\n\nรวมเงิน/Total THB 31,654.00\nภาษีมูลค่าเพิ่ม/Vat 7% THB 2,215.78\nจำนวนเงินรวมทั้งสิ้น/Net Amount THB 33,869.78\n\nThirty-three thousand eight hundred sixty-nine THB and Seventy-eight cent Only\n\nได้รับสินค้าตามรายการข้างต้นถูกต้องแล้ว/Received the above goods in good order and condition\n\n<table><tr><td>วันที่/Date : 27-1-26</td><td>วันที่/Date : 27 ม.ค. 69.</td><td>วันที่/Date :</td><td>วันที่/Date :</td></tr><tr><td>ผู้ส่งสินค้า/Delivered By</td><td>ผู้รับสินค้า/Receiver</td><td>ผู้รับเงิน/Received By</td><td>ผู้อนุมัติ/Authorized</td></tr><tr><td></td><td></td><td></td><td></td></tr></table>\n\nการชำระเงินด้วยเช็คจะสมบูรณ์เมื่อเช็คได้ผ่านการเรียกเก็บจากธนาคารแล้วเท่านั้น Payment By Cheque not valid till the cheque has been cleared only\n\nสำหรับลูกค้า",
+    "char_count": 2274,
+    "word_count": 189,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": "2026-01-27",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "Z00460 Fuser Unit 46672506 150k- ชุดทำความร้อน",
+          "quantity": 1,
+          "unit_price": 14500,
+          "total": 14500
+        },
+        {
+          "name": "I00387 OKI-46983601 PLATE-UPPER ASSY",
+          "quantity": 1,
+          "unit_price": 9954,
+          "total": 9954
+        },
+        {
+          "name": "I00388 OKI-46990901 FEED-O-ASSY BY ORDER",
+          "quantity": 1,
+          "unit_price": 7200,
+          "total": 7200
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 0,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 31654,
+        "vat_rate": 7,
+        "vat_amount": 2215.78,
+        "total": 33869.78
+      },
+      "confidence_note": null
+    }
+  }
+}

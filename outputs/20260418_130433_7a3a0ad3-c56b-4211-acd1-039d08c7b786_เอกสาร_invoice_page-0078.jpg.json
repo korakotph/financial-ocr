@@ -1,0 +1,55 @@
+{
+  "id": "7a3a0ad3-c56b-4211-acd1-039d08c7b786",
+  "filename": "เอกสาร_invoice_page-0078.jpg",
+  "stored_filename": "20260418_130433_7a3a0ad3-c56b-4211-acd1-039d08c7b786_เอกสาร_invoice_page-0078.jpg",
+  "created_at": "2026-04-18T13:05:25.105452",
+  "ocr": {
+    "text": "UTP\n\nUTHAI PLASTIC INDUSTRY COMPANY LIMITED\n53/14 หมู่ที่ 2 ถนนติวานนท์ ตำบลบางกะดี อำเภอเมือง จังหวัดปทุมธานี 12000\nโทร. 02-501-1918 แฟกซ์. 02-001-2788\nเลขประจำตัวผู้เสียภาษีอากร 01355 62009 004\nสาขาที่ออกใบกำกับภาษี : สำนักงานใหญ่\n\nORIGINAL DELIVERY ORDER / TAX INVOICE\n(เอกสารออกเป็นชุด)\n\nเลขที่ IV6901381\nNO.\nวันที่ 30/01/69\nDATE\n\nชื่อผู้ซื้อ บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\nBUYER\nเลขประจำตัวผู้เสียภาษี 0105548117733 ☑ สำนักงานใหญ่\nADDRESS 77/77 หมู่3 ถนนศรีสมาน ตำบลบ้านใหม่\nอำเภอปากเกร็ด จังหวัดนนทบุรี 11120\n\nใบสั่งซื้อลูกค้าเลขที่ ORDER NO.\nOR6901/113\n\n<table><tr><td>ลำดับ<br/>ITEM</td><td>รายการ<br/>DESCRIPTION</td><td>จำนวน<br/>QUANTITY</td><td>หน่วยละ<br/>UNIT PRICE</td><td>จำนวนเงิน<br/>AMOUNT</td></tr><tr><td>1</td><td>ถุง PE A.21 x 35 หนา 0.10 มม/ลู่</td><td>207.20 กก.</td><td>49.00</td><td>10,152.80</td></tr></table>\n\nโปรดสั่งจ่ายเช็คขีดคร่อมในนาม บริษัท อุทัยพลาสติก อุตสาหกรรม จำกัด เท่านั้น\n\nรวมมูลค่าสินค้า TOTAL 10,152.80\nภาษีมูลค่าเพิ่ม 7% VAT 710.70\nจำนวนเงินรวมทั้งสิ้น TOTAL AMOUNT 10,863.50\n\nจำนวนเงิน (ตัวอักษร)\n(หนึ่งหมื่นแปดร้อยหกสิบสามบาทห้าสิบสตางค์).\n\nได้รับสินค้าดังกล่าวไว้ถูกต้องในสภาพเรียบร้อย\n\nผู้ส่งของ ยอดขาย\nDELIVERER\nวันที่ DATE 30/1/69\n\nผู้รับของ พร้อม\nRECEIVER\nวันที่ DATE 30/1/69\n\nในนาม บริษัท อุทัยพลาสติก อุตสาหกรรม จำกัด FOR UTHAI PLASTIC INDUSTRY COMPANY LIMITED\n\nNalath\nผู้มีอำนาจลงนาม AUTHORIZED SIGNATURE",
+    "char_count": 1366,
+    "word_count": 119,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ถุง PE A.21 x 35 หนา 0.10 มม/ลู่",
+          "quantity": 207.2,
+          "unit_price": 49,
+          "total": 10152.8
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 10152.8,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 10152.8,
+        "vat_rate": 7,
+        "vat_amount": 710.7,
+        "total": 10863.5
+      },
+      "confidence_note": null
+    }
+  }
+}

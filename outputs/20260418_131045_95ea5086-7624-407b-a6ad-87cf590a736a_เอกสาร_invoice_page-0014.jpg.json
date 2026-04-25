@@ -1,0 +1,55 @@
+{
+  "id": "95ea5086-7624-407b-a6ad-87cf590a736a",
+  "filename": "เอกสาร_invoice_page-0014.jpg",
+  "stored_filename": "20260418_131045_95ea5086-7624-407b-a6ad-87cf590a736a_เอกสาร_invoice_page-0014.jpg",
+  "created_at": "2026-04-18T13:11:53.755237",
+  "ocr": {
+    "text": "Head Office 9/9 Moo 5 Phaholyothin Road,\nKlong - Neung, Klong Luang, Pathumthani 12120\nTel. 0-2516-4907-10 Fax : 0-2516-4906\n\n**PKIMAX**\nGENERAL CO.,LTD.\n\n**URS**\nATA GROUP\n\n**UKAS**\nMANAGEMENT SYSTEMS CERTIFIER\n\nสำนักงานใหญ่ เลขที่ 9/9 หมู่ 5 ถ.พหลโยธิน ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 12120\nโทรศัพท์ 0-2516-4907-10 โทรสาร : 0-2516-4906\n\nเลขประจำตัวผู้เสียภาษีอากร 0105531060831\nต้นฉบับใบกำกับภาษี/ใบส่งสินค้า\nORIGINAL TAX INVOICE/DELIVERY ORDER\n\nเลขที่ NO. IV6901439\n\nสำหรับลูกค้า/CUSTOMER\nเอกสารออกเป็นชุด\n\nลูกค้า/ที่อยู่-NAME/ADDRESS บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\n77/77 ม.3 ถนนศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nเลขประจำตัวผู้เสียภาษี 0105548117733 สำนักงานใหญ่\n\nรหัสลูกค้า ACCOUNT CODE 20130\nวันที่ DATE 26/01/69\n\nเงื่อนไขการชำระเงิน TERM OF PAYMENT วัน\nใบสั่งซื้อเลขที่ P.O.NO PO6901/146\n\nสถานที่ส่ง DESTINATION เชียงราก\n\n<table><tr><td>รหัสสินค้า PRODUCT CODE</td><td>รายการ DESCRIPTION</td><td>จำนวน QUANTITY</td><td>หน่วยละ UNIT PRICE</td><td>จำนวนเงิน AMOUNT</td></tr><tr><td>20130-010-00</td><td>ลง Boxjourney x00148</td><td>2,700</td><td>13.00</td><td>35,100.00</td></tr></table>\n\nรวมเงิน TOTAL 35,100.00\nภาษีมูลค่าเพิ่ม VAT 7% 2,457.00\nยอดรวม NET TOTAL 37,557.00\n\nบาท BAHT (สามหมื่นเจ็ดพันห้าร้อยห้าสิบเจ็ดบาทถ้วน)\n\nได้รับสินค้าไว้ถูกต้องและเรียบร้อยแล้ว GOODS RECEIVED IN GOOD ORDER AND CONDITION\nผู้รับของ RECEIVED BY พร้อม\nวันที่รับของ DATE 26/11/69\n\nกรรมสิทธิ์ในตัวสินค้า ยังคงเป็นของผู้ขายจนกว่าผู้ซื้อจะชำระเงินจนครบถ้วน\n\nผู้อนุมัติ APPROVED BY พร้อม\nวันที่ DATE 26/11/69\n\n81-1764 (กาฬสินธุ์)นายสุทิน\nทะเบียนรถ/พนักงานขับรถ\n\nหมายเหตุ",
+    "char_count": 1572,
+    "word_count": 142,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ลง Boxjourney x00148",
+          "quantity": 2700,
+          "unit_price": 13,
+          "total": 35100
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 35100,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 35100,
+        "vat_rate": 7,
+        "vat_amount": 2457,
+        "total": 37557
+      },
+      "confidence_note": null
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "31431d36-dfc0-4b04-9f1a-74abd4ec9750",
+  "filename": "เอกสาร_invoice_page-0101.jpg",
+  "stored_filename": "20260418_125807_31431d36-dfc0-4b04-9f1a-74abd4ec9750_เอกสาร_invoice_page-0101.jpg",
+  "created_at": "2026-04-18T12:58:28.534368",
+  "ocr": {
+    "text": "บริษัท เอ็มพีเอช ก่อสร้าง จำกัด\nMPH CONSTRUCTION COMPANY LIMITED\n53/377 หมู่ 5 ตำบลบางตลาด อำเภอปากเกร็ด จังหวัดนนทบุรี 11120 โทร. 02-066-7925, 099-213-4456\n\nต้นฉบับใบกำกับภาษี/ใบส่งสินค้า/ใบแจ้งหนี้\nORIGINAL TAX INVOICE / DELIVERY / DEBIT NOTE\nเลขประจำตัวผู้เสียภาษีอากร 13 หลัก 0735559001604 (สำนักงานใหญ่)\nIV6904004\nรหัสลูกค้า Customer's Code เลขที่/No. 5/1/2569\nนามผู้ซื้อ Customer's Name บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\nวันที่/Date.\nสถานที่ส่ง Location.\nที่อยู่ Address 77/77 ม.3 ถ.ศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\n\n<table><tr><td>พนักงานขาย Sales Staff</td><td>เงื่อนไขการชำระเงิน Term of Payment</td><td>กำหนดชำระ Due Date</td><td>เลขที่ใบสั่งซื้อ Order No</td></tr><tr><td></td><td></td><td></td><td>PO.<br/>PR.</td></tr></table><table><tr><td>ลำดับ No.</td><td>รหัสสินค้า Prod. Code</td><td>รายละเอียดสินค้า DESCRIPTION</td><td>จำนวน QUANTITY</td><td>หน่วยละ UNIT</td><td>ส่วนลด DISCOUNT</td><td>จำนวนเงิน AMOUNT</td></tr><tr><td>1</td><td></td><td>สายชำระชุมโคนโยม</td><td>1 ชุด</td><td>220.00</td><td></td><td>220.00</td></tr><tr><td>2</td><td></td><td>สายชำรับ พล. ซุบ</td><td>2 ตัว</td><td>150.00</td><td></td><td>300.00</td></tr><tr><td>3</td><td></td><td>สายชำรับโครเมียม(หุ้มสเตนเลส)</td><td>3 ตัว</td><td>220.00</td><td></td><td>660.00</td></tr><tr><td colspan=\"5\">สินเปลือง</td><td></td><td></td></tr></table>\n\nรวมเงิน SUB TOTAL 1,102.80\nภาษีมูลค่าเพิ่ม 7% VAT 77.20\nยอดเงินสุทธิ NET TOTAL 1,180.00\n\nหนึ่งพันหนึ่งร้อยแปดสิบบาทถ้วน\n\nได้รับสินค้าตามรายละเอียดข้างต้นไว้เป็นที่เรียบร้อยแล้ว\n\n<table><tr><td>ผู้รับของ RECEIVER</td><td>ผู้ส่งของ DELIVERER</td><td>ผู้รับมอบอำนาจ/Authorized Signature</td></tr><tr><td>สมัคร</td><td>Se</td><td>สาวะไร้ ภารายา</td></tr><tr><td>วันที่</td><td>วันที่</td><td></td></tr></table>\n\nในนาม บริษัท เอ็มพีเอช ก่อสร้าง จำกัด\nFor MPH CONSTRUCTION CO.,LTD.\n\n<br/><br/>\nผู้รับมอบอำนาจ/Authorized Signature",
+    "char_count": 1870,
+    "word_count": 113,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "DELIVERY_ORDER",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": "สมัคร",
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "สายชำระชุมโคนโยม",
+          "quantity": 1,
+          "unit_price": 220.0,
+          "total": 220.0
+        },
+        {
+          "name": "สายชำรับ พล. ซุบ",
+          "quantity": 2,
+          "unit_price": 150.0,
+          "total": 300.0
+        },
+        {
+          "name": "สายชำรับโครเมียม(หุ้มสเตนเลส)",
+          "quantity": 3,
+          "unit_price": 220.0,
+          "total": 660.0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 0,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 1180.0,
+        "vat_rate": 7,
+        "vat_amount": 82.6,
+        "total": 1262.6
+      },
+      "confidence_note": null
+    }
+  }
+}

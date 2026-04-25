@@ -1,0 +1,55 @@
+{
+  "id": "1f90529a-3cd0-4dc7-9d73-1910fdcb5393",
+  "filename": "เอกสาร_invoice_page-0105.jpg",
+  "stored_filename": "20260418_125905_1f90529a-3cd0-4dc7-9d73-1910fdcb5393_เอกสาร_invoice_page-0105.jpg",
+  "created_at": "2026-04-18T12:59:29.646246",
+  "ocr": {
+    "text": "B-Q-X\n\nบริษัท บียูเอฟู้ดส์ จำกัด (สำนักงานใหญ่)\n199/22 หมู่3 ม.มณฑนา วัชรพล ถ.ร่วมมิตรพัฒนา แขวงท่าแร้ง เขตบางเขน กทม. 10220\nโทร : 099-557-7177 อีเมล : sales.BQX@gmail.com ไลน์ : @B-Q-X\nเลขประจำตัวผู้เสียภาษี 0105556123607\n\n1 / 1\n3/1/2026\n02:01:18 pm\n\nใบแจ้งหนี้/ใบส่งของ/ใบกำกับภาษี\nต้นฉบับ\n\nชื่อผู้ซื้อ บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)\nที่อยู่ 77/77 หมู่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120\n\n<table><tr><td>รหัสลูกค้า</td><td>0167</td></tr><tr><td>วันที่</td><td>3/1/2026</td></tr><tr><td>การกำหนดชำระเงิน</td><td>เครดิต 30</td></tr><tr><td>เลขที่ใบกำกับภาษี</td><td>INV26/007</td></tr><tr><td>ใบสั่งขาย</td><td>SO26000007</td></tr><tr><td>วันกำหนดชำระ</td><td>2/2/2026</td></tr><tr><td>ใบสั่งซื้อ</td><td>PO6812/269</td></tr></table>\n\nเลขประจำตัวผู้เสียภาษีอากร 0105548117733\n\nชื่อผู้ติดต่อ คุณ เดียร์\n\n<table><tr><td>ลำดับ</td><td>รายการ</td><td>หน่วย</td><td>จำนวน</td><td>ราคา/หน่วย</td><td>จำนวนเงิน</td></tr><tr><td>1</td><td>02070008 กระปุก PET 8.5x10 CM., ฝาดำ 402 ใบ</td><td>Ctn</td><td>1</td><td>5,025.00</td><td>5,025.00</td></tr></table><table><tr><td>ราคารวมก่อนหักส่วนลด</td><td>5,025.00</td></tr><tr><td>ส่วนลด</td><td>1,258.26</td></tr><tr><td>ราคาสุทธิ</td><td>3,520.32</td></tr><tr><td>ภาษีมูลค่าเพิ่ม 7%</td><td>246.42</td></tr><tr><td>ราคารวมภาษีมูลค่าเพิ่ม</td><td>3,766.74</td></tr></table>\n\nตัวอักษร (สามพันเจ็ดร้อยหกสิบหกบาทเจ็ดสิบสี่สตางค์)\n\n( ) BUA foods Company Limited\nผู้รับสินค้า\nวันที่ 6/1/69\n\nผู้ส่งสินค้า\nวันที่",
+    "char_count": 1490,
+    "word_count": 78,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "INV26/007",
+      "document_date": "2026-01-03",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": "0167",
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "02070008 กระปุก PET 8.5x10 CM., ฝาดำ 402 ใบ",
+          "quantity": 1,
+          "unit_price": 5025,
+          "total": 5025
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 5025,
+        "discount": {
+          "rate": null,
+          "amount": 1258.26,
+          "note": null
+        },
+        "subtotal": 3520.32,
+        "vat_rate": 7,
+        "vat_amount": 246.42,
+        "total": 3766.74
+      },
+      "confidence_note": null
+    }
+  }
+}

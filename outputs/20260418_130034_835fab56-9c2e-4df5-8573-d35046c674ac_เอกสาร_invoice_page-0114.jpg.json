@@ -1,0 +1,55 @@
+{
+  "id": "835fab56-9c2e-4df5-8573-d35046c674ac",
+  "filename": "เอกสาร_invoice_page-0114.jpg",
+  "stored_filename": "20260418_130034_835fab56-9c2e-4df5-8573-d35046c674ac_เอกสาร_invoice_page-0114.jpg",
+  "created_at": "2026-04-18T13:01:38.884465",
+  "ocr": {
+    "text": "OFM 919/555 อาคารเซาท์ทาวเวอร์ ชั้น 14 ห้อง 2-6 และ 9 ถนนสีลม แขวงสีลม เขตบางรัก กรุงเทพมหานคร 10500 OfficeMate (Thai) Limited (Head Office)\n919/555 South Tower, 14th Floor Room 2-6,9 Silom Road, Silom, Bangrak, Bangkok 10500 Tel : 1281 Fax : 02-763-5555 E-mail : contact@officemate.co.th , www.ofm.co.th\n\nต้นฉบับ / ORIGINAL ใบกำกับภาษี / TAX INVOICE\n\nเลขประจำตัวผู้เสียภาษีอากร 0105537143215\n\nขายให้ / Sold to : Tax ID 0105548117733 ( สำนักงานใหญ่ )\nบริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\n77/77 หมู่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120\n\nผู้ติดต่อ / Contact :\nคุณสาริยา (ลูกน้ำ)\n\nเลขที่เอกสาร / Doc No .:\nSI2601015104\n\nเบอร์โทร / Tel .:\n0892775192,020902345#49\n\nรหัสลูกค้า / Customer ID :\n137294\n\nสถานที่จัดส่ง / Ship to : S3033716\nบริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\n59/9 หมู่6 ตำบลสวนพริกไทย อำเภอเมืองปทุมธานี จังหวัดปทุมธานี 12000\n\nผู้ติดต่อ / Contact :\nคุณสาริยา (ลูกน้ำ)\n\nพื้นที่จัดส่ง / Zone : [B-B5] E06 / 1200013\n\nเบอร์โทร / Tel : 0892775192,0892775192\n\nวันที่ / Date : 07-01-2026\n\n<table><tr><td>ประเภทการชำระเงิน</td><td>กำหนดวางบิล</td><td>กำหนดรับเช็ค</td><td>เครดิตเทอม</td><td>วันที่ชำระเงิน/Due</td><td>เลขที่ใบสั่งจัด/SO</td><td>เลขที่ใบสั่งซื้อ/PO</td><td>พนักงานขาย/Sales Code</td></tr><tr><td>เครดิตโอนเงิน</td><td>SHWB</td><td></td><td>30</td><td>06-02-2026</td><td>SO2601030265</td><td>PO6901076</td><td>KA8-นิพนธ์ ภักดีพิทักษ์</td></tr></table><table><tr><td>ลำดับ<br/>Item</td><td>รหัสสินค้า<br/>Code</td><td>รายการ<br/>Description</td><td>จำนวน<br/>Quantity</td><td>หน่วย<br/>Unit</td><td>ส่วนลด(%)<br/>Disc.(%)</td><td>ราคาต่อหน่วย<br/>Unit Price</td><td>จำนวนเงินสุทธิ<br/>Net Amount</td></tr><tr><td>1</td><td>2091050</td><td>ใบมัดคัตเตอร์ 0.7 มม. (หลอด6ใบ) พัฒคิน SS-45</td><td>5</td><td>หลอด</td><td>0 **</td><td>34.44</td><td>172.20</td></tr></table>\n\nส่วนลด / Discount 0.00\nค่าขนส่งพิเศษ / Delivery Charge Exclude VAT 0.00\nมูลค่าสินค้าที่ยกเว้นภาษีมูลค่าเพิ่ม / Amount NON VAT (1) 0.00\nมูลค่าสินค้า/ค่าขนส่ง ที่เสียภาษีมูลค่าเพิ่ม / Amount Exclude VAT (2) 172.20\nภาษีมูลค่าเพิ่ม / Value Added Tax 7.00 % (3) 12.05\n(หนึ่งร้อยแปดสิบสี่บาทยี่สิบห้าสตางค์)\n\nจำนวนเงินรวมทั้งสิ้น / Grand Total (1+2+3) 184.25\n\nเอกสารฉบับนี้จัดทำขึ้นอย่างสมบูรณ์ โดยไม่ต้องมีลายเซ็นของเจ้าหน้าที่บริษัทแต่อย่างใด\n<page_number>Page 5 / 4</page_number>",
+    "char_count": 2283,
+    "word_count": 199,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ใบมัดคัตเตอร์ 0.7 มม. (หลอด6ใบ) พัฒคิน SS-45",
+          "quantity": 5,
+          "unit_price": 34.44,
+          "total": 172.2
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 172.2,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 172.2,
+        "vat_rate": 7,
+        "vat_amount": 12.054,
+        "total": 184.254
+      },
+      "confidence_note": null
+    }
+  }
+}

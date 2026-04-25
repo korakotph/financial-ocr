@@ -1,0 +1,55 @@
+{
+  "id": "e6065d57-a1b6-4d1d-a02f-a8b8aa7c1ed4",
+  "filename": "เอกสาร_invoice_page-0034.jpg",
+  "stored_filename": "20260418_130913_e6065d57-a1b6-4d1d-a02f-a8b8aa7c1ed4_เอกสาร_invoice_page-0034.jpg",
+  "created_at": "2026-04-18T13:09:52.766782",
+  "ocr": {
+    "text": "PRIMAX GENERAL CO., LTD.\nHead Office 9/9 Moo 5 Phaholyothin Road,\nKlong - Neung, Klong Luang, Pathumthani 12120\nTel. 0-2516-4907-10 Fax : 0-2516-4906\n\nURS\nUKAS\nMINERALS\nSYSTEMS\n\nบริษัท ไพรแมกซ์ เจเนอรัล จำกัด\nสำนักงานใหญ่ เลขที่ 9/9 หมู่ 5 ถ.พหลโยธิน\nต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 12120\nโทรศัพท์ 0-2516-4907-10 โทรสาร 0-2516-4906\n\nต้นฉบับใบกำกับภาษี/ใบส่งสินค้า\nORIGINAL TAX INVOICE/DELIVERY ORDER\nเลขประจำตัวผู้เสียภาษีอากร 0105531060831\nเลขที่ NO. IV6901465\n\n<table><tr><td>รหัสลูกค้า<br/>ACCOUNT CODE</td><td>20130</td><td>วันที่<br/>DATE</td><td>27/01/69</td></tr><tr><td>ชื่อในการชำระเงิน<br/>TERM OF PAYMENT</td><td>วัน</td><td colspan=\"2\">ใบสั่งซื้อเลขที่ P.O.NO OR 6901 /049</td></tr><tr><td>สถานที่ส่ง<br/>DESTINATION</td><td colspan=\"3\">เชียงราก</td></tr></table>\n\nลูกค้า/ที่อยู่-NAME/ADDRESS\nบริษัท บราเฮอร์ แอนด์ บราเฮอร์ จำกัด\n77/77 ม.3 ถนนศรีสมาน ต.บ้านใหม่\nอ.ปากเกร็ด จ.นนทบุรี\n11120\nเลขประจำตัวผู้เสียภาษี 0105548117733 สำนักงานใหญ่\n\n<table><tr><td>รหัสสินค้า<br/>PRODUCT CODE</td><td>รายการ<br/>DESCRIPTION</td><td>จำนวน<br/>QUANTITY</td><td>หน่วยละ<br/>UNIT PRICE</td><td>จำนวนเงิน<br/>AMOUNT</td></tr><tr><td>20130-017-00</td><td>สัง 32x58x34 cm. มีปรุ ต้านA+B</td><td>296</td><td>28.00</td><td>8,288.00</td></tr></table><table><tr><td>รวมเงิน<br/>TOTAL</td><td>8,288.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม<br/>VAT 7.0%</td><td>580.16</td></tr><tr><td>ยอดรวม<br/>NET TOTAL</td><td>8,868.16</td></tr></table>\n\nบาท BAHT (แปดพันแปดร้อยหกสิบแปดบาทยี่สิบหกสตางค์).\n\nได้รับสินค้าไว้ถูกต้องและเรียบร้อยแล้ว\nGOODS RECEIVED IN GOOD ORDER AND CONDITION\nผู้รับของ RECEIVED BY พนธ์\nวันที่รับของ DATE 29/1/69\n\nกรรมสิทธิ์ในตัวสินค้า ยังคงเป็นของผู้ขายจนกว่าผู้ซื้อจะชำระเงินจนครบถ้วน\n\n<table><tr><td>ผู้อนุมัติ<br/>APPROVED BY</td><td>Lor</td><td>วันที่<br/>DATE</td><td>22/1/69</td></tr></table>\n\n70-6301 ( ขอนแก่น ) นายทศพล\nทะเบียนรถ/พนักงานขับรถ\n\nหมายเหตุ",
+    "char_count": 1864,
+    "word_count": 119,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "6901/049",
+      "document_date": "1969-01-27",
+      "seller": {
+        "name": null,
+        "tax_id": "20130",
+        "address": "เชียงราก"
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": "20130",
+        "address": null
+      },
+      "receiver": {
+        "name": "Lor",
+        "date_time": "1969-01-22T00:00:00"
+      },
+      "items": [
+        {
+          "name": "สัง 32x58x34 cm. มีปรุ ต้านA+B",
+          "quantity": 296,
+          "unit_price": 28,
+          "total": 8288
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 8288,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 8288,
+        "vat_rate": 7,
+        "vat_amount": 580.16,
+        "total": 8868.16
+      },
+      "confidence_note": null
+    }
+  }
+}

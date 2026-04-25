@@ -1,0 +1,61 @@
+{
+  "id": "3ce5b7b3-9ad2-4ea4-ae30-e6a04380be06",
+  "filename": "เอกสาร_invoice_page-0111.jpg",
+  "stored_filename": "20260418_125959_3ce5b7b3-9ad2-4ea4-ae30-e6a04380be06_เอกสาร_invoice_page-0111.jpg",
+  "created_at": "2026-04-18T13:01:23.071561",
+  "ocr": {
+    "text": "ห้างหุ้นส่วนจำกัด สำนักพิมพ์ฟิสิกส์เซ็นเตอร์\nPHYSICS CENTER PRESS LIMITED PARTNERSHIP\nใบกำกับภาษีออกโดยสำนักงานใหญ่\n45, 47 ซอยจรัญสนิทวงศ์ 40 ถนนจรัญสนิทวงศ์ แขวงบางยี่ขัน เขตบางพลัด กรุงเทพฯ 10700\nโทร. 0-2433-7704-6, 0-2433-7755-7 โทรสาร 0-2433-7703\n\nต้นฉบับ (Original)\nใบกำกับภาษี / ใบแจ้งหนี้\nTAX INVOICE / INVOICE\n(เอกสารออกเป็นชุด)\n\n45, 47 Soi Charunsanitwong 40 Charunsanitwong Road Bangyeekhan Bangplad Bangkok 10700\nTel. 0-2433-7704-6, 0-2433-7755-7 Fax 0-2433-7703\nเลขประจำตัวผู้เสียภาษี 0103525004507\n\n<table><tr><td>รหัสลูกค้า<br/>Tax ID.</td><td>556<br/>0105548117733</td></tr><tr><td>ชื่อลูกค้า<br/>Name</td><td>บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่</td></tr><tr><td>ที่อยู่<br/>Address</td><td>77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120</td></tr></table>\n\nเลขที่ No. 2569/01040\nวันที่ Date 7/01/2569\n\nเงื่อนไขการชำระเงิน Credit Term 90 วัน\nกำหนดชำระเงิน Payment Due\n\n<table><tr><td>ลำดับที่<br/>Item</td><td>รายการ<br/>Description</td><td>จำนวนหน่วย<br/>Quantity</td><td>ราคาต่อหน่วย<br/>Unit Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>1</td><td>G-ซองกระดาษน้ำตาลขยายข้าง 12x4.5x12 ชม.100 ใบ</td><td>300,000</td><td>0.28</td><td>84,000.00</td></tr><tr><td>2</td><td>G-ถุงกระดาษหูหิวน้ำตาลไซส์XL(มีรองกัน) ขนาด19x13x21 ซม.</td><td>50,000</td><td>1.70</td><td>85,000.00</td></tr><tr><td colspan=\"4\">PO6811/348</td><td></td></tr></table>\n\nได้ตรวจรับสินค้าตามรายการข้างต้นในสภาพที่ถูกต้องเรียบร้อยแล้ว\n(Received the above mentioned goods in good condition)\n\n<table><tr><td>มูลค่าสินค้า/ บริการก่อนภาษี<br/>Total before VAT</td><td>169,000.00</td></tr><tr><td>ส่วนลด<br/>Discount</td><td>0.00%</td><td>0.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม<br/>VAT</td><td>7%</td><td>11,830.00</td></tr><tr><td>จำนวนเงินรวมทั้งสิ้น<br/>Net Total</td><td></td><td>180,830.00</td></tr></table>\n\nผู้รับสินค้า Signature พร้อม\nวันที่รับสินค้า Received Date 7/1/69\n\nหนึ่งแสนแปดหมื่นแปดร้อยสามสิบบาทถ้วน\n\nผู้ส่งสินค้า Delivered by อาปกรณ์\n\nผู้รับมอบอำนาจ Authorized Signature\n\n\n<figure>\nภาพแสดงลายเซ็นและตราประทับของผู้รับมอบอำนาจ \"อาปกรณ์\" และ \"พร้อม\" บนพื้นหลังสีขาว มีข้อความภาษาไทย \"ลายเซ็น\" และ \"ตราประทับ\" กำกับอยู่ด้านบน\n</figure>\n\nแลกดอิม",
+    "char_count": 2184,
+    "word_count": 128,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "PO6811/348",
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": "บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่",
+        "tax_id": "0105548117733",
+        "address": "77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120"
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "G-ซองกระดาษน้ำตาลขยายข้าง 12x4.5x12 ชม.100 ใบ",
+          "quantity": 300000,
+          "unit_price": 0.28,
+          "total": 84000
+        },
+        {
+          "name": "G-ถุงกระดาษหูหิวน้ำตาลไซส์XL(มีรองกัน) ขนาด19x13x21 ซม.",
+          "quantity": 50000,
+          "unit_price": 1.7,
+          "total": 85000
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 169000,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 169000,
+        "vat_rate": 7,
+        "vat_amount": 11830,
+        "total": 180830
+      },
+      "confidence_note": null
+    }
+  }
+}

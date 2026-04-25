@@ -1,0 +1,55 @@
+{
+  "id": "f873f45d-555e-43f9-b566-ea844b8a90bf",
+  "filename": "เอกสาร_invoice_page-0064.jpg",
+  "stored_filename": "20260418_130250_f873f45d-555e-43f9-b566-ea844b8a90bf_เอกสาร_invoice_page-0064.jpg",
+  "created_at": "2026-04-18T13:03:08.438367",
+  "ocr": {
+    "text": "ห้างหุ้นส่วนจำกัด สำนักพิมพ์ฟิสิกส์เซ็นเตอร์\nPHYSICS CENTER PRESS LIMITED PARTNERSHIP\nใบกำกับภาษีออกโดยสำนักงานใหญ่\n45, 47 ซอยจรัญสนิทวงศ์ 40 ถนนจรัญสนิทวงศ์ แขวงบางยี่ขัน เขตบางพลัด กรุงเทพฯ 10700\nโทร. 0-2433-7704-6, 0-2433-7755-7 โทรสาร 0-2433-7703\n\nต้นฉบับ (Original)\nใบกำกับภาษี / ใบแจ้งหนี้\nTAX INVOICE / INVOICE\n(เอกสารออกเป็นชุด)\n\n45, 47 Soi Charunsanitwong 40 Charunsanitwong Road Bangyeekhan Bangplad Bangkok 10700\nTel. 0-2433-7704-6, 0-2433-7755-7 Fax 0-2433-7703\nเลขประจำตัวผู้เสียภาษี 0103525004507\n\n<table><tr><td>รหัสลูกค้า<br/>Tax ID.</td><td>556<br/>0105548117733</td></tr><tr><td>ชื่อลูกค้า<br/>Name</td><td>บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่</td></tr><tr><td>ที่อยู่<br/>Address</td><td>77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120</td></tr></table>\n\nเลขที่ No. 2569/01235\nวันที่ Date 30/01/2569\n\nเงื่อนไขการชำระเงิน Credit Term 90 วัน\nกำหนดชำระเงิน Payment Due\n\n<table><tr><td>ลำดับที่<br/>Item</td><td>รายการ<br/>Description</td><td>จำนวนหน่วย<br/>Quantity</td><td>ราคาต่อหน่วย<br/>Unit Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>1</td><td>G-AROถุงกระดาษหูเกลียวน้ำตาล 23x15x23 cm.<br/>PO6901/235</td><td>10,000</td><td>3.45</td><td>34,500.00</td></tr></table>\n\nได้ตรวจรับสินค้าตามรายการข้างต้นในสภาพที่ถูกต้องเรียบร้อยแล้ว\n(Received the above mentioned goods in good condition)\n\n<table><tr><td>มูลค่าสินค้า/บริการก่อนภาษี<br/>Total before VAT</td><td>34,500.00</td></tr><tr><td>ส่วนลด<br/>Discount</td><td>0.00%</td><td>0.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม<br/>VAT</td><td>7%</td><td>2,415.00</td></tr><tr><td>จำนวนเงินรวมทั้งสิ้น<br/>Net Total</td><td></td><td>36,915.00</td></tr></table>\n\nผู้รับสินค้า Signature สมพร\nวันที่รับสินค้า Received Date 30/1/69\n\nสามหมื่นหกพันเก้าร้อยสิบห้าบาทถ้วน\n\nผู้ส่งสินค้า Delivered by ปรนายก\n\n<table><tr><td>มูลค่าสินค้า/บริการก่อนภาษี<br/>Total before VAT</td><td>34,500.00</td></tr><tr><td>ส่วนลด<br/>Discount</td><td>0.00%</td><td>0.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม<br/>VAT</td><td>7%</td><td>2,415.00</td></tr><tr><td>จำนวนเงินรวมทั้งสิ้น<br/>Net Total</td><td></td><td>36,915.00</td></tr></table>\n\nผู้รับมอบอำนาจ Authorized Signature",
+    "char_count": 2152,
+    "word_count": 114,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": "บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่",
+        "tax_id": "0105548117733",
+        "address": "77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120"
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "G-AROถุงกระดาษหูเกลียวน้ำตาล 23x15x23 cm. PO6901/235",
+          "quantity": 10000,
+          "unit_price": 3.45,
+          "total": 34500
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 34500,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 34500,
+        "vat_rate": 7,
+        "vat_amount": 2415,
+        "total": 36915
+      },
+      "confidence_note": null
+    }
+  }
+}

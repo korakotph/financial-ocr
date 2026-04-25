@@ -1,0 +1,55 @@
+{
+  "id": "54bc2450-ba07-4926-b777-fbc8984a15ef",
+  "filename": "เอกสาร_invoice_page-0112.jpg",
+  "stored_filename": "20260418_130016_54bc2450-ba07-4926-b777-fbc8984a15ef_เอกสาร_invoice_page-0112.jpg",
+  "created_at": "2026-04-18T13:01:31.934237",
+  "ocr": {
+    "text": "ห้างหุ้นส่วนจำกัด สำนักพิมพ์ฟิสิกส์เซ็นเตอร์\nPHYSICS CENTER PRESS LIMITED PARTNERSHIP\nใบกำกับภาษีออกโดยสำนักงานใหญ่\n45, 47 ซอยจรัญสนิทวงศ์ 40 ถนนจรัญสนิทวงศ์ แขวงบางยี่ขัน เขตบางพลัด กรุงเทพฯ 10700\nโทร. 0-2433-7704-6, 0-2433-7755-7 โทรสาร 0-2433-7703\n\nต้นฉบับ (Original)\nใบกำกับภาษี / ใบแจ้งหนี้\nTAX INVOICE / INVOICE\n(เอกสารออกเป็นชุด)\n\n45, 47 Soi Charunsanitwong 40 Charunsanitwong Road Bangyeekhan Bangplad Bangkok 10700\nTel. 0-2433-7704-6, 0-2433-7755-7 Fax 0-2433-7703\nเลขประจำตัวผู้เสียภาษี 0103525004507\n\nรหัสลูกค้า 556\nTax ID. 0105548117733\nชื่อลูกค้า บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่\nName\nที่อยู่ 77/77 หมู่ที่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด\nAddress จังหวัดนนทบุรี 11120\n\nเลขที่ 2569/01039\nNo.\nวันที่ 7/01/2569\nDate\n\nเงื่อนไขการชำระเงิน 30 วัน\nCredit Term\nกำหนดชำระเงิน\nPayment Due\n\n<table><tr><td>ลำดับที่<br/>Item</td><td>รายการ<br/>Description</td><td>จำนวนหน่วย<br/>Quantity</td><td>ราคาต่อหน่วย<br/>Unit Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>1</td><td>CM02124 ถุงกระดาษ smizzer 20x12.5x30 ซม.</td><td>20,000</td><td>2.20</td><td>44,000.00</td></tr><tr><td></td><td>P06808/146</td><td></td><td></td><td></td></tr></table>\n\nได้ตรวจรับสินค้าตามรายการข้างต้นในสภาพที่ถูกต้องเรียบร้อยแล้ว\n(Received the above mentioned goods in good condition)\n\n<table><tr><td>มูลค่าสินค้า/ บริการก่อนภาษี<br/>Total before VAT</td><td>44,000.00</td></tr><tr><td>ส่วนลด<br/>Discount</td><td>0.00%</td><td>0.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม<br/>VAT</td><td>7%</td><td>3,080.00</td></tr><tr><td>จำนวนเงินรวมทั้งสิ้น<br/>Net Total</td><td></td><td>47,080.00</td></tr></table>\n\nผู้รับสินค้า พร้อม\nSignature\nวันที่รับสินค้า 9/1/69\nReceived Date\n\nสี่หมื่นเจ็ดพันแปดริบบาทถ้วน\n\nผู้ส่งสินค้า อั้งเฟนธ์\nDelivered by\n\nผู้รับมอบอำนาจ\nAuthorized Signature",
+    "char_count": 1777,
+    "word_count": 122,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "CM02124 ถุงกระดาษ smizzer 20x12.5x30 ซม.",
+          "quantity": 20000,
+          "unit_price": 2.2,
+          "total": 44000
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 44000,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 44000,
+        "vat_rate": 7,
+        "vat_amount": 3080,
+        "total": 47080
+      },
+      "confidence_note": null
+    }
+  }
+}

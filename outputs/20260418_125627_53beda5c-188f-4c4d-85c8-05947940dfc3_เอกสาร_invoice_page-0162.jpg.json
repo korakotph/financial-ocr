@@ -1,0 +1,55 @@
+{
+  "id": "53beda5c-188f-4c4d-85c8-05947940dfc3",
+  "filename": "เอกสาร_invoice_page-0162.jpg",
+  "stored_filename": "20260418_125627_53beda5c-188f-4c4d-85c8-05947940dfc3_เอกสาร_invoice_page-0162.jpg",
+  "created_at": "2026-04-18T12:56:47.871218",
+  "ocr": {
+    "text": "ต้นฉบับใบกำกับภาษี Original Tax Invoice\n\nเอกสารออกเป็นชุด\nเล่มที่ใบกำกับ Invoice No. IV690011\n\n300 ซ.เพชรเกษม 42 แยก 1 ถ.เพชรเกษม แขวงบางจาก เขตภาษีเจริญ กรุงเทพมหานคร 10160\n300 Soi Phetkasem 42 Yaek 1 Phetkasem Rd., Bangchak, Phasi Charoen, Bangkok 10160\nโทร : 0-2457-4886, 0-2457-4889 แฟกซ์ : 0-2869-5515\nเลขประจำตัวผู้เสียภาษีอากร 010554013073 (สำนักงานใหญ่)\n\nรหัสลูกค้า Customer Code C0116\nบริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\nชื่อ / ที่อยู่ลูกค้า Name/Address 77/77 หมู่ที่ 3 ถ.ศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nโทร : 0-2090-2345-49 แฟกซ์ : 0-2090-2350\nเลขประจำตัวผู้เสียภาษี 0105548117733 / สำนักงานใหญ่\n\nวันที่ Date 10 / 01 / 2569\nเงื่อนไขชำระเงิน Term of Payment 30 วัน\nครบกำหนดชำระ Due Date 09 / 02 / 2569\nเลขที่ใบสั่งซื้อ P/O No. PO6901/067\nพนักงานขาย Sale Executive พิชิต\n\n<table><tr><td></td><td>รหัสสินค้า Product Code</td><td>รายการสินค้า Description</td><td>จำนวน Quantity</td><td>หน่วย Unit</td><td>ราคาต่อหน่วย Unit Price</td><td>จำนวนเงิน Amount</td></tr><tr><td>1</td><td>DP20</td><td>AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง</td><td>400</td><td>ลิตร</td><td>85.00</td><td>34,000.00</td></tr></table>\n\nหมายเหตุ Remarks\n\nรวมราคาสินค้า Amount of Goods 34,000.00\nภาษีมูลค่าเพิ่ม Amount of VAT 2,380.00\nจำนวนเงินรวมทั้งสิ้น Total Amount 36,380.00\n\n(สามหมื่นหกพันสามร้อยแปดสิบบาทถ้วน)\n\nได้รับสินค้าตามรายการข้างต้นถูกต้องแล้ว Received the goods listed above in good condition\n\nในนาม บริษัท แอลฟา โปร เคมีคอล จำกัด On behalf of Alpha Pro Chemical Co., Ltd.\n\nผู้รับสินค้า/Received By \nวันที่/Date\n\nผู้ส่งสินค้า/Delivered By \nวันที่/Date 10/1/69\n\nผู้มีอำนาจลงนาม/ Authorized Signature\n\n\nสำหรับลูกค้า\n\nสินค้าตามรายการข้างต้น แม้จะได้ส่งมอบแก่ผู้ซื้อแล้ว ก็ยังคงเป็นทรัพย์สินของผู้ขาย จนกว่าผู้ซื้อจะได้ชำระเงินเรียบร้อยแล้ว Even after delivery, the goods listed above still remain the property of the seller until the payment has been made.",
+    "char_count": 1863,
+    "word_count": 190,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "UNKNOWN",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง",
+          "quantity": 400,
+          "unit_price": 85,
+          "total": 34000
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 34000,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 34000,
+        "vat_rate": 7,
+        "vat_amount": 2380,
+        "total": 36380
+      },
+      "confidence_note": null
+    }
+  }
+}

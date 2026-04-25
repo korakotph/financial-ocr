@@ -1,0 +1,55 @@
+{
+  "id": "da6865e0-8034-45a0-89b0-26622967f733",
+  "filename": "เอกสาร_invoice_page-0006.jpg",
+  "stored_filename": "20260418_131009_da6865e0-8034-45a0-89b0-26622967f733_เอกสาร_invoice_page-0006.jpg",
+  "created_at": "2026-04-18T13:10:27.106900",
+  "ocr": {
+    "text": "PRIMAX GENERAL CO.,LTD.\nHead Office 9/9 Moo 5 Phaholyothin Road,\nKlong - Neung, Klong Luang, Pathumthani 12120\nTel. 0-2516-4907-10 Fax : 0-2516-4906\n\nURS\nUKAS MANAGEMENT SYSTEMS\n\nสำนักงานใหญ่ เลขที่ 9/9 หมู่ 5 ถ.พหลโยธิน\nต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 12120\nโทรศัพท์ 0-2516-4907-10 โทรสาร : 0-2516-4906\n\nต้นฉบับใบกำกับภาษี/ใบส่งสินค้า\nORIGINAL TAX INVOICE/DELIVERY ORDER\n\nเลขประจำตัวผู้เสียภาษีอากร 0105531060831\nสำหรับลูกค้า/CUSTOMER\nเอกสารออกเป็นชุด NO IV6901448\n\nลูกค้า/ที่อยู่-NAME/ADDRESS\nบริษัท บราเฮอร์ แอนด์ บราเฮอร์ จำกัด\n77/77 ม.3 ถนนศรีสมาน ต.บ้านใหม่\nอ.ปากเกร็ด จ.นนทบุรี\n11120\nเลขประจำตัวผู้เสียภาษี 0105548117733 สำนักงานใหญ่\n\nรหัสลูกค้า ACCOUNT CODE 20130\nวันที่ DATE 26/01/69\nเงื่อนไขการชำระเงิน TERM OF PAYMENT วัน\nใบสั่งซื้อเลขที่ P/O.NO.OR6901/050\nสถานที่ส่ง DESTINATION เชียงราก\n\n<table><tr><td>รหัสสินค้า<br/>PRODUCT CODE</td><td>รายการ<br/>DESCRIPTION</td><td>จำนวน<br/>QUANTITY</td><td>หน่วยละ<br/>UNIT PRICE</td><td>จำนวนเงิน<br/>AMOUNT</td></tr><tr><td>20130-019-00</td><td>ลัง35x49x43cm. ต้านA+B</td><td>100</td><td>31.00</td><td>3,100.00</td></tr></table>\n\nรวมเงิน TOTAL 3,100.00\nภาษีมูลค่าเพิ่ม VAT 7.0% 217.00\nยอดรวม NET TOTAL 3,317.00\n\nบาท BAHT (สามพันสามร้อยสิบเจ็ดบาทถ้วน).\n\nได้รับสินค้าไว้ถูกต้องและเรียบร้อยแล้ว\nGOODS RECEIVED IN GOOD ORDER AND CONDITION\nผู้รับของ RECEIVED BY พนัธร\nวันที่รับของ DATE 26/1/69\n\nกรรมสิทธิ์ในตัวสินค้า ยังคงเป็นของผู้ขายจนกว่าผู้ซื้อจะชำระเงินจนครบถ้วน\n\nผู้อนุมัติ APPROVED BY Amr-\nวันที่ DATE 26/1/69\n\n70-6301 ( ขอนแก่น )นายทศพล\nทะเบียนรถ/พนักงานขับรถ\n\nหมายเหตุ",
+    "char_count": 1529,
+    "word_count": 133,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ลัง35x49x43cm. ต้านA+B",
+          "quantity": 100,
+          "unit_price": 31.0,
+          "total": 3100.0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 3100.0,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 3100.0,
+        "vat_rate": 7,
+        "vat_amount": 217.0,
+        "total": 3317.0
+      },
+      "confidence_note": null
+    }
+  }
+}

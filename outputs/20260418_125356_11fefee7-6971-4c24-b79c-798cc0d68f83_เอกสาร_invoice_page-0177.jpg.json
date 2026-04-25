@@ -1,0 +1,67 @@
+{
+  "id": "11fefee7-6971-4c24-b79c-798cc0d68f83",
+  "filename": "เอกสาร_invoice_page-0177.jpg",
+  "stored_filename": "20260418_125356_11fefee7-6971-4c24-b79c-798cc0d68f83_เอกสาร_invoice_page-0177.jpg",
+  "created_at": "2026-04-18T12:54:51.898977",
+  "ocr": {
+    "text": "3A 3 A CENTER CO., LTD.\nสำนักงานใหญ่ : 57 ซอยรามอินทรา 8 แยก 1 ถนนรามอินทรา แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพฯ 10220\nHEAD OFFICE : 57 SOI RAMINTRA 8 ZONE 1 RAMINTRA ROAD, ANUSAWAREE, BANGKHEN, BANGKOK 10220\nTEL : 02-971-8124-5, 02-971-9057, 02-971-8686-7, 02-001-8839, 086-4902406, 086-4401920, 086-4401921\nFAX : 02-971-9067 Website : www.3acenter.com E-mail : adminsale.hq@3acenter.co.th, office.3@3acenter.co.th\nเลขประจำตัวผู้เสียภาษี 0125538005550\n\nเบอร์โทร TEL.\nเลขประจำตัวผู้เสียภาษีอากร/เลขที่บัตรประชาชน TAX ID. : 0105548117733\n\nเอกสารออกเป็นชุด\nเลขที่ No. 70578\nวันที่ Date 12.01.69\n\nชื่อลูกค้า Customer's name บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)\nที่อยู่ Address 77/77 หมู่ 3 ถนนศรีสมาน ตำบลบ้านใหม่ อำเภอปากเกร็ด จังหวัดนนทบุรี 11120\n\n<table><tr><td>รหัสลูกค้า<br/>Customer Code</td><td>พนักงานขาย<br/>Salesman</td><td>ใบสั่งซื้อเลขที่<br/>P/O No.</td><td>เงื่อนไขการชำระเงิน<br/>Term of Payment</td><td>วันครบกำหนด<br/>Due Date</td></tr><tr><td>1030</td><td>NP103</td><td>6812/102</td><td>30 วัน</td><td>12.02.69</td></tr></table><table><tr><td>ลำดับ<br/>Item</td><td>รายการสินค้า<br/>Description</td><td>จำนวน<br/>Quantity</td><td>ราคาต่อหน่วย<br/>Unit Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>1</td><td>PVC 0.07 MM. X 14 CM. X 700 M. สีใส( 5 ม้วน)</td><td>46.70 Kgs.</td><td>91.00</td><td>4,249.70</td></tr><tr><td>2</td><td>PVC 0.07 MM. X 11 CM. X 700 M. สีใส( 4 ม้วน)</td><td>29.40 Kgs.</td><td>91.00</td><td>2,675.40</td></tr><tr><td>3</td><td>PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 3 ม้วน)</td><td>38.06 Kgs.</td><td>91.00</td><td>3,463.46</td></tr></table>\n\nหมายเหตุ\n\n<table><tr><td>รวม<br/>TOTAL</td><td>10,388.56</td></tr><tr><td>จำนวนเงิน หัก<br/>DEDUCTION AMOUNT</td><td></td></tr><tr><td>จำนวนเงินรวม<br/>SUB TOTAL</td><td>10,388.56</td></tr><tr><td>ภาษีมูลค่าเพิ่ม<br/>VAT 7%</td><td>727.20</td></tr><tr><td>จำนวนเงินสุทธิ<br/>GRAND TOTAL</td><td>11,115.76</td></tr></table>\n\nจำนวนเงินตัวอักษร หนึ่งหมื่นหนึ่งพันหนึ่งร้อยสิบห้าบาทเจ็ดสิบหกสตางค์\n\n1. บริษัทฯ ขอสงวนสิทธิ์การแก้ไขใบกำกับภาษี ภายใน 7 วัน นับจากวันส่งสินค้า\n2. สินค้าตามรายการข้างต้น บริษัทฯ ไม่รับคืนหรือแลกเปลี่ยน ภายหลังวันรับสินค้าแล้ว 30 วัน\n3. โปรดชำระด้วยเช็คขีดคร่อมในนาม \"บริษัท 3 เอ เช็นเตอร์ จำกัด\" เท่านั้น\n4. บริษัทฯ จะคิดดอกเบี้ย 1.25% ต่อเดือน เมื่อชำระเงินช้าเกินกำหนด\n\n60595\n\nผู้รับสินค้า Signature\nGoods Received by \nวันที่ 12 / 1 / 69\n\nผู้ส่งสินค้า Signature\nDelivery by \nวันที่ \n\nในนาม บริษัท 3 เอ เช็นเตอร์ จำกัด FOR 3 A CENTER CO., LTD.\n\nSignature\nผู้ได้รับมอบอำนาจ AUTHORIZED SIGNATURE",
+    "char_count": 2518,
+    "word_count": 201,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "6812/102",
+      "document_date": "12.02.69",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": "1030",
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "PVC 0.07 MM. X 14 CM. X 700 M. สีใส( 5 ม้วน)",
+          "quantity": 46.7,
+          "unit_price": 91,
+          "total": 4249.7
+        },
+        {
+          "name": "PVC 0.07 MM. X 11 CM. X 700 M. สีใส( 4 ม้วน)",
+          "quantity": 29.4,
+          "unit_price": 91,
+          "total": 2675.4
+        },
+        {
+          "name": "PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 3 ม้วน)",
+          "quantity": 38.06,
+          "unit_price": 91,
+          "total": 3463.46
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 10388.56,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 10388.56,
+        "vat_rate": 7,
+        "vat_amount": 727.2,
+        "total": 11115.76
+      },
+      "confidence_note": null
+    }
+  }
+}

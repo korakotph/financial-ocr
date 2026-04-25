@@ -1,0 +1,55 @@
+{
+  "id": "23c04155-a18f-4e90-a53a-6b5ae53d0389",
+  "filename": "เอกสาร_invoice_page-0009.jpg",
+  "stored_filename": "20260418_131021_23c04155-a18f-4e90-a53a-6b5ae53d0389_เอกสาร_invoice_page-0009.jpg",
+  "created_at": "2026-04-18T13:11:42.567075",
+  "ocr": {
+    "text": "PIMAX GENERAL CO.,LTD.\nHead Office 9/9 Moo 5 Phaholyothin Road,\nKlong - Neung, Klong Luang, Pathumthani 12120\nTel : 0-2516-4907-10 Fax : 0-2516-4906\n\nURS\nISO 9001\nUKAS MANAGEMENT SYSTEMS UKAS\n\nต้นฉบับใบกำกับภาษี/ใบส่งสินค้า\nORIGINAL TAX INVOICE/DELIVERY ORDER\n\nเลขประจำตัวผู้เสียภาษีอากร 0105531080831\nสำหรับลูกค้า/CUSTOMER\nเอกสารออกเป็นชุด NO.\n\nIV6901445\n\nลูกค้า/ที่อยู่-NAME/ADDRESS บริษัท บรา เฮอร์ แอนด์ บรา เฮอร์ จำกัด\n77/77 ม.3 ถนนศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nรหัสลูกค้า ACCOUNT CODE 20130\nวันที่ DATE 26/01/69\nเงื่อนไขการชำระเงิน TERM OF PAYMENT วัน\nใบสั่งซื้อเลขที่ P/O.NO.OR6901/057\nสถานที่ส่ง DESTINATION เชียงราก\n\nเลขประจำตัวผู้เสียภาษี 0105548117733 สำนักงานใหญ่\n\n<table><tr><td>PRODUCT CODE</td><td>DESCRIPTION</td><td>QUANTITY</td><td>UNIT PRICE</td><td>AMOUNT</td></tr><tr><td>20130-016-00</td><td>สัง 35.5x35.5x46.5 cm.มีปรุ</td><td>500</td><td>27.50</td><td>13,750.00</td></tr></table>\n\nรวมเงิน TOTAL 13,750.00\nภาษีมูลค่าเพิ่ม VAT 7.0% 962.50\nยอดรวม NET TOTAL 14,712.50\n\nบาท BAHT (หนึ่งหมื่นสี่พันเจ็ดร้อยสิบสองบาห้าสิบสตางค์).\n\nได้รับสินค้าไว้ถูกต้องและเรียบร้อยแล้ว GOODS RECEIVED IN GOOD ORDER AND CONDITION\nผู้รับของ RECEIVED BY พนันอง\nวันที่รับของ DATE 26/1/69\n\nกรรมสิทธิ์ในตัวสินค้า ยังคงเป็นของผู้ขายจนกว่าผู้ซื้อจะชำระเงินจนครบถ้วน\n\n70-6301 ( ขอนแก่น )นายทศพล\nทะเบียนรถ/พนักงานขับรถ\n\nผู้อนุมัติ APPROVED BY วันที่ DATE 26/1/69\n\nหมายเหตุ",
+    "char_count": 1378,
+    "word_count": 124,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "สัง 35.5x35.5x46.5 cm.มีปรุ",
+          "quantity": 500,
+          "unit_price": 27.5,
+          "total": 13750
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 13750,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 13750,
+        "vat_rate": 7,
+        "vat_amount": 962.5,
+        "total": 14712.5
+      },
+      "confidence_note": null
+    }
+  }
+}

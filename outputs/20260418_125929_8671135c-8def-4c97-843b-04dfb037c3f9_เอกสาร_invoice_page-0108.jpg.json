@@ -1,0 +1,55 @@
+{
+  "id": "8671135c-8def-4c97-843b-04dfb037c3f9",
+  "filename": "เอกสาร_invoice_page-0108.jpg",
+  "stored_filename": "20260418_125929_8671135c-8def-4c97-843b-04dfb037c3f9_เอกสาร_invoice_page-0108.jpg",
+  "created_at": "2026-04-18T13:00:34.848857",
+  "ocr": {
+    "text": "**Vertex Trading Co., Ltd.**\nสำนักงานใหญ่ : 101/56 หมู่ที่ 20 ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 12120\nHead Office : 101/56 Moo 20, T.Klongnueng, A.Klongluang, Pathumthani, 12120 Thailand.\nTel : 0-2520-5133-36 Fax : 0-2529-2254, 0-2529-4675\nเลขประจำตัวผู้เสียภาษี 0135537001917\n\nTAX INVOICE/DELIVERY ORDER\nต้นฉบับ ORIGINAL\nเอกสารออกเป็นชุด\n\nลูกค้า/ที่อยู่ Customer/Address\nบริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่)\n77/77 หมู่ 3 ถนนศรีสมาน ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120\nเลขประจำตัวผู้เสียภาษี 0105548117733\nรหัสลูกค้า Customer Code 5467\n\n<table><tr><td>เลขที่ No.</td><td>IV9085291</td><td>วันที่ Date</td><td>06/01/69</td></tr><tr><td>เครดิต Credit Term</td><td>45</td><td>ครบกำหนดชำระ Due Date</td><td>20/02/69</td></tr><tr><td>พนักงานขาย Salesman</td><td colspan=\"3\">13-ต้อม08633666 ในสั่งซื้อเลขที่ Ref. P/O No. PO6812/247</td></tr></table><table><tr><td>ลำดับที่ No.</td><td>รหัสสินค้า/รายการสินค้า Product Code/Product Description</td><td>จำนวน Quantity</td><td>ราคาต่อหน่วย Unit Price</td><td>จำนวนเงิน Amount</td></tr><tr><td>1</td><td>03-3225 กรวยน้ำ ARO 5000ใบ(มอก.)FOOD GRADE (200 ใบ*25 แพค) จำนวน 200 ลัง</td><td>5,000.00แพค</td><td>22.40</td><td>112,000.00</td></tr></table>\n\nแค่ค่างานเหมย\n\nส่งของพร้อมวางบิล /โอนเงินอังคาร ,ศุกร์ (กสิกร )\nผิด ตก ยกเว้น E.&amp;O. E.\n\nรวมเป็นเงิน Total Amount 112,000.00\nภาษีมูลค่าเพิ่ม VAT 7.00 % 7,840.00\nจำนวนเงินรวมทั้งสิ้น Grand Total 119,840.00\n\nบาท Baht (หนึ่งแสนหนึ่งหมื่นเก้าพันแปดร้อยสี่สิบบาทถ้วน)\n\nผู้ส่งของ Delivered by \nผู้มีอำนาจลงนาม Authorized Signature จินดา\n08/01/69\n\nได้รับสินค้าตามรายการข้างบนนี้ถูกต้องและเรียบร้อยแล้ว Receive the above goods in good order and condition.\n\nหมายเหตุ :\n*   ในกรณีที่ไม่ชำระเงินภายในกำหนด ท่านจะต้องชำระดอกเบี้ยให้บริษัทฯ ในอัตรา 1.5% ต่อเดือน นับแต่วันผิดนัด In case settlement is not made within the period, an interest rate of 1.5% per month is charged from due date\n*   เมื่อชำระเงินด้วยเช็ค กรุณาสั่งจ่ายเช็คขีดคร่อมในนาม บริษัท เวอร์เท็กซ์ เทรดดิ้ง จำกัด และขีดฆ่าหรือผู้ถือ If payment is made by cheque, please cross and pay to Vertex Trading Co., Ltd. and cross out the bearer\n*   สินค้าที่ส่งมอบยังคงเป็นของผู้ขาย จนกว่าผู้ซื้อได้ชำระเงินเสร็จเรียบร้อยแล้ว All goods are belong to Vertex Trading Co., Ltd. until all payment are completely made.\n\nผู้รับของ Received by \nวันที่ Date 6 7 57",
+    "char_count": 2310,
+    "word_count": 222,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "IV9085291",
+      "document_date": "06/01/69",
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "03-3225 กรวยน้ำ ARO 5000ใบ(มอก.)FOOD GRADE (200 ใบ*25 แพค) จำนวน 200 ลัง",
+          "quantity": 5000,
+          "unit_price": 22.4,
+          "total": 112000
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 112000,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 112000,
+        "vat_rate": 7,
+        "vat_amount": 7840,
+        "total": 119840
+      },
+      "confidence_note": null
+    }
+  }
+}

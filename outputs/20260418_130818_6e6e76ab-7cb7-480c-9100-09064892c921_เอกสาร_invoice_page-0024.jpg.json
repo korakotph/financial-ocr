@@ -1,0 +1,55 @@
+{
+  "id": "6e6e76ab-7cb7-480c-9100-09064892c921",
+  "filename": "เอกสาร_invoice_page-0024.jpg",
+  "stored_filename": "20260418_130818_6e6e76ab-7cb7-480c-9100-09064892c921_เอกสาร_invoice_page-0024.jpg",
+  "created_at": "2026-04-18T13:09:08.427726",
+  "ocr": {
+    "text": "บริษัท ไซแมท เลเบล จำกัด สำนักงานใหญ่\nSimat Label Company Limited\n123 ซอยฉลองกรุง 31 นิคมอุตสาหกรรมลาดกระบัง ถนนฉลองกรุง แขวงลำปลาทิว เขตลาดกระบัง กรุงเทพฯ 10520\n123 Soi Chalongkrung 31, Ladkrabang Industrial Estate, Chalongkrungr Road, Lamplatew, Ladkrabang, Bangkok 10520\nTel : (662) 326-0571-4\n\nSL Label\nเลขประจำตัวผู้เสียภาษีอากร 0105551041025\n(เอกสารออกเป็นชุด)\n\nBill To : บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\nสำนักงานใหญ่ เลขที่ 77/77 หมู่ที่ 3 ถนนศรีสมาน\nตำบลบ้านใหม่ อำเภอปากเกร็ด\nจังหวัดนนทบุรี 11120\nThailand\nTax ID: 0105548117733\nTEL : FAX :\n\nInvoice No.: AR-L 103382\nDate: 27/01/26\nPage: 1\nDue Date: 26/02/26\n\nShip To : เลขที่ 77/77 หมู่ที่ 3 ถนนศรีสมาน\nตำบลบ้านใหม่ อำเภอปากเกร็ด\nจังหวัดนนทบุรี 11120\nThailand\n\nSales Order No.: 82079\nSales Name: Sittiphoorn Thawekarn\nCustomer P.O. No.: OR6901/019\nDelivery No.: 107300\n\n<table><tr><td>รหัสสินค้า<br/>Product Code</td><td>รายการ<br/>Description</td><td>จำนวน<br/>Quantity</td><td>ราคา/หน่วย<br/>Unit Price</td><td>จำนวนเงิน<br/>Amount</td></tr><tr><td>SIM-08-0256</td><td>ZO0455 OKI-TONER 46844014 BK 9K - ดำ</td><td>1</td><td>6,542.05600</td><td>THB 6,542.06</td></tr></table>\n\n**ยกเว้นการหักภาษี ณ ที่จ่าย เนื่องจากบริษัทประกอบกิจการเป็นผู้ผลิตตาม พ.ป.4/2528**\n\n**No withholding tax**\n\nรวมเงิน/Total THB 6,542.06\nภาษีมูลค่าเพิ่ม/Vat 7% THB 457.94\nจำนวนเงินรวมทั้งสิ้น/Net Amount THB 7,000.00\n\nSeven thousand THB Only\n\nได้รับสินค้าตามรายการข้างต้นถูกต้องแล้ว/Received the above goods in good order and condition\n\n\nวันที่/Date : 27-1-60\nผู้ส่งสินค้า/Delivered By\nวันที่/Date : 27 ม.ค. 69\nผู้รับสินค้า/Receiver\nวันที่/Date :\nผู้รับเงิน/Received By\nวันที่/Date :\nผู้อนุมัติ/Authorized\nสำหรับลูกค้า\n\nการชำระเงินด้วยเช็คจะสมบูรณ์เมื่อเช็คได้ผ่านการเรียกเก็บจากธนาคารแล้วเท่านั้น Payment By Cheque not valid till the cheque has been cleared only",
+    "char_count": 1802,
+    "word_count": 179,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": null,
+      "document_date": null,
+      "seller": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "buyer": {
+        "name": null,
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": null
+      },
+      "items": [
+        {
+          "name": "ZO0455 OKI-TONER 46844014 BK 9K - ดำ",
+          "quantity": 1,
+          "unit_price": 6542.056,
+          "total": 6542.06
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 6542.06,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 6542.06,
+        "vat_rate": 7,
+        "vat_amount": 457.94,
+        "total": 7000.0
+      },
+      "confidence_note": null
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "a367397c-db4b-48e8-aa7d-55744af6a920",
+  "filename": "เอกสาร_invoice_page-0031.jpg",
+  "stored_filename": "20260418_130900_a367397c-db4b-48e8-aa7d-55744af6a920_เอกสาร_invoice_page-0031.jpg",
+  "created_at": "2026-04-18T13:09:20.835170",
+  "ocr": {
+    "text": "PRIMAX GENERAL CO., LTD.\nHead Office 9/9 Moo 5 Phaholyothin Road,\nKlong - Neung, Klong Luang, Pathumthani 12120\nTel. 0-2516-4907-10 Fax : 0-2516-4906\n\nURS\nUKAS\nบริษัท เพรแมกซ์ เจเนอรัล จำกัด\nสำนักงานใหญ่ เลขที่ 9/9 หมู่ 5 ถ.พหลโยธิน\nต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 12120\nโทรศัพท์ 0-2516-4907-10 โทรสาร 0-2516-4906\n\nต้นฉบับใบกำกับภาษี/ใบส่งสินค้า\nORIGINAL TAX INVOICE/DELIVERY ORDER\nเลขประจำตัวผู้เสียภาษีอากร 0105531080831\nเลขที่ NO. IV6901468\n\n<table><tr><td>รหัสลูกค้า<br/>ACCOUNT CODE</td><td>20130</td><td>วันที่<br/>DATE</td><td>27/01/69</td></tr><tr><td>ชื่อผู้ชำระเงิน<br/>TERM OF PAYMENT</td><td>วัน</td><td colspan=\"2\">ใบสั่งซื้อเลขที่ P/O.NO.OR6901/056</td></tr><tr><td>สถานที่ส่ง<br/>DESTINATION</td><td colspan=\"3\">เชียงราก</td></tr></table>\n\nลูกค้า/ที่อยู่-NAME/ADDRESS\nบริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด\n77/77 ม.3 ถนนศรีสมาน ต.บ้านใหม่\nอ.ปากเกร็ด จ.นนทบุรี\n11120\nเลขประจำตัวผู้เสียภาษี 0105548117733 สำนักงานใหญ่\n\n<table><tr><td>สินค้า<br/>PRODUCT CODE</td><td>รายการ<br/>DESCRIPTION</td><td>จำนวน<br/>QUANTITY</td><td>หน่วยละ<br/>UNIT PRICE</td><td>จำนวนเงิน<br/>AMOUNT</td></tr><tr><td>20130-021-00</td><td>ลัง41x49x36cm.</td><td>250</td><td>44.00</td><td>11,000.00</td></tr></table><table><tr><td>รวมเงิน<br/>TOTAL</td><td>11,000.00</td></tr><tr><td>ภาษีมูลค่าเพิ่ม<br/>VAT 7.0%</td><td>770.00</td></tr><tr><td>ยอดรวม<br/>NET TOTAL</td><td>11,770.00</td></tr></table>\n\nบาท BAHT (หนึ่งหมื่นหนึ่งพันเจ็ดร้อยเจ็ดสิบบาทถ้วน)\n\nได้รับสินค้าไว้ถูกต้องและเรียบร้อยแล้ว\nGOODS RECEIVED IN GOOD ORDER AND CONDITION\nผู้รับของ RECEIVED BY นันทยา\nวันที่รับของ DATE 22/11/69\n\nกรรมสิทธิ์ในตัวสินค้า ยังคงเป็นของผู้ขายจนกว่าผู้ซื้อจะชำระเงินจนครบถ้วน\n\n<table><tr><td>ผู้อนุมัติ<br/>APPROVED BY</td><td>วันที่<br/>DATE</td></tr><tr><td>Signature</td><td>22/11/69</td></tr></table>\n\n70-6301 ( ขอนแก่น ) นายทศพล\nทะเบียนรถ/พนักงานขับรถ\n\nหมายเหตุ",
+    "char_count": 1845,
+    "word_count": 110,
+    "ocr_confidence": 1.0
+  },
+  "analysis": {
+    "status": "success",
+    "data": {
+      "document_type": "INVOICE",
+      "document_number": "OR6901/056",
+      "document_date": "1969-01-27",
+      "seller": {
+        "name": null,
+        "tax_id": "20130",
+        "address": "เชียงราก"
+      },
+      "buyer": {
+        "name": "วัน",
+        "tax_id": null,
+        "address": null
+      },
+      "receiver": {
+        "name": null,
+        "date_time": "1969-11-22T00:00:00"
+      },
+      "items": [
+        {
+          "name": "ลัง41x49x36cm.",
+          "quantity": 250,
+          "unit_price": 44.0,
+          "total": 11000.0
+        }
+      ],
+      "amount": {
+        "gross_subtotal": 11000.0,
+        "discount": {
+          "rate": null,
+          "amount": 0,
+          "note": null
+        },
+        "subtotal": 11000.0,
+        "vat_rate": 7,
+        "vat_amount": 770.0,
+        "total": 11770.0
+      },
+      "confidence_note": null
+    }
+  }
+}
