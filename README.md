@@ -68,11 +68,14 @@ docker-compose up -d
 
 Services will be available at:
 
-| Service | URL |
-|---------|-----|
-| Frontend | http://localhost:3001 |
-| Backend API | http://localhost:8000 |
-| MinIO Console | http://localhost:9001 |
+| Service | URL | Host Port |
+|---------|-----|-----------|
+| Frontend | http://localhost:3011 | 3011 |
+| Backend API | http://localhost:8010 | 8010 |
+| MinIO API | http://localhost:9010 | 9010 |
+| MinIO Console | http://localhost:9011 | 9011 |
+| PostgreSQL | localhost:5443 | 5443 |
+| Ollama | http://localhost:11444 | 11444 |
 
 ### Running Locally (Development)
 
@@ -82,15 +85,15 @@ cd backend
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-export DATABASE_URL="postgresql://finance_user:finance_pass@localhost:5433/finance_db"
-uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+export DATABASE_URL="postgresql://finance_user:finance_pass@localhost:5443/finance_db"
+uvicorn app.main:app --host 0.0.0.0 --port 8010 --reload
 ```
 
 **Frontend:**
 ```bash
 cd frontend
 npm install
-npm run dev  # http://localhost:3001
+npm run dev  # http://localhost:3011
 ```
 
 ## Configuration
