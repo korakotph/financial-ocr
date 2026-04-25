@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 6.086232900000141,
+        "max": 14.09255630000007,
+        "avg": 9.057110870000088,
+        "total": 90.57110870000088
+      },
+      "results": {
+        "เอกสาร invoice_page-0039.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "765726fe-bd6d-400f-9ca9-f0c6f3d2a6f8",
+          "elapsed": 10.454211000000214,
+          "text": "INVOICE เส้นกดเส้นพับ 0.4*1.3 เส้นกดเส้นพับ 0.5*1.5 20865"
+        },
+        "เอกสาร invoice_page-0048.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "57a8959f-e2e5-427b-ac6c-e6a1a9b88e9e",
+          "elapsed": 9.725796000000628,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 6634.0"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "76994698-539d-4682-af4f-64ea97adac4c",
+          "elapsed": 10.232338200000413,
+          "text": "INVOICE OR6901/032 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0056.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d3f0957b-1523-4fad-8d0f-38e2728ace6b",
+          "elapsed": 8.947365799999716,
+          "text": "INVOICE ลัง42x59x33cm. 8950.55"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "141c8eb0-0152-4ea4-956f-74b70cb26703",
+          "elapsed": 8.508758099999795,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0117.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a7d68b9c-6390-48c8-b52d-da699fbbe1e7",
+          "elapsed": 7.372367899999517,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ตายติดหู 3959"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "baa1ced2-a7f9-4527-b7cb-ccaedfb847c2",
+          "elapsed": 9.0421879000005,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0156.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ac442f88-f462-4225-8cfa-3009a3bd943c",
+          "elapsed": 6.086232900000141,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0164.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "84221249-5988-432e-a5b1-2a44a84b8d7f",
+          "elapsed": 6.109294599999885,
+          "text": "INVOICE G1910068P ฝาปิดกล่องขนม สี่เหลี่ยม PET ไซส์ L บรรจุ 600 ชิ้น/กล่อง จำนวน 9.5 กล่อง 45293.1"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "683d416e-ef87-40f3-82de-c44f5e684c1e",
+          "elapsed": 14.09255630000007,
+          "text": "INVOICE 6901/058 PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.196912399999746,
+        "max": 10.810652499999378,
+        "avg": 8.16225736999986,
+        "total": 81.62257369999861
+      },
+      "results": {
+        "เอกสาร invoice_page-0039.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "22342083-5756-41a3-ae1b-a9ecb2b4e3f7",
+          "elapsed": 10.810652499999378,
+          "text": "INVOICE เส้นกดเส้นพับ 0.4*1.3 เส้นกดเส้นพับ 0.5*1.5 20865"
+        },
+        "เอกสาร invoice_page-0048.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "df4dd55c-f7ed-42e8-ac9b-69b8c8a3f415",
+          "elapsed": 8.78873829999975,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 6634.0"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "943e42af-168e-4c8a-ae69-d7ae7d23b662",
+          "elapsed": 8.326401999999689,
+          "text": "UNKNOWN OR6901/032 P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0056.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d8a706a1-1f15-491e-9fe1-0dc5af4769e3",
+          "elapsed": 7.269597299999987,
+          "text": "INVOICE ลัง42x59x33cm. 8950.55"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d95e3668-9bc6-4448-902d-2278c21f615a",
+          "elapsed": 7.694332399999439,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0117.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "47e004b7-6d06-4a4d-9a18-100b5c16665c",
+          "elapsed": 6.624507300000005,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ตายติดหู 3959"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b3acf9ce-769c-44c3-bdbf-5164ed0d17fe",
+          "elapsed": 9.12765060000038,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0156.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "113fd0f2-5025-4df4-8bbd-c4d5c2f4cd5a",
+          "elapsed": 6.244144000000233,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0164.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "22ece764-2dab-403c-ad76-bae876364c89",
+          "elapsed": 6.196912399999746,
+          "text": "INVOICE G1910068P ฝาปิดกล่องขนม สี่เหลี่ยม PET ไซส์ L บรรจุ 600 ชิ้น/กล่อง จำนวน 45 กล่อง 45293.1"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9edbbca7-711b-4937-b73b-b8008255b9ee",
+          "elapsed": 10.539636900000005,
+          "text": "INVOICE 6901/058 PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.64105279999967,
+        "max": 10.728371200000765,
+        "avg": 8.676701330000105,
+        "total": 86.76701330000105
+      },
+      "results": {
+        "เอกสาร invoice_page-0039.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d5e3c794-6a78-42f8-8c50-990c3306b737",
+          "elapsed": 9.702984100000322,
+          "text": "INVOICE เส้นกดเส้นพับ 0.4*1.3 เส้นกดเส้นพับ 0.5*1.5 20865"
+        },
+        "เอกสาร invoice_page-0048.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "161fa14c-e452-43dc-9433-84cf4eca3984",
+          "elapsed": 9.416835099998934,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 6634.0"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ecf6586a-1b11-445b-91d4-97397ca9ff56",
+          "elapsed": 10.44425609999962,
+          "text": "UNKNOWN OR6901/032 P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0056.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "537ccf10-f985-4b88-b536-25adfada37ce",
+          "elapsed": 7.641437700000097,
+          "text": "INVOICE ลัง42x59x33cm. 8950.55"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "01eb6f4a-5e0d-42e4-8ac6-763cd1ffcf10",
+          "elapsed": 10.728371200000765,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0117.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "edab1838-027d-4aab-a7f1-c3f334a539f9",
+          "elapsed": 7.702128099999754,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ตายติดหู 3959"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e0663f75-53a8-4815-8687-8f05ab59af2a",
+          "elapsed": 8.13240080000105,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0156.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "635e8df7-a0b5-46a9-9c8f-7d89c6ddb0c0",
+          "elapsed": 6.64105279999967,
+          "text": "INVOICE Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0164.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8c42510e-badd-422a-9c07-acb657bd38b2",
+          "elapsed": 7.2799888999998075,
+          "text": "INVOICE G1910068P ฝาปิดกล่องขนม สี่เหลี่ยม PET ไซส์ L บรรจุ 600 ชิ้น/กล่อง จำนวน 9.5 กล่อง 45293.1"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a491df45-ba91-4186-b403-91ae7491f4c9",
+          "elapsed": 9.077558500001032,
+          "text": "INVOICE 6901/058 PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.785872300000847,
+        "max": 11.627895400000853,
+        "avg": 8.860690430000068,
+        "total": 88.60690430000068
+      },
+      "results": {
+        "เอกสาร invoice_page-0039.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "63eca124-295b-4e24-8dce-168a3ed4ceac",
+          "elapsed": 11.627895400000853,
+          "text": "INVOICE เส้นกดเส้นพับ 0.4*1.3 เส้นกดเส้นพับ 0.5*1.5 20865"
+        },
+        "เอกสาร invoice_page-0048.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "667265d2-74c5-4db2-919f-8ac157c4c523",
+          "elapsed": 9.888264199998957,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 6634.0"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "569f677f-e630-4b69-9f1c-2b034fd74bb6",
+          "elapsed": 8.624055399999634,
+          "text": "UNKNOWN OR6901/032 P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0056.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1d80e24b-4725-4bcf-a19a-b481bad84062",
+          "elapsed": 8.707722600000125,
+          "text": "INVOICE ลัง42x59x33cm. 8950.55"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "95886316-78f1-4e7d-9d3a-e097f4c592f7",
+          "elapsed": 7.654108000000633,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0117.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0887c28f-d0df-44a7-b017-87520b0654a5",
+          "elapsed": 6.785872300000847,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ตายติดหู 3959"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "29974bcb-cabf-45ca-abee-d08d9f97cc9b",
+          "elapsed": 9.52185819999977,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0156.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "77467a12-27c7-433a-9719-e774591a6c20",
+          "elapsed": 6.9371885000000475,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0164.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0edf398b-9086-48b7-a59a-e4f022b9d10d",
+          "elapsed": 7.7806149999996705,
+          "text": "INVOICE G1910068P ฝาปิดกล่องขนม สี่เหลี่ยม PET ไซส์ L บรรจุ 600 ชิ้น/กล่อง จำนวน 9.5 กล่อง 45293.1"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "617a3fd0-d01a-4a8d-843e-2729476aafd0",
+          "elapsed": 11.079324700000143,
+          "text": "INVOICE 6901/058 PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 5.824437299999772,
+        "max": 12.246642000000065,
+        "avg": 8.098159759999907,
+        "total": 80.98159759999908
+      },
+      "results": {
+        "เอกสาร invoice_page-0039.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ded7cc70-b982-4507-b9c9-8ad6b918b535",
+          "elapsed": 7.98558520000006,
+          "text": "INVOICE เส้นกดเส้นพับ 0.4*1.3 เส้นกดเส้นพับ 0.5*1.5 20865"
+        },
+        "เอกสาร invoice_page-0048.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "73b20bca-36d5-42d2-9655-ef67f30187c4",
+          "elapsed": 6.961730799999714,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 6634.0"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f9a441c0-c93c-4169-a0c4-181c336d206c",
+          "elapsed": 7.786313399999926,
+          "text": "UNKNOWN OR6901/032 P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0056.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "90b24613-cfc4-4c7c-8660-5896764b5e53",
+          "elapsed": 7.219647099998838,
+          "text": "INVOICE ลัง42x59x33cm. 8950.55"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "875aa4a2-b4df-4365-86d7-65581bb0d0ae",
+          "elapsed": 9.4258475000006,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0117.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "37d98ffb-968f-475f-906e-ee1eea72abf0",
+          "elapsed": 7.911201200000505,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ตายติดหู 3959"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0bd69c3a-f1fe-4b0f-bbe4-3a42df038d42",
+          "elapsed": 12.246642000000065,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0156.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8a6606ba-f193-4dfd-933e-93629b4061c6",
+          "elapsed": 5.824437299999772,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0164.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d04cc206-ba6a-45bb-9f16-82f8ff45cef6",
+          "elapsed": 6.41666769999938,
+          "text": "INVOICE G1910068P ฝาปิดกล่องขนม สี่เหลี่ยม PET ไซส์ L บรรจุ 600 ชิ้น/กล่อง จำนวน 45 กล่อง 45293.1"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "22c34791-30e5-463f-b5ce-8aa88f9f9386",
+          "elapsed": 9.203525400000217,
+          "text": "INVOICE 6901/058 PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.196912399999746,
+        "max": 10.810652499999378,
+        "avg": 8.16225736999986,
+        "total": 81.62257369999861
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.64105279999967,
+        "max": 10.728371200000765,
+        "avg": 8.676701330000105,
+        "total": 86.76701330000105
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.785872300000847,
+        "max": 11.627895400000853,
+        "avg": 8.860690430000068,
+        "total": 88.60690430000068
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 5.824437299999772,
+        "max": 12.246642000000065,
+        "avg": 8.098159759999907,
+        "total": 80.98159759999908
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.9355,
+      "per_file": {
+        "เอกสาร invoice_page-0039.jpg": 1.0,
+        "เอกสาร invoice_page-0048.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 0.4685,
+        "เอกสาร invoice_page-0056.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 1.0,
+        "เอกสาร invoice_page-0117.jpg": 1.0,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0156.jpg": 1.0,
+        "เอกสาร invoice_page-0164.jpg": 0.8864,
+        "เอกสาร invoice_page-0179.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.9243,
+      "per_file": {
+        "เอกสาร invoice_page-0039.jpg": 1.0,
+        "เอกสาร invoice_page-0048.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 0.4685,
+        "เอกสาร invoice_page-0056.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 1.0,
+        "เอกสาร invoice_page-0117.jpg": 1.0,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0156.jpg": 0.7746,
+        "เอกสาร invoice_page-0164.jpg": 1.0,
+        "เอกสาร invoice_page-0179.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.9468,
+      "per_file": {
+        "เอกสาร invoice_page-0039.jpg": 1.0,
+        "เอกสาร invoice_page-0048.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 0.4685,
+        "เอกสาร invoice_page-0056.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 1.0,
+        "เอกสาร invoice_page-0117.jpg": 1.0,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0156.jpg": 1.0,
+        "เอกสาร invoice_page-0164.jpg": 1.0,
+        "เอกสาร invoice_page-0179.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.9355,
+      "per_file": {
+        "เอกสาร invoice_page-0039.jpg": 1.0,
+        "เอกสาร invoice_page-0048.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 0.4685,
+        "เอกสาร invoice_page-0056.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 1.0,
+        "เอกสาร invoice_page-0117.jpg": 1.0,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0156.jpg": 1.0,
+        "เอกสาร invoice_page-0164.jpg": 0.8864,
+        "เอกสาร invoice_page-0179.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

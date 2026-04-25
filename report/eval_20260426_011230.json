@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 9.940698000000339,
+        "max": 16.7738860999998,
+        "avg": 11.922263890000067,
+        "total": 119.22263890000067
+      },
+      "results": {
+        "เอกสาร invoice_page-0027.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1dc7e0b1-1997-444b-a6cf-f88066aea39d",
+          "elapsed": 11.422336499999801,
+          "text": "INVOICE OR6901/051 สัง42x59x33cm. 9737"
+        },
+        "เอกสาร invoice_page-0043.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "816008c8-5408-4e8f-84be-cf479f9dcb92",
+          "elapsed": 12.922968999999284,
+          "text": "INVOICE WHITE 8.0 OZ W/O (1000/CTN) สีขาวไม่ผิดหู PAPER CUP 12 OZ (1000/CTN) หิมพ์ลาย WHITE ICE-CREAM 260 CC (1000/CTN) ปัก 95 สีขาว 104699.5"
+        },
+        "เอกสาร invoice_page-0054.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2ce69f20-78d8-4ab8-9170-2f4ebe4aa67b",
+          "elapsed": 10.7680433000005,
+          "text": "INVOICE IV9088001 03-2137 กระดาษถ่ายA4(70/500)AL.COTTฟ้าดำ(กล่อง 5 รีม/กล่อง) 7383"
+        },
+        "เอกสาร invoice_page-0076.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4cc7be42-76ce-40d8-9396-605baf8aa065",
+          "elapsed": 16.7738860999998,
+          "text": "INVOICE SO26/323 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (โกดังสวน พริกไทย คลัง1) บจก.บราเธอร์ แอนด์ บราเธอร์ 0405039P กล่องสนเด็มบ๊อกซ์ มีหน้าต่าง ป๊อปอัพ ตราฟ 12x16x6 ซม. 41730"
+        },
+        "เอกสาร invoice_page-0108.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9d711829-3f99-423d-9ed5-30176a62d1de",
+          "elapsed": 9.940698000000339,
+          "text": "INVOICE IV9085291 03-3225 กรวยน้ำ ARO 5000ใบ(มอก.)FOOD GRADE (200 ใบ*25 แพค) จำนวน 200 ลัง 119840"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b28cad8b-ee90-48af-8f67-e11b4166ee9d",
+          "elapsed": 10.794568500001333,
+          "text": "INVOICE IV9085469 03-3225 กรวยน้ำ ARO S000ใบ(มอก.)FOOD GRADE ( 200 ใบ*25 แพค ) จำนวน 200 ถัง 119840"
+        },
+        "เอกสาร invoice_page-0120.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b6247203-80b8-415f-bb77-3f62ef8c2b13",
+          "elapsed": 12.936988999999812,
+          "text": "INVOICE 6812/209 PVC 0.07 MM. X 17 CM. X 17 CM. สีใส PVC 0.07 MM. X 19 CM. X 9 CM. สีใส 2867.6"
+        },
+        "เอกสาร invoice_page-0142.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a50219b0-5acd-4364-ac1f-d30ce4039837",
+          "elapsed": 11.630595899998298,
+          "text": "INVOICE H260100351 กฤติญา ลิ้มธีรโชติ กล่องONE - D (แกรมหนา) 34935.5"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5667f262-f752-4224-870c-bfe9d87fe8fd",
+          "elapsed": 10.84521820000009,
+          "text": "INVOICE กรรไกรด้ามของมังกรทรงก็ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708.57"
+        },
+        "เอกสาร invoice_page-0192.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b0f25488-dc6f-4afc-a420-207adf135291",
+          "elapsed": 11.187334400001419,
+          "text": "INVOICE 2601-004 SG INNOVATION CO.,LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ไบโอเซรั่มออโรแมนทิน ขนาด 30มิลลิลิตร ไบโอเซรั่มออโรแมนทิน สินค้าแถม ขนาด 30มิลลิลิตร 80000.0"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 8.080645399999412,
+        "max": 12.698343300000488,
+        "avg": 10.355939579999903,
+        "total": 103.55939579999904
+      },
+      "results": {
+        "เอกสาร invoice_page-0027.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "aaf5d26d-3ea3-40c4-8f55-e767f198d7b4",
+          "elapsed": 9.356288400000267,
+          "text": "INVOICE OR6901/051 สัง42x59x33cm. 9737"
+        },
+        "เอกสาร invoice_page-0043.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "006d60d0-8fd6-4a01-9cf7-14194cc25721",
+          "elapsed": 11.197746199999528,
+          "text": "INVOICE WHITE 8.0 OZ W/O (1000/CTN) สีขาวไม่ผิดหู PAPER CUP 12 OZ (1000/CTN) หิมพ์ลาย WHITE ICE-CREAM 260 CC (1000/CTN) ปัก 95 สีขาว 104699.5"
+        },
+        "เอกสาร invoice_page-0054.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c49d7229-6d0b-480d-bbc6-a1536d87e331",
+          "elapsed": 8.080645399999412,
+          "text": "INVOICE IV9088001 03-2137 กระดาษถ่ายA4(70/500)AL.COTTฟ้าดำ(กล่อง 5 รีม/กล่อง) 7383"
+        },
+        "เอกสาร invoice_page-0076.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b9182421-1bda-4871-bda2-09c7cc405133",
+          "elapsed": 12.433796999999686,
+          "text": "INVOICE SO26/323 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (โกดังสวน พริกไทย คลัง1) บจก.บราเธอร์ แอนด์ บราเธอร์ 0405039P กล่องสนเด็มบ๊อกซ์ มีหน้าต่าง ป๊อปอัพ ตราฟ 12x16x6 ซม. 41730000"
+        },
+        "เอกสาร invoice_page-0108.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a4ae25e7-f85e-4527-9997-a24daa5f6e58",
+          "elapsed": 10.840916799999832,
+          "text": "INVOICE IV9085291 03-3225 กรวยน้ำ ARO 5000ใบ(มอก.)FOOD GRADE (200 ใบ*25 แพค) จำนวน 200 ลัง 119840"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6a39eae4-7837-4270-8991-b556d68caec0",
+          "elapsed": 11.66914800000086,
+          "text": "INVOICE IV9085469 03-3225 กรวยน้ำ ARO S000ใบ(มอก.)FOOD GRADE ( 200 ใบ*25 แพค ) 119840"
+        },
+        "เอกสาร invoice_page-0120.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "44f7dd77-26e2-4f76-88ea-0842c534f9a0",
+          "elapsed": 10.12947449999956,
+          "text": "INVOICE 6812/209 PVC 0.07 MM. X 17 CM. X 17 CM. สีใส PVC 0.07 MM. X 19 CM. X 9 CM. สีใส 2867.6"
+        },
+        "เอกสาร invoice_page-0142.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cb3af820-48c0-4674-8225-e2ce16c35bee",
+          "elapsed": 8.640073500000653,
+          "text": "INVOICE H260100351 กฤติญา ลิ้มธีรโชติ กล่องONE - D (แกรมหนา) 34935.5"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fd2e3c30-32e2-48cd-a09b-b4cd2fa8bbec",
+          "elapsed": 8.512962699998752,
+          "text": "INVOICE กรรไกรด้ามของมังกรทรงก็ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708"
+        },
+        "เอกสาร invoice_page-0192.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "39ae06e0-bbd9-4607-a8c8-d303b87ea076",
+          "elapsed": 12.698343300000488,
+          "text": "INVOICE 2601-004 SG INNOVATION CO.,LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ไบโอเซรั่มออโรแมนทิน ขนาด 30มิลลิลิตร ไบโอเซรั่มออโรแมนทิน สินค้าแถม ขนาด 30มิลลิลิตร 80000"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 8.554201299999477,
+        "max": 15.95300700000007,
+        "avg": 11.302684729999964,
+        "total": 113.02684729999964
+      },
+      "results": {
+        "เอกสาร invoice_page-0027.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "afd54d66-d15d-49c9-8f19-b7d623ea5c19",
+          "elapsed": 9.389107500001046,
+          "text": "INVOICE OR6901/051 สัง42x59x33cm. 9737"
+        },
+        "เอกสาร invoice_page-0043.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ac0548a6-fbe5-49ff-a4ee-daccbd254477",
+          "elapsed": 11.15963340000053,
+          "text": "INVOICE WHITE 8.0 OZ W/O (1000/CTN) สีขาวไม่ผิดหู PAPER CUP 12 OZ (1000/CTN) หิมพ์ลาย WHITE ICE-CREAM 260 CC (1000/CTN) ปัก 95 สีขาว 104699.5"
+        },
+        "เอกสาร invoice_page-0054.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "53535e4f-2a1d-473c-8090-1c6da0eeec1e",
+          "elapsed": 11.185341599999447,
+          "text": "INVOICE IV9088001 03-2137 กระดาษถ่ายA4(70/500)AL.COTTฟ้าดำ(กล่อง 5 รีม/กล่อง) 7383"
+        },
+        "เอกสาร invoice_page-0076.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6327b89d-c2b3-4fc8-b5ff-ea5d77679335",
+          "elapsed": 15.95300700000007,
+          "text": "INVOICE SO26/323 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (โกดังสวน พริกไทย คลัง1) บจก.บราเธอร์ แอนด์ บราเธอร์ 0405039P กล่องสนเด็มบ๊อกซ์ มีหน้าต่าง ป๊อปอัพ ตราฟ 12x16x6 ซม. 41730000"
+        },
+        "เอกสาร invoice_page-0108.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "08090415-dd44-4334-8e33-d117fff01351",
+          "elapsed": 10.353274099999908,
+          "text": "INVOICE IV9085291 03-3225 กรวยน้ำ ARO 5000ใบ(มอก.)FOOD GRADE (200 ใบ*25 แพค) จำนวน 200 ลัง 119840"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4c412678-a48b-44df-a344-29cf00813d97",
+          "elapsed": 10.336369200000263,
+          "text": "INVOICE IV9085469 03-3225 กรวยน้ำ ARO S000ใบ(มอก.)FOOD GRADE ( 200 ใบ*25 แพค ) 119840"
+        },
+        "เอกสาร invoice_page-0120.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "83b912c9-0e18-4fc7-b3aa-f42a1ddf86cc",
+          "elapsed": 8.554201299999477,
+          "text": "INVOICE 6812/209 PVC 0.07 MM. X 17 CM. X 17 CM. สีใส PVC 0.07 MM. X 19 CM. X 9 CM. สีใส 2867.6"
+        },
+        "เอกสาร invoice_page-0142.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5c12b48d-adbc-4dae-ab31-020cc55011ef",
+          "elapsed": 11.526578999999401,
+          "text": "INVOICE H260100351 กฤติญา ลิ้มธีรโชติ กล่องONE - D (แกรมหนา) 34935.5"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "08064706-11f0-47a4-b122-eef78876e175",
+          "elapsed": 10.976196300000083,
+          "text": "INVOICE กรรไกรด้ามของมังกรทรงก็ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708"
+        },
+        "เอกสาร invoice_page-0192.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "42277a5c-81cf-4ae7-970e-c2e8f64f2b98",
+          "elapsed": 13.59313789999942,
+          "text": "INVOICE 2601-004 SG INNOVATION CO.,LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ไบโอเซรั่มออโรแมนทิน ขนาด 30มิลลิลิตร ไบโอเซรั่มออโรแมนทิน สินค้าแถม ขนาด 30มิลลิลิตร 80000.0"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 8.69081340000048,
+        "max": 15.720253299999968,
+        "avg": 10.788579739999841,
+        "total": 107.88579739999841
+      },
+      "results": {
+        "เอกสาร invoice_page-0027.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "59ddf077-0b36-4ac2-93dc-75bb8d15c713",
+          "elapsed": 9.935049300000173,
+          "text": "INVOICE OR6901/051 สัง42x59x33cm. 9737"
+        },
+        "เอกสาร invoice_page-0043.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ad5ee921-87fc-44ff-9133-221edba38dfd",
+          "elapsed": 9.641113199999381,
+          "text": "INVOICE WHITE 8.0 OZ W/O (1000/CTN) สีขาวไม่ผิดหู PAPER CUP 12 OZ (1000/CTN) หิมพ์ลาย WHITE ICE-CREAM 260 CC (1000/CTN) ปัก 95 สีขาว 104699.5"
+        },
+        "เอกสาร invoice_page-0054.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "afe075d7-a2e4-4168-a83b-9cb85846ec10",
+          "elapsed": 8.69081340000048,
+          "text": "INVOICE IV9088001 03-2137 กระดาษถ่ายA4(70/500)AL.COTTฟ้าดำ(กล่อง 5 รีม/กล่อง) 7383"
+        },
+        "เอกสาร invoice_page-0076.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "97cf01df-3760-43e6-832c-9bb8bf677cab",
+          "elapsed": 15.720253299999968,
+          "text": "INVOICE SO26/323 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (โกดังสวน พริกไทย คลัง1) บจก.บราเธอร์ แอนด์ บราเธอร์ 0405039P กล่องสนเด็มบ๊อกซ์ มีหน้าต่าง ป๊อปอัพ ตราฟ 12x16x6 ซม. 41730"
+        },
+        "เอกสาร invoice_page-0108.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1b455443-bc6d-493a-b3ea-0e8204dfe7a5",
+          "elapsed": 8.890009099999588,
+          "text": "INVOICE IV9085291 03-3225 กรวยน้ำ ARO 5000ใบ(มอก.)FOOD GRADE (200 ใบ*25 แพค) จำนวน 200 ลัง 119840"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7ff3bf3c-e58d-4c31-b3cb-fa4d01a8da3e",
+          "elapsed": 10.032347799999116,
+          "text": "INVOICE IV9085469 03-3225 กรวยน้ำ ARO S000ใบ(มอก.)FOOD GRADE ( 200 ใบ*25 แพค ) 119840"
+        },
+        "เอกสาร invoice_page-0120.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2b1109fe-f30b-4a70-a2c0-5021431900e5",
+          "elapsed": 13.256276800000705,
+          "text": "INVOICE 6812/209 PVC 0.07 MM. X 17 CM. X 17 CM. สีใส PVC 0.07 MM. X 19 CM. X 9 CM. สีใส 2867.6"
+        },
+        "เอกสาร invoice_page-0142.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "715ef69c-28f3-42b6-8990-7dd5bf50f582",
+          "elapsed": 11.058111100001042,
+          "text": "INVOICE H260100351 กฤติญา ลิ้มธีรโชติ กล่องONE - D (แกรมหนา) 34935.5"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4e2c59a0-343e-4109-8aff-273c73445518",
+          "elapsed": 10.121710399998847,
+          "text": "UNKNOWN กรรไกรด้ามของมังกรมงก์ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708.57"
+        },
+        "เอกสาร invoice_page-0192.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3d8c848d-08e6-476c-ae80-d6dae6fc2efc",
+          "elapsed": 10.54011299999911,
+          "text": "INVOICE 2601-004 SG INNOVATION CO.,LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ไบโอเซรั่มออโรแมนทิน ขนาด 30มิลลิลิตร ไบโอเซรั่มออโรแมนทิน สินค้าแถม ขนาด 30มิลลิลิตร 80000"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.987368399999468,
+        "max": 13.290106500000547,
+        "avg": 10.383055850000527,
+        "total": 103.83055850000528
+      },
+      "results": {
+        "เอกสาร invoice_page-0027.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fc7330df-2937-41ab-a9dc-e078d92410bd",
+          "elapsed": 7.987368399999468,
+          "text": "INVOICE OR6901/051 สัง42x59x33cm. 9737"
+        },
+        "เอกสาร invoice_page-0043.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "94fc0751-6041-4525-bd7f-ab1fc6ba2601",
+          "elapsed": 11.985679299999902,
+          "text": "INVOICE WHITE 8.0 OZ W/O (1000/CTN) สีขาวไม่ผิดหู PAPER CUP 12 OZ (1000/CTN) หิมพ์ลาย WHITE ICE-CREAM 260 CC (1000/CTN) ปัก 95 สีขาว 104699.5"
+        },
+        "เอกสาร invoice_page-0054.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f39f99aa-53f8-4597-a8cb-35aa9c77af51",
+          "elapsed": 8.565166500000487,
+          "text": "INVOICE IV9088001 03-2137 กระดาษถ่ายA4(70/500)AL.COTTฟ้าดำ(กล่อง 5 รีม/กล่อง) 7383"
+        },
+        "เอกสาร invoice_page-0076.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "93a6a7c3-4a30-411c-b88d-52e37649bf0e",
+          "elapsed": 9.320394500000475,
+          "text": "UNKNOWN 0405039P กล่องสนเด็มบ๊อกซ์ มีหน้าต่าง ป๊อปอัพ ตราฟ 12x16x6 ซม. 417300000"
+        },
+        "เอกสาร invoice_page-0108.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d0d7f628-579d-4541-a670-5f62637ca80f",
+          "elapsed": 8.54692360000081,
+          "text": "INVOICE IV9085291 03-3225 กรวยน้ำ ARO 5000ใบ(มอก.)FOOD GRADE (200 ใบ*25 แพค) จำนวน 200 ลัง 119840"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2878b793-99ac-4ef3-8f0a-ce21ed928e55",
+          "elapsed": 11.195943000000625,
+          "text": "INVOICE IV9085469 03-3225 กรวยน้ำ ARO S000ใบ(มอก.) FOOD GRADE ( 200 ใบ*25 แพค ) 119840"
+        },
+        "เอกสาร invoice_page-0120.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4c09a6f2-d6fe-45e7-98a3-7f7c3d854295",
+          "elapsed": 11.620539700001245,
+          "text": "UNKNOWN PVC 0.07 MM. X 17 CM. X 17 CM. สีใส PVC 0.07 MM. X 19 CM. X 9 CM. สีใส 2867.6"
+        },
+        "เอกสาร invoice_page-0142.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1ea5b7dc-7f84-42a1-8b07-4ff0bf15a20f",
+          "elapsed": 10.406946300001437,
+          "text": "INVOICE H260100351 กฤติญา ลิ้มธีรโชติ กล่องONE - D (แกรมหนา) 34935.5"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5d9500c4-00f2-4f75-991f-2830c52dc703",
+          "elapsed": 10.911490700000286,
+          "text": "INVOICE กรรไกรด้ามของมังกรทรงก็ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708"
+        },
+        "เอกสาร invoice_page-0192.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c99d5638-2577-48a2-b2d4-17a2eaa2777a",
+          "elapsed": 13.290106500000547,
+          "text": "INVOICE 2601-004 SG INNOVATION CO.,LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ไบโอเซรั่มออโรแมนทิน ขนาด 30มิลลิลิตร ไบโอเซรั่มออโรแมนทิน สินค้าแถม ขนาด 30มิลลิลิตร 80000.0"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 8.080645399999412,
+        "max": 12.698343300000488,
+        "avg": 10.355939579999903,
+        "total": 103.55939579999904
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 8.554201299999477,
+        "max": 15.95300700000007,
+        "avg": 11.302684729999964,
+        "total": 113.02684729999964
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 8.69081340000048,
+        "max": 15.720253299999968,
+        "avg": 10.788579739999841,
+        "total": 107.88579739999841
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.987368399999468,
+        "max": 13.290106500000547,
+        "avg": 10.383055850000527,
+        "total": 103.83055850000528
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.9539,
+      "per_file": {
+        "เอกสาร invoice_page-0027.jpg": 1.0,
+        "เอกสาร invoice_page-0043.jpg": 1.0,
+        "เอกสาร invoice_page-0054.jpg": 1.0,
+        "เอกสาร invoice_page-0076.jpg": 0.9512,
+        "เอกสาร invoice_page-0108.jpg": 1.0,
+        "เอกสาร invoice_page-0115.jpg": 0.7601,
+        "เอกสาร invoice_page-0120.jpg": 1.0,
+        "เอกสาร invoice_page-0142.jpg": 1.0,
+        "เอกสาร invoice_page-0168.jpg": 0.8819,
+        "เอกสาร invoice_page-0192.jpg": 0.9459
+      }
+    },
+    "3": {
+      "avg": 0.9593,
+      "per_file": {
+        "เอกสาร invoice_page-0027.jpg": 1.0,
+        "เอกสาร invoice_page-0043.jpg": 1.0,
+        "เอกสาร invoice_page-0054.jpg": 1.0,
+        "เอกสาร invoice_page-0076.jpg": 0.9512,
+        "เอกสาร invoice_page-0108.jpg": 1.0,
+        "เอกสาร invoice_page-0115.jpg": 0.7601,
+        "เอกสาร invoice_page-0120.jpg": 1.0,
+        "เอกสาร invoice_page-0142.jpg": 1.0,
+        "เอกสาร invoice_page-0168.jpg": 0.8819,
+        "เอกสาร invoice_page-0192.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.947,
+      "per_file": {
+        "เอกสาร invoice_page-0027.jpg": 1.0,
+        "เอกสาร invoice_page-0043.jpg": 1.0,
+        "เอกสาร invoice_page-0054.jpg": 1.0,
+        "เอกสาร invoice_page-0076.jpg": 1.0,
+        "เอกสาร invoice_page-0108.jpg": 1.0,
+        "เอกสาร invoice_page-0115.jpg": 0.7601,
+        "เอกสาร invoice_page-0120.jpg": 1.0,
+        "เอกสาร invoice_page-0142.jpg": 1.0,
+        "เอกสาร invoice_page-0168.jpg": 0.7638,
+        "เอกสาร invoice_page-0192.jpg": 0.9459
+      }
+    },
+    "5": {
+      "avg": 0.8662,
+      "per_file": {
+        "เอกสาร invoice_page-0027.jpg": 1.0,
+        "เอกสาร invoice_page-0043.jpg": 1.0,
+        "เอกสาร invoice_page-0054.jpg": 1.0,
+        "เอกสาร invoice_page-0076.jpg": 0.2013,
+        "เอกสาร invoice_page-0108.jpg": 1.0,
+        "เอกสาร invoice_page-0115.jpg": 0.6678,
+        "เอกสาร invoice_page-0120.jpg": 0.9111,
+        "เอกสาร invoice_page-0142.jpg": 1.0,
+        "เอกสาร invoice_page-0168.jpg": 0.8819,
+        "เอกสาร invoice_page-0192.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

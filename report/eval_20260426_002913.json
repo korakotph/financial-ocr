@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 7.233371799999986,
+        "max": 12.286083999999391,
+        "avg": 10.398142729999927,
+        "total": 103.98142729999927
+      },
+      "results": {
+        "เอกสาร invoice_page-0025.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a9782daa-19cb-4d1f-a32b-71d3cc8c9caa",
+          "elapsed": 9.87281460000031,
+          "text": "UNKNOWN Z00460 Fuser Unit 46672506 150k- ชุดทำความร้อน I00387 OKI-46983601 PLATE-UPPER ASSY I00388 OKI-46990901 FEED-O-ASSY BY ORDER 33869.78"
+        },
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "467801c5-a8f6-4521-88bd-82a63b0502c6",
+          "elapsed": 10.101638699999967,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0c9311ce-31db-48ad-ad16-7c5d394cd6c7",
+          "elapsed": 12.286083999999391,
+          "text": "INVOICE OR6901/032 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d29b8824-f79e-45b4-9288-795f92492ab3",
+          "elapsed": 10.506018399999448,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "641707f4-a392-4624-828e-2cc1fca16b2e",
+          "elapsed": 11.540323700000044,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซส L 55212"
+        },
+        "เอกสาร invoice_page-0102.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a46743a0-afc8-46df-a49d-7556e4a77489",
+          "elapsed": 10.085662100000263,
+          "text": "INVOICE IV6901002 WHITE ICE-CREAM 390 CC (1000/CTN) ทองยู สีขาว HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายเดือน 61535.7"
+        },
+        "เอกสาร invoice_page-0121.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f91530ff-516b-4958-9b75-5706da9877fe",
+          "elapsed": 9.993218499999784,
+          "text": "UNKNOWN 4643.8"
+        },
+        "เอกสาร invoice_page-0139.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1ecd1995-e839-4771-ae33-e057b3e732b7",
+          "elapsed": 7.233371799999986,
+          "text": "INVOICE G1910068P ฝาปิดกล่องขนม สี่เหลี่ยม PET ไซส์ L บรรจุ 600 ชิ้น/กล่อง จำนวน 50 กล่อง 26643"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "46c3ff22-635d-46b3-b887-722ee9294f49",
+          "elapsed": 10.48762330000045,
+          "text": "INVOICE 6901/058 PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        },
+        "เอกสาร invoice_page-0183.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b7ec5742-e16c-4b04-9a07-409568f01675",
+          "elapsed": 11.874672199999623,
+          "text": "UNKNOWN PVC 0.18 MM. X 9.5\" X 9.5\" สีใส PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 9565.8"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.492271000000073,
+        "max": 10.921825800000079,
+        "avg": 9.218810699999995,
+        "total": 92.18810699999995
+      },
+      "results": {
+        "เอกสาร invoice_page-0025.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "97b0babb-bdac-4050-ab62-6d66da40032e",
+          "elapsed": 9.21445440000025,
+          "text": "UNKNOWN Z00460 Fuser Unit 46672506 150k- ชุดทำความร้อน I00387 OKI-46983601 PLATE-UPPER ASSY I00388 OKI-46990901 FEED-O-ASSY BY ORDER 33869.78"
+        },
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0b2379d1-f26f-4f3c-9259-6b7363e2e2f2",
+          "elapsed": 7.9938922000001185,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2d63c909-8d44-4da5-b4b6-219ac945191d",
+          "elapsed": 10.655958700000156,
+          "text": "UNKNOWN OR6901/032 P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ad3169a8-67c6-487a-bb10-3a4e88bf18ed",
+          "elapsed": 10.921825800000079,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "130ec281-8498-4a35-912c-6b91b80d9a69",
+          "elapsed": 10.868889800000034,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0102.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "941b35b2-dc57-4039-ae39-cdd6d0d513e7",
+          "elapsed": 10.471427999999833,
+          "text": "INVOICE IV6901002 WHITE ICE-CREAM 390 CC (1000/CTN) ทองยู สีขาว HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายเดือน 61535.7"
+        },
+        "เอกสาร invoice_page-0121.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "40bcabd8-2095-40d4-9bc2-1520ad0cb743",
+          "elapsed": 7.492276500000116,
+          "text": "UNKNOWN 4643.8"
+        },
+        "เอกสาร invoice_page-0139.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "24fc8e3c-1a63-43d1-b66d-16e0acdf4e09",
+          "elapsed": 6.492271000000073,
+          "text": "INVOICE G1910068P ฝาปิดกล่องขนม สี่เหลี่ยม PET ไซส์ L บรรจุ 600 ชิ้น/กล่อง จำนวน 50 กล่อง 26643"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "eea293e9-2b2f-4902-a7b1-94759ece7d06",
+          "elapsed": 9.392589799999769,
+          "text": "INVOICE 6901/058 PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        },
+        "เอกสาร invoice_page-0183.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a529b6e6-4cd8-415c-9455-bb40e7875779",
+          "elapsed": 8.684520799999518,
+          "text": "UNKNOWN PVC 0.18 MM. X 9.5\" X 9.5\" สีใส PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 9565.8"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.973106399999779,
+        "max": 10.724821700000575,
+        "avg": 9.246106520000103,
+        "total": 92.46106520000103
+      },
+      "results": {
+        "เอกสาร invoice_page-0025.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "93c9a9ca-6c1f-4f0b-b82d-93fd9fca1f7e",
+          "elapsed": 10.706121499999426,
+          "text": "UNKNOWN Z00460 Fuser Unit 46672506 150k- ชุดทำความร้อน I00387 OKI-46983601 PLATE-UPPER ASSY I00388 OKI-46990901 FEED-O-ASSY BY ORDER 33869.78"
+        },
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0d6dd5a1-7f2a-4e54-a8a9-bfd39c5b5933",
+          "elapsed": 10.724821700000575,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "87b63687-c6fd-4dad-9604-804fbb840c53",
+          "elapsed": 8.448286000000735,
+          "text": "UNKNOWN OR6901/032 P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5e67ae43-6a65-4070-afa0-b579dffd06ed",
+          "elapsed": 8.268858599999476,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "31979878-cd89-4b58-9ec7-3d3ac3433f48",
+          "elapsed": 9.663244200000008,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซส L 55212"
+        },
+        "เอกสาร invoice_page-0102.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "11c7fe59-eeb0-4edb-b7f8-f8e0d34628db",
+          "elapsed": 9.06674810000004,
+          "text": "INVOICE WHITE ICE-CREAM 390 CC (1000/CTN) ทองยู สีขาว HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายเดือน 61535.7"
+        },
+        "เอกสาร invoice_page-0121.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7672f3fb-1a4b-434e-9f86-04a567fb5870",
+          "elapsed": 10.587167900000168,
+          "text": "UNKNOWN 4643.8"
+        },
+        "เอกสาร invoice_page-0139.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "aeadb704-1537-4e91-a2ab-6d892b69aaae",
+          "elapsed": 8.11167160000059,
+          "text": "INVOICE G1910068P ฝาปิดกล่องขนม สี่เหลี่ยม PET ไซส์ L บรรจุ 600 ชิ้น/กล่อง จำนวน 50 กล่อง 26643"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2ceff945-1220-41cb-b03e-0dc63f385891",
+          "elapsed": 7.973106399999779,
+          "text": "INVOICE 6901/058 PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        },
+        "เอกสาร invoice_page-0183.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4d54534b-867f-4a87-933b-76a12b638b3a",
+          "elapsed": 8.911039200000232,
+          "text": "INVOICE 6812/355 PVC 0.18 MM. X 9.5\" X 9.5\" สีใส PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 9565.8"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.509935899999618,
+        "max": 12.064023400000224,
+        "avg": 8.841154599999935,
+        "total": 88.41154599999936
+      },
+      "results": {
+        "เอกสาร invoice_page-0025.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b14651d7-7a18-4be8-9066-fdf6f2cc5266",
+          "elapsed": 9.617236699999921,
+          "text": "UNKNOWN Z00460 Fuser Unit 46672506 150k- ชุดทำความร้อน I00387 OKI-46983601 PLATE-UPPER ASSY I00388 OKI-46990901 FEED-O-ASSY BY ORDER 33869.78"
+        },
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "14b7dc8a-da9c-42ef-9170-d054e2ca09b5",
+          "elapsed": 7.623734599999807,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7e080a40-c0b5-4a89-ac6a-9d4df22d7d0e",
+          "elapsed": 8.049547700000403,
+          "text": "UNKNOWN OR6901/032 P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fa24d32b-6363-4c77-b5a3-fe61b394d5d2",
+          "elapsed": 10.814121299999897,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f93b9d38-1451-495e-801c-3eef12ccb849",
+          "elapsed": 7.935586499999772,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0102.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "34bb0917-6873-44fc-8f9e-c6e30fcbd306",
+          "elapsed": 7.509935899999618,
+          "text": "INVOICE WHITE ICE-CREAM 390 CC (1000/CTN) ทองยู สีขาว HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายเดือน 61535.7"
+        },
+        "เอกสาร invoice_page-0121.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c054b298-0983-4145-a1ae-3a5150487431",
+          "elapsed": 8.34969270000056,
+          "text": "UNKNOWN 4643.8"
+        },
+        "เอกสาร invoice_page-0139.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b686e905-cd36-4253-85f6-edaea2f91d7e",
+          "elapsed": 8.257062199999382,
+          "text": "INVOICE G1910068P ฝาปิดกล่องขนม สี่เหลี่ยม PET ไซส์ L บรรจุ 600 ชิ้น/กล่อง จำนวน 50 กล่อง 26643"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fd855c89-3021-4426-b6df-404dc517be33",
+          "elapsed": 8.190604999999778,
+          "text": "INVOICE 6901/058 PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        },
+        "เอกสาร invoice_page-0183.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9ceb4223-0bcf-4380-a3e7-4abbd4ffacb8",
+          "elapsed": 12.064023400000224,
+          "text": "UNKNOWN PVC 0.18 MM. X 9.5\" X 9.5\" สีใส PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 9565.8"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.012903099999676,
+        "max": 13.99946639999962,
+        "avg": 9.910840440000083,
+        "total": 99.10840440000084
+      },
+      "results": {
+        "เอกสาร invoice_page-0025.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0a02a547-1d3c-4f90-b1ad-a785fe311a0f",
+          "elapsed": 12.819439699999748,
+          "text": "UNKNOWN Z00460 Fuser Unit 46672506 150k- ชุดทำความร้อน I00387 OKI-46983601 PLATE-UPPER ASSY I00388 OKI-46990901 FEED-O-ASSY BY ORDER 33869.78"
+        },
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e7b8bcac-0829-40fa-b79b-8354e7ae7560",
+          "elapsed": 7.677089300000262,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c7a9a8a6-e861-4804-96c0-46c92d78d874",
+          "elapsed": 9.393887300000642,
+          "text": "UNKNOWN OR6901/032 P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3efc81b9-6321-4033-8c5e-ce1638bc065e",
+          "elapsed": 10.773576999999932,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b923dc04-ac02-4201-9720-d17c374bd4d6",
+          "elapsed": 10.49073000000044,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0102.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "65c6b509-eae8-478c-8e72-4581ab919ba1",
+          "elapsed": 10.161984800000027,
+          "text": "INVOICE IV6901002 WHITE ICE-CREAM 390 CC (1000/CTN) ทองยู สีขาว HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายเดือน 61535.7"
+        },
+        "เอกสาร invoice_page-0121.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "610045b9-89c5-45ea-b8b3-4be256ce4301",
+          "elapsed": 8.753588200000195,
+          "text": "UNKNOWN 4643.8"
+        },
+        "เอกสาร invoice_page-0139.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5465edd4-d7b7-4bdc-b100-950cc3780fb8",
+          "elapsed": 6.012903099999676,
+          "text": "INVOICE G1910068P ฝาปิดกล่องขนม สี่เหลี่ยม PET ไซส์ L บรรจุ 600 ชิ้น/กล่อง จำนวน 50 กล่อง 26643"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "835790b6-ac81-437d-954c-130aee49c46c",
+          "elapsed": 13.99946639999962,
+          "text": "INVOICE 6901/058 PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        },
+        "เอกสาร invoice_page-0183.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "233952b4-f96b-4ccc-85ae-e6fc6c5a36c5",
+          "elapsed": 9.025738600000295,
+          "text": "UNKNOWN PVC 0.18 MM. X 9.5\" X 9.5\" สีใส PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 9565.8"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.492271000000073,
+        "max": 10.921825800000079,
+        "avg": 9.218810699999995,
+        "total": 92.18810699999995
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.973106399999779,
+        "max": 10.724821700000575,
+        "avg": 9.246106520000103,
+        "total": 92.46106520000103
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.509935899999618,
+        "max": 12.064023400000224,
+        "avg": 8.841154599999935,
+        "total": 88.41154599999936
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.012903099999676,
+        "max": 13.99946639999962,
+        "avg": 9.910840440000083,
+        "total": 99.10840440000084
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.9176,
+      "per_file": {
+        "เอกสาร invoice_page-0025.jpg": 1.0,
+        "เอกสาร invoice_page-0044.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 0.4685,
+        "เอกสาร invoice_page-0066.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 0.7071,
+        "เอกสาร invoice_page-0102.jpg": 1.0,
+        "เอกสาร invoice_page-0121.jpg": 1.0,
+        "เอกสาร invoice_page-0139.jpg": 1.0,
+        "เอกสาร invoice_page-0179.jpg": 1.0,
+        "เอกสาร invoice_page-0183.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.9272,
+      "per_file": {
+        "เอกสาร invoice_page-0025.jpg": 1.0,
+        "เอกสาร invoice_page-0044.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 0.4685,
+        "เอกสาร invoice_page-0066.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 1.0,
+        "เอกสาร invoice_page-0102.jpg": 0.9015,
+        "เอกสาร invoice_page-0121.jpg": 1.0,
+        "เอกสาร invoice_page-0139.jpg": 1.0,
+        "เอกสาร invoice_page-0179.jpg": 1.0,
+        "เอกสาร invoice_page-0183.jpg": 0.9024
+      }
+    },
+    "4": {
+      "avg": 0.9077,
+      "per_file": {
+        "เอกสาร invoice_page-0025.jpg": 1.0,
+        "เอกสาร invoice_page-0044.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 0.4685,
+        "เอกสาร invoice_page-0066.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 0.7071,
+        "เอกสาร invoice_page-0102.jpg": 0.9015,
+        "เอกสาร invoice_page-0121.jpg": 1.0,
+        "เอกสาร invoice_page-0139.jpg": 1.0,
+        "เอกสาร invoice_page-0179.jpg": 1.0,
+        "เอกสาร invoice_page-0183.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.9176,
+      "per_file": {
+        "เอกสาร invoice_page-0025.jpg": 1.0,
+        "เอกสาร invoice_page-0044.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 0.4685,
+        "เอกสาร invoice_page-0066.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 0.7071,
+        "เอกสาร invoice_page-0102.jpg": 1.0,
+        "เอกสาร invoice_page-0121.jpg": 1.0,
+        "เอกสาร invoice_page-0139.jpg": 1.0,
+        "เอกสาร invoice_page-0179.jpg": 1.0,
+        "เอกสาร invoice_page-0183.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

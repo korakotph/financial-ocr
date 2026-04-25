@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 7.612604899999496,
+        "max": 26.930406999999832,
+        "avg": 12.596672720000061,
+        "total": 125.9667272000006
+      },
+      "results": {
+        "เอกสาร invoice_page-0013.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9506dbf0-d9ee-4e9f-bab7-1ee757b2a0d1",
+          "elapsed": 9.504852399999436,
+          "text": "INVOICE ลัง Boxjourney x00150 38520"
+        },
+        "เอกสาร invoice_page-0025.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6b60b600-c705-44c9-b331-a54f91424d43",
+          "elapsed": 11.966962599999533,
+          "text": "UNKNOWN Z00460 Fuser Unit 46672506 150k- ชุดทำความร้อน I00387 OKI-46983601 PLATE-UPPER ASSY I00388 OKI-46990901 FEED-O-ASSY BY ORDER 33869.78"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "93745ac8-bd59-4dae-a7db-83dccbf50cfd",
+          "elapsed": 12.880908400000408,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "23c45008-e0a0-4a5f-8498-d856ecd303da",
+          "elapsed": 7.612604899999496,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0081.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1fb5e7a5-44bb-4aec-888d-3a1bc8a1abc3",
+          "elapsed": 8.444254199999705,
+          "text": "DELIVERY_ORDER ค่ะเตา พนธม ถุงกระดาษน้ำตาลหุเกลียว#197638 52831.25"
+        },
+        "เอกสาร invoice_page-0114.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b1177047-9dda-4577-83ad-6dd49de02cf4",
+          "elapsed": 12.658548000001247,
+          "text": "INVOICE PO6901076 ใบมัดคัตเตอร์ 0.7 มม. (หลอด6ใบ) พัฒคิน SS-45 184.25"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c25489d3-6724-45ad-a539-1997bda2b64d",
+          "elapsed": 17.91817980000087,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "caff5a43-c311-4692-8a86-abc7beb18cd0",
+          "elapsed": 8.506691799999317,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "35faf2fd-bd8e-46dd-8692-c648c52c64cf",
+          "elapsed": 9.54331810000076,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "137862fd-3e40-4765-b698-668c75d0d447",
+          "elapsed": 26.930406999999832,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 86937.5"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 9.15524269999878,
+        "max": 50.79922859999897,
+        "avg": 24.212655589999667,
+        "total": 242.12655589999667
+      },
+      "results": {
+        "เอกสาร invoice_page-0013.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1bd288e6-137f-4453-888c-6ee15807b0a9",
+          "elapsed": 15.77634549999857,
+          "text": "INVOICE ลัง Boxjourney x00150 38520"
+        },
+        "เอกสาร invoice_page-0025.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4deacc23-9457-4abc-b1ae-c598baf1ff32",
+          "elapsed": 31.006185000000187,
+          "text": "UNKNOWN Z00460 Fuser Unit 46672506 150k- ชุดทำความร้อน I00387 OKI-46983601 PLATE-UPPER ASSY I00388 OKI-46990901 FEED-O-ASSY BY ORDER 33869.78"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "438aff65-f7f0-4eb2-af47-51b52239a934",
+          "elapsed": 19.78445280000051,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "95000aa6-5e88-4b98-83f9-6b60cc45a484",
+          "elapsed": 50.79922859999897,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0081.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d211eb5a-9ae7-454d-915a-531ec6e4cf55",
+          "elapsed": 15.232031400000778,
+          "text": "DELIVERY_ORDER ค่ะเตา พนธม ถุงกระดาษน้ำตาลหุเกลียว#197638 52831.25"
+        },
+        "เอกสาร invoice_page-0114.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a762ec44-c84e-4705-a48d-490bd7738d61",
+          "elapsed": 32.821240899998884,
+          "text": "UNKNOWN ใบมัดคัตเตอร์ 0.7 มม. (หลอด6ใบ) พัฒคิน SS-45 184.254"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ef33b410-7007-4b35-996d-f37be7e654bf",
+          "elapsed": 21.42019740000069,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "431d9f78-93c5-4873-b923-f192202cd261",
+          "elapsed": 9.15524269999878,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "16d3fb22-2cfc-4e2a-9e83-edd2bebc8098",
+          "elapsed": 31.130467699998917,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f7525087-9d5f-44c4-90c7-e17f79d8007a",
+          "elapsed": 15.001163900000392,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 86937.5"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 9.142643700000917,
+        "max": 41.89453599999979,
+        "avg": 16.887794490000125,
+        "total": 168.87794490000124
+      },
+      "results": {
+        "เอกสาร invoice_page-0013.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e96c9155-1513-4ab8-9a82-385544dd57b2",
+          "elapsed": 41.89453599999979,
+          "text": "INVOICE ลัง Boxjourney x00150 38520"
+        },
+        "เอกสาร invoice_page-0025.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "de2192e6-b93a-409c-a8eb-6c2f5aec6deb",
+          "elapsed": 18.530330600000525,
+          "text": "UNKNOWN Z00460 Fuser Unit 46672506 150k- ชุดทำความร้อน I00387 OKI-46983601 PLATE-UPPER ASSY I00388 OKI-46990901 FEED-O-ASSY BY ORDER 33869.78"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f9482cdb-534b-440d-98d0-9ff2c9ecc01b",
+          "elapsed": 12.448035000001255,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4038768f-7a62-44e1-aba8-02739a2d8220",
+          "elapsed": 15.24190389999967,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0081.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2f5fe5cf-7c65-4dbc-bc56-964365a1fecc",
+          "elapsed": 17.241518000000724,
+          "text": "DELIVERY_ORDER ค่ะเตา พนธม ถุงกระดาษน้ำตาลหุเกลียว#197638 52831.25"
+        },
+        "เอกสาร invoice_page-0114.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "42e8a610-4f14-481b-817b-e7c065de5deb",
+          "elapsed": 12.942167199998948,
+          "text": "INVOICE PO6901076 ใบมัดคัตเตอร์ 0.7 มม. (หลอด6ใบ) พัฒคิน SS-45 184.254"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "185b20fd-4202-4d95-8a77-5c5efd685b0a",
+          "elapsed": 19.952811799999836,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4eba4c44-c916-435d-b1b6-e81b88a82400",
+          "elapsed": 9.6658441999989,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "faae01aa-9fdc-4e18-baf3-6479ac0c8f43",
+          "elapsed": 9.142643700000917,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f91c7c65-3257-48a4-8484-67e8a77f3e49",
+          "elapsed": 11.818154500000674,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ PO6812/381 86937.5"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.165684899999178,
+        "max": 67.36179600000105,
+        "avg": 21.089336699999876,
+        "total": 210.89336699999876
+      },
+      "results": {
+        "เอกสาร invoice_page-0013.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6f6abb06-62d3-4522-bae5-fc306e1e5c0e",
+          "elapsed": 7.165684899999178,
+          "text": "INVOICE ลัง Boxjourney x00150 38520"
+        },
+        "เอกสาร invoice_page-0025.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "24d59abc-9d1c-46e6-81d1-c02b6290206f",
+          "elapsed": 25.921906300000046,
+          "text": "UNKNOWN Z00460 Fuser Unit 46672506 150k- ชุดทำความร้อน I00387 OKI-46983601 PLATE-UPPER ASSY I00388 OKI-46990901 FEED-O-ASSY BY ORDER 33869.78"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ac57d8df-5e58-4bab-94e3-ac84783224d5",
+          "elapsed": 14.086492700000235,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ec828447-8e5d-4955-9115-ad69d214c728",
+          "elapsed": 28.500316600000588,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0081.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0141b2fb-0c2c-4310-a1f4-d1c4e6bac316",
+          "elapsed": 24.314960300000166,
+          "text": "DELIVERY_ORDER ค่ะเตา พนธม ถุงกระดาษน้ำตาลหุเกลียว#197638 52831.25"
+        },
+        "เอกสาร invoice_page-0114.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a83e0165-989e-491c-8a6e-c7ea374ab5bb",
+          "elapsed": 7.274233299998741,
+          "text": "UNKNOWN ใบมัดคัตเตอร์ 0.7 มม. (หลอด6ใบ) พัฒคิน SS-45 184.254"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3d528671-c9f0-4868-8e47-c83853727f9a",
+          "elapsed": 9.13001279999844,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "25682601-2855-494e-a28c-c534e31cfac0",
+          "elapsed": 67.36179600000105,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "afedfab6-d0e2-433e-ac0b-ffadd22343d9",
+          "elapsed": 13.119018399998822,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c419209c-a70b-4716-90fa-a19be0a40fc4",
+          "elapsed": 14.018945700001495,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 86937.5"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.744304399999237,
+        "max": 55.263829100000294,
+        "avg": 23.04911041000032,
+        "total": 230.4911041000032
+      },
+      "results": {
+        "เอกสาร invoice_page-0013.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6a455233-2e38-447a-ba2d-0358dc5db58c",
+          "elapsed": 19.529261899999256,
+          "text": "INVOICE ลัง Boxjourney x00150 38520"
+        },
+        "เอกสาร invoice_page-0025.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "67ef1b4c-8bf4-47b4-94d8-ff98dbaa8720",
+          "elapsed": 18.586035400001492,
+          "text": "UNKNOWN Z00460 Fuser Unit 46672506 150k- ชุดทำความร้อน I00387 OKI-46983601 PLATE-UPPER ASSY I00388 OKI-46990901 FEED-O-ASSY BY ORDER 33869.78"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "86e3eed4-dc6e-4db3-9cda-2feaa8817bfd",
+          "elapsed": 9.58540190000167,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0c00f95f-050b-4f9d-9d9b-2b9480cd9c24",
+          "elapsed": 6.744304399999237,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0081.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d967d6fc-85ce-4053-886f-4c95e0f223af",
+          "elapsed": 8.050422199999957,
+          "text": "DELIVERY_ORDER ค่ะเตา พนธม ถุงกระดาษน้ำตาลหุเกลียว#197638 52831.25"
+        },
+        "เอกสาร invoice_page-0114.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6d977b79-81e5-458e-b8ee-3e666c334226",
+          "elapsed": 49.63749120000102,
+          "text": "UNKNOWN ใบมัดคัตเตอร์ 0.7 มม. (หลอด6ใบ) พัฒนิ SS-45 184.254"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2604ab6d-4977-446f-8cb4-5c1e6d4a8f8d",
+          "elapsed": 28.0538403999999,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "84d2171d-eeea-4764-a4d3-b52af8c8fe4b",
+          "elapsed": 23.791572000000087,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "739e7a12-423e-4cde-b10a-defaa9359c3b",
+          "elapsed": 11.248945600000297,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "006cf837-456a-402a-9e87-0f5050b7915b",
+          "elapsed": 55.263829100000294,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 86937.5"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 9.15524269999878,
+        "max": 50.79922859999897,
+        "avg": 24.212655589999667,
+        "total": 242.12655589999667
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 9.142643700000917,
+        "max": 41.89453599999979,
+        "avg": 16.887794490000125,
+        "total": 168.87794490000124
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.165684899999178,
+        "max": 67.36179600000105,
+        "avg": 21.089336699999876,
+        "total": 210.89336699999876
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.744304399999237,
+        "max": 55.263829100000294,
+        "avg": 23.04911041000032,
+        "total": 230.4911041000032
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.9646,
+      "per_file": {
+        "เอกสาร invoice_page-0013.jpg": 1.0,
+        "เอกสาร invoice_page-0025.jpg": 1.0,
+        "เอกสาร invoice_page-0049.jpg": 1.0,
+        "เอกสาร invoice_page-0060.jpg": 1.0,
+        "เอกสาร invoice_page-0081.jpg": 1.0,
+        "เอกสาร invoice_page-0114.jpg": 0.6459,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0170.jpg": 1.0,
+        "เอกสาร invoice_page-0201.jpg": 1.0,
+        "เอกสาร invoice_page-0204.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.9768,
+      "per_file": {
+        "เอกสาร invoice_page-0013.jpg": 1.0,
+        "เอกสาร invoice_page-0025.jpg": 1.0,
+        "เอกสาร invoice_page-0049.jpg": 1.0,
+        "เอกสาร invoice_page-0060.jpg": 1.0,
+        "เอกสาร invoice_page-0081.jpg": 1.0,
+        "เอกสาร invoice_page-0114.jpg": 0.8819,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0170.jpg": 1.0,
+        "เอกสาร invoice_page-0201.jpg": 1.0,
+        "เอกสาร invoice_page-0204.jpg": 0.8864
+      }
+    },
+    "4": {
+      "avg": 0.9646,
+      "per_file": {
+        "เอกสาร invoice_page-0013.jpg": 1.0,
+        "เอกสาร invoice_page-0025.jpg": 1.0,
+        "เอกสาร invoice_page-0049.jpg": 1.0,
+        "เอกสาร invoice_page-0060.jpg": 1.0,
+        "เอกสาร invoice_page-0081.jpg": 1.0,
+        "เอกสาร invoice_page-0114.jpg": 0.6459,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0170.jpg": 1.0,
+        "เอกสาร invoice_page-0201.jpg": 1.0,
+        "เอกสาร invoice_page-0204.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.9457,
+      "per_file": {
+        "เอกสาร invoice_page-0013.jpg": 1.0,
+        "เอกสาร invoice_page-0025.jpg": 1.0,
+        "เอกสาร invoice_page-0049.jpg": 1.0,
+        "เอกสาร invoice_page-0060.jpg": 1.0,
+        "เอกสาร invoice_page-0081.jpg": 1.0,
+        "เอกสาร invoice_page-0114.jpg": 0.4567,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0170.jpg": 1.0,
+        "เอกสาร invoice_page-0201.jpg": 1.0,
+        "เอกสาร invoice_page-0204.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

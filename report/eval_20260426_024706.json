@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 7.820188699999562,
+        "max": 17.633066500000496,
+        "avg": 11.81302775000022,
+        "total": 118.1302775000022
+      },
+      "results": {
+        "เอกสาร invoice_page-0033.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "93d5ed01-ef6f-4fa5-a6ed-0f6ad1a9ff56",
+          "elapsed": 17.633066500000496,
+          "text": "INVOICE ลัง34x65x35cm. ด้านA+B 10203.52"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "42b5cddc-ace2-43a3-b077-6ee59ee55e7c",
+          "elapsed": 11.013263099999676,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0057.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "53504a7c-3908-4944-baed-b7b1cf4c82da",
+          "elapsed": 12.264579400000002,
+          "text": "INVOICE OR6901/056 สัง 41x49x36cm. 11770.0"
+        },
+        "เอกสาร invoice_page-0059.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6f4d2da5-05f7-4664-ac1e-7183b4c44c5f",
+          "elapsed": 9.692308800000319,
+          "text": "INVOICE ลัง30x54x25cm. ต้านA+B 5343.58"
+        },
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ff6eaba3-f3d1-4d81-9646-54e72511d471",
+          "elapsed": 11.448072200000752,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b0871dde-a2bb-47eb-b3a2-f10e163bed81",
+          "elapsed": 14.774502300000677,
+          "text": "INVOICE 6901/174 PVC 0.07 MM. X 11 CM. X 700 M.สีใส(10 ม้วน) PVC 0.07 MM. X 15 CM. X 700 M.สีใส(5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M.สีใส(3 ม้วน) 15238.51"
+        },
+        "เอกสาร invoice_page-0089.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c71399ea-57ca-4a73-a9c8-0c699bb28a43",
+          "elapsed": 10.994209200000114,
+          "text": "INVOICE PO6812/340 G-ถุงกระดาษน้ำตาลหุเกลียว ซุปเปอร์เซฟไซส์ 32x11x24 ซม. 1x50 G-ซองกระดาษฟิบช้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 15.3x4.5x20.5 43335"
+        },
+        "เอกสาร invoice_page-0090.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a8d8fc89-daa1-412f-a3da-1f7c7c89d452",
+          "elapsed": 14.328310099999726,
+          "text": "INVOICE 2569/01022 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว18x9.5x15.5 ซม.50 ใบ G-ถุงกระดาษหูหิวน้ำตาลไซส์2XL(ฝีรองกัน) ขนาด 21x12.5x29 ซม. 117967.5"
+        },
+        "เอกสาร invoice_page-0148.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "af4963ae-ff3b-4ce4-8ad1-e6bf00ec6a7d",
+          "elapsed": 7.820188699999562,
+          "text": "INVOICE IV9085686 04-0727 หมวกคลุมผมตัวหนอน สีเขียว (50 อัน/แพค) 1177"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a2e39aa7-6eef-4df9-8af2-92336ccad6be",
+          "elapsed": 8.16177720000087,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.432684299999892,
+        "max": 14.422047100000782,
+        "avg": 10.542146169999615,
+        "total": 105.42146169999614
+      },
+      "results": {
+        "เอกสาร invoice_page-0033.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2948ac48-6b7f-4a9d-b541-d87314ce79ce",
+          "elapsed": 9.12490230000003,
+          "text": "INVOICE ลัง34x65x35cm. ด้านA+B 10203.52"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "560235d7-54c9-4b75-8f5e-4117c0fffe60",
+          "elapsed": 10.586651199999324,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0057.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f35b62e5-780b-41d0-8b6b-9a2be64dd230",
+          "elapsed": 9.551736999999775,
+          "text": "INVOICE สัง41x49x36cm. 11770.0"
+        },
+        "เอกสาร invoice_page-0059.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "efbee537-0a92-4ee0-afb6-6b20adcccefc",
+          "elapsed": 8.057055299999774,
+          "text": "INVOICE ลัง30x54x25cm. ต้านA+B 5343.58"
+        },
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "79e46047-0bda-4de1-87d6-dce585bdf63a",
+          "elapsed": 10.436615199998414,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1797e22f-c3ce-4e19-a48e-f681b3ac2589",
+          "elapsed": 12.794744299999365,
+          "text": "INVOICE 6901/174 PVC 0.07 MM. X 11 CM. X 700 ม.สีใส(10 ม้วน) PVC 0.07 MM. X 15 CM. X 700 ม.สีใส(5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 ม.สีใส(3 ม้วน) 15238.51"
+        },
+        "เอกสาร invoice_page-0089.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d0d8bde4-750d-442c-bf29-80980ed58210",
+          "elapsed": 14.422047100000782,
+          "text": "INVOICE PO6812/340 G-ถุงกระดาษน้ำตาลหุเกลียว ซุปเปอร์เซฟไซส์ 32x11x24 ซม. 1x50 G-ซองกระดาษฟิบช้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 15.3x4.5x20.5 43335"
+        },
+        "เอกสาร invoice_page-0090.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "64573138-b96f-482b-befe-b7af597a159a",
+          "elapsed": 13.452511699999377,
+          "text": "INVOICE PO6811/347 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว18x9.5x15.5 ซม.50 ใบ G-ถุงกระดาษหูหิวน้ำตาลไซส์2XL(ฝีรองกัน) ขนาด 21x12.5x29 ซม. 117967.5"
+        },
+        "เอกสาร invoice_page-0148.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c2e060c7-57d8-4596-abd1-3ad5ef5c3fe4",
+          "elapsed": 9.56251329999941,
+          "text": "INVOICE IV9085686 04-0727 หมวกคลุมผมตัวหนอน สีเขียว (50 อัน/แพค) 1177"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e4341900-81b8-4059-95d0-3bc43203a14f",
+          "elapsed": 7.432684299999892,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.921525100000508,
+        "max": 19.470273999999336,
+        "avg": 11.091968269999962,
+        "total": 110.91968269999961
+      },
+      "results": {
+        "เอกสาร invoice_page-0033.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b9f65178-7b4b-4f37-abdc-5c912ed5cbdf",
+          "elapsed": 9.820219799999904,
+          "text": "UNKNOWN บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง34x65x35cm. ด้านA+B 10203.52"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "06abea25-752f-456f-9e94-f82a5e778d24",
+          "elapsed": 10.490815299999667,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0057.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8befafe2-c91c-45f2-a0ae-dfdf6688245b",
+          "elapsed": 7.980674300000828,
+          "text": "INVOICE สัง41x49x36cm. 11770.0"
+        },
+        "เอกสาร invoice_page-0059.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "51ea4381-a668-44bb-b2f4-16e9d939f413",
+          "elapsed": 7.439013299999715,
+          "text": "UNKNOWN ลัง30x54x25cm. ต้านA+B 5343.58"
+        },
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "90f9e9e4-997f-4fef-89cf-1de4d0611813",
+          "elapsed": 10.228792299998531,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "60180cbb-ca33-4fa4-9f81-3ef0c09860a9",
+          "elapsed": 12.875051000000894,
+          "text": "INVOICE 6901/174 PVC 0.07 MM. X 11 CM. X 700 M.สีใส(10 ม้วน) PVC 0.07 MM. X 15 CM. X 700 M.สีใส(5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M.สีใส(3 ม้วน) 15238.51"
+        },
+        "เอกสาร invoice_page-0089.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a99e0e7b-1ebe-4d00-8e05-1e87a585c555",
+          "elapsed": 13.749300999999832,
+          "text": "INVOICE PO6812/340 G-ถุงกระดาษน้ำตาลหุเกลียว ซุปเปอร์เซฟไซส์ 32x11x24 ซม. 1x50 G-ซองกระดาษฟิบช้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 15.3x4.5x20.5 43335"
+        },
+        "เอกสาร invoice_page-0090.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "76104b3b-404a-4d7c-8882-eb0f977f4350",
+          "elapsed": 19.470273999999336,
+          "text": "INVOICE PO6811/347 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว18x9.5x15.5 ซม.50 ใบ G-ถุงกระดาษหูหิวน้ำตาลไซส์2XL(ฝีรองกัน) ขนาด 21x12.5x29 ซม. 117967.5"
+        },
+        "เอกสาร invoice_page-0148.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b60278a7-be4b-422b-890e-d3b7cc5a5d7d",
+          "elapsed": 11.944016600000396,
+          "text": "INVOICE IV9085686 04-0727 หมวกคลุมผมตัวหนอน สีเขียว (50 อัน/แพค) 1177"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "74be570d-8ea6-4920-84a1-353187c20f11",
+          "elapsed": 6.921525100000508,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 8.096595900000466,
+        "max": 14.35537529999965,
+        "avg": 10.408594220000305,
+        "total": 104.08594220000305
+      },
+      "results": {
+        "เอกสาร invoice_page-0033.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bb1a7767-c9d1-4e80-b6fd-16930400893f",
+          "elapsed": 9.630286699999488,
+          "text": "INVOICE OR6901/048 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง34x65x35cm. ด้านA+B 10203.52"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dd867f18-bcee-4107-a2b3-49db38d56cfb",
+          "elapsed": 12.036017600001287,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0057.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "19c08e83-a369-4418-8fbf-d0e4915e4d1d",
+          "elapsed": 8.398108199999115,
+          "text": "INVOICE สัง41x49x36cm. 11770.0"
+        },
+        "เอกสาร invoice_page-0059.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bbc3b2b2-669a-468d-95bc-93785557a6a0",
+          "elapsed": 8.096595900000466,
+          "text": "INVOICE ลัง30x54x25cm. ต้านA+B 5343.58"
+        },
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d1a87ab0-391c-45a8-a6ce-02764d56763d",
+          "elapsed": 11.921594200000982,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4dbf0aea-08f3-4b06-905d-cfb18be72169",
+          "elapsed": 14.35537529999965,
+          "text": "INVOICE 6901/174 PVC 0.07 MM. X 11 CM. X 700 ม.สีใส(10 ม้วน) PVC 0.07 MM. X 15 CM. X 700 ม.สีใส(5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 ม.สีใส(3 ม้วน) 15238.51"
+        },
+        "เอกสาร invoice_page-0089.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1e88f5da-11d5-4416-aeea-c88faa85e40f",
+          "elapsed": 10.060555400001249,
+          "text": "INVOICE PO6812/340 G-ถุงกระดาษน้ำตาลหุเกลียว ซุปเปอร์เชฟไซส์ 32x11x24 ซม. 1x50 G-ซองกระดาษฟิบช้างกันแหลมฟูดเกรด ซุปเปอร์เชฟ 15.3x4.5x20.5 43335"
+        },
+        "เอกสาร invoice_page-0090.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d53aaf87-1eae-4ae3-900d-c032fc340452",
+          "elapsed": 10.669976499999393,
+          "text": "INVOICE PO6811/347 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว18x9.5x15.5 ซม.50 ใบ G-ถุงกระดาษหูหิวน้ำตาลไซส์2XL(ฝีรองกัน) ขนาด 21x12.5x29 ซม. 117967.5"
+        },
+        "เอกสาร invoice_page-0148.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a0ebf460-0206-465e-a729-3a2e2a2308b5",
+          "elapsed": 10.100626700001158,
+          "text": "INVOICE IV9085686 04-0727 หมวกคลุมผมตัวหนอน สีเขียว (50 อัน/แพค) 1177"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ee3ddb76-ee23-4c81-b0e8-8dfab962a427",
+          "elapsed": 8.816805700000259,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.452574799999638,
+        "max": 13.017721599999277,
+        "avg": 10.226224510000065,
+        "total": 102.26224510000065
+      },
+      "results": {
+        "เอกสาร invoice_page-0033.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a2f4bc77-7e8d-46b0-bbac-f508cb75394e",
+          "elapsed": 8.07662689999961,
+          "text": "INVOICE ลัง34x65x35cm. ด้านA+B 10203.52"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "06bda662-44ef-4043-b657-87e06e7a3268",
+          "elapsed": 11.415672000000995,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0057.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "54ebd99c-05fb-4d1c-8239-62aae8ee102e",
+          "elapsed": 10.73583250000047,
+          "text": "INVOICE สัง41x49x36cm. 11770.0"
+        },
+        "เอกสาร invoice_page-0059.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ff42f14a-1119-4988-a6dc-fecf4843af73",
+          "elapsed": 8.07372310000028,
+          "text": "INVOICE ลัง30x54x25cm. ต้านA+B 5343.58"
+        },
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0c8c9c5f-44e1-4bc9-bf82-4039e083f2b2",
+          "elapsed": 12.076999999999316,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f6e3457e-6f45-4e76-a0b0-356d405a31f9",
+          "elapsed": 13.017721599999277,
+          "text": "INVOICE 6901/174 PVC 0.07 MM. X 11 CM. X 700 M.สีใส(10 ม้วน) PVC 0.07 MM. X 15 CM. X 700 M.สีใส(5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M.สีใส(3 ม้วน) 15238.51"
+        },
+        "เอกสาร invoice_page-0089.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5521f361-2d8c-4ae8-b0d0-19958d80b717",
+          "elapsed": 10.95536440000069,
+          "text": "INVOICE PO6812/340 G-ถุงกระดาษน้ำตาลหุเกลียว ซุปเปอร์เซฟไซส์ 32x11x24 ซม. 1x50 G-ซองกระดาษฟิบช้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 15.3x4.5x20.5 43335"
+        },
+        "เอกสาร invoice_page-0090.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "824fbeb0-9bad-423a-be9a-17e325356fe4",
+          "elapsed": 12.138083100000586,
+          "text": "INVOICE PO6811/347 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว18x9.5x15.5 ซม.50 ใบ G-ถุงกระดาษหูหิวน้ำตาลไซส์2XL(ฝีรองกัน) ขนาด 21x12.5x29 ซม. 117967.5"
+        },
+        "เอกสาร invoice_page-0148.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ac17fa87-4586-4762-93a9-d680692910fb",
+          "elapsed": 9.319646699999794,
+          "text": "INVOICE IV9085686 04-0727 หมวกคลุมผมตัวพนอน สีเขียว (50 อัน/แพค) 1177"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c46814d6-b98a-4bf6-bba1-303d867936db",
+          "elapsed": 6.452574799999638,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.432684299999892,
+        "max": 14.422047100000782,
+        "avg": 10.542146169999615,
+        "total": 105.42146169999614
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.921525100000508,
+        "max": 19.470273999999336,
+        "avg": 11.091968269999962,
+        "total": 110.91968269999961
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 8.096595900000466,
+        "max": 14.35537529999965,
+        "avg": 10.408594220000305,
+        "total": 104.08594220000305
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.452574799999638,
+        "max": 13.017721599999277,
+        "avg": 10.226224510000065,
+        "total": 102.26224510000065
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.8761,
+      "per_file": {
+        "เอกสาร invoice_page-0033.jpg": 1.0,
+        "เอกสาร invoice_page-0050.jpg": 1.0,
+        "เอกสาร invoice_page-0057.jpg": 0.0,
+        "เอกสาร invoice_page-0059.jpg": 1.0,
+        "เอกสาร invoice_page-0062.jpg": 1.0,
+        "เอกสาร invoice_page-0063.jpg": 0.8594,
+        "เอกสาร invoice_page-0089.jpg": 1.0,
+        "เอกสาร invoice_page-0090.jpg": 0.9014,
+        "เอกสาร invoice_page-0148.jpg": 1.0,
+        "เอกสาร invoice_page-0201.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.779,
+      "per_file": {
+        "เอกสาร invoice_page-0033.jpg": 0.1816,
+        "เอกสาร invoice_page-0050.jpg": 1.0,
+        "เอกสาร invoice_page-0057.jpg": 0.0,
+        "เอกสาร invoice_page-0059.jpg": 0.7071,
+        "เอกสาร invoice_page-0062.jpg": 1.0,
+        "เอกสาร invoice_page-0063.jpg": 1.0,
+        "เอกสาร invoice_page-0089.jpg": 1.0,
+        "เอกสาร invoice_page-0090.jpg": 0.9014,
+        "เอกสาร invoice_page-0148.jpg": 1.0,
+        "เอกสาร invoice_page-0201.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.7657,
+      "per_file": {
+        "เอกสาร invoice_page-0033.jpg": 0.1952,
+        "เอกสาร invoice_page-0050.jpg": 1.0,
+        "เอกสาร invoice_page-0057.jpg": 0.0,
+        "เอกสาร invoice_page-0059.jpg": 1.0,
+        "เอกสาร invoice_page-0062.jpg": 1.0,
+        "เอกสาร invoice_page-0063.jpg": 0.8594,
+        "เอกสาร invoice_page-0089.jpg": 0.7006,
+        "เอกสาร invoice_page-0090.jpg": 0.9014,
+        "เอกสาร invoice_page-0148.jpg": 1.0,
+        "เอกสาร invoice_page-0201.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.8692,
+      "per_file": {
+        "เอกสาร invoice_page-0033.jpg": 1.0,
+        "เอกสาร invoice_page-0050.jpg": 1.0,
+        "เอกสาร invoice_page-0057.jpg": 0.0,
+        "เอกสาร invoice_page-0059.jpg": 1.0,
+        "เอกสาร invoice_page-0062.jpg": 1.0,
+        "เอกสาร invoice_page-0063.jpg": 1.0,
+        "เอกสาร invoice_page-0089.jpg": 1.0,
+        "เอกสาร invoice_page-0090.jpg": 0.9014,
+        "เอกสาร invoice_page-0148.jpg": 0.7906,
+        "เอกสาร invoice_page-0201.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

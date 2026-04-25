@@ -1,0 +1,582 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 6.56554849999884,
+        "max": 74.22024729999976,
+        "avg": 16.343661690000225,
+        "total": 163.43661690000226
+      },
+      "results": {
+        "เอกสาร invoice_page-0012.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "79f6848a-26b0-443d-b44e-a6f32b48d456",
+          "elapsed": 8.433914200002619,
+          "text": "INVOICE สัง Boxjourney x00148 4173"
+        },
+        "เอกสาร invoice_page-0018.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "896cb869-2835-4665-9825-ef1e9be457fe",
+          "elapsed": 11.097873500002606,
+          "text": "UNKNOWN PAPER CUP 12 OZ (1000/CTN) พิมพ์ลาย HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู WHITE ICE-CREAM 390 CC (1000/CTN) ทรงสูง สีขาว PAPER CUP 8.0 OZ W/H (1000/CTN) ลายติดหู 183505"
+        },
+        "เอกสาร invoice_page-0019.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a28067aa-a39f-47ef-9804-0615932ae311",
+          "elapsed": 8.71428190000006,
+          "text": "INVOICE WHITE 8.0 OZ W/H (1000/CTN) สีขาวติดหู แก้วกระดาษ 4.0 oz (130) (1000/CTN) สีขาวไม่มีหู WHITE 16 OZ (1000/CTN) 17655"
+        },
+        "เอกสาร invoice_page-0021.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3c5077f5-2fdd-4bbd-8f54-914f0592b82d",
+          "elapsed": 11.96967980000045,
+          "text": "INVOICE IV 202601413 \"TSC\" Printhead Model 246-MPro (203dpi) S/N : 1D06-7945 9416"
+        },
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "da936ade-2751-4038-91b3-bd4d4e381666",
+          "elapsed": 12.49866370000018,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9d23f5f7-cd9b-4830-a5fd-7255ac61864b",
+          "elapsed": 8.151567299999442,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0098.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5b93df12-e79f-4dfa-afb2-0b9e40372964",
+          "elapsed": 12.069192799997836,
+          "text": "INVOICE 6812/312 PVC 0.15 MM. X 19 CM. X 29 CM. สีใส 5184.15"
+        },
+        "เอกสาร invoice_page-0100.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "75e0bed2-403d-4c7f-8198-c8fc5cb55804",
+          "elapsed": 74.22024729999976,
+          "text": "RECEIPT RC00-69000020 0"
+        },
+        "เอกสาร invoice_page-0157.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e076ab58-2e27-4688-97c5-f893d4e8d825",
+          "elapsed": 6.56554849999884,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "85a376d0-54df-424e-8e5f-c1460a9f5752",
+          "elapsed": 9.715647900000477,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 31030"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.363261300000886,
+        "max": 181.94914359999893,
+        "avg": 27.21337712999957,
+        "total": 272.1337712999957
+      },
+      "results": {
+        "เอกสาร invoice_page-0012.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7aa63f01-e692-4e6e-91fc-42005580a227",
+          "elapsed": 8.890267399998265,
+          "text": "INVOICE สัง Boxjourney x00148 4173"
+        },
+        "เอกสาร invoice_page-0018.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7b47819c-2c14-4ce0-8c00-a8b54af9db94",
+          "elapsed": 11.997098499999993,
+          "text": "UNKNOWN PAPER CUP 12 OZ (1000/CTN) พิมพ์ลาย HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู WHITE ICE-CREAM 390 CC (1000/CTN) ทรงสูง สีขาว PAPER CUP 8.0 OZ W/H (1000/CTN) ลายติดหู 183505"
+        },
+        "เอกสาร invoice_page-0019.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7e813a37-9ade-4035-a104-44ae818facad",
+          "elapsed": 11.220695400003024,
+          "text": "INVOICE WHITE 8.0 OZ W/H (1000/CTN) สีขาวติดหู แก้วกระดาษ 4.0 oz (130) (1000/CTN) สีขาวไม่มีหู WHITE 16 OZ (1000/CTN) 17655"
+        },
+        "เอกสาร invoice_page-0021.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ab8c34e2-f44c-40a9-a40d-4a3e09e17ea1",
+          "elapsed": 10.526302199999918,
+          "text": "INVOICE IV 202601413 \"TSC\" Printhead Model 246-MPro (203dpi)\nS/N : 1D06-7945 9416"
+        },
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "86114fe9-ca25-4c10-9236-319a3f93f228",
+          "elapsed": 10.954202399996575,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6095116b-4288-47cc-bdc8-d13d0916125b",
+          "elapsed": 8.438351099997817,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0098.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "aa6742ab-ffe5-493e-8254-70e992adbad1",
+          "elapsed": 11.111063000000286,
+          "text": "INVOICE 6812/312 PVC 0.15 MM. X 19 CM. X 29 CM. สีใส 5184.15"
+        },
+        "เอกสาร invoice_page-0100.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e6e7388b-9d65-4ce4-bd83-f678a288562e",
+          "elapsed": 181.94914359999893,
+          "text": "RECEIPT RC00-69000020 0"
+        },
+        "เอกสาร invoice_page-0157.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8f4eb5f9-9b24-4bad-a31a-7da43d34a1ab",
+          "elapsed": 7.363261300000886,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4563cc9a-b2be-4ffa-8c26-d310d988f902",
+          "elapsed": 9.683386400000018,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 31030"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.607934400002705,
+        "max": 197.47261160000198,
+        "avg": 28.335664210000324,
+        "total": 283.3566421000032
+      },
+      "results": {
+        "เอกสาร invoice_page-0012.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a91486f2-5070-4b7e-8194-d78be421814d",
+          "elapsed": 6.607934400002705,
+          "text": "INVOICE สัง Boxjourney x00148 4173.0"
+        },
+        "เอกสาร invoice_page-0018.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "337061e5-c357-4fc8-af9c-e2353318bec6",
+          "elapsed": 11.771458999999595,
+          "text": "UNKNOWN PAPER CUP 12 OZ (1000/CTN) พิมพ์ลาย HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู WHITE ICE-CREAM 390 CC (1000/CTN) ทรงสูง สีขาว PAPER CUP 8.0 OZ W/H (1000/CTN) ลายติดหู 183505"
+        },
+        "เอกสาร invoice_page-0019.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4d3a5909-c6f1-4106-a6ae-2dccc4eb1c6c",
+          "elapsed": 11.034938599997986,
+          "text": "INVOICE WHITE 8.0 OZ W/H (1000/CTN) สีขาวติดหู แก้วกระดาษ 4.0 oz (130) (1000/CTN) สีขาวไม่มีหู WHITE 16 OZ (1000/CTN) 17655"
+        },
+        "เอกสาร invoice_page-0021.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d2650896-45c1-456c-a4dc-d1c837ea9824",
+          "elapsed": 9.029391699998087,
+          "text": "INVOICE IV 202601413 \"TSC\" Printhead Model 246-MPro (203dpi) S/N : 1D06-7945 9416"
+        },
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1099475a-5942-4da5-8a8b-e0bde045099e",
+          "elapsed": 11.764892999999574,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "59fc211a-51c6-4cc7-8749-9145349cac8b",
+          "elapsed": 8.249305100001948,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0098.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e2b34bed-ff49-4e6b-834e-43db38446e3c",
+          "elapsed": 10.53575980000096,
+          "text": "INVOICE 6812/312 PVC 0.15 MM. X 19 CM. X 29 CM. สีใส 5184.15"
+        },
+        "เอกสาร invoice_page-0100.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "72592f40-7953-40d9-88a4-0602be07b363",
+          "elapsed": 197.47261160000198,
+          "text": "RECEIPT RC00-69000020 0"
+        },
+        "เอกสาร invoice_page-0157.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cc65736f-9292-4374-982b-6e12d072aa3f",
+          "elapsed": 7.269176800000423,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3eede4df-f84c-45f2-82c9-c1ca855032e8",
+          "elapsed": 9.621172099999967,
+          "text": "INVOICE ZO0460 Fuser Unit 46672506 150k- ชุดทำความสะอาด ZO0460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 31030"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.295290500002011,
+        "max": 300.01262860000134,
+        "avg": 39.07440153000025,
+        "total": 390.7440153000025
+      },
+      "results": {
+        "เอกสาร invoice_page-0012.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "39f64d3f-3840-461a-9a02-1a6859716b15",
+          "elapsed": 8.213549899999634,
+          "text": "INVOICE สัง Boxjourney x00148 4173.0"
+        },
+        "เอกสาร invoice_page-0018.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cb1d9e51-8c83-4660-bd07-bf6a9b590183",
+          "elapsed": 11.650416500000574,
+          "text": "UNKNOWN PAPER CUP 12 OZ (1000/CTN) พิมพ์ลาย HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู WHITE ICE-CREAM 390 CC (1000/CTN) ทรงสูง สีขาว PAPER CUP 8.0 OZ W/H (1000/CTN) ลายติดหู 183505"
+        },
+        "เอกสาร invoice_page-0019.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6e721ff3-cd9b-422a-92b1-fddebdf29ea1",
+          "elapsed": 11.60963289999927,
+          "text": "INVOICE WHITE 8.0 OZ W/H (1000/CTN) สีขาวติดหู แก้วกระดาษ 4.0 oz (130) (1000/CTN) สีขาวไม่มีหู WHITE 16 OZ (1000/CTN) 17655"
+        },
+        "เอกสาร invoice_page-0021.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9f830559-1981-47be-9c0c-09d1ad7b6fc6",
+          "elapsed": 12.400361299998622,
+          "text": "INVOICE IV 202601413 \"TSC\" Printhead Model 246-MPro (203dpi) S/N : 1D06-7945 9416"
+        },
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b9b22743-ed22-49bf-9b53-42ec38cf426f",
+          "elapsed": 11.818516900002578,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c9201708-023d-43c7-be2e-71fa37e24b5b",
+          "elapsed": 7.295290500002011,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0098.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f7cf2aa0-0a69-4a15-9750-0fac8fea944e",
+          "elapsed": 11.173773800001072,
+          "text": "INVOICE 6812/312 PVC 0.15 MM. X 19 CM. X 29 CM. สีใส 5184.15"
+        },
+        "เอกสาร invoice_page-0100.jpg": {
+          "label": 0,
+          "status": "HTTPConnectionPool(host='localhost', port=8010): Read timed out. (read timeout=300)",
+          "elapsed": 300.01262860000134,
+          "text": ""
+        },
+        "เอกสาร invoice_page-0157.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ee7f9827-1d5a-4446-a59b-496621e533b4",
+          "elapsed": 7.3704691999992065,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6af6031e-5fda-4336-8b83-cc97de09f691",
+          "elapsed": 9.1993756999982,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 15515"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.884861599999567,
+        "max": 75.57593439999982,
+        "avg": 16.71856570000018,
+        "total": 167.1856570000018
+      },
+      "results": {
+        "เอกสาร invoice_page-0012.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "26eec992-9ff6-4177-89fa-a6cc373f0e19",
+          "elapsed": 8.495377799998096,
+          "text": "INVOICE สัง Boxjourney x00148 4173.0"
+        },
+        "เอกสาร invoice_page-0018.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "863bbdde-7fc8-49a7-bee3-1e5927d57dcb",
+          "elapsed": 11.3661514000014,
+          "text": "UNKNOWN PAPER CUP 12 OZ (1000/CTN) พิมพ์ลาย HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู WHITE ICE-CREAM 390 CC (1000/CTN) ทรงสูง สีขาว PAPER CUP 8.0 OZ W/H (1000/CTN) ลายติดหู 183505"
+        },
+        "เอกสาร invoice_page-0019.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d6525a44-ae05-41bb-9f7d-c13fa815485f",
+          "elapsed": 10.782482300000993,
+          "text": "INVOICE WHITE 8.0 OZ W/H (1000/CTN) สีขาวติดหู แก้วกระดาษ 4.0 oz (130) (1000/CTN) สีขาวไม่มีหู WHITE 16 OZ (1000/CTN) 17655"
+        },
+        "เอกสาร invoice_page-0021.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d0aa211f-18dc-4b82-b7e4-195c6fca58d6",
+          "elapsed": 12.417380700000649,
+          "text": "INVOICE IV 202601413 \"TSC\" Printhead Model 246-MPro (203dpi) S/N : 1D06-7945 9416"
+        },
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9927d08d-49ad-47b0-b9b9-7d37be4c260f",
+          "elapsed": 10.791567500000383,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f1a61ae1-62bf-47e6-b77c-f576a2ed58fc",
+          "elapsed": 8.4876116000014,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0098.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d8018a24-4644-44a8-ac08-0937bf6ba0f4",
+          "elapsed": 12.193090100001427,
+          "text": "INVOICE 6812/312 PVC 0.15 MM. X 19 CM. X 29 CM. สีใส 5184.15"
+        },
+        "เอกสาร invoice_page-0100.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5fb33988-b98d-4c92-97bb-3225a9ba04da",
+          "elapsed": 75.57593439999982,
+          "text": "RECEIPT RC00-69000020 0"
+        },
+        "เอกสาร invoice_page-0157.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "41275c94-4ff2-4d78-8729-d82fc922e54d",
+          "elapsed": 7.884861599999567,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ddc09c8c-3a35-4ba1-b821-35f4ee87d715",
+          "elapsed": 9.191199599998072,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 31030"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.363261300000886,
+        "max": 181.94914359999893,
+        "avg": 27.21337712999957,
+        "total": 272.1337712999957
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.607934400002705,
+        "max": 197.47261160000198,
+        "avg": 28.335664210000324,
+        "total": 283.3566421000032
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 9,
+        "tn": 0,
+        "fp": 0,
+        "fn": 1,
+        "accuracy": 0.9,
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9473684210526316
+      },
+      "timing": {
+        "min": 7.295290500002011,
+        "max": 300.01262860000134,
+        "avg": 39.07440153000025,
+        "total": 390.7440153000025
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.884861599999567,
+        "max": 75.57593439999982,
+        "avg": 16.71856570000018,
+        "total": 167.1856570000018
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 0.975,
+    "precision": 1.0,
+    "recall": 0.975,
+    "f1": 0.986842105263158
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 1.0,
+      "per_file": {
+        "เอกสาร invoice_page-0012.jpg": 1.0,
+        "เอกสาร invoice_page-0018.jpg": 1.0,
+        "เอกสาร invoice_page-0019.jpg": 1.0,
+        "เอกสาร invoice_page-0021.jpg": 1.0,
+        "เอกสาร invoice_page-0046.jpg": 1.0,
+        "เอกสาร invoice_page-0060.jpg": 1.0,
+        "เอกสาร invoice_page-0098.jpg": 1.0,
+        "เอกสาร invoice_page-0100.jpg": 1.0,
+        "เอกสาร invoice_page-0157.jpg": 1.0,
+        "เอกสาร invoice_page-0174.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.9545,
+      "per_file": {
+        "เอกสาร invoice_page-0012.jpg": 0.7746,
+        "เอกสาร invoice_page-0018.jpg": 1.0,
+        "เอกสาร invoice_page-0019.jpg": 1.0,
+        "เอกสาร invoice_page-0021.jpg": 1.0,
+        "เอกสาร invoice_page-0046.jpg": 1.0,
+        "เอกสาร invoice_page-0060.jpg": 1.0,
+        "เอกสาร invoice_page-0098.jpg": 1.0,
+        "เอกสาร invoice_page-0100.jpg": 1.0,
+        "เอกสาร invoice_page-0157.jpg": 1.0,
+        "เอกสาร invoice_page-0174.jpg": 0.7703
+      }
+    },
+    "4": {
+      "avg": 0.8184,
+      "per_file": {
+        "เอกสาร invoice_page-0012.jpg": 0.7746,
+        "เอกสาร invoice_page-0018.jpg": 1.0,
+        "เอกสาร invoice_page-0019.jpg": 1.0,
+        "เอกสาร invoice_page-0021.jpg": 1.0,
+        "เอกสาร invoice_page-0046.jpg": 1.0,
+        "เอกสาร invoice_page-0060.jpg": 1.0,
+        "เอกสาร invoice_page-0098.jpg": 1.0,
+        "เอกสาร invoice_page-0100.jpg": 0.0,
+        "เอกสาร invoice_page-0157.jpg": 1.0,
+        "เอกสาร invoice_page-0174.jpg": 0.4091
+      }
+    },
+    "5": {
+      "avg": 0.9775,
+      "per_file": {
+        "เอกสาร invoice_page-0012.jpg": 0.7746,
+        "เอกสาร invoice_page-0018.jpg": 1.0,
+        "เอกสาร invoice_page-0019.jpg": 1.0,
+        "เอกสาร invoice_page-0021.jpg": 1.0,
+        "เอกสาร invoice_page-0046.jpg": 1.0,
+        "เอกสาร invoice_page-0060.jpg": 1.0,
+        "เอกสาร invoice_page-0098.jpg": 1.0,
+        "เอกสาร invoice_page-0100.jpg": 1.0,
+        "เอกสาร invoice_page-0157.jpg": 1.0,
+        "เอกสาร invoice_page-0174.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {
+    "เอกสาร invoice_page-0100.jpg": [
+      {
+        "round": 4,
+        "baseline": "success",
+        "this_round": "failure"
+      }
+    ]
+  }
+}

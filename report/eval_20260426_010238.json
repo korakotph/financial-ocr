@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 6.670471900000848,
+        "max": 17.754558599999655,
+        "avg": 11.125419929999953,
+        "total": 111.25419929999953
+      },
+      "results": {
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c3e5d1d6-aeaf-4474-b46a-5751e6e972f9",
+          "elapsed": 8.97040829999969,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "67dc396a-b248-4085-9785-2f367f39deef",
+          "elapsed": 12.069291099998736,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0104.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f22f51b9-c77a-49e3-b3b1-74e0a0f78129",
+          "elapsed": 9.40887450000082,
+          "text": "DELIVERY_ORDER ถุงกระดาษน้ำตาล#139652 (NO.1) ถุงกระดาษน้ำตาลหุเกลียว#141369(M) 238717"
+        },
+        "เอกสาร invoice_page-0110.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4681b31a-1030-4bb9-ac3c-668932228c42",
+          "elapsed": 10.863691500000641,
+          "text": "INVOICE IV6901013 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ค็อเตอร์ Stanley 10-175 2140"
+        },
+        "เอกสาร invoice_page-0118.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4f41fbda-9492-42dd-b2d2-d76b39e5e3df",
+          "elapsed": 10.227216999999655,
+          "text": "INVOICE กล่องลูกฟูก GIFT SET 33005.76"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "972eba71-797a-4493-8238-9eda014badb3",
+          "elapsed": 17.754558599999655,
+          "text": "INVOICE SO2601025226 มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล น้ำยาล้างจาน กลิ่นมะนาวสูตรเข้มข้น 3.8 ลิตร ซันไว ผลิตภัณฑ์ล้างห้องน้ำสุขภัณฑ์ วอเตอร์ลู 3.8 ลิตร ซันไว สบู่เหลวล้างมือมุก กลิ่นกัมมี่ 3.8 ลิตร สีชมพู ซันไว น้ำยาต้นฝุ่น 3800 มล. ซันไว 5287.2552"
+        },
+        "เอกสาร invoice_page-0165.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "452464e8-019d-4c2a-b05c-ff83cffbd685",
+          "elapsed": 12.600596199999927,
+          "text": "DELIVERY_ORDER AROถุงกระดาษน้ำตาล#113757 (NO.4) ถุงกระดาษน้ำตาลหุเกลียว#141369(m) 355133"
+        },
+        "เอกสาร invoice_page-0178.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b8355a76-0ef9-45c1-80fd-21c986e7b4b2",
+          "elapsed": 13.097420100000818,
+          "text": "INVOICE 6901/017 PVC 0.07 MM. X 15 CM. X 700 M. สีใส( 3 ม้วน) PVC 0.07 MM. X 11.5 CM. X 700 M. สีใส( 3 ม้วน) 5116.1"
+        },
+        "เอกสาร invoice_page-0199.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d5dca836-0728-47f8-b693-d24e2e0a7ad5",
+          "elapsed": 9.591670099998737,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 79180"
+        },
+        "เอกสาร invoice_page-0200.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8c3ea3ec-5b6e-46ea-8384-400601a9f4bc",
+          "elapsed": 6.670471900000848,
+          "text": "INVOICE WHITE 16 OZ (1000)/CTN 6741"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.926054499999736,
+        "max": 13.689981999999873,
+        "avg": 10.369407509999837,
+        "total": 103.69407509999837
+      },
+      "results": {
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1172d508-f9ec-4f07-83af-70b6474c614e",
+          "elapsed": 10.161166500000036,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1e364a1c-6a78-4d58-85fc-e45a191588e9",
+          "elapsed": 11.013185899999371,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซส L 55212"
+        },
+        "เอกสาร invoice_page-0104.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0b0613a4-8977-4d1e-98ad-f30491578eea",
+          "elapsed": 10.134227500000634,
+          "text": "DELIVERY_ORDER ถุงกระดาษน้ำตาล#139652 (NO.1) ถุงกระดาษน้ำตาลหุเกลียว#141369(M) 238717"
+        },
+        "เอกสาร invoice_page-0110.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "75d5f445-2a09-4cad-b6e2-38587f6e97e4",
+          "elapsed": 10.054605599998467,
+          "text": "UNKNOWN ค็อเตอร์ Stanley 10-175 532.86"
+        },
+        "เอกสาร invoice_page-0118.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e5ed2535-8cbc-4385-b4f4-5c677f46cd93",
+          "elapsed": 9.098597500000324,
+          "text": "INVOICE กล่องลูกฟูก GIFT SET 33005.76"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "672e468e-5a17-4ea2-9ff4-430dc1e44636",
+          "elapsed": 13.25314090000029,
+          "text": "UNKNOWN บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล 1669.2"
+        },
+        "เอกสาร invoice_page-0165.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "adc04493-ec6c-40f4-98e7-ba0979fd2f3f",
+          "elapsed": 11.906595099999322,
+          "text": "UNKNOWN AROถุงกระดาษน้ำตาล#113757 (NO.4) ถุงกระดาษน้ำตาลหุเกลียว#141369(m) 355133"
+        },
+        "เอกสาร invoice_page-0178.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4c8c2ec9-8b9b-4294-8ac6-cd1586aeb9e7",
+          "elapsed": 13.689981999999873,
+          "text": "INVOICE 6901/017 PVC 0.07 MM. X 15 CM. X 700 M. สีใส( 3 ม้วน) PVC 0.07 MM. X 11.5 CM. X 700 M. สีใส( 3 ม้วน) 5116.1"
+        },
+        "เอกสาร invoice_page-0199.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d545933c-b954-40e3-a16d-f94da7705f06",
+          "elapsed": 7.45651960000032,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 79180"
+        },
+        "เอกสาร invoice_page-0200.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f8c4b29c-b445-437b-9d8a-aa422852e072",
+          "elapsed": 6.926054499999736,
+          "text": "INVOICE WHITE 16 OZ (1000)/CTN 6741"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.654846999999791,
+        "max": 18.31476440000006,
+        "avg": 11.619806439999774,
+        "total": 116.19806439999775
+      },
+      "results": {
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "65303263-dbf4-40f0-819e-2d16b1002bfb",
+          "elapsed": 12.34605940000074,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "48fda86a-2c78-4595-bb3c-ba18268ceea9",
+          "elapsed": 10.782796999999846,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซส L 55212"
+        },
+        "เอกสาร invoice_page-0104.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6d2e5b58-92ea-4ed5-9f8f-d5f16b2036e4",
+          "elapsed": 12.5581387000002,
+          "text": "DELIVERY_ORDER ถุงกระดาษน้ำตาล#139652 (NO.1) ถุงกระดาษน้ำตาลหุเกลียว#141369(M) 238717"
+        },
+        "เอกสาร invoice_page-0110.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ee1eec7d-5485-4836-89e6-c7157d3c6cbf",
+          "elapsed": 12.0698926999994,
+          "text": "INVOICE IV6901013 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ค็อเตอร์ Stanley 10-175 2140"
+        },
+        "เอกสาร invoice_page-0118.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dabb347c-07c0-4a7c-883c-75c551542d5b",
+          "elapsed": 9.672124599999734,
+          "text": "INVOICE กล่องลูกฟูก GIFT SET 33005.76"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e80eaba8-0cae-4d25-be89-0af123d90142",
+          "elapsed": 18.31476440000006,
+          "text": "INVOICE SO2601025226 มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล น้ำยาล้างจาน กลิ่นมะนาวสูตรเข้มข้น 3.8 ลิตร ซันไว ผลิตภัณฑ์ล้างห้องน้ำสุขภัณฑ์ วอเตอร์ลู 3.8 ลิตร ซันไว สบู่เหลวล้างมือมุก กลิ่นกัมมี่ 3.8 ลิตร สีชมพู ซันไว น้ำยาต้นฝุ่น 3800 มล. ซันไว 5287.2552"
+        },
+        "เอกสาร invoice_page-0165.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5bbd187b-c99f-42ca-bde4-f93bc31c28e1",
+          "elapsed": 11.948173899998437,
+          "text": "UNKNOWN AROถุงกระดาษน้ำตาล#113757 (NO.4) ถุงกระดาษน้ำตาลหุเกลียว#141369(m) 355133"
+        },
+        "เอกสาร invoice_page-0178.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c4743abd-812f-45f5-95aa-13b0fbd75187",
+          "elapsed": 13.064782499999637,
+          "text": "INVOICE 6901/017 PVC 0.07 MM. X 15 CM. X 700 M. สีใส( 3 ม้วน) PVC 0.07 MM. X 11.5 CM. X 700 M. สีใส( 3 ม้วน) 5116.1"
+        },
+        "เอกสาร invoice_page-0199.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8b6347b8-71b5-41f5-8d0f-75149079b8d0",
+          "elapsed": 7.786484199999904,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 79180"
+        },
+        "เอกสาร invoice_page-0200.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c4e15a9a-4fc3-4982-a834-8c7021d1248b",
+          "elapsed": 7.654846999999791,
+          "text": "INVOICE WHITE 16 OZ (1000)/CTN 6741"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 8.608091199999762,
+        "max": 13.704886100000294,
+        "avg": 11.038075390000449,
+        "total": 110.38075390000449
+      },
+      "results": {
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bf0ab952-06fa-4bcb-b765-280e5c0067bd",
+          "elapsed": 12.503931100000045,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "daa99274-a988-4c17-b41c-8facf33784dd",
+          "elapsed": 9.78392150000036,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0104.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "75c6dc68-5d07-4f50-a4d8-15c5ad987740",
+          "elapsed": 10.686181100001704,
+          "text": "DELIVERY_ORDER ถุงกระดาษน้ำตาล#139652 (NO.1) ถุงกระดาษน้ำตาลหุเกลียว#141369(M) 238717"
+        },
+        "เอกสาร invoice_page-0110.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "37a2446e-12eb-48e3-b66f-d09991567d85",
+          "elapsed": 12.012219000000186,
+          "text": "INVOICE IV6901013 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ค็อเตอร์ Stanley 10-175 2140"
+        },
+        "เอกสาร invoice_page-0118.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "48de639b-d983-4ec6-8c6c-361ba29e94eb",
+          "elapsed": 10.115437600001314,
+          "text": "INVOICE กล่องลูกฟูก GIFT SET 33005.76"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0aa7ce0e-5f0b-42f9-8d7b-9ca315330f05",
+          "elapsed": 13.704886100000294,
+          "text": "UNKNOWN บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล 1669.2"
+        },
+        "เอกสาร invoice_page-0165.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c74c72a5-0064-4a75-8481-b3b23735af15",
+          "elapsed": 12.166627399999925,
+          "text": "DELIVERY_ORDER AROถุงกระดาษน้ำตาล#113757 (NO.4) ถุงกระดาษน้ำตาลหุเกลียว#141369(m) 355133"
+        },
+        "เอกสาร invoice_page-0178.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d0f1ae7f-007f-4453-ab77-35e6cc19cf31",
+          "elapsed": 12.13538840000001,
+          "text": "INVOICE 6901/017 PVC 0.07 MM. X 15 CM. X 700 M. สีใส( 3 ม้วน) PVC 0.07 MM. X 11.5 CM. X 700 M. สีใส( 3 ม้วน) 5116.1"
+        },
+        "เอกสาร invoice_page-0199.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5cf6d388-a140-4679-a093-191bf5b53474",
+          "elapsed": 8.608091199999762,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 79180"
+        },
+        "เอกสาร invoice_page-0200.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f802356b-df05-4230-9734-561707aaac8e",
+          "elapsed": 8.66407050000089,
+          "text": "INVOICE WHITE 16 OZ (1000)/CTN 6741"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.169433299999582,
+        "max": 12.454459799999313,
+        "avg": 9.82102621999984,
+        "total": 98.2102621999984
+      },
+      "results": {
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cbacbc26-51ea-4e82-8b3f-8c38f3d35c86",
+          "elapsed": 9.078469000000041,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "50e610b2-704b-419c-a1e6-f420a9da49bb",
+          "elapsed": 10.445442700000058,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0104.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3efc9411-6bf6-4237-afb0-4d33dd525fa0",
+          "elapsed": 11.48842059999879,
+          "text": "DELIVERY_ORDER ถุงกระดาษน้ำตาล#139652 (NO.1) ถุงกระดาษน้ำตาลหุเกลียว#141369(M) 238717"
+        },
+        "เอกสาร invoice_page-0110.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e2c6f5df-6ab5-4c81-8bba-8bd0ef0d6b73",
+          "elapsed": 10.51180100000056,
+          "text": "UNKNOWN ค็อเตอร์ Stanley 10-175 532.86"
+        },
+        "เอกสาร invoice_page-0118.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "28823fee-cd61-4102-ad44-3b30ce2d835f",
+          "elapsed": 8.393273100000442,
+          "text": "INVOICE กล่องลูกฟูก GIFT SET 33005.76"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5b2f5ab3-c7b7-46a1-8363-6103b7c7a470",
+          "elapsed": 12.454459799999313,
+          "text": "UNKNOWN บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล 1669.2"
+        },
+        "เอกสาร invoice_page-0165.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "85e71287-4d47-43f5-82f2-f7ce60c35ee1",
+          "elapsed": 9.71960240000044,
+          "text": "DELIVERY_ORDER AROถุงกระดาษน้ำตาล#113757 (NO.4) ถุงกระดาษน้ำตาลหุเกลียว#141369(m) 355133"
+        },
+        "เอกสาร invoice_page-0178.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "20f6c96b-d364-4d58-90da-16bd53363b55",
+          "elapsed": 10.738221199999316,
+          "text": "INVOICE 6901/017 PVC 0.07 MM. X 15 CM. X 700 M. สีใส( 3 ม้วน) PVC 0.07 MM. X 11.5 CM. X 700 M. สีใส( 3 ม้วน) 5116.1"
+        },
+        "เอกสาร invoice_page-0199.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ff29466d-1fff-4a37-8d5d-9acc9d95fe8a",
+          "elapsed": 8.211139099999855,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 79180"
+        },
+        "เอกสาร invoice_page-0200.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3a43cb25-745d-453a-8086-4aff962427e2",
+          "elapsed": 7.169433299999582,
+          "text": "INVOICE WHITE 16 OZ (1000)/CTN 6741"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.926054499999736,
+        "max": 13.689981999999873,
+        "avg": 10.369407509999837,
+        "total": 103.69407509999837
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.654846999999791,
+        "max": 18.31476440000006,
+        "avg": 11.619806439999774,
+        "total": 116.19806439999775
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 8.608091199999762,
+        "max": 13.704886100000294,
+        "avg": 11.038075390000449,
+        "total": 110.38075390000449
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.169433299999582,
+        "max": 12.454459799999313,
+        "avg": 9.82102621999984,
+        "total": 98.2102621999984
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.7625,
+      "per_file": {
+        "เอกสาร invoice_page-0062.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 0.7071,
+        "เอกสาร invoice_page-0104.jpg": 1.0,
+        "เอกสาร invoice_page-0110.jpg": 0.0407,
+        "เอกสาร invoice_page-0118.jpg": 1.0,
+        "เอกสาร invoice_page-0125.jpg": 0.1026,
+        "เอกสาร invoice_page-0165.jpg": 0.7746,
+        "เอกสาร invoice_page-0178.jpg": 1.0,
+        "เอกสาร invoice_page-0199.jpg": 1.0,
+        "เอกสาร invoice_page-0200.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.9482,
+      "per_file": {
+        "เอกสาร invoice_page-0062.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 0.7071,
+        "เอกสาร invoice_page-0104.jpg": 1.0,
+        "เอกสาร invoice_page-0110.jpg": 1.0,
+        "เอกสาร invoice_page-0118.jpg": 1.0,
+        "เอกสาร invoice_page-0125.jpg": 1.0,
+        "เอกสาร invoice_page-0165.jpg": 0.7746,
+        "เอกสาร invoice_page-0178.jpg": 1.0,
+        "เอกสาร invoice_page-0199.jpg": 1.0,
+        "เอกสาร invoice_page-0200.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.9103,
+      "per_file": {
+        "เอกสาร invoice_page-0062.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 1.0,
+        "เอกสาร invoice_page-0104.jpg": 1.0,
+        "เอกสาร invoice_page-0110.jpg": 1.0,
+        "เอกสาร invoice_page-0118.jpg": 1.0,
+        "เอกสาร invoice_page-0125.jpg": 0.1026,
+        "เอกสาร invoice_page-0165.jpg": 1.0,
+        "เอกสาร invoice_page-0178.jpg": 1.0,
+        "เอกสาร invoice_page-0199.jpg": 1.0,
+        "เอกสาร invoice_page-0200.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.8143,
+      "per_file": {
+        "เอกสาร invoice_page-0062.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 1.0,
+        "เอกสาร invoice_page-0104.jpg": 1.0,
+        "เอกสาร invoice_page-0110.jpg": 0.0407,
+        "เอกสาร invoice_page-0118.jpg": 1.0,
+        "เอกสาร invoice_page-0125.jpg": 0.1026,
+        "เอกสาร invoice_page-0165.jpg": 1.0,
+        "เอกสาร invoice_page-0178.jpg": 1.0,
+        "เอกสาร invoice_page-0199.jpg": 1.0,
+        "เอกสาร invoice_page-0200.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

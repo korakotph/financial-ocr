@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 7.3015577999995,
+        "max": 15.903312999999798,
+        "avg": 10.089916080000057,
+        "total": 100.89916080000057
+      },
+      "results": {
+        "เอกสาร invoice_page-0001.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "95cd2328-2a42-4972-ada7-a42956be5ac3",
+          "elapsed": 13.231251900000643,
+          "text": "INVOICE P06901/069 00001-โรงงาน E00013 ม้วนพลาสติกopp20//CPP30 ขนาด 580mm. *500m. 51039"
+        },
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "986b66c0-8b2c-4c69-a046-272519f445a0",
+          "elapsed": 14.831961400000182,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ae223ec8-94e9-4f85-a138-b36e5f8ff8bc",
+          "elapsed": 8.817342700000154,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0086.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "221ea772-9a20-40b3-885b-cab237654c98",
+          "elapsed": 7.7620437999994465,
+          "text": "INVOICE แก๊ส LPG 15 กก. 2 วาล์ว (ฟอร์คลิฟท์) 988.68"
+        },
+        "เอกสาร invoice_page-0118.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "32fb0d6c-9092-4a4f-b2e4-b6f8ce517433",
+          "elapsed": 7.780633800000032,
+          "text": "INVOICE กล่องลูกฟูก GIFT SET 33005.76"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "25eacd37-4076-4090-a12b-50a1039ea819",
+          "elapsed": 15.903312999999798,
+          "text": "UNKNOWN บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล 1669.2"
+        },
+        "เอกสาร invoice_page-0153.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "994ee47f-8ab2-409e-b6a4-62547b1ce8f3",
+          "elapsed": 8.07184050000069,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1931e806-4c1a-46c1-b967-7afa7870f6f5",
+          "elapsed": 8.383352699999705,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2046c529-d381-4d4e-a1eb-5e4aad1d3f75",
+          "elapsed": 8.815863200000422,
+          "text": "INVOICE ZO0460 Fusser Unit 46672506 150k- ชุดทำความร้อน ZO0460 Fusser Unit 46672506 150k- ชุดทำความร้อน 31030"
+        },
+        "เอกสาร invoice_page-0202.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "293b9b52-4de2-425d-a792-a7774ece7f1e",
+          "elapsed": 7.3015577999995,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 95016"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.716179600000032,
+        "max": 14.648449700000128,
+        "avg": 9.34926002000002,
+        "total": 93.4926002000002
+      },
+      "results": {
+        "เอกสาร invoice_page-0001.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6207c291-1568-453c-b7af-99ee09610b75",
+          "elapsed": 9.101955799999814,
+          "text": "INVOICE P06901/069 00001-โรงงาน E00013 ม้วนพลาสติกopp20//CPP30 ขนาด 580mm. *500m. 51039"
+        },
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "de207172-d118-43b0-b765-3cf583c8a85c",
+          "elapsed": 11.918024499999774,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fc0d86d6-370c-46a7-bdf4-499cca2f22f9",
+          "elapsed": 8.486688699999831,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0086.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7f70b07b-c244-423c-9a2c-9c37fdba2d7e",
+          "elapsed": 8.62532100000044,
+          "text": "INVOICE แก๊ส LPG 15 กก. 2 วาล์ว (ฟอร์คลิฟท์) 988.68"
+        },
+        "เอกสาร invoice_page-0118.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a41ee34d-8c51-4c8c-895f-4ac1e80ffd94",
+          "elapsed": 8.582720499999596,
+          "text": "INVOICE กล่องลูกฟูก GIFT SET 33005.76"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bdc39400-0d6c-4f58-818b-d826e4642000",
+          "elapsed": 14.648449700000128,
+          "text": "INVOICE SO2601025226 มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล น้ำยาล้างจาน กลิ่นมะนาวสูตรเข้มข้น 3.8 ลิตร ซันไว ผลิตภัณฑ์ล้างห้องน้ำสุขภัณฑ์ วอเตอร์ลู 3.8 ลิตร ซันไว สบู่เหลวล้างมือมุก กลิ่นกัมมี่ 3.8 ลิตร สีชมพู ซันไว น้ำยาต้นฝุ่น 3800 มล. ซันไว 5287.2552"
+        },
+        "เอกสาร invoice_page-0153.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "93f16045-cb62-4013-9555-e00c8c833a68",
+          "elapsed": 6.716179600000032,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8398ee2b-9bd8-4a43-8a7f-ac730b1d20d3",
+          "elapsed": 7.469236099999762,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2dfa999f-01d3-467f-9841-85b711025553",
+          "elapsed": 8.90882000000056,
+          "text": "INVOICE ZO0460 Fuser Unit 46672506 150k- ชุดทำความสะอาด ZO0460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 31030"
+        },
+        "เอกสาร invoice_page-0202.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "07e0a315-439a-4cf6-b002-d5282a0bb04f",
+          "elapsed": 9.03520430000026,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 95016"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.245513600000777,
+        "max": 12.703862200000003,
+        "avg": 8.699301900000046,
+        "total": 86.99301900000046
+      },
+      "results": {
+        "เอกสาร invoice_page-0001.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cd6a0f70-da68-4611-afec-948909d3f1a9",
+          "elapsed": 8.500148899999658,
+          "text": "INVOICE P06901/069 00001-โรงงาน E00013 ม้วนพลาสติกopp20//CPP30 ขนาด 580mm. *500m. 51039"
+        },
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f0bf60d9-24bb-41ad-a5df-ce1d5e8c80a3",
+          "elapsed": 10.844139399999221,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "87751bcd-053f-4439-be44-dbde2ca282c4",
+          "elapsed": 8.104836999999861,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0086.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9e41f375-db60-46fc-a611-4946304e1067",
+          "elapsed": 7.355624100000568,
+          "text": "INVOICE แก๊ส LPG 15 กก. 2 วาล์ว (ฟอร์คลิฟท์) 988.68"
+        },
+        "เอกสาร invoice_page-0118.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "06f73e0d-9708-4fd5-8ef4-aff1b5501da4",
+          "elapsed": 7.29814290000013,
+          "text": "INVOICE กล่องลูกฟูก GIFT SET 33005.76"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "90ba96a3-76bd-48b8-b7bd-6871d1d2eaa6",
+          "elapsed": 12.703862200000003,
+          "text": "INVOICE SO2601025226 มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล น้ำยาล้างจาน กลิ่นมะนาวสูตรเข้มข้น 3.8 ลิตร ซันไว ผลิตภัณฑ์ล้างห้องน้ำสุขภัณฑ์ วอเตอร์ลู 3.8 ลิตร ซันไว สบู่เหลวล้างมือมุก กลิ่นกัมมี่ 3.8 ลิตร สีชมพู ซันไว น้ำยาต้นฝุ่น 3800 มล. ซันไว 5287.2552"
+        },
+        "เอกสาร invoice_page-0153.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "323e8526-11d6-4101-b516-f27a595b992c",
+          "elapsed": 7.589371500000198,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "82602588-2c4b-4bdb-b7ac-6bc9ba30f688",
+          "elapsed": 8.6180260000001,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f7da4f89-ee9d-4b05-9531-af00915bc663",
+          "elapsed": 8.733353399999942,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 15515"
+        },
+        "เอกสาร invoice_page-0202.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7b7003b7-0782-45c7-96e9-844d8a7befab",
+          "elapsed": 7.245513600000777,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 95016"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.6925500999996075,
+        "max": 14.213488700000198,
+        "avg": 9.673946530000194,
+        "total": 96.73946530000194
+      },
+      "results": {
+        "เอกสาร invoice_page-0001.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "eba59ece-bb08-4713-838f-38e699ff2cd4",
+          "elapsed": 11.192130599999473,
+          "text": "INVOICE P06901/069 00001-โรงงาน E00013 ม้วนพลาสติกopp20//CPP30 ขนาด 580mm. *500m. 51039"
+        },
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b93ee04f-9d24-4d69-bcbf-a6544fc17450",
+          "elapsed": 14.060232400000132,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "229f1cbd-a895-410b-9db1-401e1c036a99",
+          "elapsed": 9.190725400000701,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซส L 55212"
+        },
+        "เอกสาร invoice_page-0086.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b79a8a8f-5944-4f8c-94f0-a7c3a3130ed3",
+          "elapsed": 9.091454299999896,
+          "text": "INVOICE แก๊ส LPG 15 กก. 2 วาล์ว (ฟอร์คลิฟท์) 988.68"
+        },
+        "เอกสาร invoice_page-0118.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cb6e29b7-41bc-4fde-8e95-225b9f11897e",
+          "elapsed": 8.421308700000736,
+          "text": "INVOICE กล่องลูกฟูก GIFT SET 33005.76"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "717e4800-ba1e-44b5-9050-70b7666acaaf",
+          "elapsed": 14.213488700000198,
+          "text": "UNKNOWN บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล 1669.2"
+        },
+        "เอกสาร invoice_page-0153.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "633a2ef4-7511-44a0-b339-41e18e8357cc",
+          "elapsed": 7.119967000000543,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d31104ea-40b7-4a76-a12a-d855229320c4",
+          "elapsed": 8.367241300000387,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fdcee4aa-50e8-4baa-8181-c93bebf5fe1f",
+          "elapsed": 8.390366800000265,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 15515"
+        },
+        "เอกสาร invoice_page-0202.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "376c339f-ae67-4a5a-99fe-e8b56c6ed15f",
+          "elapsed": 6.6925500999996075,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 95016"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.670589700000164,
+        "max": 14.42534280000018,
+        "avg": 9.654862740000045,
+        "total": 96.54862740000044
+      },
+      "results": {
+        "เอกสาร invoice_page-0001.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9bedf258-b122-460a-808c-1d34a66b25e2",
+          "elapsed": 10.830414000000019,
+          "text": "INVOICE P06901/069 E00013 ม้วนพลาสติกopp20//CPP30 ขนาด 580mm. *500m. 51039"
+        },
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ac7e1637-b705-4a9f-ae40-e3b5c64ca0a7",
+          "elapsed": 9.89153879999958,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "54d85f58-fe04-438d-a894-2c5d592b7e4f",
+          "elapsed": 10.044923600000402,
+          "text": "UNKNOWN กล่องหูฟ้าขาว OTOP เซส L 55212"
+        },
+        "เอกสาร invoice_page-0086.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6eeb28b9-f88f-44e2-ac49-7b1dd17b5345",
+          "elapsed": 9.467998699999953,
+          "text": "INVOICE แก๊ส LPG 15 กก. 2 วาล์ว (ฟอร์คลิฟท์) 988.68"
+        },
+        "เอกสาร invoice_page-0118.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "55f9e89a-cd84-4828-952c-96b7a873d7f0",
+          "elapsed": 8.124853199999961,
+          "text": "INVOICE กล่องลูกฟูก GIFT SET 33005.76"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f8b329f3-784c-43fd-9cb4-cd9aaafa37fb",
+          "elapsed": 14.42534280000018,
+          "text": "UNKNOWN บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล 1669.2"
+        },
+        "เอกสาร invoice_page-0153.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "411fd201-1ad4-44b3-9efd-1d2fc51c0511",
+          "elapsed": 8.35297989999981,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4c442785-86ec-40f6-91db-11127c6da8c1",
+          "elapsed": 8.76222770000004,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2336310c-8ed1-4ac4-a090-a9432dd359ef",
+          "elapsed": 7.670589700000164,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความร้อน 15515"
+        },
+        "เอกสาร invoice_page-0202.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "705e6b53-07ab-4551-9716-7fa593ad6a4b",
+          "elapsed": 8.977759000000333,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 95016"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.716179600000032,
+        "max": 14.648449700000128,
+        "avg": 9.34926002000002,
+        "total": 93.4926002000002
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.245513600000777,
+        "max": 12.703862200000003,
+        "avg": 8.699301900000046,
+        "total": 86.99301900000046
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.6925500999996075,
+        "max": 14.213488700000198,
+        "avg": 9.673946530000194,
+        "total": 96.73946530000194
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.670589700000164,
+        "max": 14.42534280000018,
+        "avg": 9.654862740000045,
+        "total": 96.54862740000044
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.8687,
+      "per_file": {
+        "เอกสาร invoice_page-0001.jpg": 1.0,
+        "เอกสาร invoice_page-0003.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 1.0,
+        "เอกสาร invoice_page-0086.jpg": 1.0,
+        "เอกสาร invoice_page-0118.jpg": 1.0,
+        "เอกสาร invoice_page-0125.jpg": 0.1627,
+        "เอกสาร invoice_page-0153.jpg": 1.0,
+        "เอกสาร invoice_page-0162.jpg": 1.0,
+        "เอกสาร invoice_page-0174.jpg": 0.5241,
+        "เอกสาร invoice_page-0202.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.8341,
+      "per_file": {
+        "เอกสาร invoice_page-0001.jpg": 1.0,
+        "เอกสาร invoice_page-0003.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 1.0,
+        "เอกสาร invoice_page-0086.jpg": 1.0,
+        "เอกสาร invoice_page-0118.jpg": 1.0,
+        "เอกสาร invoice_page-0125.jpg": 0.1627,
+        "เอกสาร invoice_page-0153.jpg": 1.0,
+        "เอกสาร invoice_page-0162.jpg": 1.0,
+        "เอกสาร invoice_page-0174.jpg": 0.1785,
+        "เอกสาร invoice_page-0202.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.8886,
+      "per_file": {
+        "เอกสาร invoice_page-0001.jpg": 1.0,
+        "เอกสาร invoice_page-0003.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 0.7071,
+        "เอกสาร invoice_page-0086.jpg": 1.0,
+        "เอกสาร invoice_page-0118.jpg": 1.0,
+        "เอกสาร invoice_page-0125.jpg": 1.0,
+        "เอกสาร invoice_page-0153.jpg": 1.0,
+        "เอกสาร invoice_page-0162.jpg": 1.0,
+        "เอกสาร invoice_page-0174.jpg": 0.1785,
+        "เอกสาร invoice_page-0202.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.8769,
+      "per_file": {
+        "เอกสาร invoice_page-0001.jpg": 0.817,
+        "เอกสาร invoice_page-0003.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 0.7071,
+        "เอกสาร invoice_page-0086.jpg": 1.0,
+        "เอกสาร invoice_page-0118.jpg": 1.0,
+        "เอกสาร invoice_page-0125.jpg": 1.0,
+        "เอกสาร invoice_page-0153.jpg": 1.0,
+        "เอกสาร invoice_page-0162.jpg": 1.0,
+        "เอกสาร invoice_page-0174.jpg": 0.2445,
+        "เอกสาร invoice_page-0202.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

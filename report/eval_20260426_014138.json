@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 7.069740700000693,
+        "max": 48.64836729999843,
+        "avg": 18.742954579999786,
+        "total": 187.42954579999787
+      },
+      "results": {
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2b602693-5b85-4b1e-ad90-9671e2e12fa1",
+          "elapsed": 33.0922726000008,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4dc98def-a28e-4e26-86e0-6d633e058971",
+          "elapsed": 48.64836729999843,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0074.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8966390a-ebff-4726-bf31-3ee27b7add61",
+          "elapsed": 10.466281099999833,
+          "text": "INVOICE SO690110967 6730.3"
+        },
+        "เอกสาร invoice_page-0086.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6efc3761-8f06-4a6f-9b16-9aa80aa527fc",
+          "elapsed": 16.77721340000062,
+          "text": "INVOICE แก๊ส LPG 15 กก. 2 วาล์ว (ฟอร์คลิฟท์) 988.68"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3c7f51d3-b4d7-4c26-a20b-9877b04414b3",
+          "elapsed": 30.53514129999894,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0130.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c278e3ee-28bc-4495-96d0-db65f491cf1a",
+          "elapsed": 7.069740700000693,
+          "text": "INVOICE G3201138P ฝาเหลี่ยม PEI ขนาด 170x127 มม. (ชามวงรี 580/750/1000ml.) บรรจุ 500 ชิ้น/กล่อง จำนวน 3 กล่อง 1765.5"
+        },
+        "เอกสาร invoice_page-0151.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6799fb15-f1ee-4408-a149-b2bae7694c0b",
+          "elapsed": 12.342088699999294,
+          "text": "INVOICE ถุง IPP 63+5cm.x18cm.x0.15 (4.5x7\") 7169"
+        },
+        "เอกสาร invoice_page-0154.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1259c894-ef8a-4c3a-a182-f1b040da9e78",
+          "elapsed": 13.03616559999864,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0158.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a4d5358f-0045-43eb-b658-174bff900d86",
+          "elapsed": 7.67378970000027,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0200.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f4692577-0011-4c4b-b639-c890f186c22e",
+          "elapsed": 7.788485400000354,
+          "text": "INVOICE WHITE 16 OZ (1000)/CTN 6741"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 8.641317499999786,
+        "max": 50.67712089999986,
+        "avg": 20.75340202999996,
+        "total": 207.5340202999996
+      },
+      "results": {
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7393a5d3-d05e-4bf3-8a43-9e2edc1e2549",
+          "elapsed": 10.485001600000032,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "053326c6-62cf-4e1d-94b0-fb39f50720c1",
+          "elapsed": 17.439591800000926,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0074.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e9338a26-4657-4a53-be6c-c5ba35df7a0f",
+          "elapsed": 11.42883029999939,
+          "text": "INVOICE SO690110967 น้ำดื่ม ตราสิงห์ 600 มล. (12 ขวด) เนสกาแฟ เรดคัฟ 620 กรัม 6730.3"
+        },
+        "เอกสาร invoice_page-0086.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a387c3ae-29b0-458b-b93d-8dc0f2c2302b",
+          "elapsed": 43.83839520000038,
+          "text": "INVOICE แก๊ส LPG 15 กก. 2 วาล์ว (ฟอร์คลิฟท์) 988.68"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "236a6852-88e4-4fb7-8641-755e874795aa",
+          "elapsed": 12.625850700000228,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0130.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ce5f6294-64ca-4995-bf23-e582f2c8ecbd",
+          "elapsed": 50.67712089999986,
+          "text": "INVOICE G3201138P ฝาเหลี่ยม PE/T ขนาด 170x127 มม. (ชามวงรี 580/750/1000ml.) บรรจุ 500 ชิ้น/กล่อง จำนวน 3 กล่อง 1765.5"
+        },
+        "เอกสาร invoice_page-0151.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "153eff34-b413-453f-8ea7-e2d7e2e0b36c",
+          "elapsed": 8.828224199998658,
+          "text": "INVOICE ถุง IPP 63+5cm.x18cm.x0.15 (4.5x7\") 7169"
+        },
+        "เอกสาร invoice_page-0154.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b92dded1-0655-466c-bdb0-4f8b720b193d",
+          "elapsed": 14.771111899999596,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0158.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "885b1ef5-7d31-4800-9842-79fcb5198d2a",
+          "elapsed": 8.641317499999786,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0200.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0c41a5c1-e4ff-483c-8ea8-4aeac0dbc9d0",
+          "elapsed": 28.798576200000753,
+          "text": "INVOICE WHITE 16 OZ (1000)/CTN 6741"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 8.418612400000711,
+        "max": 57.024232499999925,
+        "avg": 24.3409558000003,
+        "total": 243.40955800000302
+      },
+      "results": {
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6865613e-6130-4fc9-b09d-e2427788c5a3",
+          "elapsed": 8.418612400000711,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "63dad1f0-3cb1-4311-8e83-49226d580fe3",
+          "elapsed": 30.62602920000063,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0074.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b6da4584-75d7-4c6f-be58-a94f5f66395a",
+          "elapsed": 10.061529399999927,
+          "text": "INVOICE SO690110967 น้ำดื่ม ตราสิงห์ 600 มล. (12 ขวด) เนสกาแฟ เรดคัฟ 620 กรัม 6730.3"
+        },
+        "เอกสาร invoice_page-0086.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "141699b9-665e-41e8-a523-4152e6767939",
+          "elapsed": 30.87787400000161,
+          "text": "INVOICE แก๊ส LPG 15 กก. 2 วาล์ว (ฟอร์คลิฟท์) 988.68"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "53545489-f161-4d4e-8fa3-fe86528de5cc",
+          "elapsed": 11.91631580000103,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0130.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d470949e-a1ab-4de5-a201-99e457013eba",
+          "elapsed": 57.024232499999925,
+          "text": "INVOICE G3201138P ฝาเหลี่ยม PEI ขนาด 170x127 มม. (ชามวงรี 580/750/1000ml.) บรรจุ 500 ชิ้น/กล่อง จำนวน 3 กล่อง 1765.5"
+        },
+        "เอกสาร invoice_page-0151.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f171bd68-8978-4a19-931b-df2b169d66aa",
+          "elapsed": 20.218051300000297,
+          "text": "INVOICE ถุง IPP 63+5cm.x18cm.x0.15 (4.5x7\") 7169"
+        },
+        "เอกสาร invoice_page-0154.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9e0207ed-3682-4bfd-90c5-f2cbf8d4c520",
+          "elapsed": 25.839696600000025,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0158.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "92c495ea-f330-4354-bc77-61c2988690f4",
+          "elapsed": 23.57021910000003,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0200.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "586803ab-3419-4098-b48f-e299b5c5c113",
+          "elapsed": 24.85699769999883,
+          "text": "INVOICE WHITE 16 OZ (1000)/CTN 6741"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.6717766000001575,
+        "max": 21.026154600000154,
+        "avg": 12.793690229999992,
+        "total": 127.93690229999993
+      },
+      "results": {
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "534d6815-3d5c-464c-9344-1218b0c36132",
+          "elapsed": 21.026154600000154,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "84a407c2-6e37-4127-adad-871cb8d6a6cb",
+          "elapsed": 13.869288199999573,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0074.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9a3c7d37-f8f4-45be-9fdb-897f2ca546de",
+          "elapsed": 14.374312500000087,
+          "text": "INVOICE SO690110967 น้ำดื่ม ตราสิงห์ 600 มล. (12 ขวด) เนสกาแฟ เรดคัฟ 620 กรัม 6730.3"
+        },
+        "เอกสาร invoice_page-0086.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d7ba72a4-f24f-4241-8626-df6836d3e271",
+          "elapsed": 10.375697699999364,
+          "text": "INVOICE แก๊ส LPG 15 กก. 2 วาล์ว (ฟอร์คลิฟท์) 988.68"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "19342d84-0c54-4367-a68c-3c7b82d27e12",
+          "elapsed": 13.247531700000764,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0130.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "50a238e3-f03a-4e6e-bc49-376647bfe9f8",
+          "elapsed": 10.195083099999465,
+          "text": "INVOICE G3201138P ฝาเหลี่ยม PEI ขนาด 170x127 มม. (ชามวงรี 580/750/1000ml.) บรรจุ 500 ชิ้น/กล่อง จำนวน 3 กล่อง 1765.5"
+        },
+        "เอกสาร invoice_page-0151.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fbb45736-7a16-4d84-b23f-4281200ded3d",
+          "elapsed": 14.166921600000933,
+          "text": "INVOICE ถุง IPP 63+5cm.x18cm.x0.15 (4.5x7\") 7169"
+        },
+        "เอกสาร invoice_page-0154.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a4d4eb5d-ba36-475f-a858-c0169d2e4b8b",
+          "elapsed": 15.522877499999595,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0158.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a2d22524-51a2-432c-a4c0-76ff21c68cca",
+          "elapsed": 6.6717766000001575,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0200.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0932752c-457e-42c6-a3cd-021eb01f0e6c",
+          "elapsed": 8.487258799999836,
+          "text": "INVOICE WHITE 16 OZ (1000)/CTN 6741"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.954537399999026,
+        "max": 39.57123370000045,
+        "avg": 14.320536839999841,
+        "total": 143.2053683999984
+      },
+      "results": {
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3b0094da-6922-4b2a-91c0-71b8455c3792",
+          "elapsed": 11.220626999998785,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9f0c92f9-cdda-40ec-bd67-2e4d74c76d9b",
+          "elapsed": 12.411426900000151,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0074.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4eea90e2-706b-44a6-9118-fc83d3628fb1",
+          "elapsed": 15.324892500000715,
+          "text": "INVOICE SO690110967 6730.3"
+        },
+        "เอกสาร invoice_page-0086.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "19e2d305-2f06-4a05-95c5-8e5e749d273c",
+          "elapsed": 39.57123370000045,
+          "text": "INVOICE แก๊ส LPG 15 กก. 2 วาล์ว (ฟอร์คลิฟท์) 988.68"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c5449790-34cd-4b0d-8d44-33f09140d6c0",
+          "elapsed": 20.15877929999988,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0130.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "59c1cc70-7281-4d69-b3f3-82e76206fc3f",
+          "elapsed": 12.250568100000237,
+          "text": "INVOICE G3201138P ฝาเหลี่ยม PEI ขนาด 170x127 มม. (ชามวงรี 580/750/1000ml.) บรรจุ 500 ชิ้น/กล่อง จำนวน 3 กล่อง 1765.5"
+        },
+        "เอกสาร invoice_page-0151.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "20ae4a53-e041-4ad6-80a7-3be6f7d6411e",
+          "elapsed": 9.624708800000008,
+          "text": "INVOICE ถุง IPP 63+5cm.x18cm.x0.15 (4.5x7\") 7169"
+        },
+        "เอกสาร invoice_page-0154.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "76b68cba-365d-4193-bcf4-7475b6f1fd36",
+          "elapsed": 6.954537399999026,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0158.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a28b9bad-eff2-462d-ba8c-6ce482e74af7",
+          "elapsed": 6.9931861999994,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0200.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ae29a5e8-8244-44f9-96ab-e622c0b5c806",
+          "elapsed": 8.695408499999758,
+          "text": "INVOICE WHITE 16 OZ (1000)/CTN 6741"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 8.641317499999786,
+        "max": 50.67712089999986,
+        "avg": 20.75340202999996,
+        "total": 207.5340202999996
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 8.418612400000711,
+        "max": 57.024232499999925,
+        "avg": 24.3409558000003,
+        "total": 243.40955800000302
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.6717766000001575,
+        "max": 21.026154600000154,
+        "avg": 12.793690229999992,
+        "total": 127.93690229999993
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.954537399999026,
+        "max": 39.57123370000045,
+        "avg": 14.320536839999841,
+        "total": 143.2053683999984
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.904,
+      "per_file": {
+        "เอกสาร invoice_page-0046.jpg": 1.0,
+        "เอกสาร invoice_page-0049.jpg": 1.0,
+        "เอกสาร invoice_page-0074.jpg": 0.1387,
+        "เอกสาร invoice_page-0086.jpg": 1.0,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0130.jpg": 0.9014,
+        "เอกสาร invoice_page-0151.jpg": 1.0,
+        "เอกสาร invoice_page-0154.jpg": 1.0,
+        "เอกสาร invoice_page-0158.jpg": 1.0,
+        "เอกสาร invoice_page-0200.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.9139,
+      "per_file": {
+        "เอกสาร invoice_page-0046.jpg": 1.0,
+        "เอกสาร invoice_page-0049.jpg": 1.0,
+        "เอกสาร invoice_page-0074.jpg": 0.1387,
+        "เอกสาร invoice_page-0086.jpg": 1.0,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0130.jpg": 1.0,
+        "เอกสาร invoice_page-0151.jpg": 1.0,
+        "เอกสาร invoice_page-0154.jpg": 1.0,
+        "เอกสาร invoice_page-0158.jpg": 1.0,
+        "เอกสาร invoice_page-0200.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.9139,
+      "per_file": {
+        "เอกสาร invoice_page-0046.jpg": 1.0,
+        "เอกสาร invoice_page-0049.jpg": 1.0,
+        "เอกสาร invoice_page-0074.jpg": 0.1387,
+        "เอกสาร invoice_page-0086.jpg": 1.0,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0130.jpg": 1.0,
+        "เอกสาร invoice_page-0151.jpg": 1.0,
+        "เอกสาร invoice_page-0154.jpg": 1.0,
+        "เอกสาร invoice_page-0158.jpg": 1.0,
+        "เอกสาร invoice_page-0200.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 1.0,
+      "per_file": {
+        "เอกสาร invoice_page-0046.jpg": 1.0,
+        "เอกสาร invoice_page-0049.jpg": 1.0,
+        "เอกสาร invoice_page-0074.jpg": 1.0,
+        "เอกสาร invoice_page-0086.jpg": 1.0,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0130.jpg": 1.0,
+        "เอกสาร invoice_page-0151.jpg": 1.0,
+        "เอกสาร invoice_page-0154.jpg": 1.0,
+        "เอกสาร invoice_page-0158.jpg": 1.0,
+        "เอกสาร invoice_page-0200.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

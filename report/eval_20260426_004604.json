@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 6.127638099998876,
+        "max": 10.704053600000407,
+        "avg": 8.675109369999882,
+        "total": 86.75109369999882
+      },
+      "results": {
+        "เอกสาร invoice_page-0041.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7a46fd89-cb68-4556-b094-903d5e2527dc",
+          "elapsed": 8.339752199999566,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 98975"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3abb1e90-9395-4348-ab45-3912005ba6d8",
+          "elapsed": 8.462759900001402,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0094.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5c19008a-70e0-4765-8357-86e998b8ae69",
+          "elapsed": 10.704053600000407,
+          "text": "INVOICE IV69/01024 ค่าเช่าเครื่องถ่ายเอกสารประจำเดือน 12/2568 3210"
+        },
+        "เอกสาร invoice_page-0155.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d29f79e7-3f16-4624-b3b2-2701ff2e1944",
+          "elapsed": 6.127638099998876,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0160.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "37d8f79d-23a6-455e-9cfc-08d2631a9913",
+          "elapsed": 7.080657299999075,
+          "text": "INVOICE 02-GL กาวเม็ดเครื่องทำหูถุง 96300"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5483448d-fbf4-413e-92d1-a2da4a072366",
+          "elapsed": 9.066990100000112,
+          "text": "UNKNOWN กรรไกรด้ามของมังกรทรงก็ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8686c864-8868-4aac-8d40-71303721597a",
+          "elapsed": 9.309796399998959,
+          "text": "INVOICE ZO0460 Fuser Unit 46672506 150k- ชุดทำความสะอาด ZO0460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 31030"
+        },
+        "เอกสาร invoice_page-0187.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7a8b0e38-c87a-45a5-af35-fa0a0871abc7",
+          "elapsed": 9.973359800000253,
+          "text": "INVOICE IV 20260113 ปวีณา SOS Aro ถุงกระดาษน้ำตาล#170309 No.6 139100"
+        },
+        "เอกสาร invoice_page-0194.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ea6db2af-a77c-4ed5-84fb-cc6a88575a91",
+          "elapsed": 8.790804499998558,
+          "text": "INVOICE CM129-24 ถุงกระดาษ smizzer 11.7x6x20 ซม.แบบกันซึม 14980"
+        },
+        "เอกสาร invoice_page-0203.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c1bd0a14-0b69-41d2-949f-424a5d037e11",
+          "elapsed": 8.895281800001612,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายดีดนู 190032"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.199111699999776,
+        "max": 10.182712400001037,
+        "avg": 8.60782274000012,
+        "total": 86.0782274000012
+      },
+      "results": {
+        "เอกสาร invoice_page-0041.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6faf457a-2c11-4954-98d0-724c0ff09256",
+          "elapsed": 8.682014300000446,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 98975"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d0440721-fa0c-4c3e-956a-5077fc532ba5",
+          "elapsed": 7.199111699999776,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0094.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cff833e4-93bc-46a3-901e-be81ee9c3f58",
+          "elapsed": 10.182712400001037,
+          "text": "INVOICE IV69/01024 ค่าเช่าเครื่องถ่ายเอกสารประจำเดือน 12/2568 3210"
+        },
+        "เอกสาร invoice_page-0155.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e2964873-7147-4e58-bf73-c8af6f13858c",
+          "elapsed": 7.374076500000228,
+          "text": "INVOICE Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0160.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fbc4fa59-6a39-4c1a-b1ea-701c0bf30309",
+          "elapsed": 8.398958899999343,
+          "text": "INVOICE 02-GL กาวเม็ดเครื่องทำหูถุง 96300"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a33dc874-e22a-4d9b-bdc9-54487e2ac63b",
+          "elapsed": 10.047546399999192,
+          "text": "INVOICE กรรไกรด้ามของมังกรทรงก็ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "23c39299-354b-48e4-bcb5-8ba18840369e",
+          "elapsed": 9.535277100001622,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 15515"
+        },
+        "เอกสาร invoice_page-0187.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "35c77de4-f884-4272-8dee-25466257a0f5",
+          "elapsed": 8.868892500000584,
+          "text": "INVOICE IV 20260113 ปวีณา SOS Aro ถุงกระดาษน้ำตาล#170309 No.6 139100"
+        },
+        "เอกสาร invoice_page-0194.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e3dd8276-6dad-4d62-b365-2349e9d29acb",
+          "elapsed": 7.733414799999082,
+          "text": "INVOICE CM129-24 ถุงกระดาษ smizzer 11.7x6x20 ซม.แบบกันซึม 14980"
+        },
+        "เอกสาร invoice_page-0203.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1ff932b6-2344-4f03-bb0c-7da122af7c4c",
+          "elapsed": 8.056222799999887,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายดีดนู 190032"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 5.941773200000171,
+        "max": 11.737408800001504,
+        "avg": 7.86079211999986,
+        "total": 78.6079211999986
+      },
+      "results": {
+        "เอกสาร invoice_page-0041.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3c57f69a-a174-434f-aa0b-b6db5a067948",
+          "elapsed": 5.941773200000171,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 98975"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "57414db2-9404-4282-bb30-82742b12c1e0",
+          "elapsed": 8.25204389999999,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0094.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "40968d08-40e6-4f1f-9ccf-df6642622ad6",
+          "elapsed": 11.737408800001504,
+          "text": "INVOICE IV69/01024 ค่าเช่าเครื่องถ่ายเอกสารประจำเดือน 12/2568 3210"
+        },
+        "เอกสาร invoice_page-0155.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a35f60f7-2a1d-4d46-b2be-11304b9f01a9",
+          "elapsed": 6.8720071999996435,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0160.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "036fedc2-cfaf-43cb-a8b6-3f8fe8f3a339",
+          "elapsed": 7.133753300000535,
+          "text": "INVOICE 02-GL กาวเม็ดเครื่องทำหูถุง 96300"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2a7afb95-67ce-41e2-8f21-1b92b7d645e1",
+          "elapsed": 9.174191899999641,
+          "text": "INVOICE กรรไกรด้ามของมังกรทรงก็ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cca8a478-3086-440e-ba95-07f6457c0bdf",
+          "elapsed": 6.898384699999951,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 15515"
+        },
+        "เอกสาร invoice_page-0187.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "487f6a22-741c-44f9-8db6-467926af0303",
+          "elapsed": 7.587247699999352,
+          "text": "INVOICE IV 20260113 ลภพ SOS Aro ถุงกระดาษน้ำตาล#170309 No.6 139100"
+        },
+        "เอกสาร invoice_page-0194.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "99c0d5f5-4d69-4dab-b9aa-6f9203b12105",
+          "elapsed": 6.364376099998481,
+          "text": "INVOICE CM129-24 ถุงกระดาษ smizzer 11.7x6x20 ซม.แบบกันซึม 14980"
+        },
+        "เอกสาร invoice_page-0203.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5d48b5c7-4681-47e7-9cda-869e27345a0c",
+          "elapsed": 8.646734399999332,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายดีดนู 190032"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 5.835607600000003,
+        "max": 9.109907699999894,
+        "avg": 7.168422190000274,
+        "total": 71.68422190000274
+      },
+      "results": {
+        "เอกสาร invoice_page-0041.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3bb98320-6b7a-42a7-9120-0f2e456820ca",
+          "elapsed": 6.68619370000124,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 98975"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8baf6785-3be7-4b1c-9535-9de47787b8e2",
+          "elapsed": 6.279164499999752,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0094.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b50471e6-2549-4a86-9387-f8443d882814",
+          "elapsed": 7.7669782000011764,
+          "text": "INVOICE IV69/01024 ค่าเช่าเครื่องถ่ายเอกสารประจำเดือน 12/2568 3210"
+        },
+        "เอกสาร invoice_page-0155.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "144acdb6-59cd-4844-8ade-51e4e622b6d9",
+          "elapsed": 5.9618525999994745,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0160.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "19193b0a-6290-458f-8cb3-f0690af18823",
+          "elapsed": 8.955477299999984,
+          "text": "INVOICE 02-GL กาวเม็ดเครื่องทำหูถุง 96300"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1a646d3a-e8f7-48d8-a2e7-ee25dee48d7d",
+          "elapsed": 7.46567640000103,
+          "text": "UNKNOWN กรรไกรด้ามของมังกรทรงก็ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4226058a-372d-461d-80fd-9853ce9008fe",
+          "elapsed": 9.109907699999894,
+          "text": "INVOICE ZO0460 Fuser Unit 46672506 150k- ชุดทำความร้อน 15515"
+        },
+        "เอกสาร invoice_page-0187.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3f8e52d7-3c19-44d5-9a08-3a9051bb01dc",
+          "elapsed": 6.760105399998793,
+          "text": "INVOICE IV 20260113 ปวีณา SOS Aro ถุงกระดาษน้ำตาล#170309 No.6 139100"
+        },
+        "เอกสาร invoice_page-0194.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ebbc0ade-7680-4feb-9ee1-2f2b58661237",
+          "elapsed": 5.835607600000003,
+          "text": "INVOICE CM129-24 ถุงกระดาษ smizzer 11.7x6x20 ซม.แบบกันซึม 14980"
+        },
+        "เอกสาร invoice_page-0203.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "44aad89e-5bc8-4e7b-b175-4e58c16b3cce",
+          "elapsed": 6.863258500001393,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายดีดนู 190032"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 5.581403999998656,
+        "max": 8.916234700000132,
+        "avg": 7.361924349999754,
+        "total": 73.61924349999754
+      },
+      "results": {
+        "เอกสาร invoice_page-0041.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1464f6b0-b32a-4dc8-92ea-a08df66f7fcf",
+          "elapsed": 5.581403999998656,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 98975"
+        },
+        "เอกสาร invoice_page-0060.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8d0a09ac-f06c-43d9-9bff-9ac287d53e6e",
+          "elapsed": 7.150497599999653,
+          "text": "INVOICE ลัง34x59x32.5cm. ด้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0094.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b523fec4-a88c-4eef-a37a-ba619f37481d",
+          "elapsed": 7.973686299999827,
+          "text": "INVOICE IV69/01024 ค่าเช่าเครื่องถ่ายเอกสารประจำเดือน 12/2568 3210"
+        },
+        "เอกสาร invoice_page-0155.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "225f93a0-a3e8-4af9-a579-971ce4f619b7",
+          "elapsed": 6.456511500000488,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0160.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0b3e34cb-ad49-43ea-b895-b972ac7aaf97",
+          "elapsed": 8.916234700000132,
+          "text": "INVOICE 02-GL กาวเม็ดเครื่องทำหูถุง 96300"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "07873393-cfa1-4a15-ade1-f1ef6b42d485",
+          "elapsed": 7.032852399999683,
+          "text": "UNKNOWN กรรไกรด้ามของมังกรทรงก็ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5946b7c0-5e4f-489d-bf17-511ccbfe05c0",
+          "elapsed": 7.645562100000461,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความร้อน 15515"
+        },
+        "เอกสาร invoice_page-0187.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c22c1593-bd00-4618-9262-5ac8164f1502",
+          "elapsed": 8.299682499999108,
+          "text": "DELIVERY_ORDER ลภพร SOS Aro ถุงกระดาษน้ำตาล#170309 No.6 139100"
+        },
+        "เอกสาร invoice_page-0194.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "86c24052-34e9-4b67-8b70-715f3da22255",
+          "elapsed": 6.174908599999981,
+          "text": "INVOICE CM129-24 ถุงกระดาษ smizzer 11.7x6x20 ซม.แบบกันซึม 14980"
+        },
+        "เอกสาร invoice_page-0203.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "186ea3fa-e3af-4ee9-8a9d-abd94453d5e3",
+          "elapsed": 8.387903799999549,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายดีดนู 190032"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.199111699999776,
+        "max": 10.182712400001037,
+        "avg": 8.60782274000012,
+        "total": 86.0782274000012
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 5.941773200000171,
+        "max": 11.737408800001504,
+        "avg": 7.86079211999986,
+        "total": 78.6079211999986
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 5.835607600000003,
+        "max": 9.109907699999894,
+        "avg": 7.168422190000274,
+        "total": 71.68422190000274
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 5.581403999998656,
+        "max": 8.916234700000132,
+        "avg": 7.361924349999754,
+        "total": 73.61924349999754
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.8966,
+      "per_file": {
+        "เอกสาร invoice_page-0041.jpg": 1.0,
+        "เอกสาร invoice_page-0060.jpg": 1.0,
+        "เอกสาร invoice_page-0094.jpg": 1.0,
+        "เอกสาร invoice_page-0155.jpg": 0.7746,
+        "เอกสาร invoice_page-0160.jpg": 1.0,
+        "เอกสาร invoice_page-0168.jpg": 0.8819,
+        "เอกสาร invoice_page-0174.jpg": 0.3092,
+        "เอกสาร invoice_page-0187.jpg": 1.0,
+        "เอกสาร invoice_page-0194.jpg": 1.0,
+        "เอกสาร invoice_page-0203.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.9008,
+      "per_file": {
+        "เอกสาร invoice_page-0041.jpg": 1.0,
+        "เอกสาร invoice_page-0060.jpg": 1.0,
+        "เอกสาร invoice_page-0094.jpg": 1.0,
+        "เอกสาร invoice_page-0155.jpg": 1.0,
+        "เอกสาร invoice_page-0160.jpg": 1.0,
+        "เอกสาร invoice_page-0168.jpg": 0.8819,
+        "เอกสาร invoice_page-0174.jpg": 0.3092,
+        "เอกสาร invoice_page-0187.jpg": 0.8165,
+        "เอกสาร invoice_page-0194.jpg": 1.0,
+        "เอกสาร invoice_page-0203.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.9346,
+      "per_file": {
+        "เอกสาร invoice_page-0041.jpg": 1.0,
+        "เอกสาร invoice_page-0060.jpg": 1.0,
+        "เอกสาร invoice_page-0094.jpg": 1.0,
+        "เอกสาร invoice_page-0155.jpg": 1.0,
+        "เอกสาร invoice_page-0160.jpg": 1.0,
+        "เอกสาร invoice_page-0168.jpg": 1.0,
+        "เอกสาร invoice_page-0174.jpg": 0.3457,
+        "เอกสาร invoice_page-0187.jpg": 1.0,
+        "เอกสาร invoice_page-0194.jpg": 1.0,
+        "เอกสาร invoice_page-0203.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.8763,
+      "per_file": {
+        "เอกสาร invoice_page-0041.jpg": 1.0,
+        "เอกสาร invoice_page-0060.jpg": 1.0,
+        "เอกสาร invoice_page-0094.jpg": 1.0,
+        "เอกสาร invoice_page-0155.jpg": 1.0,
+        "เอกสาร invoice_page-0160.jpg": 1.0,
+        "เอกสาร invoice_page-0168.jpg": 1.0,
+        "เอกสาร invoice_page-0174.jpg": 0.2445,
+        "เอกสาร invoice_page-0187.jpg": 0.5186,
+        "เอกสาร invoice_page-0194.jpg": 1.0,
+        "เอกสาร invoice_page-0203.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

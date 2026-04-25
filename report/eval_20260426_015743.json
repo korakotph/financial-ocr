@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 6.04079019999881,
+        "max": 21.226758400000108,
+        "avg": 10.521402730000045,
+        "total": 105.21402730000045
+      },
+      "results": {
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "01dfdf38-c1c1-4ed8-a243-e1720418e2fb",
+          "elapsed": 21.226758400000108,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0008.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c2e6060b-c9a8-41ef-9e0b-18aacb23f866",
+          "elapsed": 9.815266900001006,
+          "text": "INVOICE สัง 32x58x34 cm. ต้านA+B 5992.0"
+        },
+        "เอกสาร invoice_page-0029.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "138e82d0-2431-4652-9923-d0ef31c3b7af",
+          "elapsed": 8.511487900001157,
+          "text": "INVOICE ลัง30x54x25cm. ด้านA+B 5885.0"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "30b172c3-abf3-4fed-b860-0b39ab8fd137",
+          "elapsed": 11.23583779999899,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0091.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0e2fe1cc-7f01-439e-b4c6-7f01cc1ff382",
+          "elapsed": 9.234310100000584,
+          "text": "INVOICE ที่ปรึกษางานProduction รายเดือน แบรนด์ Boxjourney (สัญญาต่อเนื่อง 12 เดือน) ประจำเดือนมกราคม 2569 31200"
+        },
+        "เอกสาร invoice_page-0098.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e970cd9e-f157-4427-bd37-ee5f88dc3ba2",
+          "elapsed": 9.397939899999983,
+          "text": "INVOICE 6812/312 PVC 0.15 MM. X 19 CM. X 29 CM. สีใส 5184.15"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "514c18f8-60b5-472f-a3ad-814f2be12282",
+          "elapsed": 10.073876000000382,
+          "text": "INVOICE ฝาปิดถ้วยกระดาษยกดื่ม DW 8 OZ สีขาว (ทั่วไป) บรรจุ 1000 ชิ้น/กล่อง จำนวน 30 กล่อง 13482"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bf9445b5-9781-4ecd-bffd-dde66fa67f49",
+          "elapsed": 6.8000321999988955,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0158.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9cbd71a1-2e18-4fc9-b115-2a822db9644d",
+          "elapsed": 6.04079019999881,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0159.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "de350fb6-e40f-4ecc-910a-af302b0381b0",
+          "elapsed": 12.877727900000536,
+          "text": "INVOICE YD90(ฝาโดม90กระดาษ)_@กล่อง2000 28000.0"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.683734000000186,
+        "max": 25.364930300000196,
+        "avg": 14.216775739999685,
+        "total": 142.16775739999684
+      },
+      "results": {
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ebec3538-c285-4e90-860c-1f12b10ab2d2",
+          "elapsed": 16.556450899999618,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0008.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "753d5538-66c3-466f-8ee7-6193b2a388b4",
+          "elapsed": 9.067976700000145,
+          "text": "INVOICE สัง 32x58x34 cm. ต้านA+B 5992"
+        },
+        "เอกสาร invoice_page-0029.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "091279c2-0da2-4f80-badf-86151fc4482e",
+          "elapsed": 21.80702349999956,
+          "text": "INVOICE ลัง30x54x25cm. ด้านA+B 5885.0"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "587aa9bc-84ec-4704-928a-140367b9ff79",
+          "elapsed": 12.044458899999881,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0091.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "89574635-c3e4-4644-9d94-1310921b9c24",
+          "elapsed": 19.732841999999437,
+          "text": "INVOICE ที่ปรึกษางานProduction รายเดือน แบรนด์ Boxjourney (สัญญาต่อเนื่อง 12 เดือน) ประจำเดือนมกราคม 2569 31200"
+        },
+        "เอกสาร invoice_page-0098.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2d65483c-4bb4-4982-972c-dd6c7d1445f5",
+          "elapsed": 13.704894999998942,
+          "text": "INVOICE 6812/312 PVC 0.15 MM. X 19 CM. X 29 CM. สีใส 5184.15"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d6174e9d-d7bc-49b0-b62a-8e4483c76a79",
+          "elapsed": 25.364930300000196,
+          "text": "INVOICE ฝาปิดถ้วยกระดาษยกดื่ม DW 8 OZ สีขาว (ทั่วไป) บรรจุ 1000 ชิ้น/กล่อง จำนวน 30 กล่อง 13482"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "762eeed1-30c1-466b-ab82-42273f36092b",
+          "elapsed": 6.683734000000186,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0158.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0adacbdd-5fc8-4ea6-a113-e0dc779b0065",
+          "elapsed": 7.2450386000000435,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0159.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cf0c7e81-3c05-47a0-a022-06f2e32fa414",
+          "elapsed": 9.960407499998837,
+          "text": "INVOICE P06901/071 ANUWAT-นายอนุวัฒน์ YD90(ฝาโดม90กระดาษ)_กล่อง2000 28000.0"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.475277400000778,
+        "max": 17.196512300000904,
+        "avg": 11.946460579999803,
+        "total": 119.46460579999803
+      },
+      "results": {
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9ec41c5f-9c04-4482-86b5-a3d1ca02a828",
+          "elapsed": 17.196512300000904,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0008.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cb9a8177-fcf4-4bba-9427-68f81cd84546",
+          "elapsed": 10.582088900000599,
+          "text": "INVOICE สัง 32x58x34 cm. ต้านA+B 5992"
+        },
+        "เอกสาร invoice_page-0029.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7e5ec543-7e2a-4e74-8045-b408c8061a1d",
+          "elapsed": 7.475277400000778,
+          "text": "INVOICE ลัง30x54x25cm. ด้านA+B 5885.0"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d0af6402-7766-4723-bd83-6db4482ddfd3",
+          "elapsed": 14.084190899999157,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0091.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "aed7cdfd-bcd3-4cf8-9136-f5156a8e969a",
+          "elapsed": 15.870000799999616,
+          "text": "INVOICE ที่ปรึกษางานProduction รายเดือน แบรนด์ Boxjourney (สัญญาต่อเนื่อง 12 เดือน) ประจำเดือนมกราคม 2569 31200"
+        },
+        "เอกสาร invoice_page-0098.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1df5b755-8e05-4c2d-b093-e523531f8100",
+          "elapsed": 11.944805900000574,
+          "text": "INVOICE 6812/312 PVC 0.15 MM. X 19 CM. X 29 CM. สีใส 5184.15"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "731accc8-0083-4869-92be-a9f2b9a6c9c5",
+          "elapsed": 8.693767699998716,
+          "text": "INVOICE ฝาปิดถ้วยกระดาษยกดื่ม DW 8 OZ สีขาว (ทั่วไป) บรรจุ 1000 ชิ้น/กล่อง จำนวน 30 กล่อง 13482"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "11ca507d-5ffd-4d38-b354-ee18490b5eb6",
+          "elapsed": 15.92474829999992,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0158.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d70ad639-bc27-4dce-9c7d-1320fb298e4a",
+          "elapsed": 8.248629099998652,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0159.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cc064616-e526-4ff3-b85b-1323ac344608",
+          "elapsed": 9.44458449999911,
+          "text": "INVOICE YD90(ฝาโดม90กระดาษ)_@กล่อง2000 28000"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.1801104999995005,
+        "max": 34.04485299999942,
+        "avg": 13.87781165000015,
+        "total": 138.7781165000015
+      },
+      "results": {
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cdd5b9c3-2849-47fa-93b9-25ac75f65255",
+          "elapsed": 9.97704320000048,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0008.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7cb40c44-6ac8-40ac-b164-f696fa660255",
+          "elapsed": 7.0129037000006065,
+          "text": "INVOICE สัง 32x58x34 cm. ต้านA+B 5992"
+        },
+        "เอกสาร invoice_page-0029.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ce64ce2c-6e9d-4adb-b0a8-308217eecc5a",
+          "elapsed": 6.881898199999341,
+          "text": "INVOICE ลัง30x54x25cm. ด้านA+B 5885.0"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7e74ccce-3b78-4175-adcf-0402765f113a",
+          "elapsed": 8.985651400000279,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0091.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "035b3442-8f87-4b66-a1b7-3e6f3018050d",
+          "elapsed": 21.548491000001377,
+          "text": "INVOICE ที่ปรึกษางานProduction รายเดือน แบรนด์ Boxjourney (สัญญาต่อเนื่อง 12 เดือน) ประจำเดือนมกราคม 2569 31200"
+        },
+        "เอกสาร invoice_page-0098.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1bfbc313-1b41-43f1-a4d4-902f08f844a8",
+          "elapsed": 34.04485299999942,
+          "text": "INVOICE 6812/312 PVC 0.15 MM. X 19 CM. X 29 CM. สีใส 5184.15"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e62070b4-d90b-4279-bebc-efcad0ad8b0b",
+          "elapsed": 17.55329520000123,
+          "text": "INVOICE ฝาปิดถ้วยกระดาษยกดื่ม เวฟ 8 OZ สีขาว (ทั่วไป) บรรจุ 1000 ชิ้น/กล่อง จำนวน 30 กล่อง 13482"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "372944bd-6c3d-47a6-91f8-86f5e3df0c7e",
+          "elapsed": 19.0706480000008,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0158.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e7649894-02fa-40b5-a56b-6cc5350ea7ac",
+          "elapsed": 6.1801104999995005,
+          "text": "INVOICE Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0159.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "94477875-e819-4f5c-ada5-dd2c07087053",
+          "elapsed": 7.5232222999984515,
+          "text": "INVOICE YD90(ฝาโดม90กระดาษ)_@กล่อง2000 28000.0"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.959469100000206,
+        "max": 34.31419260000075,
+        "avg": 13.523876960000234,
+        "total": 135.23876960000234
+      },
+      "results": {
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d163a7e6-edec-4944-86ec-81822bda822f",
+          "elapsed": 34.31419260000075,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0008.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2f47c66d-609f-443d-ae7b-10be707b45db",
+          "elapsed": 15.898061100000632,
+          "text": "INVOICE สัง 32x58x34 cm. ต้านA+B 5992"
+        },
+        "เอกสาร invoice_page-0029.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1d7aca10-f174-462c-9b4b-add941a59470",
+          "elapsed": 15.697436800001014,
+          "text": "INVOICE ลัง30x54x25cm. ด้านA+B 5885.0"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1781c056-e2e1-4084-b3c0-c4afb313d48f",
+          "elapsed": 13.819189800000458,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0091.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "47a101ab-10f8-4abe-b10d-f5656f6a2e0c",
+          "elapsed": 8.9527448000008,
+          "text": "INVOICE ที่ปรึกษางานProduction รายเดือน แบรนด์ Boxjourney (สัญญาต่อเนื่อง 12 เดือน) ประจำเดือนมกราคม 2569 31200"
+        },
+        "เอกสาร invoice_page-0098.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9a44227d-a04f-4f6d-a02d-ba36a8c9b5c2",
+          "elapsed": 11.49954290000096,
+          "text": "INVOICE 6812/312 PVC 0.15 MM. X 19 CM. X 29 CM. สีใส 5184.15"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f764499d-b65f-4821-82fc-3c5f7dedb4e1",
+          "elapsed": 9.059937599999103,
+          "text": "INVOICE ฝาปิดถ้วยกระดาษยกดื่ม เวฟ 8 OZ สีขาว (ทั่วไป) บรรจุ 1000 ชิ้น/กล่อง จำนวน 30 กล่อง 13482"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a0573e38-e83a-4010-9e38-a316099ae606",
+          "elapsed": 9.102040199999465,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0158.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8f47fb0c-4bb8-43cc-96bc-f7f9a414382b",
+          "elapsed": 6.959469100000206,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0159.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cc65655a-8837-4403-9cd9-4b80db6c3925",
+          "elapsed": 9.936154699998951,
+          "text": "INVOICE P06901/071 ANUWAT-นายอนุวัฒน์ YD90(ฝาโดม90กระดาษ)_@กล่อง2000 28000.0"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.683734000000186,
+        "max": 25.364930300000196,
+        "avg": 14.216775739999685,
+        "total": 142.16775739999684
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.475277400000778,
+        "max": 17.196512300000904,
+        "avg": 11.946460579999803,
+        "total": 119.46460579999803
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.1801104999995005,
+        "max": 34.04485299999942,
+        "avg": 13.87781165000015,
+        "total": 138.7781165000015
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.959469100000206,
+        "max": 34.31419260000075,
+        "avg": 13.523876960000234,
+        "total": 135.23876960000234
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.8816,
+      "per_file": {
+        "เอกสาร invoice_page-0003.jpg": 1.0,
+        "เอกสาร invoice_page-0008.jpg": 0.8165,
+        "เอกสาร invoice_page-0029.jpg": 1.0,
+        "เอกสาร invoice_page-0050.jpg": 1.0,
+        "เอกสาร invoice_page-0091.jpg": 1.0,
+        "เอกสาร invoice_page-0098.jpg": 1.0,
+        "เอกสาร invoice_page-0140.jpg": 1.0,
+        "เอกสาร invoice_page-0152.jpg": 1.0,
+        "เอกสาร invoice_page-0158.jpg": 1.0,
+        "เอกสาร invoice_page-0159.jpg": 0.0
+      }
+    },
+    "3": {
+      "avg": 0.9394,
+      "per_file": {
+        "เอกสาร invoice_page-0003.jpg": 1.0,
+        "เอกสาร invoice_page-0008.jpg": 0.8165,
+        "เอกสาร invoice_page-0029.jpg": 1.0,
+        "เอกสาร invoice_page-0050.jpg": 1.0,
+        "เอกสาร invoice_page-0091.jpg": 1.0,
+        "เอกสาร invoice_page-0098.jpg": 1.0,
+        "เอกสาร invoice_page-0140.jpg": 1.0,
+        "เอกสาร invoice_page-0152.jpg": 1.0,
+        "เอกสาร invoice_page-0158.jpg": 1.0,
+        "เอกสาร invoice_page-0159.jpg": 0.5774
+      }
+    },
+    "4": {
+      "avg": 0.9477,
+      "per_file": {
+        "เอกสาร invoice_page-0003.jpg": 1.0,
+        "เอกสาร invoice_page-0008.jpg": 0.8165,
+        "เอกสาร invoice_page-0029.jpg": 1.0,
+        "เอกสาร invoice_page-0050.jpg": 1.0,
+        "เอกสาร invoice_page-0091.jpg": 1.0,
+        "เอกสาร invoice_page-0098.jpg": 1.0,
+        "เอกสาร invoice_page-0140.jpg": 0.8864,
+        "เอกสาร invoice_page-0152.jpg": 1.0,
+        "เอกสาร invoice_page-0158.jpg": 0.7746,
+        "เอกสาร invoice_page-0159.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.909,
+      "per_file": {
+        "เอกสาร invoice_page-0003.jpg": 1.0,
+        "เอกสาร invoice_page-0008.jpg": 0.8165,
+        "เอกสาร invoice_page-0029.jpg": 1.0,
+        "เอกสาร invoice_page-0050.jpg": 1.0,
+        "เอกสาร invoice_page-0091.jpg": 1.0,
+        "เอกสาร invoice_page-0098.jpg": 1.0,
+        "เอกสาร invoice_page-0140.jpg": 0.8864,
+        "เอกสาร invoice_page-0152.jpg": 1.0,
+        "เอกสาร invoice_page-0158.jpg": 1.0,
+        "เอกสาร invoice_page-0159.jpg": 0.3873
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 6.5074750000003405,
+        "max": 12.175745800000186,
+        "avg": 9.010834070000055,
+        "total": 90.10834070000055
+      },
+      "results": {
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "84bcc488-9686-4798-b3cb-6a85efcce117",
+          "elapsed": 10.751906399999825,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8abe0fac-7890-4801-88c0-fd97fbad28c4",
+          "elapsed": 11.505194900000788,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "69d53873-e59a-4d67-b7e6-985b277a136a",
+          "elapsed": 10.265699499999755,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6f6c1be2-41f1-49c2-8b6c-d716297d093f",
+          "elapsed": 8.03280899999936,
+          "text": "INVOICE IV9085469 กรวยน้ำ ARO S000ใบ(มอก.)FOOD GRADE ( 200 ใบ*25 แพค ) จำนวน 200 ถัง 119840"
+        },
+        "เอกสาร invoice_page-0117.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "504c51cc-a74e-40f9-882b-7bb617553f26",
+          "elapsed": 6.5074750000003405,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ตายติดหู 3959"
+        },
+        "เอกสาร invoice_page-0123.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1a15c237-bc6b-4b96-af3d-90ba70fe0fff",
+          "elapsed": 12.175745800000186,
+          "text": "INVOICE IV 20260061 ปวีณา ถุงกระดาษหุ้มกล้วยน้ำตาล #197637P 88275"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1e342117-c1ec-4e64-b0ac-19b9dc73ea29",
+          "elapsed": 7.315201800000068,
+          "text": "INVOICE ฝาปิดถ้วยกระดาษยกดื่ม เวฟ 8 OZ สีขาว (ทั่วไป) 13482"
+        },
+        "เอกสาร invoice_page-0151.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "90eb9939-bf9e-4ea9-8952-1c6e2bfec36f",
+          "elapsed": 8.23033839999971,
+          "text": "INVOICE ถุง IPP 63+5cm.x18cm.x0.15 (4.5x7\") 7169"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8931f7f0-c19d-463c-af86-ceb18c5a8f08",
+          "elapsed": 7.2537598000008074,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0163.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ba724a13-e9c2-4460-8650-34b9bdbd5a4a",
+          "elapsed": 8.070210099999713,
+          "text": "INVOICE ถ้วย น้ำ สีแดง PP 16 Oz/เรียบ US ปาก 95mm 1X50 ใบ\nบรรจุ 1000 ชิ้น/กล่อง 84499.93"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.427922099999705,
+        "max": 13.933966999999939,
+        "avg": 9.1670274099999,
+        "total": 91.670274099999
+      },
+      "results": {
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ddcb4be6-2d9e-4a67-81ee-ee24e7d38544",
+          "elapsed": 13.933966999999939,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "58e0c007-8542-4ecb-b317-48eddc97c77e",
+          "elapsed": 12.492327799999657,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "98b22d7b-8f22-40cd-a10e-4f51e7766001",
+          "elapsed": 9.235146500000155,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bfda088f-b027-46d0-a7eb-078cd1fcc963",
+          "elapsed": 9.523395599999276,
+          "text": "INVOICE IV9085469 03-3225 กรวยน้ำ ARO S000ใบ(มอก.)FOOD GRADE ( 200 ใบ*25 แพค ) 119840"
+        },
+        "เอกสาร invoice_page-0117.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6ee70aa7-bf1e-4dc2-9842-5f77aadf7eaa",
+          "elapsed": 7.597467800000231,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ตายติดหู 3959"
+        },
+        "เอกสาร invoice_page-0123.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2cb65868-ed8f-4132-bbf9-29157ccb5a05",
+          "elapsed": 9.999627799999871,
+          "text": "INVOICE IV 20260061 ปวีณา ถุงกระดาษหุ้มกล้วยน้ำตาล #197637P 88275"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "653a835b-9e0a-4021-8692-1863105be2c5",
+          "elapsed": 7.769547299999431,
+          "text": "INVOICE ฝาปิดถ้วยกระดาษยกดื่ม เวฟ 8 OZ สีขาว (ทั่วไป) บรรจุ 1000 ชิ้น/กล่อง จำนวน 30 กล่อง 13482"
+        },
+        "เอกสาร invoice_page-0151.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fe106603-6d2f-489d-9990-857044d9df51",
+          "elapsed": 7.331619100000353,
+          "text": "INVOICE ถุง IPP 63+5cm.x18cm.x0.15 (4.5x7\") 7169"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9b74603d-0c9a-44ac-9bc3-5dcd76bee8be",
+          "elapsed": 6.427922099999705,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0163.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0cf76eee-3d3b-4bfd-8d59-49c179709c07",
+          "elapsed": 7.359253100000387,
+          "text": "INVOICE ถ้วย น้ำ สีแดง PP 16 Oz/เรียบ US ปาก 95mm 1X50 ใบ\nบรรจุ 1000 ชิ้น/กล่อง 84499.93"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.112782400000469,
+        "max": 12.204027099999621,
+        "avg": 9.245576619999792,
+        "total": 92.45576619999792
+      },
+      "results": {
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c910d6bd-f30d-46e7-b593-bab9cd157065",
+          "elapsed": 12.204027099999621,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "33e19c1b-6d24-40a5-9e84-c77ef214c3e7",
+          "elapsed": 10.54636070000015,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4404697f-92f6-4494-99ca-a4ec647d5459",
+          "elapsed": 11.39753649999966,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "762e46aa-9d5c-4581-8b68-bbbd6a83233d",
+          "elapsed": 9.83873549999953,
+          "text": "INVOICE IV9085469 03-3225 กรวยน้ำ ARO S000ใบ(มอก.)FOOD GRADE ( 200 ใบ*25 แพค ) จำนวน 200 ถัง 119840"
+        },
+        "เอกสาร invoice_page-0117.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b6fb0ed4-5d5d-4829-8746-85438991923d",
+          "elapsed": 8.081586099999186,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ตายติดหู 3959"
+        },
+        "เอกสาร invoice_page-0123.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3038b870-f10c-4569-b11e-41dcf894497a",
+          "elapsed": 8.788552199999685,
+          "text": "INVOICE IV 20260061 ปวีณา ถุงกระดาษหุ้มกล้วยน้ำตาล #197637P 88275"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fa1daf46-8334-4e8e-b46f-4a2764ed979f",
+          "elapsed": 7.398599000000104,
+          "text": "INVOICE ฝาปิดถ้วยกระดาษยกดื่ม เวฟ 8 OZ สีขาว (ทั่วไป) บรรจุ 1000 ชิ้น/กล่อง จำนวน 30 กล่อง 13482"
+        },
+        "เอกสาร invoice_page-0151.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9b78a6dd-5742-4780-b370-0ba2838a22fa",
+          "elapsed": 8.674953799999457,
+          "text": "INVOICE ถุง IPP 63+5cm.x18cm.x0.15 (4.5x7\") 7169"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b7a4c8e0-1e14-4f1f-9b6f-8a7c04e11bfa",
+          "elapsed": 7.112782400000469,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0163.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f90c3fa8-f804-4589-83b6-69ed744e5f9a",
+          "elapsed": 8.412632900000062,
+          "text": "INVOICE ถ้วย น้ำ สีแดง PP 16 Oz/เรียบ US ปาก 95mm 1X50 ใบ\nบรรจุ 1000 ชิ้น/กล่อง 84499.93"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.721993899999688,
+        "max": 13.941603600000235,
+        "avg": 9.08492501000028,
+        "total": 90.84925010000279
+      },
+      "results": {
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1eeb1435-4146-4c01-abb6-2faef6366a93",
+          "elapsed": 13.941603600000235,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a9b32ab9-843a-4505-bbf0-3cab6942d90f",
+          "elapsed": 9.15325329999996,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ece8d370-ce5c-4973-9dd8-44e2b00c1538",
+          "elapsed": 8.113228000000163,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5d961cdc-fa86-407f-b78e-28d6abf37593",
+          "elapsed": 11.57502310000018,
+          "text": "INVOICE IV9085469 03-3225 กรวยน้ำ ARO S000ใบ(มอก.)FOOD GRADE ( 200 ใบ*25 แพค ) 119840"
+        },
+        "เอกสาร invoice_page-0117.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "28b5ffec-3582-4e85-9b44-f9699fac774b",
+          "elapsed": 8.267136600000413,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ตายติดหู 3959"
+        },
+        "เอกสาร invoice_page-0123.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "50bf61c4-0d2e-4d3a-a18f-0c963caf2c75",
+          "elapsed": 11.092657900000631,
+          "text": "INVOICE IV 20260061 ปวีณา ถุงกระดาษหุ้มกล้วยน้ำตาล #197637P 88275"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "81900513-8ea4-4d81-a26a-972581d8e67d",
+          "elapsed": 7.323773100000835,
+          "text": "INVOICE ฝาปิดถ้วยกระดาษยกดื่ม เวฟ 8 OZ สีขาว (ทั่วไป) บรรจุ 1000 ชิ้น/กล่อง จำนวน 30 กล่อง 13482"
+        },
+        "เอกสาร invoice_page-0151.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "91208a90-58cb-4360-8cb3-5716437d8f76",
+          "elapsed": 6.7557770000003075,
+          "text": "INVOICE ถุง IPP 63+5cm.x18cm.x0.15 (4.5x7\") 7169"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1905cfb2-a230-4e59-9245-873e5e776e70",
+          "elapsed": 6.721993899999688,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0163.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4d7732c4-dd42-485f-a892-9acea345f18b",
+          "elapsed": 7.904803600000378,
+          "text": "INVOICE ถ้วย น้ำ สีแดง PP 16 Oz/เรียบ US ปาก 95mm 1X50 ใบ บรรจุ 1000 ชิ้น/กล่อง 84499.93"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 5.339942200000223,
+        "max": 13.028513199999907,
+        "avg": 8.759044919999997,
+        "total": 87.59044919999997
+      },
+      "results": {
+        "เอกสาร invoice_page-0003.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a09e4e80-0f43-41dc-a3c8-e27a54b447df",
+          "elapsed": 13.028513199999907,
+          "text": "INVOICE 6901/064 PVC 0.15 MM. X 13.5 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.15 MM. X 16 CM. X 400 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 13 ม้วน) 26496.32"
+        },
+        "เอกสาร invoice_page-0049.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ba9aa02a-f26d-4703-9559-037de67fa8a5",
+          "elapsed": 10.296949099999438,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 37x48x28 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 37x48x28 cm. 67260.2"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4696c73d-e4d2-4a36-b757-26154b977d53",
+          "elapsed": 12.115259000000151,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7531fcf4-3929-4565-bfb4-3f5f08bda531",
+          "elapsed": 8.37142270000004,
+          "text": "INVOICE IV9085469 03-3225 กรวยน้ำ ARO S000ใบ(มอก.)FOOD GRADE ( 200 ใบ*25 แพค ) 119840"
+        },
+        "เอกสาร invoice_page-0117.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9a92f0c3-d2cf-4659-bc39-ca5b1575764a",
+          "elapsed": 7.179435999999441,
+          "text": "INVOICE PAPER CUP 6.5 OZ 1PE (2000/CTN) ตายติดหู 3959"
+        },
+        "เอกสาร invoice_page-0123.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "211f09fd-e440-4ba1-97b1-5d50e30dd95f",
+          "elapsed": 9.303956700000526,
+          "text": "INVOICE IV 20260061 ปวีณา ถุงกระดาษหุ้มกล้วยน้ำตาล #197637P 88275"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f07958d6-da17-4d61-9f98-7a097cf242e1",
+          "elapsed": 7.445151699999769,
+          "text": "INVOICE ฝาปิดถ้วยกระดาษยกดื่ม DW 8 OZ สีขาว (ทั่วไป) บรรจุ 1000 ชิ้น/กล่อง จำนวน 30 กล่อง 13482"
+        },
+        "เอกสาร invoice_page-0151.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "471e0356-0c09-4c2b-9494-b120030f41c1",
+          "elapsed": 8.821592400000554,
+          "text": "INVOICE ถุง IPP 63+5cm.x18cm.x0.15 (4.5x7\") 7169"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2956d454-cd98-4f57-ade2-bb1f2c6c63eb",
+          "elapsed": 5.339942200000223,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0163.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7644cb4f-2365-49cd-a51f-0d30987f545f",
+          "elapsed": 5.688226199999917,
+          "text": "INVOICE ถ้วย น้ำ สีแดง PP 16 Oz/เรียบ US ปาก 95mm 1X50 ใบ\nบรรจุ 1000 ชิ้น/กล่อง 84499.93"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.427922099999705,
+        "max": 13.933966999999939,
+        "avg": 9.1670274099999,
+        "total": 91.670274099999
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.112782400000469,
+        "max": 12.204027099999621,
+        "avg": 9.245576619999792,
+        "total": 92.45576619999792
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.721993899999688,
+        "max": 13.941603600000235,
+        "avg": 9.08492501000028,
+        "total": 90.84925010000279
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 5.339942200000223,
+        "max": 13.028513199999907,
+        "avg": 8.759044919999997,
+        "total": 87.59044919999997
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.9227,
+      "per_file": {
+        "เอกสาร invoice_page-0003.jpg": 1.0,
+        "เอกสาร invoice_page-0049.jpg": 1.0,
+        "เอกสาร invoice_page-0066.jpg": 1.0,
+        "เอกสาร invoice_page-0115.jpg": 0.7134,
+        "เอกสาร invoice_page-0117.jpg": 1.0,
+        "เอกสาร invoice_page-0123.jpg": 1.0,
+        "เอกสาร invoice_page-0140.jpg": 0.5136,
+        "เอกสาร invoice_page-0151.jpg": 1.0,
+        "เอกสาร invoice_page-0152.jpg": 1.0,
+        "เอกสาร invoice_page-0163.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.9415,
+      "per_file": {
+        "เอกสาร invoice_page-0003.jpg": 1.0,
+        "เอกสาร invoice_page-0049.jpg": 1.0,
+        "เอกสาร invoice_page-0066.jpg": 1.0,
+        "เอกสาร invoice_page-0115.jpg": 0.9014,
+        "เอกสาร invoice_page-0117.jpg": 1.0,
+        "เอกสาร invoice_page-0123.jpg": 1.0,
+        "เอกสาร invoice_page-0140.jpg": 0.5136,
+        "เอกสาร invoice_page-0151.jpg": 1.0,
+        "เอกสาร invoice_page-0152.jpg": 1.0,
+        "เอกสาร invoice_page-0163.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.9227,
+      "per_file": {
+        "เอกสาร invoice_page-0003.jpg": 1.0,
+        "เอกสาร invoice_page-0049.jpg": 1.0,
+        "เอกสาร invoice_page-0066.jpg": 1.0,
+        "เอกสาร invoice_page-0115.jpg": 0.7134,
+        "เอกสาร invoice_page-0117.jpg": 1.0,
+        "เอกสาร invoice_page-0123.jpg": 1.0,
+        "เอกสาร invoice_page-0140.jpg": 0.5136,
+        "เอกสาร invoice_page-0151.jpg": 1.0,
+        "เอกสาร invoice_page-0152.jpg": 1.0,
+        "เอกสาร invoice_page-0163.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.9106,
+      "per_file": {
+        "เอกสาร invoice_page-0003.jpg": 1.0,
+        "เอกสาร invoice_page-0049.jpg": 1.0,
+        "เอกสาร invoice_page-0066.jpg": 1.0,
+        "เอกสาร invoice_page-0115.jpg": 0.7134,
+        "เอกสาร invoice_page-0117.jpg": 1.0,
+        "เอกสาร invoice_page-0123.jpg": 1.0,
+        "เอกสาร invoice_page-0140.jpg": 0.3922,
+        "เอกสาร invoice_page-0151.jpg": 1.0,
+        "เอกสาร invoice_page-0152.jpg": 1.0,
+        "เอกสาร invoice_page-0163.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

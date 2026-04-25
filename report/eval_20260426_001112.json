@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 7.6845948999998654,
+        "max": 18.013032300000305,
+        "avg": 10.89878514000011,
+        "total": 108.98785140000109
+      },
+      "results": {
+        "เอกสาร invoice_page-0030.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8f7fa7e4-a7d5-49dd-b89e-fa24ad5e34b8",
+          "elapsed": 11.767558500000632,
+          "text": "INVOICE OR6901/060 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สัง34x59x32.5cm. ต้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "39ac841a-18fd-4598-91fa-a197ca11b2b8",
+          "elapsed": 18.013032300000305,
+          "text": "INVOICE SO2601025226 มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล น้ำยาล้างจาน กลิ่นมะนาวสูตรเข้มข้น 3.8 ลิตร ซันไว ผลิตภัณฑ์ล้างห้องน้ำสุขภัณฑ์ วอเตอร์ลู 3.8 ลิตร ซันไว สบู่เหลวล้างมือมุก กลิ่นกัมมี่ 3.8 ลิตร สีชมพู ซันไว น้ำยาต้นฝุ่น 3800 มล. ซันไว 5287.2552"
+        },
+        "เอกสาร invoice_page-0141.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2c587361-37b5-4561-a646-f1a77d6916d4",
+          "elapsed": 7.951722300000256,
+          "text": "INVOICE 02070022 กระปุก PET 10x10 CM. ฝาใส 576 ใบ 6480"
+        },
+        "เอกสาร invoice_page-0143.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "164ab25d-9a07-4489-a716-3d96098ee4b6",
+          "elapsed": 9.793865200000255,
+          "text": "UNKNOWN CK SP ECD 52220 RED 112610828 ( 5.000) 3156.5"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "96419119-cd63-413b-9e52-ed4acd7a75db",
+          "elapsed": 7.6845948999998654,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "46e763a6-9656-491a-b118-333eeb6c7857",
+          "elapsed": 8.705791899999895,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 31030"
+        },
+        "เอกสาร invoice_page-0183.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e4664734-095f-48d9-9da4-98e3795b9054",
+          "elapsed": 12.837120399999549,
+          "text": "INVOICE 6812/355 PVC 0.18 MM. X 9.5\" X 9.5\" สีใส PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 9565.8"
+        },
+        "เอกสาร invoice_page-0185.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7ecb70cb-3e1b-413f-a533-8f547f0da250",
+          "elapsed": 9.868638500000088,
+          "text": "INVOICE 6901/043 429273155\nกระดาษลูกฟูก K15/0\nCS110/K125-E\n40.500 X 26.000 INCH 54961.19"
+        },
+        "เอกสาร invoice_page-0189.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c350998b-ca30-4771-b14d-64ed24ea121a",
+          "elapsed": 11.037795799999913,
+          "text": "INVOICE 6901/015 PVC 0.07 MM. X 23 CM. X 700 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 6 ม้วน) 15015.46"
+        },
+        "เอกสาร invoice_page-0190.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "362ab65f-25ad-4afb-92ad-ea9b3bcb02cd",
+          "elapsed": 11.327731600000334,
+          "text": "INVOICE 6901/048 PVC 0.07 MM. X 19 CM. X 700 M. สีใส(3 ม้วน) PVC 0.07 MM. X 23 CM. X 700 M. สีใส(6 ม้วน) 12549.05"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 5.961880300000303,
+        "max": 17.635875199999646,
+        "avg": 10.443269160000181,
+        "total": 104.43269160000182
+      },
+      "results": {
+        "เอกสาร invoice_page-0030.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "073e10ca-ad84-4ff0-859a-dca566c1baa4",
+          "elapsed": 10.82549950000066,
+          "text": "INVOICE OR6901/060 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สัง34x59x32.5cm. ต้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2c0a0807-52c1-43ed-9e39-317b7fda13b5",
+          "elapsed": 17.635875199999646,
+          "text": "UNKNOWN บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล 1669.2"
+        },
+        "เอกสาร invoice_page-0141.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4c097de1-b804-47d8-958a-26067fd4526d",
+          "elapsed": 5.961880300000303,
+          "text": "INVOICE 02070022 กระปุก PET 10x10 CM. ฝาใส 576 ใบ 6480"
+        },
+        "เอกสาร invoice_page-0143.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "26f067c0-3fa6-4c04-b4ca-7ec42db42124",
+          "elapsed": 8.737121699999989,
+          "text": "UNKNOWN CK SP ECD 52220 RED 112610828 ( 5.000) 3156.5"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6b86c297-5965-4216-a033-b163b9ed6585",
+          "elapsed": 8.222917000000052,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6637ce45-440d-499a-85b4-87610dd5fa38",
+          "elapsed": 8.88931330000014,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 31030"
+        },
+        "เอกสาร invoice_page-0183.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "24fc1da0-eff2-4e4b-b011-b8a9e2440cac",
+          "elapsed": 13.263957300000584,
+          "text": "INVOICE 6812/355 PVC 0.18 MM. X 9.5\" X 9.5\" สีใส PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 9565.8"
+        },
+        "เอกสาร invoice_page-0185.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0de07d80-fbab-48f6-a711-7e31f99c2916",
+          "elapsed": 9.729461300000366,
+          "text": "INVOICE กระดาษลูกฟูก K15/0 CS110/K125-E 40.500 X 26.000 INCH 54961.19"
+        },
+        "เอกสาร invoice_page-0189.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2ec15773-f089-49f2-aacc-3c19bf709989",
+          "elapsed": 10.24346180000066,
+          "text": "INVOICE 6901/015 PVC 0.07 MM. X 23 CM. X 700 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 6 ม้วน) 15015.46"
+        },
+        "เอกสาร invoice_page-0190.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2f50cdbf-bb49-46df-8c72-ed7aef69f364",
+          "elapsed": 10.923204199999418,
+          "text": "INVOICE 6901/048 PVC 0.07 MM. X 19 CM. X 700 M. สีใส(3 ม้วน) PVC 0.07 MM. X 23 CM. X 700 M. สีใส(6 ม้วน) 12549.05"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.210319499999969,
+        "max": 12.39050000000043,
+        "avg": 9.787278359999982,
+        "total": 97.87278359999982
+      },
+      "results": {
+        "เอกสาร invoice_page-0030.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bfa69451-7a88-4d57-b613-1bc32ea9aa9c",
+          "elapsed": 9.634018299999298,
+          "text": "INVOICE OR6901/060 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สัง34x59x32.5cm. ต้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "831e250c-5138-444b-95a6-32e83a6e9a67",
+          "elapsed": 12.337490400000206,
+          "text": "UNKNOWN บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล 1669.2"
+        },
+        "เอกสาร invoice_page-0141.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3896f974-b552-4e48-97a8-7bb5549d0527",
+          "elapsed": 7.59624359999998,
+          "text": "INVOICE 02070022 กระปุก PET 10x10 CM. ฝาใส 576 ใบ 6480"
+        },
+        "เอกสาร invoice_page-0143.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "935913ba-23ed-487f-b933-fb3611d82b35",
+          "elapsed": 9.89071740000054,
+          "text": "UNKNOWN CK SP ECD 52220 RED 112610828 ( 5.000) 3156.5"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d77b504a-1615-491d-8523-0f05af2f6162",
+          "elapsed": 7.210319499999969,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4152f3ec-6ba7-4445-b964-7182d495db55",
+          "elapsed": 7.597052699999949,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 15515"
+        },
+        "เอกสาร invoice_page-0183.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4383bc9e-5821-4dfc-90b8-479473a85ac8",
+          "elapsed": 10.894512199999554,
+          "text": "INVOICE 6812/355 PVC 0.18 MM. X 9.5\" X 9.5\" สีใส PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 9565.8"
+        },
+        "เอกสาร invoice_page-0185.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "023df42b-cd62-4624-ba55-3b6a031027ff",
+          "elapsed": 11.497560599999815,
+          "text": "INVOICE กระดาษลูกฟูก K15/0 CS110/K125-E 40.500 X 26.000 INCH 54961.19"
+        },
+        "เอกสาร invoice_page-0189.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "499fda93-e3b9-41f3-a8ae-94ace5dd5f5d",
+          "elapsed": 12.39050000000043,
+          "text": "INVOICE 6901/015 PVC 0.07 MM. X 23 CM. X 700 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 6 ม้วน) 15015.46"
+        },
+        "เอกสาร invoice_page-0190.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0a07bab6-e9d0-4956-8150-bd6fc8285a69",
+          "elapsed": 8.824368900000081,
+          "text": "INVOICE 6901/048 PVC 0.07 MM. X 19 CM. X 700 M. สีใส(3 ม้วน) PVC 0.07 MM. X 23 CM. X 700 M. สีใส(6 ม้วน) 12549.05"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.631116300000031,
+        "max": 13.824210599999788,
+        "avg": 10.325680629999988,
+        "total": 103.25680629999988
+      },
+      "results": {
+        "เอกสาร invoice_page-0030.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5d26e9da-a4ed-4f52-bf56-9269883a75b5",
+          "elapsed": 8.762320199999522,
+          "text": "INVOICE OR6901/060 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สัง34x59x32.5cm. ต้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3825d211-52d2-44f0-a5a7-21c0d1e2bbd0",
+          "elapsed": 13.586746800000583,
+          "text": "INVOICE SO2601025226 มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล น้ำยาล้างจาน กลิ่นมะนาวสูตรเข้มข้น 3.8 ลิตร ซันไว ผลิตภัณฑ์ล้างห้องน้ำสุขภัณฑ์ วอเตอร์ลู 3.8 ลิตร ซันไว สบู่เหลวล้างมือมุก กลิ่นกัมมี่ 3.8 ลิตร สีชมพู ซันไว น้ำยาต้นฝุ่น 3800 มล. ซันไว 5287.2552"
+        },
+        "เอกสาร invoice_page-0141.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "79980043-4429-42ad-874f-377b209409e5",
+          "elapsed": 7.631116300000031,
+          "text": "INVOICE INV26/020 02070022 กระปุก PET 10x10 CM. ฝาใส 576 ใบ 6480"
+        },
+        "เอกสาร invoice_page-0143.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9e7dcb8e-d71c-4731-b489-ca2b4c4d706f",
+          "elapsed": 10.12234080000053,
+          "text": "INVOICE P06812/363 CK SP ECD 52220 RED 112610828 (5.000) 3156.5"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "95b2b1d8-fb80-4cd1-965c-7af833c5b432",
+          "elapsed": 9.544608799999878,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a524f437-f939-4e66-a9c4-fac56cb1d32f",
+          "elapsed": 8.684912099999565,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 15515"
+        },
+        "เอกสาร invoice_page-0183.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dad6b798-38c0-4300-a0a6-9765781e0a71",
+          "elapsed": 10.345510699999977,
+          "text": "UNKNOWN PVC 0.18 MM. X 9.5\" X 9.5\" สีใส PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 9565.8"
+        },
+        "เอกสาร invoice_page-0185.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9e722a32-b42e-4217-9d8b-0c8dc861c792",
+          "elapsed": 9.467399600000135,
+          "text": "INVOICE กระดาษลูกฟูก K15/0 CS110/K125-E 40.500 X 26.000 INCH 54961.19"
+        },
+        "เอกสาร invoice_page-0189.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e045df57-7336-4887-b5f2-afff81730fa4",
+          "elapsed": 11.287640399999873,
+          "text": "INVOICE 6901/015 PVC 0.07 MM. X 23 CM. X 700 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 6 ม้วน) 15015.46"
+        },
+        "เอกสาร invoice_page-0190.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c8c68037-7b04-4a20-affb-306b11bf477f",
+          "elapsed": 13.824210599999788,
+          "text": "INVOICE 6901/048 PVC 0.07 MM. X 19 CM. X 700 M. สีใส(3 ม้วน) PVC 0.07 MM. X 23 CM. X 700 M. สีใส(6 ม้วน) 12549.05"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.496847299999899,
+        "max": 12.218563399999766,
+        "avg": 9.969096629999967,
+        "total": 99.69096629999967
+      },
+      "results": {
+        "เอกสาร invoice_page-0030.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fbe2e207-f8ae-4850-9d17-9850f6db3562",
+          "elapsed": 8.987466899999163,
+          "text": "INVOICE OR6901/060 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สัง34x59x32.5cm. ต้านA+B 7757.5"
+        },
+        "เอกสาร invoice_page-0125.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "283e9686-28c8-49ba-9628-4e9b8e63d8c1",
+          "elapsed": 11.939471900000171,
+          "text": "UNKNOWN บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด มัสเซลเกลฟลอรัล 5000 มล. ชมพู มิสเตอร์มัสเซล 1669.2"
+        },
+        "เอกสาร invoice_page-0141.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "42257542-d9a8-4167-abf8-0b31b2281c6a",
+          "elapsed": 7.496847299999899,
+          "text": "INVOICE INV26/020 02070022 กระปุก PET 10x10 CM. ฝาใส 576 ใบ 6480"
+        },
+        "เอกสาร invoice_page-0143.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "586c29ac-d9b0-43fb-b90d-546de88cd918",
+          "elapsed": 9.825685000000703,
+          "text": "INVOICE P06812/363 CK SP ECD 52220 RED 112610828 ( 5.000) 3156.5"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "23ff42b4-87d9-42ed-a6db-2221983299c1",
+          "elapsed": 9.770987799999602,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0174.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1e61aada-972b-4d55-ba02-d030e2f69fe0",
+          "elapsed": 9.606987300000583,
+          "text": "INVOICE Z00460 Fuser Unit 46672506 150k- ชุดทำความสะอาด 15515"
+        },
+        "เอกสาร invoice_page-0183.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fbe53c3b-3a94-40d5-9567-a59ed0562eb8",
+          "elapsed": 9.783863700000438,
+          "text": "INVOICE 6812/355 PVC 0.18 MM. X 9.5\" X 9.5\" สีใส PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 9565.8"
+        },
+        "เอกสาร invoice_page-0185.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a67ca53e-63d6-4bf3-b026-7b0d68b63473",
+          "elapsed": 8.080045099999552,
+          "text": "INVOICE กระดาษลูกฟูก K15/0 CS110/K125-E 40.500 X 26.000 INCH 54961.19"
+        },
+        "เอกสาร invoice_page-0189.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8ff26a0a-a247-4d38-be46-add709afa61d",
+          "elapsed": 11.981047899999794,
+          "text": "INVOICE 6901/015 PVC 0.07 MM. X 23 CM. X 700 M. สีใส( 5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส( 6 ม้วน) 15015.46"
+        },
+        "เอกสาร invoice_page-0190.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "45510a80-f930-4fce-90eb-50d6ac1dd91a",
+          "elapsed": 12.218563399999766,
+          "text": "INVOICE 6901/048 PVC 0.07 MM. X 19 CM. X 700 M. สีใส(3 ม้วน) PVC 0.07 MM. X 23 CM. X 700 M. สีใส(6 ม้วน) 12549.05"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 5.961880300000303,
+        "max": 17.635875199999646,
+        "avg": 10.443269160000181,
+        "total": 104.43269160000182
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.210319499999969,
+        "max": 12.39050000000043,
+        "avg": 9.787278359999982,
+        "total": 97.87278359999982
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.631116300000031,
+        "max": 13.824210599999788,
+        "avg": 10.325680629999988,
+        "total": 103.25680629999988
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.496847299999899,
+        "max": 12.218563399999766,
+        "avg": 9.969096629999967,
+        "total": 99.69096629999967
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.8852,
+      "per_file": {
+        "เอกสาร invoice_page-0030.jpg": 1.0,
+        "เอกสาร invoice_page-0125.jpg": 0.1026,
+        "เอกสาร invoice_page-0141.jpg": 1.0,
+        "เอกสาร invoice_page-0143.jpg": 1.0,
+        "เอกสาร invoice_page-0162.jpg": 1.0,
+        "เอกสาร invoice_page-0174.jpg": 1.0,
+        "เอกสาร invoice_page-0183.jpg": 1.0,
+        "เอกสาร invoice_page-0185.jpg": 0.749,
+        "เอกสาร invoice_page-0189.jpg": 1.0,
+        "เอกสาร invoice_page-0190.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.8261,
+      "per_file": {
+        "เอกสาร invoice_page-0030.jpg": 1.0,
+        "เอกสาร invoice_page-0125.jpg": 0.1026,
+        "เอกสาร invoice_page-0141.jpg": 1.0,
+        "เอกสาร invoice_page-0143.jpg": 1.0,
+        "เอกสาร invoice_page-0162.jpg": 1.0,
+        "เอกสาร invoice_page-0174.jpg": 0.4091,
+        "เอกสาร invoice_page-0183.jpg": 1.0,
+        "เอกสาร invoice_page-0185.jpg": 0.749,
+        "เอกสาร invoice_page-0189.jpg": 1.0,
+        "เอกสาร invoice_page-0190.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.8537,
+      "per_file": {
+        "เอกสาร invoice_page-0030.jpg": 1.0,
+        "เอกสาร invoice_page-0125.jpg": 1.0,
+        "เอกสาร invoice_page-0141.jpg": 0.8528,
+        "เอกสาร invoice_page-0143.jpg": 0.6236,
+        "เอกสาร invoice_page-0162.jpg": 1.0,
+        "เอกสาร invoice_page-0174.jpg": 0.4091,
+        "เอกสาร invoice_page-0183.jpg": 0.9024,
+        "เอกสาร invoice_page-0185.jpg": 0.749,
+        "เอกสาร invoice_page-0189.jpg": 1.0,
+        "เอกสาร invoice_page-0190.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.7923,
+      "per_file": {
+        "เอกสาร invoice_page-0030.jpg": 1.0,
+        "เอกสาร invoice_page-0125.jpg": 0.1026,
+        "เอกสาร invoice_page-0141.jpg": 0.8528,
+        "เอกสาร invoice_page-0143.jpg": 0.809,
+        "เอกสาร invoice_page-0162.jpg": 1.0,
+        "เอกสาร invoice_page-0174.jpg": 0.4091,
+        "เอกสาร invoice_page-0183.jpg": 1.0,
+        "เอกสาร invoice_page-0185.jpg": 0.749,
+        "เอกสาร invoice_page-0189.jpg": 1.0,
+        "เอกสาร invoice_page-0190.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

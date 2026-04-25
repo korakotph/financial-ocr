@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 6.931393700000626,
+        "max": 16.119088100000226,
+        "avg": 10.611758239999471,
+        "total": 106.11758239999472
+      },
+      "results": {
+        "เอกสาร invoice_page-0002.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4c9ea2c8-ae3e-411e-9686-a12138eeb4da",
+          "elapsed": 16.119088100000226,
+          "text": "INVOICE INV2026010008 BG021 Burger Red ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค BG022 กระดาษห่อเบอร์เกอร์-สีเหลือง (ลาย Breakfast) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (540 + 100) BG023 กระดาษห่อเบอร์เกอร์-สีฟ้า (ลาย Breakfast) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (720 + 100) BG024 กระดาษห่อเบอร์เกอร์-สีแดง (ลาย Hot Fresh) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (200 + 100) BG025 Pizza Hotdog ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (360 + 100) 163068"
+        },
+        "เอกสาร invoice_page-0004.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d1e05cfe-f1d4-470b-aba8-922b0c4463d7",
+          "elapsed": 9.418130299998666,
+          "text": "INVOICE 6901/140 PVC 0.50 MM. X 27\" X 41\" สีใส 830.32"
+        },
+        "เอกสาร invoice_page-0079.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "365d3663-9cd9-44f1-9fa8-2d5e912cc03b",
+          "elapsed": 15.763046599999143,
+          "text": "INVOICE IV6900043 Chatpon BAB รหัสสินค้า : LCB-B2030-0001 x00144:ถุงมุ้งคลุม เกรดB 120*120*150CM T=0.03MM 8988.0"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cde6ab19-e246-4dba-b417-415a442ea571",
+          "elapsed": 12.333232999999382,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2b712e5e-8efd-4fcf-aa1e-1a1b1b367505",
+          "elapsed": 11.240703099998427,
+          "text": "INVOICE กรรไกรด้ามของมังกรทรงก็ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708"
+        },
+        "เอกสาร invoice_page-0188.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a11958bb-d5f5-4cf7-8513-dac7abd3a759",
+          "elapsed": 6.931393700000626,
+          "text": "INVOICE 02070007 กระปุก PET 8.5x8.5 CM. ฝาอลูมิเนียม 2814 ใบ 26367.18"
+        },
+        "เอกสาร invoice_page-0195.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "aa0671a6-5881-4c08-80a6-cbda178bbcbb",
+          "elapsed": 9.024337099999684,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-ถุงกระดาษทูหีวนำตาลไซส์ MINI ขนาด 12.5x7.5x15.5 ซม. PO6811/349 43335"
+        },
+        "เอกสาร invoice_page-0198.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b9b0ec71-a2ba-481f-9e5a-9ba7c85d4dbc",
+          "elapsed": 9.432082199999059,
+          "text": "INVOICE IV6901040 PAPER CUP 6.5 OZ (1PE) A/O (2000/CTN) ลายไม่ติดหู 3852"
+        },
+        "เอกสาร invoice_page-0199.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6802e139-ded3-46ef-944a-e3ae05ecc5ae",
+          "elapsed": 7.779553399999713,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 79180"
+        },
+        "เอกสาร invoice_page-0203.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "57120f55-0852-4a5a-8469-e2d9d953d7f4",
+          "elapsed": 8.076014899999791,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายดีดนู 190032"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.143367799999396,
+        "max": 15.863072300000567,
+        "avg": 10.657741710000119,
+        "total": 106.57741710000118
+      },
+      "results": {
+        "เอกสาร invoice_page-0002.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bd90ee9d-db89-4771-a0ff-3ce0796db3e2",
+          "elapsed": 15.863072300000567,
+          "text": "INVOICE INV2026010008 BG021 Burger Red ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค BG022 กระดาษห่อเบอร์เกอร์-สีเหลือง (ลาย Breakfast) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (540 + 100) BG023 กระดาษห่อเบอร์เกอร์-สีฟ้า (ลาย Breakfast) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (720 + 100) BG024 กระดาษห่อเบอร์เกอร์-สีแดง (ลาย Hot Fresh) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (200 + 100) BG025 Pizza Hotdog ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (360 + 100) 163068"
+        },
+        "เอกสาร invoice_page-0004.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cbfa2832-38b6-4eb2-a11f-b08b44f43252",
+          "elapsed": 10.692097999999532,
+          "text": "INVOICE 6901/140 PVC 0.50 MM. X 27\" X 41\" สีใส 830.32"
+        },
+        "เอกสาร invoice_page-0079.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5a91a0a7-cc90-4874-a05b-ff38e74d1346",
+          "elapsed": 11.415229199999885,
+          "text": "INVOICE IV6900043 Chatpon BAB รหัสสินค้า : LCB-B2030-0001 x00144:ถุงมุ้งคลุม เกรดB 120*120*150CM T=0.03MM 8988.0"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6171d8a1-2b2b-4825-8839-db8067b07268",
+          "elapsed": 11.478785999999673,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f6483157-2116-4f3f-94a0-e01f23d784ef",
+          "elapsed": 9.452301100000113,
+          "text": "UNKNOWN กรรไกรด้ามของมังกรมงก์ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708.57"
+        },
+        "เอกสาร invoice_page-0188.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5e5e1c54-7252-41c5-b7a4-16215b7b4914",
+          "elapsed": 10.398458800000299,
+          "text": "INVOICE 02070007 กระปุก PET 8.5x8.5 CM. ฝาอลูมิเนียม 2814 ใบ 26367.18"
+        },
+        "เอกสาร invoice_page-0195.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "302a0eff-9a68-43e7-8b4a-c985e596b5ed",
+          "elapsed": 7.9555003000004945,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-ถุงกระดาษทูหีวนำตาลไซส์ MINI ขนาด 12.5x7.5x15.5 ซม. PO6811/349 43335"
+        },
+        "เอกสาร invoice_page-0198.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "adf8c023-0005-431d-bbab-9b3c0e9d1dd0",
+          "elapsed": 7.143367799999396,
+          "text": "INVOICE PAPER CUP 6.5 OZ (1PE) A/O (2000/CTN) ลายไม่ติดหู 3852"
+        },
+        "เอกสาร invoice_page-0199.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ca61aa44-dd75-40f4-bed9-cc7ed39390ad",
+          "elapsed": 12.934857500000362,
+          "text": "INVOICE IV6901038 HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 79180"
+        },
+        "เอกสาร invoice_page-0203.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "43be7879-c64b-40eb-a261-0648edea2cdd",
+          "elapsed": 9.243746100000862,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายดีดนู 190032"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 9.518391300000076,
+        "max": 37.589001300000746,
+        "avg": 17.4729295000001,
+        "total": 174.729295000001
+      },
+      "results": {
+        "เอกสาร invoice_page-0002.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a837da7e-24e0-4081-bb06-ff5781e0763b",
+          "elapsed": 26.818735599999854,
+          "text": "INVOICE INV2026010008 BG021 Burger Red ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค BG022 กระดาษห่อเบอร์เกอร์-สีเหลือง (ลาย Breakfast) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (540 + 100) BG023 กระดาษห่อเบอร์เกอร์-สีฟ้า (ลาย Breakfast) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (720 + 100) BG024 กระดาษห่อเบอร์เกอร์-สีแดง (ลาย Hot Fresh) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (200 + 100) BG025 Pizza Hotdog ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (360 + 100) 163068"
+        },
+        "เอกสาร invoice_page-0004.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1a716167-178e-49c3-89e7-91a9187b9c7a",
+          "elapsed": 14.868333300000813,
+          "text": "INVOICE 6901/140 PVC 0.50 MM. X 27\" X 41\" สีใส 830.32"
+        },
+        "เอกสาร invoice_page-0079.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "57b9bef0-5314-42ab-9ebd-2b2a32d137d4",
+          "elapsed": 12.906206600000587,
+          "text": "INVOICE IV6900043 Chatpon BAB รหัสสินค้า : LCB-B2030-0001 x00144:ถุงมุ้งคลุม เกรดB 120*120*150CM T=0.03MM 8988"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5236e161-06de-40d5-8ddd-72803882404d",
+          "elapsed": 10.338858100001744,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "09a40f02-f6b3-4014-a9bf-f1d372f478ad",
+          "elapsed": 12.970549399999072,
+          "text": "UNKNOWN กรรไกรด้ามของมังกรทรงก็ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708"
+        },
+        "เอกสาร invoice_page-0188.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e54f0ac3-6d4e-4aa4-9ce9-3116a0384b6b",
+          "elapsed": 9.518391300000076,
+          "text": "INVOICE 02070007 กระปุก PET 8.5x8.5 CM. ฝาอลูมิเนียม 2814 ใบ 26367.18"
+        },
+        "เอกสาร invoice_page-0195.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "75298c3f-792f-41be-a822-48e2975a1712",
+          "elapsed": 15.946372399999746,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-ถุงกระดาษทูหีวนำตาลไซส์ MINI ขนาด 12.5x7.5x15.5 ซม. PO6811/349 43335"
+        },
+        "เอกสาร invoice_page-0198.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3c51138b-7fdb-47e8-9ea9-b929f0a80b05",
+          "elapsed": 16.92815249999876,
+          "text": "INVOICE IV6901040 PAPER CUP 6.5 OZ (1PE) A/O (2000/CTN) ลายไม่ติดหู 3852"
+        },
+        "เอกสาร invoice_page-0199.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "25912e29-c26b-4126-b610-2ae991ae0941",
+          "elapsed": 37.589001300000746,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 79180"
+        },
+        "เอกสาร invoice_page-0203.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f1815c1b-cb75-4c4f-9f8c-49c80c0d293e",
+          "elapsed": 16.844694499999605,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายดีดนู 190032"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.227837099999306,
+        "max": 21.624658299999282,
+        "avg": 12.334804489999806,
+        "total": 123.34804489999806
+      },
+      "results": {
+        "เอกสาร invoice_page-0002.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "82c0cef9-3a4e-4e5b-89e1-e11452f43188",
+          "elapsed": 21.624658299999282,
+          "text": "INVOICE INV2026010008 BG021 Burger Red ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค BG022 กระดาษห่อเบอร์เกอร์-สีเหลือง (ลาย Breakfast) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (540 + 100) BG023 กระดาษห่อเบอร์เกอร์-สีฟ้า (ลาย Breakfast) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (720 + 100) BG024 กระดาษห่อเบอร์เกอร์-สีแดง (ลาย Hot Fresh) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (200 + 100) BG025 Pizza Hotdog ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (360 + 100) 163068"
+        },
+        "เอกสาร invoice_page-0004.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "918ed011-4ca7-412a-b0e8-5e0ba286dc6e",
+          "elapsed": 13.654910299999756,
+          "text": "INVOICE 6901/140 PVC 0.50 MM. X 27\" X 41\" สีใส 830.32"
+        },
+        "เอกสาร invoice_page-0079.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e69a7deb-e7bd-47d7-884a-77d3ebc42847",
+          "elapsed": 11.150759500000277,
+          "text": "INVOICE IV6900043 Chatpon BAB รหัสสินค้า : LCB-B2030-0001 x00144:ถุงมุ้งคลุม เกรดB 120*120*150CM T=0.03MM 8988.0"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "11d4bd22-f9c3-4e6b-84db-eff13cb42c7e",
+          "elapsed": 13.01382569999987,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "307317be-a5a0-45cb-977e-02169af17a3d",
+          "elapsed": 17.761982399999397,
+          "text": "INVOICE กรรไกรด้ามของมังกรมงก์ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708.57"
+        },
+        "เอกสาร invoice_page-0188.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "aa1f82ff-9464-461e-9074-ddd098be9ff8",
+          "elapsed": 8.522298600000795,
+          "text": "INVOICE 02070007 กระปุก PET 8.5x8.5 CM. ฝาอลูมิเนียม 2814 ใบ 26367.18"
+        },
+        "เอกสาร invoice_page-0195.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dbc89e7d-ea2b-47cf-8f7b-3b7ba9d4e07e",
+          "elapsed": 10.599036599998726,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-ถุงกระดาษทูหีวนำตาลไซส์ MINI ขนาด 12.5x7.5x15.5 ซม. PO6811/349 43335"
+        },
+        "เอกสาร invoice_page-0198.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "17204676-cd04-412f-822a-7c31f3d6ec3a",
+          "elapsed": 7.227837099999306,
+          "text": "INVOICE PAPER CUP 6.5 OZ (1PE) A/O (2000/CTN) ลายไม่ติดหู 3852"
+        },
+        "เอกสาร invoice_page-0199.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "173925ed-bd54-4bb8-b70f-f263752ef841",
+          "elapsed": 11.033877100000609,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 79180"
+        },
+        "เอกสาร invoice_page-0203.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a19622ad-8290-4a4a-b1e0-ad6e4ccc1c41",
+          "elapsed": 8.75885930000004,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายดีดนู 190032"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.937603700000182,
+        "max": 22.646971299998768,
+        "avg": 13.966761580000092,
+        "total": 139.66761580000093
+      },
+      "results": {
+        "เอกสาร invoice_page-0002.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "85aa6d3e-8bbb-449c-a606-c845b2bf5e4b",
+          "elapsed": 21.180265500001042,
+          "text": "INVOICE INV2026010008 BG021 Burger Red ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค BG022 กระดาษห่อเบอร์เกอร์-สีเหลือง (ลาย Breakfast) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (540 + 100) BG023 กระดาษห่อเบอร์เกอร์-สีฟ้า (ลาย Breakfast) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (720 + 100) BG024 กระดาษห่อเบอร์เกอร์-สีแดง (ลาย Hot Fresh) ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (200 + 100) BG025 Pizza Hotdog ขนาด 30+30 ซม. 1 กล่อง จำนวน 20 แพ็ค (360 + 100) 163068"
+        },
+        "เอกสาร invoice_page-0004.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6db47037-491f-4158-908a-57c6302fcfd8",
+          "elapsed": 22.646971299998768,
+          "text": "INVOICE 6901/140 PVC 0.50 MM. X 27\" X 41\" สีใส 830.32"
+        },
+        "เอกสาร invoice_page-0079.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "905c0c04-feb5-4ec3-b05d-34484b271523",
+          "elapsed": 13.780229599999075,
+          "text": "INVOICE IV6900043 Chatpon BAB รหัสสินค้า : LCB-B2030-0001 x00144:ถุงมุ้งคลุม เกรดB 120*120*150CM T=0.03MM 8988"
+        },
+        "เอกสาร invoice_page-0129.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a18a78d6-6122-4bf2-98ca-777fc2fc2bcb",
+          "elapsed": 12.35551999999916,
+          "text": "INVOICE Iv6901027 L1-Duplex Board Grey Back 270g 25x36 40762.87"
+        },
+        "เอกสาร invoice_page-0168.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ac91ad4d-37d1-4ae1-ab40-60c0a74ec3fd",
+          "elapsed": 13.486049400000411,
+          "text": "INVOICE กรรไกรด้ามของมังกรทรงก็ SOLO No.909-7.5 (GMP) กัตเตอร์ Stanley 10-175 4708"
+        },
+        "เอกสาร invoice_page-0188.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a844c394-d5a3-4f06-b443-d6b90481a303",
+          "elapsed": 14.229023300000335,
+          "text": "INVOICE 02070007 กระปุก PET 8.5x8.5 CM. ฝาอลูมิเนียม 2814 ใบ 26367.18"
+        },
+        "เอกสาร invoice_page-0195.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9ae6e654-afb4-4176-be88-324e7aadcfb2",
+          "elapsed": 15.816382700000759,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-ถุงกระดาษทูหีวนำตาลไซส์ MINI ขนาด 12.5x7.5x15.5 ซม. PO6811/349 43335"
+        },
+        "เอกสาร invoice_page-0198.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3a82e512-6140-4caa-b5a9-b13900bd8916",
+          "elapsed": 9.486418100001174,
+          "text": "INVOICE PAPER CUP 6.5 OZ (1PE) A/O (2000/CTN) ลายไม่ติดหู 3852"
+        },
+        "เอกสาร invoice_page-0199.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "94d2f647-4d33-4b85-baa9-708ee32d4b01",
+          "elapsed": 8.749152200000026,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 79180"
+        },
+        "เอกสาร invoice_page-0203.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d791190a-fd5d-4090-a6fa-d4fc857b26c8",
+          "elapsed": 7.937603700000182,
+          "text": "INVOICE HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายดีดนู 190032"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.143367799999396,
+        "max": 15.863072300000567,
+        "avg": 10.657741710000119,
+        "total": 106.57741710000118
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 9.518391300000076,
+        "max": 37.589001300000746,
+        "avg": 17.4729295000001,
+        "total": 174.729295000001
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.227837099999306,
+        "max": 21.624658299999282,
+        "avg": 12.334804489999806,
+        "total": 123.34804489999806
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.937603700000182,
+        "max": 22.646971299998768,
+        "avg": 13.966761580000092,
+        "total": 139.66761580000093
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.9315,
+      "per_file": {
+        "เอกสาร invoice_page-0002.jpg": 1.0,
+        "เอกสาร invoice_page-0004.jpg": 1.0,
+        "เอกสาร invoice_page-0079.jpg": 1.0,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0168.jpg": 0.6455,
+        "เอกสาร invoice_page-0188.jpg": 1.0,
+        "เอกสาร invoice_page-0195.jpg": 1.0,
+        "เอกสาร invoice_page-0198.jpg": 0.8531,
+        "เอกสาร invoice_page-0199.jpg": 0.8165,
+        "เอกสาร invoice_page-0203.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.9795,
+      "per_file": {
+        "เอกสาร invoice_page-0002.jpg": 1.0,
+        "เอกสาร invoice_page-0004.jpg": 1.0,
+        "เอกสาร invoice_page-0079.jpg": 0.9129,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0168.jpg": 0.8819,
+        "เอกสาร invoice_page-0188.jpg": 1.0,
+        "เอกสาร invoice_page-0195.jpg": 1.0,
+        "เอกสาร invoice_page-0198.jpg": 1.0,
+        "เอกสาร invoice_page-0199.jpg": 1.0,
+        "เอกสาร invoice_page-0203.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.955,
+      "per_file": {
+        "เอกสาร invoice_page-0002.jpg": 1.0,
+        "เอกสาร invoice_page-0004.jpg": 1.0,
+        "เอกสาร invoice_page-0079.jpg": 1.0,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0168.jpg": 0.6972,
+        "เอกสาร invoice_page-0188.jpg": 1.0,
+        "เอกสาร invoice_page-0195.jpg": 1.0,
+        "เอกสาร invoice_page-0198.jpg": 0.8531,
+        "เอกสาร invoice_page-0199.jpg": 1.0,
+        "เอกสาร invoice_page-0203.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.9766,
+      "per_file": {
+        "เอกสาร invoice_page-0002.jpg": 1.0,
+        "เอกสาร invoice_page-0004.jpg": 1.0,
+        "เอกสาร invoice_page-0079.jpg": 0.9129,
+        "เอกสาร invoice_page-0129.jpg": 1.0,
+        "เอกสาร invoice_page-0168.jpg": 1.0,
+        "เอกสาร invoice_page-0188.jpg": 1.0,
+        "เอกสาร invoice_page-0195.jpg": 1.0,
+        "เอกสาร invoice_page-0198.jpg": 0.8531,
+        "เอกสาร invoice_page-0199.jpg": 1.0,
+        "เอกสาร invoice_page-0203.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

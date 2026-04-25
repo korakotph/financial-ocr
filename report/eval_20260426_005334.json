@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 6.064219900001262,
+        "max": 9.168485099999089,
+        "avg": 7.766443819999767,
+        "total": 77.66443819999768
+      },
+      "results": {
+        "เอกสาร invoice_page-0013.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e1a45368-9a89-468a-8929-7850c7e8636d",
+          "elapsed": 8.776216500000373,
+          "text": "UNKNOWN P06901/153 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง Boxjourney x00150 38520"
+        },
+        "เอกสาร invoice_page-0019.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "777260ed-416c-462e-90b5-0095cbd3707c",
+          "elapsed": 7.990547199999128,
+          "text": "INVOICE WHITE 8.0 OZ W/H (1000/CTN) สีขาวติดหู แก้วกระดาษ 4.0 oz (130) (1000/CTN) สีขาวไม่มีหู WHITE 16 OZ (1000/CTN) 17655"
+        },
+        "เอกสาร invoice_page-0048.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "adc09a31-2d9a-4672-b706-47e452fa24ce",
+          "elapsed": 7.496325500000239,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 6634.0"
+        },
+        "เอกสาร invoice_page-0057.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "df46df0a-cc93-4ab9-b1d6-4d2bd3f0b85b",
+          "elapsed": 7.106499100000292,
+          "text": "INVOICE สัง41x49x36cm. 11770.0"
+        },
+        "เอกสาร invoice_page-0081.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "13796fb0-0e26-40f7-8802-cc9a8d6312bb",
+          "elapsed": 8.79607119999855,
+          "text": "DELIVERY_ORDER ค่ะเตา พนธม ถุงกระดาษน้ำตาลหุเกลียว#197638 52831.25"
+        },
+        "เอกสาร invoice_page-0084.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e2d4b25e-5b9e-4b20-9e9e-dea05dbac92b",
+          "elapsed": 7.582281299999522,
+          "text": "INVOICE ART131110 SAVEPAK.ถ้วยกระดาษ 8 ออนซ์ มีหู G5 ART131107 SAVEPAK.แก้ว กระดาษลาย 8 G5 ART92638 SAVEPAK.ถ้วยกระดาษ 8 ออนซ์ G5 29392.9"
+        },
+        "เอกสาร invoice_page-0103.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "57c4382e-84d9-41d7-8676-7812b0b54062",
+          "elapsed": 8.09773959999984,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดมอู(1PE) สีขาว 46224"
+        },
+        "เอกสาร invoice_page-0110.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7828917b-0fa6-4fa7-8926-753e54df7434",
+          "elapsed": 9.168485099999089,
+          "text": "UNKNOWN ค็อเตอร์ Stanley 10-175 1498.0"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6eddc8bc-c6c3-4d63-ae79-90010d2558a9",
+          "elapsed": 6.064219900001262,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0172.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "06455029-4f3b-43db-af83-f7e867c7e81a",
+          "elapsed": 6.586052799999379,
+          "text": "INVOICE FG3250 FOIL BOARD 250G G3 ทองด้าน size 43 x 31 21129.29"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.027228599999944,
+        "max": 10.671075300000666,
+        "avg": 8.090472339999724,
+        "total": 80.90472339999724
+      },
+      "results": {
+        "เอกสาร invoice_page-0013.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8e039786-6aea-4a13-9ade-5ca843ad35ca",
+          "elapsed": 6.027228599999944,
+          "text": "INVOICE ลัง Boxjourney x00150 38520"
+        },
+        "เอกสาร invoice_page-0019.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "741413ef-52d8-45cb-8ca6-129cacaf156e",
+          "elapsed": 7.955520499999693,
+          "text": "INVOICE WHITE 8.0 OZ W/H (1000/CTN) สีขาวติดหู แก้วกระดาษ 4.0 oz (130) (1000/CTN) สีขาวไม่มีหู WHITE 16 OZ (1000/CTN) 17655"
+        },
+        "เอกสาร invoice_page-0048.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dae8b65a-319b-4ee8-ba5c-18cfcafaa8c8",
+          "elapsed": 7.853523899999345,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 6634.0"
+        },
+        "เอกสาร invoice_page-0057.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "138d0365-3910-4fab-805e-f12ee76d3258",
+          "elapsed": 7.146995799999786,
+          "text": "INVOICE สัง41x49x36cm. 11770.0"
+        },
+        "เอกสาร invoice_page-0081.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f050edb3-a501-4e46-b8c5-08cf3bcabb48",
+          "elapsed": 10.671075300000666,
+          "text": "DELIVERY_ORDER ค่ะเตา พนธม ถุงกระดาษน้ำตาลหุเกลียว#197638 52831.25"
+        },
+        "เอกสาร invoice_page-0084.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cbcecd16-9711-40f2-9f8e-91dbda0c8893",
+          "elapsed": 9.398910300000352,
+          "text": "INVOICE ART131110 SAVEPAK.ถ้วยกระดาษ 8 ออนซ์ มีหู G5 ART131107 SAVEPAK.แก้ว กระดาษลาย 8 G5 ART92638 SAVEPAK.ถ้วยกระดาษ 8 ออนซ์ G5 29392.9"
+        },
+        "เอกสาร invoice_page-0103.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b444e268-ba59-4a16-892b-ece2db1209a3",
+          "elapsed": 7.504433699999936,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดมุม(1PE) สีขาว 46224"
+        },
+        "เอกสาร invoice_page-0110.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9e1c5d7b-f531-41cd-a924-5bfaad1feb84",
+          "elapsed": 8.359801499998866,
+          "text": "INVOICE IV6901013 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ค็อเตอร์ Stanley 10-175 2140"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "430c8866-631b-464e-a656-d4d3fefd43aa",
+          "elapsed": 8.628983999999036,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0172.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0e85c3a2-08f0-4dc0-aabc-e6cff6b98fde",
+          "elapsed": 7.358249799999612,
+          "text": "INVOICE FG3250 FOIL BOARD 250G G3 ทองด้าน size 43 x 31 21129.29"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.773553399998491,
+        "max": 11.56720420000056,
+        "avg": 9.44975938999978,
+        "total": 94.49759389999781
+      },
+      "results": {
+        "เอกสาร invoice_page-0013.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "96fed925-5561-4659-893b-50028b63110a",
+          "elapsed": 8.85350920000019,
+          "text": "INVOICE ลัง Boxjourney x00150 38520"
+        },
+        "เอกสาร invoice_page-0019.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "23a56127-0eff-49e1-a12d-f8ac981dd1b0",
+          "elapsed": 11.56720420000056,
+          "text": "INVOICE WHITE 8.0 OZ W/H (1000/CTN) สีขาวติดหู แก้วกระดาษ 4.0 oz (130) (1000/CTN) สีขาวไม่มีหู WHITE 16 OZ (1000/CTN) 17655"
+        },
+        "เอกสาร invoice_page-0048.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4d73e2b2-a642-470f-b734-8f2735fd942d",
+          "elapsed": 8.351385800000571,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 6634.0"
+        },
+        "เอกสาร invoice_page-0057.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bdfc973f-35f4-44bb-bbd1-85cafaa44167",
+          "elapsed": 7.773553399998491,
+          "text": "INVOICE สัง41x49x36cm. 11770.0"
+        },
+        "เอกสาร invoice_page-0081.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "beeecb38-4683-439b-a91d-949cbcd17704",
+          "elapsed": 10.066267299998799,
+          "text": "DELIVERY_ORDER ค่ะเตา พนธม ถุงกระดาษน้ำตาลหุเกลียว#197638 52831.25"
+        },
+        "เอกสาร invoice_page-0084.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "51d85c83-4407-4b04-85f6-2fac817d243d",
+          "elapsed": 11.518031899999187,
+          "text": "INVOICE ART131110 SAVEPAK.ถ้วยกระดาษ 8 ออนซ์ มีหู G5 ART131107 SAVEPAK.แก้ว กระดาษลาย 8 G5 ART92638 SAVEPAK.ถ้วยกระดาษ 8 ออนซ์ G5 29392.9"
+        },
+        "เอกสาร invoice_page-0103.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ac6ee17c-222b-42d6-b49e-f8e4309ad0c3",
+          "elapsed": 9.989829799998915,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดมอู(1PE) สีขาว 46224"
+        },
+        "เอกสาร invoice_page-0110.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "38df6557-2cdd-491e-b132-727bfa61a606",
+          "elapsed": 8.740449900000385,
+          "text": "UNKNOWN ค็อเตอร์ Stanley 10-175 535.0"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "29809490-8a90-4821-9872-cecf8cf06145",
+          "elapsed": 8.793095000000903,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0172.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "342df005-a5fc-4aca-84d3-4e011bd2a7ce",
+          "elapsed": 8.844267399999808,
+          "text": "INVOICE FG3250 FOIL BOARD 250G G3 ทองด้าน size 43 x 31 21129.29"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.663119900000311,
+        "max": 11.674240500000451,
+        "avg": 9.031253370000195,
+        "total": 90.31253370000195
+      },
+      "results": {
+        "เอกสาร invoice_page-0013.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "00046d9d-e3e1-4584-8088-a6af567eef65",
+          "elapsed": 7.935737600000721,
+          "text": "INVOICE ลัง Boxjourney x00150 38520"
+        },
+        "เอกสาร invoice_page-0019.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d0fbb382-7705-4bee-8709-9947a30cb3da",
+          "elapsed": 11.399626000000353,
+          "text": "INVOICE WHITE 8.0 OZ W/H (1000/CTN) สีขาวติดหู แก้วกระดาษ 4.0 oz (130) (1000/CTN) สีขาวไม่มีหู WHITE 16 OZ (1000/CTN) 17655"
+        },
+        "เอกสาร invoice_page-0048.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ab0618ce-5028-43ca-965f-f441a699c575",
+          "elapsed": 11.121440299999449,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 6634.0"
+        },
+        "เอกสาร invoice_page-0057.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ee9c7b33-a3fc-4958-b0f5-85f854ee2b14",
+          "elapsed": 9.256400599999324,
+          "text": "INVOICE สัง41x49x36cm. 11770.0"
+        },
+        "เอกสาร invoice_page-0081.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7f686866-d6b6-47a8-8b09-c3a331eba02c",
+          "elapsed": 6.807999300001029,
+          "text": "DELIVERY_ORDER ค่ะเตา พนธม ถุงกระดาษน้ำตาลหุเกลียว#197638 52831.25"
+        },
+        "เอกสาร invoice_page-0084.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a9a02741-e72d-40d7-9540-b2da8dcfefc4",
+          "elapsed": 10.28922959999909,
+          "text": "INVOICE ART131110 SAVEPAK.ถ้วยกระดาษ 8 ออนซ์ มีหู G5 ART131107 SAVEPAK.แก้ว กระดาษลาย 8 G5 ART92638 SAVEPAK.ถ้วยกระดาษ 8 ออนซ์ G5 29392.9"
+        },
+        "เอกสาร invoice_page-0103.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f8b3f920-b0cc-4d94-8392-f21dbb329c07",
+          "elapsed": 6.692522800000006,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดมอู(1PE) สีขาว 46224"
+        },
+        "เอกสาร invoice_page-0110.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "da8f47be-283e-4408-8fc2-c3b26626f1c9",
+          "elapsed": 11.674240500000451,
+          "text": "INVOICE IV6901013 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ค็อเตอร์ Stanley 10-175 2140"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "919a0833-b906-4c87-8445-be9d1dd93cec",
+          "elapsed": 6.663119900000311,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0172.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1d4ebf04-7ec6-4ed6-9d4e-5ce5963b2d3d",
+          "elapsed": 8.472217100001217,
+          "text": "INVOICE FG3250 FOIL BOARD 250G G3 ทองด้าน size 43 x 31 21129.29"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.856462400000964,
+        "max": 11.630931399999099,
+        "avg": 9.087624359999973,
+        "total": 90.87624359999973
+      },
+      "results": {
+        "เอกสาร invoice_page-0013.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dc87181a-b187-464a-b50f-f873813a86b3",
+          "elapsed": 7.130077600000732,
+          "text": "INVOICE ลัง Boxjourney x00150 38520"
+        },
+        "เอกสาร invoice_page-0019.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "39aa9e7d-6121-4a94-b2bc-c27a3d0412df",
+          "elapsed": 10.803027900001325,
+          "text": "INVOICE WHITE 8.0 OZ W/H (1000/CTN) สีขาวติดหู แก้วกระดาษ 4.0 oz (130) (1000/CTN) สีขาวไม่มีหู WHITE 16 OZ (1000/CTN) 17655"
+        },
+        "เอกสาร invoice_page-0048.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "beaa47c3-0025-4cc5-a137-4a72431d91f9",
+          "elapsed": 9.57038889999967,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 6634.0"
+        },
+        "เอกสาร invoice_page-0057.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "41111181-691b-4920-82ef-9d7773c1707d",
+          "elapsed": 6.9082870000002,
+          "text": "INVOICE สัง41x49x36cm. 11770.0"
+        },
+        "เอกสาร invoice_page-0081.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5f36799f-7d07-4fea-b993-902b0fbce218",
+          "elapsed": 9.467323899998519,
+          "text": "DELIVERY_ORDER ค่ะเตา พนธม ถุงกระดาษน้ำตาลหุเกลียว#197638 52831.25"
+        },
+        "เอกสาร invoice_page-0084.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f6636bad-b4fa-4d05-b4dc-3d60cb56b89f",
+          "elapsed": 10.216075000000274,
+          "text": "INVOICE ART131110 SAVEPAK.ถ้วยกระดาษ 8 ออนซ์ มีหู G5 ART131107 SAVEPAK.แก้ว กระดาษลาย 8 G5 ART92638 SAVEPAK.ถ้วยกระดาษ 8 ออนซ์ G5 29392.9"
+        },
+        "เอกสาร invoice_page-0103.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "820c4d87-6eab-4153-84c6-06147a446658",
+          "elapsed": 6.856462400000964,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดมุม(1PE) สีขาว 46224"
+        },
+        "เอกสาร invoice_page-0110.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4e44e8b9-2aef-4044-882b-097b81bfa76d",
+          "elapsed": 11.630931399999099,
+          "text": "INVOICE IV6901013 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ค็อเตอร์ Stanley 10-175 2140"
+        },
+        "เอกสาร invoice_page-0162.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "82a6d2e3-4da8-4138-adce-159cae636539",
+          "elapsed": 9.154198799998994,
+          "text": "INVOICE AlphaZolve Blanket Wash - น้ำยาเช็ดผ้ายาง 36380"
+        },
+        "เอกสาร invoice_page-0172.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c309d4c2-c6dc-436f-a545-cc98b986fd50",
+          "elapsed": 9.139470699999947,
+          "text": "INVOICE FG3250 FOIL BOARD 250G G3 ทองด้าน size 43 x 31 21129.29"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.027228599999944,
+        "max": 10.671075300000666,
+        "avg": 8.090472339999724,
+        "total": 80.90472339999724
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.773553399998491,
+        "max": 11.56720420000056,
+        "avg": 9.44975938999978,
+        "total": 94.49759389999781
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.663119900000311,
+        "max": 11.674240500000451,
+        "avg": 9.031253370000195,
+        "total": 90.31253370000195
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.856462400000964,
+        "max": 11.630931399999099,
+        "avg": 9.087624359999973,
+        "total": 90.87624359999973
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.8042,
+      "per_file": {
+        "เอกสาร invoice_page-0013.jpg": 0.0858,
+        "เอกสาร invoice_page-0019.jpg": 1.0,
+        "เอกสาร invoice_page-0048.jpg": 1.0,
+        "เอกสาร invoice_page-0057.jpg": 1.0,
+        "เอกสาร invoice_page-0081.jpg": 1.0,
+        "เอกสาร invoice_page-0084.jpg": 1.0,
+        "เอกสาร invoice_page-0103.jpg": 0.8165,
+        "เอกสาร invoice_page-0110.jpg": 0.14,
+        "เอกสาร invoice_page-0162.jpg": 1.0,
+        "เอกสาร invoice_page-0172.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.886,
+      "per_file": {
+        "เอกสาร invoice_page-0013.jpg": 0.0858,
+        "เอกสาร invoice_page-0019.jpg": 1.0,
+        "เอกสาร invoice_page-0048.jpg": 1.0,
+        "เอกสาร invoice_page-0057.jpg": 1.0,
+        "เอกสาร invoice_page-0081.jpg": 1.0,
+        "เอกสาร invoice_page-0084.jpg": 1.0,
+        "เอกสาร invoice_page-0103.jpg": 1.0,
+        "เอกสาร invoice_page-0110.jpg": 0.7746,
+        "เอกสาร invoice_page-0162.jpg": 1.0,
+        "เอกสาร invoice_page-0172.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.8226,
+      "per_file": {
+        "เอกสาร invoice_page-0013.jpg": 0.0858,
+        "เอกสาร invoice_page-0019.jpg": 1.0,
+        "เอกสาร invoice_page-0048.jpg": 1.0,
+        "เอกสาร invoice_page-0057.jpg": 1.0,
+        "เอกสาร invoice_page-0081.jpg": 1.0,
+        "เอกสาร invoice_page-0084.jpg": 1.0,
+        "เอกสาร invoice_page-0103.jpg": 1.0,
+        "เอกสาร invoice_page-0110.jpg": 0.14,
+        "เอกสาร invoice_page-0162.jpg": 1.0,
+        "เอกสาร invoice_page-0172.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.8042,
+      "per_file": {
+        "เอกสาร invoice_page-0013.jpg": 0.0858,
+        "เอกสาร invoice_page-0019.jpg": 1.0,
+        "เอกสาร invoice_page-0048.jpg": 1.0,
+        "เอกสาร invoice_page-0057.jpg": 1.0,
+        "เอกสาร invoice_page-0081.jpg": 1.0,
+        "เอกสาร invoice_page-0084.jpg": 1.0,
+        "เอกสาร invoice_page-0103.jpg": 0.8165,
+        "เอกสาร invoice_page-0110.jpg": 0.14,
+        "เอกสาร invoice_page-0162.jpg": 1.0,
+        "เอกสาร invoice_page-0172.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

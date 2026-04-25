@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 9.99418660000083,
+        "max": 13.467319100000168,
+        "avg": 11.200771069999792,
+        "total": 112.00771069999792
+      },
+      "results": {
+        "เอกสาร invoice_page-0015.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "df0726a2-a2b4-4b2f-b747-ed05a1da8cec",
+          "elapsed": 13.467319100000168,
+          "text": "INVOICE S06900271 E00019 ม้วนพลาสติกopp20//CPP30 ขนาด780mm. *500m. E00014 ม้วนพลาสติกopp20//CPP30 ขนาด630mm. *500m. 120696"
+        },
+        "เอกสาร invoice_page-0033.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "047081fe-cb90-445c-ab33-d0d06fe3b6ab",
+          "elapsed": 9.99418660000083,
+          "text": "UNKNOWN บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง34x65x35cm. ด้านA+B 10203.52"
+        },
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a6c0f3db-180a-4e4f-8a8c-3eadf23ecb2b",
+          "elapsed": 10.71500399999968,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0045.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "64ec8e5f-b9ff-4973-bc6a-cb05e501844c",
+          "elapsed": 11.333871300001192,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. 12782.22"
+        },
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "27cc258e-9bd2-4b7a-9295-183a3c401f2b",
+          "elapsed": 12.72941290000017,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "43ffc9d4-d478-458f-b7a9-59adf66212d0",
+          "elapsed": 11.196178599999257,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080"
+        },
+        "เอกสาร invoice_page-0108.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a6e9bbfc-6d8f-4fcb-9f99-87886838f8f8",
+          "elapsed": 11.1040116999975,
+          "text": "INVOICE IV9085291 03-3225 กรวยน้ำ ARO 5000ใบ(มอก.)FOOD GRADE (200 ใบ*25 แพค) จำนวน 200 ลัง 119840"
+        },
+        "เอกสาร invoice_page-0112.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4f7e4b9a-90e7-41a8-98fa-a24d5fb8c526",
+          "elapsed": 10.077939899998455,
+          "text": "INVOICE CM02124 ถุงกระดาษ smizzer 20x12.5x30 ซม. 47080"
+        },
+        "เอกสาร invoice_page-0181.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "30575bb2-b699-4544-8656-8cab29fd8196",
+          "elapsed": 11.156325599997217,
+          "text": "INVOICE 6812/233 PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 3081.6"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "34d75d15-39ae-4e6f-b204-f29c04951d75",
+          "elapsed": 10.233461000003444,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 86937.5"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 8.972992400002113,
+        "max": 12.985723000001599,
+        "avg": 10.887056940000548,
+        "total": 108.87056940000548
+      },
+      "results": {
+        "เอกสาร invoice_page-0015.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d6eba891-c70d-42dc-8656-bfdc69263ad5",
+          "elapsed": 12.985723000001599,
+          "text": "INVOICE P06901/186 E00019 ม้วนพลาสติกopp20//CPP30 ขนาด780mm. *500m. E00014 ม้วนพลาสติกopp20//CPP30 ขนาด630mm. *500m. 120696"
+        },
+        "เอกสาร invoice_page-0033.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bc5c062e-dc41-41e5-809c-cb03f9d4c1c2",
+          "elapsed": 9.117025499999727,
+          "text": "INVOICE OR6901/048 ลัง34x65x35cm. ด้านA+B 10203.52"
+        },
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "607767ce-6e69-4133-9053-3b2b05c9fc9b",
+          "elapsed": 9.321978299998591,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0045.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d5677065-7e76-4d16-83c6-fbc8662b03ba",
+          "elapsed": 10.256147200001578,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. 12782.22"
+        },
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cee9531b-cf67-46b7-8133-2db75ac95e05",
+          "elapsed": 11.382830400001694,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "90a9b71d-5703-45ef-bf9d-57777abfc2cd",
+          "elapsed": 12.687930799998867,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080"
+        },
+        "เอกสาร invoice_page-0108.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3272757e-f484-447e-9918-6d9f4b93af54",
+          "elapsed": 11.32179990000077,
+          "text": "INVOICE IV9085291 03-3225 กรวยน้ำ ARO 5000ใบ(มอก.)FOOD GRADE (200 ใบ*25 แพค) จำนวน 200 ลัง 119840"
+        },
+        "เอกสาร invoice_page-0112.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "37763a38-171b-4f9a-9128-49e91e09b5e2",
+          "elapsed": 8.972992400002113,
+          "text": "INVOICE CM02124 ถุงกระดาษ smizzer 20x12.5x30 ซม. 47080"
+        },
+        "เอกสาร invoice_page-0181.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0ed3fa3b-62b2-45f7-bc2f-33ec0e1c68dd",
+          "elapsed": 11.304423300000053,
+          "text": "INVOICE 6812/233 PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 3081.6"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3daf5e79-8985-4f0b-8deb-5930e95f65a9",
+          "elapsed": 11.519718600000488,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 86937.5"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 8.331515899997612,
+        "max": 13.091283400000975,
+        "avg": 10.72125655000018,
+        "total": 107.2125655000018
+      },
+      "results": {
+        "เอกสาร invoice_page-0015.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "deabb074-bc56-468d-b5cc-7fda25d3d5dd",
+          "elapsed": 13.091283400000975,
+          "text": "INVOICE S06900271 E00019 ม้วนพลาสติกopp20//CPP30 ขนาด780mm. *500m. E00014 ม้วนพลาสติกopp20//CPP30 ขนาด630mm. *500m. 120696"
+        },
+        "เอกสาร invoice_page-0033.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d4e18d6d-470c-4eab-8e4e-fde0884b95a0",
+          "elapsed": 10.909700100000919,
+          "text": "UNKNOWN บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง34x65x35cm. ด้านA+B 10203.52"
+        },
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f3596c29-d855-40a4-a46d-27029e72cbc4",
+          "elapsed": 10.07187999999951,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0045.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fb5183d3-4feb-4873-badb-2b551c383034",
+          "elapsed": 10.97692889999962,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. 12782.22"
+        },
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "20baacb6-ca01-4760-b055-7d913763cedd",
+          "elapsed": 12.437079100000119,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d18eb422-8bcb-45ca-bb8e-0b084a1438cf",
+          "elapsed": 11.448762300002272,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080"
+        },
+        "เอกสาร invoice_page-0108.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c29d5a61-9822-4be7-ada0-dce249abdaf6",
+          "elapsed": 9.408004000000801,
+          "text": "INVOICE IV9085291 03-3225 กรวยน้ำ ARO 5000ใบ(มอก.)FOOD GRADE (200 ใบ*25 แพค) จำนวน 200 ลัง 119840"
+        },
+        "เอกสาร invoice_page-0112.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a23ea4dc-91bb-43db-904d-c78eb87c2de1",
+          "elapsed": 8.331515899997612,
+          "text": "INVOICE PO6808/146 CM02124 ถุงกระดาษ smizzer 20x12.5x30 ซม. 47080"
+        },
+        "เอกสาร invoice_page-0181.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "44d012b6-68fc-481e-997a-83e9670750ce",
+          "elapsed": 10.381165700000565,
+          "text": "INVOICE 6812/233 PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 3081.6"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b7c8aebd-e076-43f1-9df8-18dbd0b4b465",
+          "elapsed": 10.156246099999407,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ PO6812/381 86937.5"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.847173699999985,
+        "max": 22.381416800002626,
+        "avg": 11.337744450000537,
+        "total": 113.37744450000537
+      },
+      "results": {
+        "เอกสาร invoice_page-0015.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "93fb93d4-2adf-4b33-834a-19c78205902f",
+          "elapsed": 12.224459000000934,
+          "text": "INVOICE E00019 ม้วนพลาสติกopp20//CPP30 ขนาด780mm. *500m. E00014 ม้วนพลาสติกopp20//CPP30 ขนาด630mm. *500m. 120696.0"
+        },
+        "เอกสาร invoice_page-0033.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a76a8338-6bf7-4527-b8b4-991cbcae0065",
+          "elapsed": 9.451112300001114,
+          "text": "INVOICE ลัง34x65x35cm. ต้านA+B 10203.52"
+        },
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "273e69a0-c1c6-4c9e-bc87-47845e501665",
+          "elapsed": 10.32835039999918,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0045.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "abcda441-32af-4408-9baf-783dfa95ad05",
+          "elapsed": 8.374078999997437,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. 12782.22"
+        },
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "46593d30-408c-4f17-bb95-4233f9affc7b",
+          "elapsed": 11.663580000000366,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c2d6b6ec-d82b-41fe-8ba0-0f5a72ddabdd",
+          "elapsed": 22.381416800002626,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080"
+        },
+        "เอกสาร invoice_page-0108.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1cb0e723-3562-48bb-b08e-303766147560",
+          "elapsed": 10.681081700000504,
+          "text": "INVOICE IV9085291 03-3225 กรวยน้ำ ARO 5000ใบ(มอก.)FOOD GRADE (200 ใบ*25 แพค) จำนวน 200 ลัง 119840"
+        },
+        "เอกสาร invoice_page-0112.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8ded6fd7-8200-4237-9d07-d54c2ad4bdce",
+          "elapsed": 6.847173699999985,
+          "text": "INVOICE CM02124 ถุงกระดาษ smizzer 20x12.5x30 ซม. 47080"
+        },
+        "เอกสาร invoice_page-0181.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0312f2ba-8cbe-4ba0-99d6-ed1b60118620",
+          "elapsed": 11.317280300001585,
+          "text": "INVOICE 6812/233 PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 3081.6"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "45a5aed1-e53e-4437-967d-f15e8e940076",
+          "elapsed": 10.108911300001637,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 86937.5"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.857925299998897,
+        "max": 11.820845500002179,
+        "avg": 9.689392580001003,
+        "total": 96.89392580001004
+      },
+      "results": {
+        "เอกสาร invoice_page-0015.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "170429bb-9013-4384-b3cb-8971e3e042c7",
+          "elapsed": 11.820845500002179,
+          "text": "INVOICE P06901/186 E00019 ม้วนพลาสติกopp20//CPP30 ขนาด780mm. *500m. E00014 ม้วนพลาสติกopp20//CPP30 ขนาด630mm. *500m. 120696"
+        },
+        "เอกสาร invoice_page-0033.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fed86f7b-5d0e-46f1-9480-6c56c2b8c983",
+          "elapsed": 8.121965199999977,
+          "text": "INVOICE 20130-018-00 สัง34x65x35cm. ด้านA+B 10203.52"
+        },
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6ebf37c6-c516-4fe1-9452-fa10f8efd2e1",
+          "elapsed": 8.828659200000402,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0045.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a1a4abb8-41d6-4616-ab26-266a30e7951f",
+          "elapsed": 8.386254000000918,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. 12782.22"
+        },
+        "เอกสาร invoice_page-0046.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3bf4f374-dd2a-453e-bdad-15986af9b784",
+          "elapsed": 10.867191100001946,
+          "text": "INVOICE กล่องกระดาษลูก 3 ชั้น 39x50x31cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 39x50x31 cm. 61311.0"
+        },
+        "เอกสาร invoice_page-0066.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b3ffaafb-2571-444e-8ec3-b028637f631d",
+          "elapsed": 11.400500200001261,
+          "text": "UNKNOWN P00156 งานจ้างผลิต กล่องใส่ไก่ทอด ขาว ขนาดสินค้า กว้าง 9 x ยาว 13 x สูง 4.5 cm. 47080.0"
+        },
+        "เอกสาร invoice_page-0108.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7c00339d-2ede-4f4e-9f10-8690db58a580",
+          "elapsed": 10.740068000002793,
+          "text": "INVOICE IV9085291 03-3225 กรวยน้ำ ARO 5000ใบ(มอก.)FOOD GRADE (200 ใบ*25 แพค) จำนวน 200 ลัง 119840"
+        },
+        "เอกสาร invoice_page-0112.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8df49e1c-e78c-4efc-8691-6bcfe91d8f05",
+          "elapsed": 7.857925299998897,
+          "text": "INVOICE PO6808/146 CM02124 ถุงกระดาษ smizzer 20x12.5x30 ซม. 47080"
+        },
+        "เอกสาร invoice_page-0181.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8f7af633-a596-4633-9e80-8b20a9556df1",
+          "elapsed": 9.197735900001135,
+          "text": "INVOICE 6812/233 PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 3081.6"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "acf160e6-e41d-43cf-88b9-2f4219074793",
+          "elapsed": 9.672781400000531,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ PO6812/381 86937.5"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 8.972992400002113,
+        "max": 12.985723000001599,
+        "avg": 10.887056940000548,
+        "total": 108.87056940000548
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 8.331515899997612,
+        "max": 13.091283400000975,
+        "avg": 10.72125655000018,
+        "total": 107.2125655000018
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.847173699999985,
+        "max": 22.381416800002626,
+        "avg": 11.337744450000537,
+        "total": 113.37744450000537
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.857925299998897,
+        "max": 11.820845500002179,
+        "avg": 9.689392580001003,
+        "total": 96.89392580001004
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.8943,
+      "per_file": {
+        "เอกสาร invoice_page-0015.jpg": 0.8528,
+        "เอกสาร invoice_page-0033.jpg": 0.0905,
+        "เอกสาร invoice_page-0044.jpg": 1.0,
+        "เอกสาร invoice_page-0045.jpg": 1.0,
+        "เอกสาร invoice_page-0046.jpg": 1.0,
+        "เอกสาร invoice_page-0066.jpg": 1.0,
+        "เอกสาร invoice_page-0108.jpg": 1.0,
+        "เอกสาร invoice_page-0112.jpg": 1.0,
+        "เอกสาร invoice_page-0181.jpg": 1.0,
+        "เอกสาร invoice_page-0204.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.9677,
+      "per_file": {
+        "เอกสาร invoice_page-0015.jpg": 1.0,
+        "เอกสาร invoice_page-0033.jpg": 1.0,
+        "เอกสาร invoice_page-0044.jpg": 1.0,
+        "เอกสาร invoice_page-0045.jpg": 1.0,
+        "เอกสาร invoice_page-0046.jpg": 1.0,
+        "เอกสาร invoice_page-0066.jpg": 1.0,
+        "เอกสาร invoice_page-0108.jpg": 1.0,
+        "เอกสาร invoice_page-0112.jpg": 0.7906,
+        "เอกสาร invoice_page-0181.jpg": 1.0,
+        "เอกสาร invoice_page-0204.jpg": 0.8864
+      }
+    },
+    "4": {
+      "avg": 0.8757,
+      "per_file": {
+        "เอกสาร invoice_page-0015.jpg": 0.757,
+        "เอกสาร invoice_page-0033.jpg": 0.0,
+        "เอกสาร invoice_page-0044.jpg": 1.0,
+        "เอกสาร invoice_page-0045.jpg": 1.0,
+        "เอกสาร invoice_page-0046.jpg": 1.0,
+        "เอกสาร invoice_page-0066.jpg": 1.0,
+        "เอกสาร invoice_page-0108.jpg": 1.0,
+        "เอกสาร invoice_page-0112.jpg": 1.0,
+        "เอกสาร invoice_page-0181.jpg": 1.0,
+        "เอกสาร invoice_page-0204.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.8517,
+      "per_file": {
+        "เอกสาร invoice_page-0015.jpg": 0.8528,
+        "เอกสาร invoice_page-0033.jpg": 0.0523,
+        "เอกสาร invoice_page-0044.jpg": 1.0,
+        "เอกสาร invoice_page-0045.jpg": 1.0,
+        "เอกสาร invoice_page-0046.jpg": 1.0,
+        "เอกสาร invoice_page-0066.jpg": 0.9354,
+        "เอกสาร invoice_page-0108.jpg": 1.0,
+        "เอกสาร invoice_page-0112.jpg": 0.7906,
+        "เอกสาร invoice_page-0181.jpg": 1.0,
+        "เอกสาร invoice_page-0204.jpg": 0.8864
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

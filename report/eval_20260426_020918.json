@@ -1,0 +1,583 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 7.482882100001007,
+        "max": 12.857790099998965,
+        "avg": 10.355151390000174,
+        "total": 103.55151390000174
+      },
+      "results": {
+        "เอกสาร invoice_page-0036.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "464f3818-c0f0-43a5-8f7e-6e580bd23aea",
+          "elapsed": 12.060551299999133,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 40x60x41 cm. 21614.0"
+        },
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "427c25e0-6781-448b-ac0a-d330c947f13e",
+          "elapsed": 11.699047500000233,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0065.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e2a2d68c-eb66-4a5d-9e42-e61e61bf2de0",
+          "elapsed": 9.40446350000093,
+          "text": "INVOICE G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 34775"
+        },
+        "เอกสาร invoice_page-0083.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3451e4d0-5a87-4558-8f19-a5a6fef5332a",
+          "elapsed": 12.857790099998965,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด L1-Duplex Board Grey Back 270g 25x36 11323.02"
+        },
+        "เอกสาร invoice_page-0089.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "78eaa324-d24f-4d2e-a05f-4f8d6040384d",
+          "elapsed": 10.657916200001637,
+          "text": "INVOICE PO6812/340 G-ถุงกระดาษน้ำตาลหุเกลียว ซุปเปอร์เซฟไซส์ 32x11x24 ซม. 1x50 G-ซองกระดาษฟิบช้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 15.3x4.5x20.5 43335"
+        },
+        "เอกสาร invoice_page-0103.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "204e0de9-44e3-488b-8588-4307049dfc7f",
+          "elapsed": 8.874570199999653,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดหมู่(1PE) สีขาว 46224"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7ed7bc2c-a1ff-4d59-8f15-ab9afb414496",
+          "elapsed": 8.666957900000853,
+          "text": "INVOICE ฝาปิดถ้วยกระดาษยกดื่ม เวฟ 8 OZ สีขาว (ทั่วไป) บรรจุ 1000 ชิ้น/กล่อง จำนวน 30 กล่อง 13482"
+        },
+        "เอกสาร invoice_page-0146.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1d6839f0-e021-48b4-889b-f50264a34dd6",
+          "elapsed": 9.88530019999962,
+          "text": "UNKNOWN CHINA to WH Pathum Thani Province TH Service charge 5036"
+        },
+        "เอกสาร invoice_page-0181.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "195d55f8-8e91-4af3-b2b6-953ef54c1b85",
+          "elapsed": 11.962034899999708,
+          "text": "INVOICE 6812/233 PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 3081.6"
+        },
+        "เอกสาร invoice_page-0184.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f0b6a86a-839d-4c40-8271-a74b7ffd0abf",
+          "elapsed": 7.482882100001007,
+          "text": "INVOICE INV2026010106 Oilsquare Oilsquare Eneos BONNOC TS 150 2OL 3905.5"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.765969599999153,
+        "max": 43.25074080000013,
+        "avg": 16.24385407999962,
+        "total": 162.4385407999962
+      },
+      "results": {
+        "เอกสาร invoice_page-0036.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bfe52743-b352-41ab-bbd7-b1590c7c7c04",
+          "elapsed": 43.25074080000013,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 40x60x41 cm. 21614.0"
+        },
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d64a953e-b5c7-4593-a616-b8594651c1d7",
+          "elapsed": 12.05217950000042,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0065.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7adf0570-99a9-420a-96b8-9e3bdb000e41",
+          "elapsed": 26.548736499998995,
+          "text": "INVOICE G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 34775"
+        },
+        "เอกสาร invoice_page-0083.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e4e45f41-f3bc-4891-a5f5-ae4302d5147e",
+          "elapsed": 13.03306419999899,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด L1-Duplex Board Grey Back 270g 25x36 11323.02"
+        },
+        "เอกสาร invoice_page-0089.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a41dd8f3-f3ce-4b2c-a1b9-7d5c1c489925",
+          "elapsed": 12.497596999999587,
+          "text": "INVOICE PO6812/340 G-ถุงกระดาษน้ำตาลหุเกลียว ซุปเปอร์เซฟไซส์ 32x11x24 ซม. 1x50 G-ซองกระดาษฟิบช้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 15.3x4.5x20.5 43335"
+        },
+        "เอกสาร invoice_page-0103.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7aeee010-c4da-4474-bab5-1955fb2306de",
+          "elapsed": 19.707183300000906,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดมุม(1PE) สีขาว 46224"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8c420cef-a87a-428a-b734-5983205e899d",
+          "elapsed": 7.765969599999153,
+          "text": "INVOICE ฝาปิดถ้วยกระดาษยกดื่ม เวฟ 8 OZ สีขาว (ทั่วไป) 13482"
+        },
+        "เอกสาร invoice_page-0146.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5a2f9476-2dfe-4b8e-9b0b-c5ac84381245",
+          "elapsed": 8.205344299998615,
+          "text": "UNKNOWN CHINA to WH Pathum Thani Province TH Service charge 5036"
+        },
+        "เอกสาร invoice_page-0181.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6cdbb0b0-b9f8-48d3-930c-b1c8a9196611",
+          "elapsed": 10.992309199999,
+          "text": "INVOICE 6812/233 PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 3081.6"
+        },
+        "เอกสาร invoice_page-0184.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "53a8be00-2d73-4b0a-b9de-dc0590f1e13f",
+          "elapsed": 8.385416400000395,
+          "text": "INVOICE INV2026010106 Oilsquare Oilsquare Eneos BONNOC TS 150 2OL 3905.5"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 5.796971300000223,
+        "max": 18.436091000001397,
+        "avg": 10.36834534000027,
+        "total": 103.68345340000269
+      },
+      "results": {
+        "เอกสาร invoice_page-0036.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "76140559-e614-47bd-acb5-ab8e666f932f",
+          "elapsed": 12.994371799999499,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 40x60x41 cm. 21614.0"
+        },
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c2c26710-9d0d-4dcb-8157-32c14fabfe2f",
+          "elapsed": 10.631688400000712,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0065.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9c93a9f5-a17d-455d-a118-c41a42221a37",
+          "elapsed": 8.866965400000481,
+          "text": "INVOICE G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 34775"
+        },
+        "เอกสาร invoice_page-0083.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7861b18a-b6de-45f2-8030-aff284249d13",
+          "elapsed": 12.068329100000483,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด L1-Duplex Board Grey Back 270g 25x36 11323.02"
+        },
+        "เอกสาร invoice_page-0089.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "56728cfd-6838-4655-84e3-d2dcf0f831f3",
+          "elapsed": 11.620173200000863,
+          "text": "INVOICE PO6812/340 G-ถุงกระดาษน้ำตาลหูเกลียว ซุปเปอร์เซฟไซส์ 32x11x24 ซม. 1x50 G-ซองกระดาษฟิบช้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 15.3x4.5x20.5 43335"
+        },
+        "เอกสาร invoice_page-0103.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0adc69c2-06c8-4b34-87dd-abeb74d36a74",
+          "elapsed": 5.796971300000223,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดมุม(1PE) สีขาว 46224"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2723f9db-5020-4c99-ba73-a2af93b2f1f6",
+          "elapsed": 6.486233899999206,
+          "text": "INVOICE ฝาปิดถ้วยกระดาษยกดื่ม DW 8 OZ สีขาว (ทั่วไป) บรรจุ 1000 ชิ้น/กล่อง จำนวน 30 กล่อง 13482"
+        },
+        "เอกสาร invoice_page-0146.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "742d285c-2060-45a0-b391-32d62838a5b1",
+          "elapsed": 8.981497299999319,
+          "text": "UNKNOWN CHINA to WH Pathum Thani Province TH Service charge 5036"
+        },
+        "เอกสาร invoice_page-0181.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7bb777e6-ae03-49fb-8c21-99829d381f96",
+          "elapsed": 7.801132000000507,
+          "text": "INVOICE 6812/233 PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 3081.6"
+        },
+        "เอกสาร invoice_page-0184.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "21a4d44b-0c2f-4cf0-8819-38feafb3f4dc",
+          "elapsed": 18.436091000001397,
+          "text": "INVOICE INV2026010106 Oilsquare Oilsquare Eneos BONNOC TS 150 2OL 3905.5"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.964298899998539,
+        "max": 67.1107778000005,
+        "avg": 27.055373749999852,
+        "total": 270.55373749999853
+      },
+      "results": {
+        "เอกสาร invoice_page-0036.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a6e5a100-c767-4f21-992c-57d0bd82311d",
+          "elapsed": 15.305944899999304,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 40x60x41 cm. 21614.0"
+        },
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0c5be5e0-a0c3-4581-a7a2-5e5a0839ed0b",
+          "elapsed": 20.084509500000422,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0065.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b4a89668-6656-4230-a2bc-da25070a6d69",
+          "elapsed": 12.43786579999869,
+          "text": "INVOICE G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 34775"
+        },
+        "เอกสาร invoice_page-0083.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0ad1c99f-2046-4358-bcd6-38b194d5dbb2",
+          "elapsed": 48.727524100000664,
+          "text": "INVOICE Iv6901167 L1-Duplex Board Grey Back 270g 25x36 11323.02"
+        },
+        "เอกสาร invoice_page-0089.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "757762ce-ea5b-4049-bde3-5e0fa7c05385",
+          "elapsed": 7.964298899998539,
+          "text": "INVOICE PO6812/340 G-ถุงกระดาษน้ำตาลหุเกลียว ซุปเปอร์เซฟไซส์ 32x11x24 ซม. 1x50 G-ซองกระดาษฟิบช้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 15.3x4.5x20.5 43335"
+        },
+        "เอกสาร invoice_page-0103.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c9a9180f-cdb4-4f03-b1e5-f8f7bbe245f0",
+          "elapsed": 12.711837999999261,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดมอู(1PE) สีขาว 46224"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 0,
+          "status": "timeout",
+          "id": "4f5cdbf9-85ed-48be-a36d-dcdf71c568f5",
+          "elapsed": 65.5115005000007,
+          "text": ""
+        },
+        "เอกสาร invoice_page-0146.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8af0662b-0507-43b4-b9cb-7e3871a67bf0",
+          "elapsed": 67.1107778000005,
+          "text": "UNKNOWN CHINA to WH Pathum Thani Province TH Service charge 5036"
+        },
+        "เอกสาร invoice_page-0181.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "de2c6742-9ab1-4400-b8b3-31a79229fdcf",
+          "elapsed": 11.609266800000114,
+          "text": "INVOICE 6812/233 PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 3081.6"
+        },
+        "เอกสาร invoice_page-0184.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cbb5300e-7eb6-4f8d-89ef-298c6f381d30",
+          "elapsed": 9.09021120000034,
+          "text": "INVOICE INV2026010106 Oilsquare Oilsquare Eneos BONNOC TS 150 2OL 3905.5"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 8.673282600000675,
+        "max": 20.940396099998907,
+        "avg": 11.450780729999678,
+        "total": 114.50780729999678
+      },
+      "results": {
+        "เอกสาร invoice_page-0036.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fb30bb8b-1ace-4e63-a2db-bd9d3c9bd67b",
+          "elapsed": 14.038722499999494,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 40x60x41 cm. 21614.0"
+        },
+        "เอกสาร invoice_page-0062.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c214b9ed-08f8-432f-9cd3-e03261936d62",
+          "elapsed": 11.400019699998666,
+          "text": "INVOICE 6901/137 PVC 0.07 MM. X 23 CM. X 700 M.สีใส(39 ม้วน) 56778.48"
+        },
+        "เอกสาร invoice_page-0065.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "319b3f05-ecd1-4440-bd59-70806abc2842",
+          "elapsed": 8.673282600000675,
+          "text": "INVOICE G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 34775"
+        },
+        "เอกสาร invoice_page-0083.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cdd39317-8a66-4e31-8f2e-b76922c2ae7d",
+          "elapsed": 9.117862099999911,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด L1-Duplex Board Grey Back 270g 25x36 11323.02"
+        },
+        "เอกสาร invoice_page-0089.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9c1e2800-689e-4252-86cd-f17a953bcbc0",
+          "elapsed": 20.940396099998907,
+          "text": "INVOICE PO6812/340 G-ถุงกระดาษน้ำตาลหุเกลียว ซุปเปอร์เซฟไซส์ 32x11x24 ซม. 1x50 G-ซองกระดาษฟิบช้างกันแหลมฟูดเกรด ซุปเปอร์เซฟ 15.3x4.5x20.5 43335"
+        },
+        "เอกสาร invoice_page-0103.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a5920ef2-975c-4823-94c5-f8eab8359724",
+          "elapsed": 10.148522800000137,
+          "text": "INVOICE WHITE 6.5 OZ W/H (2000/CTN) ติดมุม(1PE) สีขาว 46224"
+        },
+        "เอกสาร invoice_page-0140.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "68aaf700-d516-43a8-acc4-f810005b83a3",
+          "elapsed": 8.87245299999995,
+          "text": "INVOICE ฝาปิดถ้วยกระดาษยกดื่ม DW 8 OZ สีขาว (ทั่วไป) บรรจุ 1000 ชิ้น/กล่อง จำนวน 30 กล่อง 13482"
+        },
+        "เอกสาร invoice_page-0146.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cd1456de-2570-43e1-b86e-59cff3bfdd6d",
+          "elapsed": 10.615836699998908,
+          "text": "UNKNOWN CHINA to WH Pathum Thani Province TH Service charge 5036"
+        },
+        "เอกสาร invoice_page-0181.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "474384fb-8050-48dd-aa94-f29f0f5e1d1b",
+          "elapsed": 11.478431400000773,
+          "text": "INVOICE 6812/233 PVC 0.07 MM. X 19 CM. X 19 CM. สีใส 3081.6"
+        },
+        "เอกสาร invoice_page-0184.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e5f5ae01-6b64-471b-9f42-808ccab60ab9",
+          "elapsed": 9.222280399999363,
+          "text": "INVOICE INV2026010106 Oilsquare Oilsquare Eneos BONNOC TS 150 2OL 3905.5"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.765969599999153,
+        "max": 43.25074080000013,
+        "avg": 16.24385407999962,
+        "total": 162.4385407999962
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 5.796971300000223,
+        "max": 18.436091000001397,
+        "avg": 10.36834534000027,
+        "total": 103.68345340000269
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 9,
+        "tn": 0,
+        "fp": 0,
+        "fn": 1,
+        "accuracy": 0.9,
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9473684210526316
+      },
+      "timing": {
+        "min": 7.964298899998539,
+        "max": 67.1107778000005,
+        "avg": 27.055373749999852,
+        "total": 270.55373749999853
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 8.673282600000675,
+        "max": 20.940396099998907,
+        "avg": 11.450780729999678,
+        "total": 114.50780729999678
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 0.975,
+    "precision": 1.0,
+    "recall": 0.975,
+    "f1": 0.986842105263158
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.9254,
+      "per_file": {
+        "เอกสาร invoice_page-0036.jpg": 1.0,
+        "เอกสาร invoice_page-0062.jpg": 1.0,
+        "เอกสาร invoice_page-0065.jpg": 1.0,
+        "เอกสาร invoice_page-0083.jpg": 1.0,
+        "เอกสาร invoice_page-0089.jpg": 1.0,
+        "เอกสาร invoice_page-0103.jpg": 0.8165,
+        "เอกสาร invoice_page-0140.jpg": 0.4373,
+        "เอกสาร invoice_page-0146.jpg": 1.0,
+        "เอกสาร invoice_page-0181.jpg": 1.0,
+        "เอกสาร invoice_page-0184.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.9556,
+      "per_file": {
+        "เอกสาร invoice_page-0036.jpg": 1.0,
+        "เอกสาร invoice_page-0062.jpg": 1.0,
+        "เอกสาร invoice_page-0065.jpg": 1.0,
+        "เอกสาร invoice_page-0083.jpg": 1.0,
+        "เอกสาร invoice_page-0089.jpg": 0.8528,
+        "เอกสาร invoice_page-0103.jpg": 0.8165,
+        "เอกสาร invoice_page-0140.jpg": 0.8864,
+        "เอกสาร invoice_page-0146.jpg": 1.0,
+        "เอกสาร invoice_page-0181.jpg": 1.0,
+        "เอกสาร invoice_page-0184.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.834,
+      "per_file": {
+        "เอกสาร invoice_page-0036.jpg": 1.0,
+        "เอกสาร invoice_page-0062.jpg": 1.0,
+        "เอกสาร invoice_page-0065.jpg": 1.0,
+        "เอกสาร invoice_page-0083.jpg": 0.5235,
+        "เอกสาร invoice_page-0089.jpg": 1.0,
+        "เอกสาร invoice_page-0103.jpg": 0.8165,
+        "เอกสาร invoice_page-0140.jpg": 0.0,
+        "เอกสาร invoice_page-0146.jpg": 1.0,
+        "เอกสาร invoice_page-0181.jpg": 1.0,
+        "เอกสาร invoice_page-0184.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.9703,
+      "per_file": {
+        "เอกสาร invoice_page-0036.jpg": 1.0,
+        "เอกสาร invoice_page-0062.jpg": 1.0,
+        "เอกสาร invoice_page-0065.jpg": 1.0,
+        "เอกสาร invoice_page-0083.jpg": 1.0,
+        "เอกสาร invoice_page-0089.jpg": 1.0,
+        "เอกสาร invoice_page-0103.jpg": 0.8165,
+        "เอกสาร invoice_page-0140.jpg": 0.8864,
+        "เอกสาร invoice_page-0146.jpg": 1.0,
+        "เอกสาร invoice_page-0181.jpg": 1.0,
+        "เอกสาร invoice_page-0184.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {
+    "เอกสาร invoice_page-0140.jpg": [
+      {
+        "round": 4,
+        "baseline": "success",
+        "this_round": "failure"
+      }
+    ]
+  }
+}

@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 10.773832299999412,
+        "max": 18.580455499999516,
+        "avg": 14.56123312999971,
+        "total": 145.6123312999971
+      },
+      "results": {
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fe600cfb-8ea4-4011-812a-3f1e36de12f7",
+          "elapsed": 10.773832299999412,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "12852e27-3aad-4676-9643-71b767456924",
+          "elapsed": 12.551419899999019,
+          "text": "UNKNOWN OR6901/032 P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0067.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cd6dc030-a65e-491c-809f-3271805258dc",
+          "elapsed": 17.683091799999602,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด L1-Duplex Board Grey Back 270g 31x43 3913.15"
+        },
+        "เอกสาร invoice_page-0076.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e51443b0-18f6-4be8-a0fa-2591d29d7de4",
+          "elapsed": 14.383639499999845,
+          "text": "UNKNOWN 0405039P กล่องสนเด็มบ๊อกซ์ มีหน้าต่าง ป๊อปอัพ ตราฟ 12x16x6 ซม. 4173000"
+        },
+        "เอกสาร invoice_page-0090.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bcedb161-1886-4f06-a78b-7ab6c5964301",
+          "elapsed": 18.580455499999516,
+          "text": "INVOICE PO6811/347 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว18x9.5x15.5 ซม.50 ใบ G-ถุงกระดาษหูหิวน้ำตาลไซส์2XL(ฝีรองกัน) ขนาด 21x12.5x29 ซม. 117967.5"
+        },
+        "เอกสาร invoice_page-0102.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9a9585ab-2683-4c42-8fa2-f5a20e894036",
+          "elapsed": 11.149541799999497,
+          "text": "INVOICE IV6901002 WHITE ICE-CREAM 390 CC (1000/CTN) ทองยู สีขาว HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายเดือน 61535.7"
+        },
+        "เอกสาร invoice_page-0106.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "824ca475-d7a6-4d2c-8302-af672ba41d1e",
+          "elapsed": 14.977259200000844,
+          "text": "INVOICE 6812/292 PVC 0.07 MM. X 18 CM. X 700 M. สีใส (7 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส (5 ม้วน) PVC 0.07 MM. X 13 CM. X 700 M. สีใส (5 ม้วน) 18420.46"
+        },
+        "เอกสาร invoice_page-0144.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d0b87f93-4e58-44aa-a1c8-830be055b50a",
+          "elapsed": 15.878613200000473,
+          "text": "INVOICE 6812/336 รวมมิติ 1-15 ราง 1.7 วันมิติ 1-63 ราง 1 ชั่วโมง 16 กระดาษลูกฟูก KT150/ CS10/KT125-E 35,000 X 24,000 INCH 45660.75"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "560e25a9-953d-47cb-94c7-205a58c46b6c",
+          "elapsed": 18.005302999999913,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a933a251-e757-4150-99be-dc2e8ceb4336",
+          "elapsed": 11.629175099998974,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 86937.5"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 8.18599549999999,
+        "max": 18.466841499999646,
+        "avg": 12.657531720000042,
+        "total": 126.57531720000043
+      },
+      "results": {
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "69a47071-9dcf-448f-844d-88619791d8ad",
+          "elapsed": 12.726086500000747,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "71e3b546-d027-4bda-8cfd-7c84a00901c0",
+          "elapsed": 18.466841499999646,
+          "text": "INVOICE OR6901/032 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0067.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c3d89877-f5ea-40e5-a0b8-cb607a6c7f57",
+          "elapsed": 11.942648700000063,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด L1-Duplex Board Grey Back 270g 31x43 3913.15"
+        },
+        "เอกสาร invoice_page-0076.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d092f3e0-e1c2-4597-83a5-d9faf157859f",
+          "elapsed": 17.788700499999322,
+          "text": "INVOICE SO26/323 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (โกดังสวน พริกไทย คลัง1) บจก.บราเธอร์ แอนด์ บราเธอร์ 0405039P กล่องสนเด็มบ๊อกซ์ มีหน้าต่าง ป๊อปอัพ ตราฟ 12x16x6 ซม. 41730"
+        },
+        "เอกสาร invoice_page-0090.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "aa743039-9767-449d-b6e4-4f238f800ad9",
+          "elapsed": 11.752900199999203,
+          "text": "INVOICE PO6811/347 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว18x9.5x15.5 ซม.50 ใบ G-ถุงกระดาษหูหิวน้ำตาลไซส์2XL(ฝีรองกัน) ขนาด 21x12.5x29 ซม. 117967.5"
+        },
+        "เอกสาร invoice_page-0102.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "14f9605b-c057-4dd1-bccf-52f4458ce956",
+          "elapsed": 13.14632249999886,
+          "text": "INVOICE IV6901002 WHITE ICE-CREAM 390 CC (1000/CTN) ทองยู สีขาว HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายเดือน 61535.7"
+        },
+        "เอกสาร invoice_page-0106.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a811ff14-a0e0-47cf-ac1e-021db925e77c",
+          "elapsed": 12.271705400000428,
+          "text": "INVOICE 6812/292 PVC 0.07 MM. X 18 CM. X 700 M. สีใส (7 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส (5 ม้วน) PVC 0.07 MM. X 13 CM. X 700 M. สีใส (5 ม้วน) 18420.46"
+        },
+        "เอกสาร invoice_page-0144.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a14e4dcf-9fee-4678-94e4-df7e72add31d",
+          "elapsed": 10.645143500001723,
+          "text": "INVOICE กระดาษลูกฟูก KT150/CSL10/KTL25-E 35,000 X 24,000 INCH 45660.75"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9b8ef81d-399d-4e99-b92e-d01f9d9d4da1",
+          "elapsed": 8.18599549999999,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ca317b25-ea9d-4e6b-8bac-835060b947db",
+          "elapsed": 9.648972900000444,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ PO6812/381 86937.5"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 7.525931400001355,
+        "max": 70.00584510000044,
+        "avg": 19.537050550000096,
+        "total": 195.37050550000095
+      },
+      "results": {
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d334f5a3-0e45-4da8-97c9-1eb73211149f",
+          "elapsed": 11.074302900000475,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9f0f9e69-b8df-45d8-8c8d-e26790a921a3",
+          "elapsed": 10.570181899998715,
+          "text": "UNKNOWN OR6901/032 P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0067.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6cb256a4-0e6b-46d5-8822-a065ed1c67a9",
+          "elapsed": 13.111465199999657,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด L1-Duplex Board Grey Back 270g 31x43 3913.15"
+        },
+        "เอกสาร invoice_page-0076.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3f687e55-c5ec-48f0-894d-e6c9fb9155a8",
+          "elapsed": 8.995359200000166,
+          "text": "UNKNOWN 0405039P กล่องสนเด็มบ๊อกซ์ มีหน้าต่าง ป๊อปอัพ คราฟ 12x16x6 ซม. 4173000000"
+        },
+        "เอกสาร invoice_page-0090.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5a098eed-0ace-4515-b5c0-14ee41f7b768",
+          "elapsed": 13.776788200000738,
+          "text": "INVOICE PO6811/347 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว18x9.5x15.5 ซม.50 ใบ G-ถุงกระดาษหูหิวน้ำตาลไซส์2XL(ฝีรองกัน) ขนาด 21x12.5x29 ซม. 117967.5"
+        },
+        "เอกสาร invoice_page-0102.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cb42a594-27fb-4a5a-8844-e0ddee01581a",
+          "elapsed": 28.104829300000347,
+          "text": "INVOICE IV6901002 WHITE ICE-CREAM 390 CC (1000/CTN) ทองยู สีขาว HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายเดือน 61535.7"
+        },
+        "เอกสาร invoice_page-0106.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bace8ba6-7190-45ed-b052-2fd66ee07108",
+          "elapsed": 19.26568749999933,
+          "text": "INVOICE 6812/292 PVC 0.07 MM. X 18 CM. X 700 M. สีใส (7 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส (5 ม้วน) PVC 0.07 MM. X 13 CM. X 700 M. สีใส (5 ม้วน) 18420.46"
+        },
+        "เอกสาร invoice_page-0144.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b6604d74-bf5e-46d6-b537-fae9e023b0c9",
+          "elapsed": 70.00584510000044,
+          "text": "DELIVERY_ORDER 429273153 รวมมิติ 1-15 ราง 1.7 วันมิติ 1-63 ราง 1 ชั่วโมง 16 กระดาษลูกฟูก KT150/CSL10/KTL25-E 35,000 X 24,000 INCH 45660.75"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1928782e-ca4a-45dd-b08e-61efc64d6062",
+          "elapsed": 7.525931400001355,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "590d6514-2601-4f29-bd19-99f84f157185",
+          "elapsed": 12.94011479999972,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ PO6812/381 86937.5"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 8.646852500000023,
+        "max": 23.53137880000031,
+        "avg": 12.486356069999966,
+        "total": 124.86356069999965
+      },
+      "results": {
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cea95fde-5f34-4bc3-9b2c-3d682e6feb40",
+          "elapsed": 10.021626800000377,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c9b7d31f-03bd-4601-974a-a7ffb17cf6b2",
+          "elapsed": 10.007153299999118,
+          "text": "INVOICE OR6901/032 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0067.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fe4aa076-ed73-45ba-a588-db59aad2ef81",
+          "elapsed": 11.9212650999998,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด L1-Duplex Board Grey Back 270g 31x43 3913.15"
+        },
+        "เอกสาร invoice_page-0076.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1a2e5357-3361-477f-855a-16135189d167",
+          "elapsed": 10.96326500000032,
+          "text": "UNKNOWN 0405039P กล่องสนเด็มบ๊อกซ์ มีหน้าต่าง ป๊อปอัพ ตราฟ 12x16x6 ซม. 41730000"
+        },
+        "เอกสาร invoice_page-0090.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fd061431-1c3c-4ba8-be9c-683541253c76",
+          "elapsed": 13.981633000001239,
+          "text": "INVOICE 2569/01022 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว18x9.5x15.5 ซม.50 ใบ G-ถุงกระดาษหูหิวน้ำตาลไซส์2XL(ฝีรองกัน) ขนาด 21x12.5x29 ซม. 117967.5"
+        },
+        "เอกสาร invoice_page-0102.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4dfecbc5-a078-40b1-a944-093dd201932b",
+          "elapsed": 10.333563800000775,
+          "text": "INVOICE IV6901002 WHITE ICE-CREAM 390 CC (1000/CTN) ทองยู สีขาว HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายเดือน 61535.7"
+        },
+        "เอกสาร invoice_page-0106.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f44987eb-1efc-4ffa-931f-0c1c35c143f7",
+          "elapsed": 14.968574099999387,
+          "text": "INVOICE 6812/292 PVC 0.07 MM. X 18 CM. X 700 M. สีใส (7 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส (5 ม้วน) PVC 0.07 MM. X 13 CM. X 700 M. สีใส (5 ม้วน) 18420.46"
+        },
+        "เอกสาร invoice_page-0144.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b0dc6f49-e831-47aa-b038-feaa614b4bfd",
+          "elapsed": 23.53137880000031,
+          "text": "DELIVERY_ORDER 429273153 รวมมิติ 1-15 ราง 1.73 มม.ปี [6-3] ราง 1 ชาร์จ 16 กระดาษลูกฟูก KT150/CSL10/KTL25-E 35,000 X 24,000 INCH 45660.75"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "49f2ddf5-fd28-42ba-909b-061b75dfebf2",
+          "elapsed": 8.646852500000023,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3e48fd0d-cea5-45b8-b939-ff86c5a5be79",
+          "elapsed": 10.488248299998304,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 86937.5"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 6.544661400001132,
+        "max": 16.856313399999635,
+        "avg": 11.580899930000124,
+        "total": 115.80899930000123
+      },
+      "results": {
+        "เอกสาร invoice_page-0044.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "29ab94ba-23ee-4e8a-8258-0456cd9f42e6",
+          "elapsed": 9.806457000000592,
+          "text": "INVOICE กล่องกระดาษลูกฟูก 3 ชั้น 40x60x41 cm. 41263.48"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "15603460-feea-43a5-a6e5-bc6a9ef503db",
+          "elapsed": 13.227202000000034,
+          "text": "UNKNOWN OR6901/032 P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0067.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "31aede4b-255f-4974-8e37-be2c94d9a4f1",
+          "elapsed": 10.729733199999828,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด L1-Duplex Board Grey Back 270g 31x43 3913.15"
+        },
+        "เอกสาร invoice_page-0076.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d278ee90-d756-47c9-b1b2-19247b4b482d",
+          "elapsed": 14.058902699998725,
+          "text": "INVOICE SO26/323 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (โกดังสวน พริกไทย คลัง1) บจก.บราเธอร์ แอนด์ บราเธอร์ 0405039P กล่องสนเด็มบ๊อกซ์ มีหน้าต่าง ป๊อปอัพ ตราฟ 12x16x6 ซม. 41730"
+        },
+        "เอกสาร invoice_page-0090.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0a9a23d9-ca9a-42a0-abf5-2dd8182095b9",
+          "elapsed": 13.043196300001,
+          "text": "INVOICE PO6811/347 บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว18x9.5x15.5 ซม.50 ใบ G-ถุงกระดาษหูหิวน้ำตาลไซส์2XL(ฝีรองกัน) ขนาด 21x12.5x29 ซม. 117967.5"
+        },
+        "เอกสาร invoice_page-0102.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c1ec8627-9290-403c-af47-c6e522898698",
+          "elapsed": 10.500190599999769,
+          "text": "INVOICE WHITE ICE-CREAM 390 CC (1000/CTN) ทองยู สีขาว HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายเดือน 61535.7"
+        },
+        "เอกสาร invoice_page-0106.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "963e59d0-800c-4288-bc1d-5a879b9ee08f",
+          "elapsed": 11.371479700001146,
+          "text": "INVOICE 6812/292 PVC 0.07 MM. X 18 CM. X 700 M. สีใส (7 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M. สีใส (5 ม้วน) PVC 0.07 MM. X 13 CM. X 700 M. สีใส (5 ม้วน) 18420.46"
+        },
+        "เอกสาร invoice_page-0144.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ab725288-64d9-441b-8ac5-3c8a68d7118a",
+          "elapsed": 16.856313399999635,
+          "text": "INVOICE กระดาษลูกฟูก KIT150/ CS10/K12S-E 35,000 X 24,000 INCH 45660.75"
+        },
+        "เอกสาร invoice_page-0152.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "19a81c6d-f10c-4c79-aeb0-18406de56021",
+          "elapsed": 6.544661400001132,
+          "text": "UNKNOWN Clearance service fee 6955"
+        },
+        "เอกสาร invoice_page-0204.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "69fe1fce-5f0a-43af-8c56-db4d4eb72d85",
+          "elapsed": 9.670862999999372,
+          "text": "INVOICE บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 86937.5"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 8.18599549999999,
+        "max": 18.466841499999646,
+        "avg": 12.657531720000042,
+        "total": 126.57531720000043
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 7.525931400001355,
+        "max": 70.00584510000044,
+        "avg": 19.537050550000096,
+        "total": 195.37050550000095
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 8.646852500000023,
+        "max": 23.53137880000031,
+        "avg": 12.486356069999966,
+        "total": 124.86356069999965
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 6.544661400001132,
+        "max": 16.856313399999635,
+        "avg": 11.580899930000124,
+        "total": 115.80899930000123
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.7874,
+      "per_file": {
+        "เอกสาร invoice_page-0044.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 0.5136,
+        "เอกสาร invoice_page-0067.jpg": 1.0,
+        "เอกสาร invoice_page-0076.jpg": 0.3162,
+        "เอกสาร invoice_page-0090.jpg": 1.0,
+        "เอกสาร invoice_page-0102.jpg": 1.0,
+        "เอกสาร invoice_page-0106.jpg": 1.0,
+        "เอกสาร invoice_page-0144.jpg": 0.1578,
+        "เอกสาร invoice_page-0152.jpg": 1.0,
+        "เอกสาร invoice_page-0204.jpg": 0.8864
+      }
+    },
+    "3": {
+      "avg": 0.9351,
+      "per_file": {
+        "เอกสาร invoice_page-0044.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 1.0,
+        "เอกสาร invoice_page-0067.jpg": 1.0,
+        "เอกสาร invoice_page-0076.jpg": 0.6972,
+        "เอกสาร invoice_page-0090.jpg": 1.0,
+        "เอกสาร invoice_page-0102.jpg": 1.0,
+        "เอกสาร invoice_page-0106.jpg": 1.0,
+        "เอกสาร invoice_page-0144.jpg": 0.7678,
+        "เอกสาร invoice_page-0152.jpg": 1.0,
+        "เอกสาร invoice_page-0204.jpg": 0.8864
+      }
+    },
+    "4": {
+      "avg": 0.88,
+      "per_file": {
+        "เอกสาร invoice_page-0044.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 0.5136,
+        "เอกสาร invoice_page-0067.jpg": 1.0,
+        "เอกสาร invoice_page-0076.jpg": 0.8819,
+        "เอกสาร invoice_page-0090.jpg": 0.9014,
+        "เอกสาร invoice_page-0102.jpg": 1.0,
+        "เอกสาร invoice_page-0106.jpg": 1.0,
+        "เอกสาร invoice_page-0144.jpg": 0.5026,
+        "เอกสาร invoice_page-0152.jpg": 1.0,
+        "เอกสาร invoice_page-0204.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.8401,
+      "per_file": {
+        "เอกสาร invoice_page-0044.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 1.0,
+        "เอกสาร invoice_page-0067.jpg": 1.0,
+        "เอกสาร invoice_page-0076.jpg": 0.3162,
+        "เอกสาร invoice_page-0090.jpg": 1.0,
+        "เอกสาร invoice_page-0102.jpg": 0.9015,
+        "เอกสาร invoice_page-0106.jpg": 1.0,
+        "เอกสาร invoice_page-0144.jpg": 0.1837,
+        "เอกสาร invoice_page-0152.jpg": 1.0,
+        "เอกสาร invoice_page-0204.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}
