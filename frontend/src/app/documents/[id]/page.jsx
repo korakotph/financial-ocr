@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState, use } from 'react'
+import { useEffect, useState, use, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 
 const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8010'
@@ -88,6 +88,16 @@ export default function DocumentDetail({ params }) {
   const [draft, setDraft]     = useState(null)
   const [saving, setSaving]   = useState(false)
   const [saveMsg, setSaveMsg] = useState(null)
+  const [zoomed, setZoomed]   = useState(false)
+
+  const closeZoom = useCallback((e) => {
+    if (e.key === 'Escape') setZoomed(false)
+  }, [])
+  useEffect(() => {
+    if (zoomed) window.addEventListener('keydown', closeZoom)
+    else window.removeEventListener('keydown', closeZoom)
+    return () => window.removeEventListener('keydown', closeZoom)
+  }, [zoomed, closeZoom])
 
   useEffect(() => {
     fetch(`${API}/api/document/${id}`)
@@ -224,8 +234,82 @@ export default function DocumentDetail({ params }) {
         </div>
       )}
 
+      {/* Zoom modal */}
+      {zoomed && doc?.stored_filename && (
+        <div
+          onClick={() => setZoomed(false)}
+          style={{
+            position: 'fixed', inset: 0, zIndex: 1000,
+            background: 'rgba(0,0,0,0.85)', display: 'flex',
+            alignItems: 'center', justifyContent: 'center', padding: 24, cursor: 'zoom-out',
+          }}
+        >
+          <button
+            onClick={() => setZoomed(false)}
+            style={{
+              position: 'absolute', top: 20, right: 24,
+              background: 'rgba(255,255,255,0.15)', color: '#fff',
+              border: 'none', borderRadius: '50%', width: 36, height: 36,
+              fontSize: 18, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center',
+            }}
+          >✕</button>
+          <img
+            src={`${API}/uploads/${doc.stored_filename}`}
+            alt={doc.filename}
+            onClick={e => e.stopPropagation()}
+            style={{ maxWidth: '90vw', maxHeight: '90vh', objectFit: 'contain', borderRadius: 8, boxShadow: '0 25px 60px rgba(0,0,0,0.5)', cursor: 'default' }}
+          />
+          <div style={{ position: 'absolute', bottom: 20, color: 'rgba(255,255,255,0.6)', fontSize: 12 }}>
+            กด Esc หรือคลิกพื้นหลังเพื่อปิด
+          </div>
+        </div>
+      )}
+
       {doc && !loading && (
         <>
+          {/* Document image */}
+          {doc.stored_filename && (
+            <div style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 12, padding: 16, marginBottom: 16, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+              <div
+                onClick={() => setZoomed(true)}
+                style={{ cursor: 'zoom-in', flexShrink: 0, position: 'relative' }}
+                title="คลิกเพื่อดูรูปขนาดเต็ม"
+              >
+                <img
+                  src={`${API}/uploads/${doc.stored_filename}`}
+                  alt={doc.filename}
+                  style={{ width: 160, height: 200, objectFit: 'cover', borderRadius: 8, border: '1px solid #e2e8f0', display: 'block' }}
+                  onError={e => { e.currentTarget.style.display = 'none'; e.currentTarget.nextSibling.style.display = 'flex' }}
+                />
+                <div style={{
+                  display: 'none', width: 160, height: 200, borderRadius: 8,
+                  border: '1px dashed #e2e8f0', background: '#f8fafc',
+                  alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: 8,
+                }}>
+                  <span style={{ fontSize: 28 }}>📄</span>
+                  <span style={{ fontSize: 11, color: '#94a3b8' }}>ไม่สามารถแสดงรูปได้</span>
+                </div>
+                <div style={{
+                  position: 'absolute', bottom: 8, right: 8,
+                  background: 'rgba(0,0,0,0.55)', color: '#fff',
+                  borderRadius: 5, padding: '3px 7px', fontSize: 11, fontWeight: 600,
+                }}>🔍 ซูม</div>
+              </div>
+              <div>
+                <div style={{ fontSize: 13, fontWeight: 700, color: '#0f172a', marginBottom: 4 }}>{doc.filename}</div>
+                <div style={{ fontSize: 12, color: '#94a3b8', marginBottom: 12 }}>{doc.stored_filename}</div>
+                <a
+                  href={`${API}/uploads/${doc.stored_filename}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ fontSize: 12, color: '#6366f1', fontWeight: 600, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 4 }}
+                >
+                  ↗ เปิดในแท็บใหม่
+                </a>
+              </div>
+            </div>
+          )}
+
           {/* Document info */}
           <Section title="ข้อมูลเอกสาร">
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(170px, 1fr))', gap: '0 24px' }}>
