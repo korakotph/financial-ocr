@@ -87,6 +87,7 @@ export default function ReportsPage() {
   const [loading, setLoading]       = useState(false)
   const [tab, setTab]               = useState('overview')
   const [showAllInCompare, setShowAllInCompare] = useState(false)
+  const [bleuSelectedRound, setBleuSelectedRound] = useState(null)
 
   useEffect(() => {
     fetch(`${API}/reports`)
@@ -282,73 +283,145 @@ export default function ReportsPage() {
                   <div style={{ marginBottom: 8, fontWeight: 600, color: '#64748b' }}>ไม่มีข้อมูล BLEU</div>
                   <div style={{ fontSize: 13 }}>รัน eval_test.py เวอร์ชันใหม่ (รองรับ BLEU) เพื่อดูผลลัพธ์</div>
                 </div>
-              ) : (
-                <>
-                  {/* BLEU explanation */}
-                  <div style={{ background: '#eef2ff', border: '1px solid #c7d2fe', borderRadius: 10, padding: '12px 18px', marginBottom: 20, fontSize: 13, color: '#3730a3' }}>
-                    <strong>BLEU Score</strong> วัดความคล้ายคลึงของข้อความที่ AI สกัดออกมาระหว่างแต่ละ round
-                    เทียบกับ Round 1 เป็น baseline โดยใช้ n-gram precision (BLEU-2)
-                    ยิ่งสูงยิ่งดี — สะท้อนว่า AI ตอบคำถามเดิมด้วยข้อความที่สม่ำเสมอแค่ไหน
-                  </div>
+              ) : (() => {
+                const activeRound = bleuSelectedRound ?? bleuRounds[bleuRounds.length - 1][0]
+                const activeData  = bleu[activeRound] || {}
+                const perFileSorted = Object.entries(activeData.per_file || {}).sort((a, b) => a[1] - b[1])
+                const high = perFileSorted.filter(([, v]) => v >= 0.8).length
+                const mid  = perFileSorted.filter(([, v]) => v >= 0.5 && v < 0.8).length
+                const low  = perFileSorted.filter(([, v]) => v < 0.5).length
+                const total = perFileSorted.length
 
-                  {/* Per-round BLEU bars */}
-                  <div style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 12, overflow: 'hidden', marginBottom: 16 }}>
-                    <div style={{ padding: '14px 20px', borderBottom: '1px solid #f1f5f9', fontSize: 14, fontWeight: 700, color: '#0f172a' }}>
-                      BLEU Score แต่ละ Round
+                return (
+                  <>
+                    {/* Explanation */}
+                    <div style={{ background: '#eef2ff', border: '1px solid #c7d2fe', borderRadius: 10, padding: '10px 16px', marginBottom: 16, fontSize: 13, color: '#3730a3' }}>
+                      <strong>BLEU Score</strong> วัดความสม่ำเสมอของข้อความที่ AI สกัดระหว่าง round โดยเทียบกับ Round 1 เป็น baseline (BLEU-2) — ยิ่งสูงยิ่งสม่ำเสมอ
                     </div>
-                    <div style={{ padding: 20 }}>
-                      {bleuRounds.map(([rn, data]) => (
-                        <div key={rn} style={{ marginBottom: 16 }}>
-                          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 6 }}>
-                            <span style={{ fontSize: 13, fontWeight: 600, color: '#374151' }}>Round {rn}</span>
-                            <span style={{ fontSize: 12, color: '#94a3b8' }}>{Object.keys(data.per_file || {}).length} ไฟล์</span>
+
+                    {/* Summary: per-round bars */}
+                    <div style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 12, overflow: 'hidden', marginBottom: 14 }}>
+                      <div style={{ padding: '12px 18px', borderBottom: '1px solid #f1f5f9', fontSize: 13, fontWeight: 700, color: '#0f172a' }}>
+                        ภาพรวม BLEU แต่ละ Round
+                      </div>
+                      <div style={{ padding: '14px 18px' }}>
+                        {bleuRounds.map(([rn, data]) => (
+                          <div key={rn} style={{ marginBottom: 14, display: 'flex', alignItems: 'center', gap: 12 }}>
+                            <span style={{ fontSize: 12, fontWeight: 700, color: '#374151', minWidth: 64 }}>Round {rn}</span>
+                            <div style={{ flex: 1 }}><BleuBar score={data.avg} /></div>
+                            <span style={{ fontSize: 11, color: '#94a3b8', minWidth: 52, textAlign: 'right' }}>{Object.keys(data.per_file || {}).length} ไฟล์</span>
                           </div>
-                          <BleuBar score={data.avg} />
-                        </div>
-                      ))}
-                      {avgBleu != null && (
-                        <div style={{ borderTop: '1px solid #f1f5f9', paddingTop: 16, marginTop: 4 }}>
-                          <div style={{ fontSize: 13, fontWeight: 700, color: '#0f172a', marginBottom: 6 }}>ค่าเฉลี่ยรวม</div>
-                          <BleuBar score={avgBleu} />
-                        </div>
-                      )}
+                        ))}
+                        {avgBleu != null && (
+                          <div style={{ borderTop: '1px solid #f1f5f9', paddingTop: 12, marginTop: 2, display: 'flex', alignItems: 'center', gap: 12 }}>
+                            <span style={{ fontSize: 12, fontWeight: 700, color: '#0f172a', minWidth: 64 }}>ค่าเฉลี่ย</span>
+                            <div style={{ flex: 1 }}><BleuBar score={avgBleu} /></div>
+                            <span style={{ fontSize: 11, color: '#94a3b8', minWidth: 52 }} />
+                          </div>
+                        )}
+                      </div>
                     </div>
-                  </div>
 
-                  {/* Per-file BLEU for last comparison round */}
-                  {bleuRounds.length > 0 && (() => {
-                    const [lastRound, lastData] = bleuRounds[bleuRounds.length - 1]
-                    const perFile = Object.entries(lastData.per_file || {})
-                      .sort((a, b) => a[1] - b[1])
-                    if (perFile.length === 0) return null
-                    return (
+                    {/* Per-file detail panel */}
+                    {perFileSorted.length > 0 && (
                       <div style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 12, overflow: 'hidden' }}>
-                        <div style={{ padding: '14px 20px', borderBottom: '1px solid #f1f5f9', fontSize: 14, fontWeight: 700, color: '#0f172a' }}>
-                          BLEU ต่ำสุด 20 ไฟล์ (Round {lastRound})
+                        {/* Panel header + round selector */}
+                        <div style={{ padding: '12px 18px', borderBottom: '1px solid #f1f5f9', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 10 }}>
+                          <span style={{ fontSize: 13, fontWeight: 700, color: '#0f172a' }}>
+                            รายละเอียดรายไฟล์ — Round {activeRound}
+                          </span>
+                          <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap' }}>
+                            {bleuRounds.map(([rn]) => (
+                              <button
+                                key={rn}
+                                onClick={() => setBleuSelectedRound(rn)}
+                                style={{
+                                  padding: '4px 12px', borderRadius: 6, fontSize: 12, fontWeight: 600, cursor: 'pointer',
+                                  background: String(activeRound) === String(rn) ? '#6366f1' : '#f1f5f9',
+                                  color: String(activeRound) === String(rn) ? '#fff' : '#64748b',
+                                  border: '1px solid',
+                                  borderColor: String(activeRound) === String(rn) ? '#6366f1' : '#e2e8f0',
+                                }}
+                              >
+                                R{rn}
+                              </button>
+                            ))}
+                          </div>
                         </div>
+
+                        {/* Distribution summary */}
+                        {total > 0 && (
+                          <div style={{ padding: '10px 18px', borderBottom: '1px solid #f1f5f9', display: 'flex', gap: 16, flexWrap: 'wrap', alignItems: 'center' }}>
+                            <span style={{ fontSize: 12, color: '#64748b', fontWeight: 600 }}>การกระจาย:</span>
+                            <span style={{ fontSize: 12, color: '#16a34a', fontWeight: 700 }}>
+                              ● สูง (≥80%) <span style={{ background: '#dcfce7', borderRadius: 20, padding: '1px 8px' }}>{high} ไฟล์ ({Math.round(high / total * 100)}%)</span>
+                            </span>
+                            <span style={{ fontSize: 12, color: '#ca8a04', fontWeight: 700 }}>
+                              ● กลาง (50–79%) <span style={{ background: '#fef9c3', borderRadius: 20, padding: '1px 8px' }}>{mid} ไฟล์ ({Math.round(mid / total * 100)}%)</span>
+                            </span>
+                            <span style={{ fontSize: 12, color: '#dc2626', fontWeight: 700 }}>
+                              ● ต่ำ ({'<'}50%) <span style={{ background: '#fee2e2', borderRadius: 20, padding: '1px 8px' }}>{low} ไฟล์ ({Math.round(low / total * 100)}%)</span>
+                            </span>
+                            {/* Distribution bar */}
+                            <div style={{ flex: 1, minWidth: 120, height: 8, borderRadius: 4, overflow: 'hidden', display: 'flex' }}>
+                              {high > 0 && <div style={{ flex: high, background: '#16a34a' }} />}
+                              {mid  > 0 && <div style={{ flex: mid,  background: '#ca8a04' }} />}
+                              {low  > 0 && <div style={{ flex: low,  background: '#dc2626' }} />}
+                            </div>
+                          </div>
+                        )}
+
+                        {/* File table — all files, sorted low→high */}
                         <div style={{ overflowX: 'auto' }}>
                           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 13 }}>
                             <thead>
                               <tr style={{ background: '#f8fafc', borderBottom: '1px solid #e2e8f0' }}>
-                                <th style={{ padding: '10px 16px', textAlign: 'left', fontSize: 11, fontWeight: 700, color: '#94a3b8', textTransform: 'uppercase' }}>ไฟล์</th>
-                                <th style={{ padding: '10px 16px', textAlign: 'left', fontSize: 11, fontWeight: 700, color: '#94a3b8', textTransform: 'uppercase', width: 240 }}>BLEU Score</th>
+                                <th style={{ padding: '9px 16px', textAlign: 'left', fontSize: 11, fontWeight: 700, color: '#94a3b8', textTransform: 'uppercase' }}>ไฟล์</th>
+                                <th style={{ padding: '9px 16px', textAlign: 'left', fontSize: 11, fontWeight: 700, color: '#94a3b8', textTransform: 'uppercase', minWidth: 220 }}>BLEU (R{activeRound})</th>
+                                {bleuRounds.length > 1 && (
+                                  <th style={{ padding: '9px 16px', textAlign: 'left', fontSize: 11, fontWeight: 700, color: '#94a3b8', textTransform: 'uppercase', whiteSpace: 'nowrap' }}>ทุก Round</th>
+                                )}
                               </tr>
                             </thead>
                             <tbody>
-                              {perFile.slice(0, 20).map(([fname, score]) => (
-                                <tr key={fname} style={{ borderBottom: '1px solid #f1f5f9' }}>
-                                  <td style={{ padding: '10px 16px', color: '#374151', maxWidth: 360, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{fname}</td>
-                                  <td style={{ padding: '10px 16px', width: 240 }}><BleuBar score={score} /></td>
-                                </tr>
-                              ))}
+                              {perFileSorted.map(([fname, score]) => {
+                                const tier = score >= 0.8 ? 'high' : score >= 0.5 ? 'mid' : 'low'
+                                const rowBg = tier === 'low' ? '#fff9f9' : 'transparent'
+                                return (
+                                  <tr key={fname} style={{ borderBottom: '1px solid #f1f5f9', background: rowBg }}>
+                                    <td style={{ padding: '9px 16px', color: '#374151', maxWidth: 340, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{fname}</td>
+                                    <td style={{ padding: '9px 16px', minWidth: 220 }}><BleuBar score={score} /></td>
+                                    {bleuRounds.length > 1 && (
+                                      <td style={{ padding: '9px 16px' }}>
+                                        <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap' }}>
+                                          {bleuRounds.map(([rn, rd]) => {
+                                            const s = rd?.per_file?.[fname]
+                                            if (s == null) return null
+                                            const c = s >= 0.8 ? '#16a34a' : s >= 0.5 ? '#ca8a04' : '#dc2626'
+                                            const bg = s >= 0.8 ? '#dcfce7' : s >= 0.5 ? '#fef9c3' : '#fee2e2'
+                                            return (
+                                              <span key={rn} title={`Round ${rn}: ${pct(s)}`} style={{ fontSize: 10, fontWeight: 700, color: c, background: bg, borderRadius: 4, padding: '1px 5px', whiteSpace: 'nowrap' }}>
+                                                R{rn} {pct(s)}
+                                              </span>
+                                            )
+                                          })}
+                                        </div>
+                                      </td>
+                                    )}
+                                  </tr>
+                                )
+                              })}
                             </tbody>
                           </table>
                         </div>
+                        <div style={{ padding: '8px 16px', borderTop: '1px solid #f1f5f9', fontSize: 11, color: '#94a3b8', background: '#f8fafc' }}>
+                          {total} ไฟล์ · เรียงจากต่ำ → สูง
+                        </div>
                       </div>
-                    )
-                  })()}
-                </>
-              )}
+                    )}
+                  </>
+                )
+              })()}
             </div>
           )}
 
