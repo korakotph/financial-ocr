@@ -187,8 +187,9 @@ export default function ReportsPage() {
                 style={{
                   padding: '8px 18px', fontWeight: tab === t.key ? 700 : 400,
                   color: tab === t.key ? '#6366f1' : '#64748b',
+                  borderTop: 'none', borderLeft: 'none', borderRight: 'none',
                   borderBottom: tab === t.key ? '2px solid #6366f1' : '2px solid transparent',
-                  background: 'none', border: 'none', cursor: 'pointer', fontSize: 13.5,
+                  background: 'none', cursor: 'pointer', fontSize: 13.5,
                   marginBottom: -2,
                 }}
               >
