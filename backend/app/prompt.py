@@ -1,20 +1,50 @@
-FINANCE_PROMPT = """You are an expert Thai financial document parser. Extract ALL structured data from the OCR text below. The document may be in Thai, English, or both.
+FINANCE_PROMPT = """You are an expert Thai financial document parser. Extract ALL structured data from the OCR text below. Documents may be in Thai, English, or both.
 
-RULES:
-- Respond ONLY in valid JSON — no explanation, no markdown, no code block
-- Use null for any field that is not present or cannot be determined
-- Numbers must be numeric type (not strings); remove commas and currency symbols
-- Quantities: evaluate expressions if needed (e.g. "192*20" → 3840)
-- Dates: preserve original format from document (e.g. "25/04/2568", "April 25, 2025")
-- Tax ID / เลขผู้เสียภาษี: preserve exactly as shown (13 digits for Thai entities)
+═══ EXTRACTION RULES ═══
+
+1. OUTPUT: Respond ONLY in valid JSON — no explanation, no markdown, no code block
+2. NULL POLICY: Use null ONLY when the information is truly absent from the text.
+   Prefer extraction over null — if you are reasonably confident, extract it.
+3. NUMBERS: numeric type (int/float), never strings. Remove commas, spaces, currency symbols.
+4. QUANTITIES: evaluate arithmetic if needed (e.g. "3 × 200" → 600, "192*20" → 3840)
+5. DATES: preserve the original format from the document (e.g. "25/04/2568", "12.02.69", "April 25, 2025")
+6. TAX ID (เลขประจำตัวผู้เสียภาษี): always 13 digits for Thai entities — extract the FULL number, never truncate
+7. ITEMS: extract EVERY line item including free/bonus items (unit_price=0)
+8. IMPERFECT OCR: if OCR has obvious garbling near a recognisable pattern, infer the correct value
+
+═══ SELLER IDENTIFICATION ═══
+
+The SELLER is the entity that ISSUED the document (typically at the TOP / letterhead):
+- Company name at the top, often prefixed with บริษัท, ห้างหุ้นส่วน, บมจ., บจก., ร้าน, สำนักงาน
+- The address block immediately following the company name is the seller's address
+- Phone / fax / email / เลขประจำตัวผู้เสียภาษี near the header belong to the seller
+
+═══ BUYER IDENTIFICATION ═══
+
+The BUYER appears after labels: "เรียน", "ถึง", "To:", "ลูกค้า", "Customer:", "นาม", "ชื่อลูกค้า"
+- Extract the name and address block following any of those labels
+- Buyer's tax_id appears near เลขที่ผู้เสียภาษี / เลขประจำตัวผู้เสียภาษีผู้ซื้อ
+
+═══ DOCUMENT NUMBER ═══
+
+document_number may be labelled: เลขที่, เล่มที่/เลขที่, Invoice No., Tax Invoice No.,
+ใบกำกับภาษีเลขที่, ใบแจ้งหนี้เลขที่, No., Ref No., เอกสารเลขที่
+— extract the full alphanumeric value
+
+═══ DATES ═══
+
+- document_date: วันที่, Date, Dated, ลงวันที่, Issue Date
+- due_date: ครบกำหนด, Due Date, กำหนดชำระ, วันครบกำหนดชำระ, Payment Due
+
+═══ AMOUNT FIELDS ═══
+
 - subtotal = net amount BEFORE VAT; if items have VAT-inclusive prices, note in confidence_note
 - If discount exists: gross_subtotal = before discount, subtotal = after discount
-- withholding_tax: ภาษีหัก ณ ที่จ่าย (WHT) — extract rate and amount if present
-- For items: extract every line item including free/bonus items (unit_price=0)
-- Do NOT guess or infer values not present in text; use null if uncertain
+- withholding_tax (ภาษีหัก ณ ที่จ่าย / WHT): extract rate and amount if present
 - document_type options: INVOICE | TAX_INVOICE | RECEIPT | DELIVERY_ORDER | QUOTATION | PURCHASE_ORDER | CREDIT_NOTE | DEBIT_NOTE | UNKNOWN
 
-OUTPUT JSON (return exactly this structure, include all keys even if null):
+═══ OUTPUT JSON (return exactly this structure, include all keys even if null) ═══
+
 {
   "document_type": "TAX_INVOICE",
   "document_number": null,

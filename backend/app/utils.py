@@ -1,35 +1,26 @@
-def trim_ocr(text: str, max_chars: int = 1500) -> str:
-    lines = text.splitlines()
+def trim_ocr(text: str, max_chars: int = 8000) -> str:
+    """Preserve header (seller/buyer/dates) + table + footer summary.
 
-    table_lines = []
-    summary_lines = []
-    in_table = False
+    The old version only kept <table> content and discarded all header info,
+    causing seller name, document number, dates, etc. to always be null.
+    """
+    if len(text) <= max_chars:
+        return text
 
-    summary_keywords = [
-        "ราคารวม", "ราคาสุทธิ", "ภาษีมูลค่าเพิ่ม",
-        "VAT", "Subtotal", "Grand Total", "จำนวนเงิน",
-        "รวม", "สุทธิ", "Total", "TOTAL",
-    ]
+    if "<table>" in text and "</table>" in text:
+        t_start = text.index("<table>")
+        t_end   = text.index("</table>") + len("</table>")
 
-    for l in lines:
-        line = l.strip()
-        if not line:
-            continue
+        header  = text[:t_start]          # seller, buyer, doc number, dates
+        table   = text[t_start:t_end]     # line items
+        footer  = text[t_end:]            # totals, bank info, notes
 
-        if "<table>" in line:
-            in_table = True
-        if in_table:
-            table_lines.append(line)
-        if "</table>" in line:
-            in_table = False
+        # header is the most important — always keep it in full
+        footer_keep = footer[:600]        # totals/bank are in first ~600 chars of footer
+        table_budget = max_chars - len(header) - len(footer_keep) - 2
+        table_keep   = table[:max(table_budget, 800)]
 
-        if any(k in line for k in summary_keywords):
-            summary_lines.append(line)
+        return (header + "\n" + table_keep + "\n" + footer_keep)[:max_chars]
 
-    if table_lines or summary_lines:
-        result = "\n".join(table_lines + summary_lines)
-    else:
-        # fallback: ใช้ทั้งหมดถ้าไม่มี table tag
-        result = text
-
-    return result[:max_chars]
+    # No table structure: keep all (already checked len above)
+    return text[:max_chars]
