@@ -15,7 +15,7 @@ services:
       
   postgres:
     image: postgres:15
-    container_name: finance_postgres
+    container_name: financial_ocr_postgres
     restart: always
     environment:
       POSTGRES_USER: finance_user
@@ -28,7 +28,7 @@ services:
 
   minio:
     image: minio/minio
-    container_name: finance_minio
+    container_name: financial_ocr_minio
     restart: always
     command: server /data --console-address ":9001"
     environment:
@@ -42,7 +42,7 @@ services:
 
   backend:
     build: ./backend
-    container_name: finance_backend
+    container_name: financial_ocr_backend
     restart: always
     depends_on:
       - postgres
@@ -61,7 +61,7 @@ services:
 
   frontend:
     build: ./frontend
-    container_name: finance_frontend
+    container_name: financial_ocr_frontend
     restart: always
     depends_on:
       - backend
