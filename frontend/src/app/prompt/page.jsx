@@ -14,7 +14,7 @@ export default function PromptPage() {
   useEffect(() => {
     fetch(`${API}/prompt`)
       .then(r => r.json())
-      .then(d => { setText(d.prompt); setOriginal(d.prompt) })
+      .then(d => { const p = d.prompt ?? ''; setText(p); setOriginal(p) })
       .catch(() => setStatus('error'))
   }, [])
 
