@@ -1,11 +1,12 @@
 def detect_abnormal(invoice: dict):
-    amount = invoice.get("amount", {})
-    items = invoice.get("items", [])
+    amount = invoice.get("amount", {}) or {}
+    items  = invoice.get("items", []) or []
 
-    subtotal_items = sum(i.get("total", 0) for i in items)
-    vat = amount.get("vat_amount", 0)
-    total = amount.get("total", 0)
-    subtotal = amount.get("subtotal", 0)
+    # items use "amount" field (new prompt); fall back to "total" for old data
+    subtotal_items = sum((i.get("amount") or i.get("total") or 0) for i in (items or []))
+    vat      = amount.get("vat_amount") or 0
+    total    = amount.get("total")    or 0
+    subtotal = amount.get("subtotal") or 0
 
     net_from_vat = round(total - vat, 2)
 

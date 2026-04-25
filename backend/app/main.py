@@ -143,12 +143,15 @@ def summary(db: Session = Depends(get_db)):
             continue
 
         # ✅ วิเคราะห์สำเร็จ
-        invoice = analysis.get("data", {})
-        status, reason = detect_abnormal(invoice)
+        invoice = analysis.get("data", {}) or {}
+        try:
+            status, reason = detect_abnormal(invoice)
+        except Exception:
+            status, reason = "ERROR", "detect_abnormal_failed"
 
-        amount = invoice.get("amount", {})
-        seller = invoice.get("seller", {})
-        buyer = invoice.get("buyer", {})
+        amount = invoice.get("amount", {}) or {}
+        seller = invoice.get("seller", {}) or {}
+        buyer  = invoice.get("buyer", {})  or {}
 
         results.append({
             "id": doc.id,

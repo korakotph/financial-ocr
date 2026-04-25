@@ -52,6 +52,7 @@ export default function DocumentsPage() {
   const router = useRouter()
   const [docs, setDocs]       = useState([])
   const [loading, setLoading] = useState(true)
+  const [fetchError, setFetchError] = useState(false)
 
   // Filter
   const [search, setSearch]           = useState('')
@@ -66,12 +67,16 @@ export default function DocumentsPage() {
   const [page, setPage]         = useState(1)
   const [pageSize, setPageSize] = useState(25)
 
-  useEffect(() => {
+  function loadDocs() {
+    setLoading(true)
+    setFetchError(false)
     fetch(`${API}/summary`)
-      .then(r => r.ok ? r.json() : [])
+      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() })
       .then(data => { setDocs(Array.isArray(data) ? data : []); setLoading(false) })
-      .catch(() => setLoading(false))
-  }, [])
+      .catch(() => { setFetchError(true); setLoading(false) })
+  }
+
+  useEffect(() => { loadDocs() }, [])
 
   // Reset to page 1 whenever filters/sort change
   useEffect(() => { setPage(1) }, [search, statusFilter, typeFilter, sortKey, sortDir, pageSize])
@@ -135,10 +140,23 @@ export default function DocumentsPage() {
         <div>
           <h1 style={{ margin: '0 0 3px', fontSize: 20, fontWeight: 700, color: '#0f172a' }}>เอกสาร</h1>
           <p style={{ margin: 0, fontSize: 13, color: '#64748b' }}>
-            {loading ? 'กำลังโหลด...' : `${filtered.length} จาก ${docs.length} เอกสาร`}
+            {loading ? 'กำลังโหลด...' : fetchError ? 'โหลดข้อมูลไม่สำเร็จ' : `${filtered.length} จาก ${docs.length} เอกสาร`}
           </p>
         </div>
+        <button
+          onClick={loadDocs}
+          style={{ background: '#f1f5f9', border: '1px solid #e2e8f0', borderRadius: 7, padding: '6px 14px', fontSize: 13, color: '#374151', cursor: 'pointer', whiteSpace: 'nowrap' }}
+        >
+          ↻ รีเฟรช
+        </button>
       </div>
+
+      {fetchError && (
+        <div style={{ background: '#fee2e2', border: '1px solid #fecaca', borderRadius: 10, padding: '12px 16px', marginBottom: 14, color: '#991b1b', fontSize: 13, display: 'flex', alignItems: 'center', gap: 8 }}>
+          <span>⚠️</span>
+          <span>ไม่สามารถโหลดรายการเอกสารได้ — กรุณาตรวจสอบการเชื่อมต่อและกด รีเฟรช</span>
+        </div>
+      )}
 
       {/* Filter bar */}
       <div style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '12px 16px', marginBottom: 14, display: 'flex', gap: 10, flexWrap: 'wrap', alignItems: 'center' }}>
