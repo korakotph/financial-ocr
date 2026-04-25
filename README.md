@@ -1,93 +1,143 @@
-# financial-doc-ai
+# Financial OCR
 
+An AI-powered financial document analysis system that extracts and validates structured data from invoice, receipt, and delivery order images. Built with Thai business documents in mind.
 
+## Features
 
-## Getting started
+- **Document Upload** — drag-and-drop or click-to-upload (JPG, PNG, PDF)
+- **OCR Extraction** — powered by Typhoon OCR with PaddleOCR fallback
+- **AI Analysis** — LLM-based parsing of invoice number, seller, buyer, line items, amounts, and VAT
+- **Anomaly Detection** — flags mathematical inconsistencies and missing critical fields
+- **Dashboard** — real-time stats (document count, total value, abnormal count) with sortable document table
+- **Batch Processing** — parallel upload and evaluation scripts with accuracy reporting
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## Tech Stack
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+| Layer | Technology |
+|-------|-----------|
+| Frontend | Next.js 16, React 19, Tailwind CSS 4 |
+| Backend | Python 3.11, FastAPI, SQLAlchemy |
+| Database | PostgreSQL 15 |
+| Object Storage | MinIO (S3-compatible) |
+| OCR | Typhoon OCR API + PaddleOCR |
+| LLM | Typhoon Cloud API (`typhoon-v2.5-30b-a3b-instruct`) |
+| Infrastructure | Docker, Docker Compose |
 
-## Add your files
-
-* [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
+## Project Structure
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/korakotph/financial-doc-ai.git
-git branch -M main
-git push -uf origin main
+financial-ocr/
+├── backend/
+│   └── app/
+│       ├── main.py          # FastAPI routes
+│       ├── ocr.py           # OCR extraction
+│       ├── typhoon_ai.py    # LLM financial analysis
+│       ├── summary.py       # Anomaly detection
+│       ├── models.py        # Database models
+│       └── ...
+├── frontend/
+│   └── src/app/
+│       ├── page.jsx         # Dashboard
+│       ├── upload/          # Upload page
+│       ├── documents/       # Document detail pages
+│       └── ...
+├── docker-compose.yml
+├── eval_test.py             # Batch evaluation
+├── batch_upload.py          # Bulk upload + accuracy report
+└── image_for_test/          # Test images
 ```
 
-## Integrate with your tools
+## Getting Started
 
-* [Set up project integrations](https://gitlab.com/korakotph/financial-doc-ai/-/settings/integrations)
+### Prerequisites
 
-## Collaborate with your team
+- Docker and Docker Compose
+- A [Typhoon API key](https://opentyphoon.ai) for OCR and LLM analysis
 
-* [Invite team members and collaborators](https://docs.gitlab.com/user/project/members/)
-* [Create a new merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)
-* [Automatically close issues from merge requests](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)
-* [Enable merge request approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)
-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+### Running with Docker Compose
 
-## Test and Deploy
+```bash
+# Clone the repository
+git clone <repo-url>
+cd financial-ocr
 
-Use the built-in continuous integration in GitLab.
+# Set your Typhoon API key (see Configuration below)
+# Then start all services
+docker-compose up -d
+```
 
-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)
-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/user/application_security/sast/)
-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)
-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/user/clusters/agent/)
-* [Set up protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)
+Services will be available at:
 
-***
+| Service | URL |
+|---------|-----|
+| Frontend | http://localhost:3001 |
+| Backend API | http://localhost:8000 |
+| MinIO Console | http://localhost:9001 |
 
-# Editing this README
+### Running Locally (Development)
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+**Backend:**
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+export DATABASE_URL="postgresql://finance_user:finance_pass@localhost:5433/finance_db"
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+```
 
-## Suggestions for a good README
+**Frontend:**
+```bash
+cd frontend
+npm install
+npm run dev  # http://localhost:3001
+```
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+## Configuration
 
-## Name
-Choose a self-explaining name for your project.
+Set the following environment variables (or update `docker-compose.yml`):
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `DATABASE_URL` | PostgreSQL connection string | `postgresql://finance_user:finance_pass@postgres:5432/finance_db` |
+| `MINIO_ENDPOINT` | MinIO host | `minio:9000` |
+| `MINIO_ACCESS_KEY` | MinIO access key | `minioadmin` |
+| `MINIO_SECRET_KEY` | MinIO secret key | `minioadmin` |
+| `TYPHOON_API_KEY` | Typhoon Cloud API key | *(required)* |
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+> **Note:** Before deploying to production, move the Typhoon API key out of source code and into environment variables, and change the default MinIO and PostgreSQL credentials.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+## API Endpoints
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `POST` | `/analyze` | Upload and analyze a document |
+| `GET` | `/summary` | List all analyzed documents |
+| `GET` | `/api/document/{id}` | Get full document details |
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+## Evaluation & Testing
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+```bash
+# Single upload test
+python upload_test.py
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+# Batch upload with accuracy report
+python batch_upload.py
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+# Multi-round evaluation with concurrency control
+python eval_test.py
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+# Generate and analyze reports
+python generate_report.py
+python analyze_report.py
+```
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+Test images are in `image_for_test/`. Results are saved as timestamped JSON files in `outputs/`.
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+## Document Status
 
-## License
-For open source projects, say how it is licensed.
+Each processed document receives one of three statuses:
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+- **NORMAL** — data is consistent and complete
+- **INCONSISTENT** — mathematical errors or mismatched totals detected
+- **ERROR** — processing failed or critical fields are missing
