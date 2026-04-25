@@ -77,14 +77,16 @@ const TABS = [
   { key: 'rounds',       label: 'แต่ละ Round' },
   { key: 'bleu',         label: 'BLEU Score' },
   { key: 'inconsistent', label: 'ไฟล์ไม่สม่ำเสมอ' },
+  { key: 'compare',      label: 'เปรียบเทียบรายไฟล์' },
 ]
 
 export default function ReportsPage() {
-  const [files, setFiles]       = useState([])
-  const [selected, setSelected] = useState(null)
-  const [report, setReport]     = useState(null)
-  const [loading, setLoading]   = useState(false)
-  const [tab, setTab]           = useState('overview')
+  const [files, setFiles]           = useState([])
+  const [selected, setSelected]     = useState(null)
+  const [report, setReport]         = useState(null)
+  const [loading, setLoading]       = useState(false)
+  const [tab, setTab]               = useState('overview')
+  const [showAllInCompare, setShowAllInCompare] = useState(false)
 
   useEffect(() => {
     fetch(`${API}/reports`)
@@ -349,6 +351,133 @@ export default function ReportsPage() {
               )}
             </div>
           )}
+
+          {/* Tab: Compare */}
+          {tab === 'compare' && (() => {
+            const perRound = report?.per_round || []
+            if (perRound.length === 0) return (
+              <div style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 12, padding: 40, textAlign: 'center', color: '#94a3b8' }}>
+                ไม่มีข้อมูล per_round ในไฟล์รายงานนี้
+              </div>
+            )
+            const allFilesSet = new Set()
+            perRound.forEach(r => Object.keys(r.results || {}).forEach(f => allFilesSet.add(f)))
+            const allFiles = [...allFilesSet].sort()
+            const inconFileSet = new Set(inconList.map(([f]) => f))
+            const displayFiles = showAllInCompare ? allFiles : allFiles.filter(f => inconFileSet.has(f))
+            const baseline = perRound[0]
+
+            return (
+              <div>
+                {/* Toolbar */}
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 14, flexWrap: 'wrap', gap: 10 }}>
+                  <div style={{ fontSize: 13, color: '#64748b' }}>
+                    {showAllInCompare
+                      ? `แสดงทุกไฟล์ (${allFiles.length} ไฟล์)`
+                      : `แสดงเฉพาะไม่สม่ำเสมอ (${displayFiles.length} / ${allFiles.length} ไฟล์)`}
+                  </div>
+                  <button
+                    onClick={() => setShowAllInCompare(v => !v)}
+                    style={{ background: showAllInCompare ? '#e0e7ff' : '#f1f5f9', color: showAllInCompare ? '#4338ca' : '#374151', border: '1px solid #e2e8f0', borderRadius: 7, padding: '6px 14px', fontSize: 13, cursor: 'pointer', fontWeight: 600 }}
+                  >
+                    {showAllInCompare ? 'แสดงเฉพาะไม่สม่ำเสมอ' : 'แสดงทั้งหมด'}
+                  </button>
+                </div>
+
+                {displayFiles.length === 0 ? (
+                  <div style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 12, padding: 40, textAlign: 'center', color: '#16a34a', fontWeight: 600 }}>
+                    ✓ ทุกไฟล์ให้ผลลัพธ์เหมือนกันทุก round
+                  </div>
+                ) : (
+                  <div style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 12, overflow: 'hidden' }}>
+                    <div style={{ overflowX: 'auto' }}>
+                      <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 12.5 }}>
+                        <thead>
+                          <tr style={{ background: '#f8fafc', borderBottom: '1px solid #e2e8f0' }}>
+                            <th style={{ padding: '10px 16px', textAlign: 'left', fontSize: 11, fontWeight: 700, color: '#94a3b8', textTransform: 'uppercase', minWidth: 200, position: 'sticky', left: 0, background: '#f8fafc', zIndex: 1 }}>ไฟล์</th>
+                            {perRound.map(r => (
+                              <th key={r.round} style={{ padding: '10px 14px', textAlign: 'center', fontSize: 11, fontWeight: 700, color: r.round === 1 ? '#6366f1' : '#94a3b8', textTransform: 'uppercase', minWidth: 110, whiteSpace: 'nowrap' }}>
+                                R{r.round}{r.round === 1 ? ' (base)' : ''}
+                              </th>
+                            ))}
+                            {Object.keys(bleu).length > 0 && (
+                              <th style={{ padding: '10px 14px', textAlign: 'center', fontSize: 11, fontWeight: 700, color: '#ca8a04', textTransform: 'uppercase', minWidth: 90, whiteSpace: 'nowrap' }}>BLEU avg</th>
+                            )}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {displayFiles.map(fname => {
+                            const baselineResult = baseline?.results?.[fname]
+                            const bleuValues = Object.entries(bleu)
+                              .map(([, data]) => data?.per_file?.[fname])
+                              .filter(v => v != null)
+                            const avgBleuFile = bleuValues.length ? bleuValues.reduce((s, v) => s + v, 0) / bleuValues.length : null
+                            const isIncon = inconFileSet.has(fname)
+                            return (
+                              <tr key={fname} style={{ borderBottom: '1px solid #f1f5f9', background: isIncon ? '#fffbeb' : 'transparent' }}>
+                                <td style={{ padding: '10px 16px', color: '#1e293b', maxWidth: 260, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', position: 'sticky', left: 0, background: isIncon ? '#fffbeb' : '#fff', zIndex: 1, fontWeight: isIncon ? 600 : 400 }}>
+                                  {fname}
+                                </td>
+                                {perRound.map(r => {
+                                  const result = r.results?.[fname]
+                                  const diffFromBase = result && baselineResult && result.label !== baselineResult.label
+                                  const isSuccess = result?.label === 'success'
+                                  const isFailure = result?.label === 'failure'
+                                  return (
+                                    <td key={r.round} style={{ padding: '8px 14px', textAlign: 'center', background: diffFromBase ? '#fff1f2' : 'transparent' }}>
+                                      {result ? (
+                                        <>
+                                          <span style={{
+                                            display: 'inline-block',
+                                            background: isSuccess ? '#dcfce7' : isFailure ? '#fee2e2' : '#f1f5f9',
+                                            color: isSuccess ? '#166534' : isFailure ? '#991b1b' : '#64748b',
+                                            borderRadius: 20, padding: '2px 9px', fontSize: 11, fontWeight: 700,
+                                          }}>
+                                            {isSuccess ? '✓' : isFailure ? '✗' : '—'} {result.label ?? '—'}
+                                          </span>
+                                          {result.status && result.status !== result.label && (
+                                            <div style={{ fontSize: 10, color: '#94a3b8', marginTop: 2 }}>{result.status}</div>
+                                          )}
+                                          {diffFromBase && (
+                                            <div style={{ fontSize: 10, color: '#dc2626', marginTop: 1, fontWeight: 600 }}>เปลี่ยนจาก base</div>
+                                          )}
+                                        </>
+                                      ) : (
+                                        <span style={{ color: '#cbd5e1', fontSize: 11 }}>—</span>
+                                      )}
+                                    </td>
+                                  )
+                                })}
+                                {Object.keys(bleu).length > 0 && (
+                                  <td style={{ padding: '8px 14px', textAlign: 'center' }}>
+                                    {avgBleuFile != null ? (
+                                      <span style={{
+                                        fontWeight: 700, fontSize: 12,
+                                        color: avgBleuFile >= 0.8 ? '#16a34a' : avgBleuFile >= 0.5 ? '#ca8a04' : '#dc2626'
+                                      }}>
+                                        {pct(avgBleuFile)}
+                                      </span>
+                                    ) : <span style={{ color: '#cbd5e1' }}>—</span>}
+                                  </td>
+                                )}
+                              </tr>
+                            )
+                          })}
+                        </tbody>
+                      </table>
+                    </div>
+                    {/* Legend */}
+                    <div style={{ padding: '10px 16px', borderTop: '1px solid #f1f5f9', display: 'flex', gap: 20, flexWrap: 'wrap', fontSize: 12, color: '#64748b', background: '#f8fafc' }}>
+                      <span><span style={{ background: '#dcfce7', color: '#166534', borderRadius: 20, padding: '1px 8px', fontWeight: 600, fontSize: 11 }}>✓ success</span> ผ่าน</span>
+                      <span><span style={{ background: '#fee2e2', color: '#991b1b', borderRadius: 20, padding: '1px 8px', fontWeight: 600, fontSize: 11 }}>✗ failure</span> ไม่ผ่าน</span>
+                      <span style={{ background: '#fff1f2', padding: '1px 8px', borderRadius: 4, color: '#dc2626' }}>พื้นหลังแดง = ต่างจาก baseline</span>
+                      <span style={{ background: '#fffbeb', padding: '1px 8px', borderRadius: 4, color: '#92400e' }}>พื้นหลังเหลือง = ไฟล์ไม่สม่ำเสมอ</span>
+                    </div>
+                  </div>
+                )}
+              </div>
+            )
+          })()}
 
           {/* Tab: Inconsistent */}
           {tab === 'inconsistent' && (
