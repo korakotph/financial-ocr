@@ -228,19 +228,29 @@ export default function DocumentDetail({ params }) {
         <>
           {/* Document info */}
           <Section title="ข้อมูลเอกสาร">
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))', gap: '0 24px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(170px, 1fr))', gap: '0 24px' }}>
               {editing ? (
                 <>
-                  <EditField label="ประเภทเอกสาร" value={data.document_type} onChange={v => onDraftChange('data.document_type', v)} />
-                  <EditField label="เลขที่เอกสาร"  value={data.document_number} onChange={v => onDraftChange('data.document_number', v)} />
-                  <EditField label="วันที่เอกสาร"   value={data.document_date} onChange={v => onDraftChange('data.document_date', v)} />
+                  <EditField label="ประเภทเอกสาร"   value={data.document_type}    onChange={v => onDraftChange('data.document_type', v)} />
+                  <EditField label="เลขที่เอกสาร"    value={data.document_number}  onChange={v => onDraftChange('data.document_number', v)} />
+                  <EditField label="วันที่เอกสาร"    value={data.document_date}    onChange={v => onDraftChange('data.document_date', v)} />
+                  <EditField label="วันครบกำหนด"     value={data.due_date}          onChange={v => onDraftChange('data.due_date', v)} />
+                  <EditField label="เลขอ้างอิง"      value={data.reference_number} onChange={v => onDraftChange('data.reference_number', v)} />
+                  <EditField label="สกุลเงิน"        value={data.currency}          onChange={v => onDraftChange('data.currency', v)} />
+                  <EditField label="เงื่อนไขการชำระ" value={data.payment_terms}    onChange={v => onDraftChange('data.payment_terms', v)} />
+                  <EditField label="วิธีชำระเงิน"    value={data.payment_method}   onChange={v => onDraftChange('data.payment_method', v)} />
                 </>
               ) : (
                 <>
-                  <Field label="ประเภทเอกสาร" value={data.document_type} />
-                  <Field label="เลขที่เอกสาร"  value={data.document_number} />
-                  <Field label="วันที่เอกสาร"   value={data.document_date} />
-                  <Field label="วันที่อัปโหลด"  value={doc.created_at ? new Date(doc.created_at).toLocaleDateString('th-TH') : null} />
+                  <Field label="ประเภทเอกสาร"   value={data.document_type} />
+                  <Field label="เลขที่เอกสาร"    value={data.document_number} />
+                  <Field label="วันที่เอกสาร"    value={data.document_date} />
+                  <Field label="วันครบกำหนด"     value={data.due_date} />
+                  <Field label="เลขอ้างอิง"      value={data.reference_number} />
+                  <Field label="สกุลเงิน"        value={data.currency} />
+                  <Field label="เงื่อนไขการชำระ" value={data.payment_terms} />
+                  <Field label="วิธีชำระเงิน"    value={data.payment_method} />
+                  <Field label="วันที่อัปโหลด"   value={doc.created_at ? new Date(doc.created_at).toLocaleDateString('th-TH') : null} />
                 </>
               )}
             </div>
@@ -251,30 +261,42 @@ export default function DocumentDetail({ params }) {
             <Section title="ผู้ขาย">
               {editing ? (
                 <>
-                  <EditField label="ชื่อ"    value={seller.name}    onChange={v => onDraftChange('data.seller.name', v)} />
-                  <EditField label="ที่อยู่" value={seller.address} onChange={v => onDraftChange('data.seller.address', v)} />
-                  <EditField label="เลขผู้เสียภาษี" value={seller.tax_id} onChange={v => onDraftChange('data.seller.tax_id', v)} />
+                  <EditField label="ชื่อ"            value={seller.name}    onChange={v => onDraftChange('data.seller.name', v)} />
+                  <EditField label="สาขา"            value={seller.branch}  onChange={v => onDraftChange('data.seller.branch', v)} />
+                  <EditField label="เลขผู้เสียภาษี"  value={seller.tax_id}  onChange={v => onDraftChange('data.seller.tax_id', v)} />
+                  <EditField label="ที่อยู่"          value={seller.address} onChange={v => onDraftChange('data.seller.address', v)} />
+                  <EditField label="โทรศัพท์"        value={seller.phone}   onChange={v => onDraftChange('data.seller.phone', v)} />
+                  <EditField label="อีเมล"           value={seller.email}   onChange={v => onDraftChange('data.seller.email', v)} />
                 </>
               ) : (
                 <>
-                  <Field label="ชื่อ"    value={seller.name} />
-                  <Field label="ที่อยู่" value={seller.address} />
-                  <Field label="เลขผู้เสียภาษี" value={seller.tax_id} />
+                  <Field label="ชื่อ"            value={seller.name} />
+                  <Field label="สาขา"            value={seller.branch} />
+                  <Field label="เลขผู้เสียภาษี"  value={seller.tax_id} />
+                  <Field label="ที่อยู่"          value={seller.address} />
+                  <Field label="โทรศัพท์"        value={seller.phone} />
+                  <Field label="อีเมล"           value={seller.email} />
                 </>
               )}
             </Section>
             <Section title="ผู้ซื้อ">
               {editing ? (
                 <>
-                  <EditField label="ชื่อ"    value={buyer.name}    onChange={v => onDraftChange('data.buyer.name', v)} />
-                  <EditField label="ที่อยู่" value={buyer.address} onChange={v => onDraftChange('data.buyer.address', v)} />
-                  <EditField label="เลขผู้เสียภาษี" value={buyer.tax_id} onChange={v => onDraftChange('data.buyer.tax_id', v)} />
+                  <EditField label="ชื่อ"            value={buyer.name}    onChange={v => onDraftChange('data.buyer.name', v)} />
+                  <EditField label="สาขา"            value={buyer.branch}  onChange={v => onDraftChange('data.buyer.branch', v)} />
+                  <EditField label="เลขผู้เสียภาษี"  value={buyer.tax_id}  onChange={v => onDraftChange('data.buyer.tax_id', v)} />
+                  <EditField label="ที่อยู่"          value={buyer.address} onChange={v => onDraftChange('data.buyer.address', v)} />
+                  <EditField label="โทรศัพท์"        value={buyer.phone}   onChange={v => onDraftChange('data.buyer.phone', v)} />
+                  <EditField label="อีเมล"           value={buyer.email}   onChange={v => onDraftChange('data.buyer.email', v)} />
                 </>
               ) : (
                 <>
-                  <Field label="ชื่อ"    value={buyer.name} />
-                  <Field label="ที่อยู่" value={buyer.address} />
-                  <Field label="เลขผู้เสียภาษี" value={buyer.tax_id} />
+                  <Field label="ชื่อ"            value={buyer.name} />
+                  <Field label="สาขา"            value={buyer.branch} />
+                  <Field label="เลขผู้เสียภาษี"  value={buyer.tax_id} />
+                  <Field label="ที่อยู่"          value={buyer.address} />
+                  <Field label="โทรศัพท์"        value={buyer.phone} />
+                  <Field label="อีเมล"           value={buyer.email} />
                 </>
               )}
             </Section>
@@ -284,52 +306,92 @@ export default function DocumentDetail({ params }) {
           <Section title="ยอดเงิน">
             {editing ? (
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(160px, 1fr))', gap: '0 24px' }}>
-                <EditField label="ยอดก่อน VAT" value={amount.subtotal}   onChange={v => onDraftChange('data.amount.subtotal', v)}   type="number" />
-                <EditField label="VAT"          value={amount.vat_amount} onChange={v => onDraftChange('data.amount.vat_amount', v)} type="number" />
-                <EditField label="ยอดรวม"       value={amount.total}      onChange={v => onDraftChange('data.amount.total', v)}      type="number" />
+                <EditField label="ยอดก่อนหักส่วนลด" value={amount.gross_subtotal}                     onChange={v => onDraftChange('data.amount.gross_subtotal', v)} type="number" />
+                <EditField label="ส่วนลด"            value={amount.discount?.amount}                  onChange={v => onDraftChange('data.amount.discount.amount', v)} type="number" />
+                <EditField label="ยอดก่อน VAT"       value={amount.subtotal}                           onChange={v => onDraftChange('data.amount.subtotal', v)} type="number" />
+                <EditField label={`VAT (${amount.vat_rate ?? 7}%)`} value={amount.vat_amount}          onChange={v => onDraftChange('data.amount.vat_amount', v)} type="number" />
+                <EditField label="ภาษีหัก ณ ที่จ่าย" value={amount.withholding_tax?.amount}           onChange={v => onDraftChange('data.amount.withholding_tax.amount', v)} type="number" />
+                <EditField label="ค่าบริการอื่นๆ"    value={amount.service_charge}                    onChange={v => onDraftChange('data.amount.service_charge', v)} type="number" />
+                <EditField label="ยอดรวมสุทธิ"       value={amount.total}                              onChange={v => onDraftChange('data.amount.total', v)} type="number" />
               </div>
             ) : (
-              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
-                {[
-                  { label: 'ยอดก่อน VAT', value: fmt(amount.subtotal),   color: '#374151' },
-                  { label: 'VAT',          value: fmt(amount.vat_amount), color: '#374151' },
-                  { label: 'ยอดรวม',       value: fmt(amount.total),      color: '#4f46e5', large: true },
-                ].map(a => (
-                  <div key={a.label} style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 8, padding: '12px 20px', minWidth: 140 }}>
-                    <div style={{ fontSize: 11, color: '#94a3b8', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 4 }}>{a.label}</div>
-                    <div style={{ fontSize: a.large ? 22 : 18, fontWeight: 700, color: a.color, fontFamily: 'monospace' }}>
-                      {a.value ?? '—'}
+              <>
+                <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginBottom: amount.amount_in_words ? 12 : 0 }}>
+                  {[
+                    { label: 'ยอดก่อนหักส่วนลด', value: fmt(amount.gross_subtotal),                 color: '#64748b', show: amount.gross_subtotal != null },
+                    { label: 'ส่วนลด',            value: fmt(amount.discount?.amount),              color: '#dc2626', show: amount.discount?.amount != null },
+                    { label: 'ยอดก่อน VAT',       value: fmt(amount.subtotal),                      color: '#374151', show: true },
+                    { label: `VAT ${amount.vat_rate ?? 7}%`, value: fmt(amount.vat_amount),          color: '#374151', show: true },
+                    { label: 'ภาษีหัก ณ ที่จ่าย', value: fmt(amount.withholding_tax?.amount),       color: '#9333ea', show: amount.withholding_tax?.amount != null },
+                    { label: 'ค่าบริการอื่นๆ',    value: fmt(amount.service_charge),                color: '#374151', show: amount.service_charge != null },
+                    { label: 'ยอดรวมสุทธิ',       value: fmt(amount.total),                         color: '#4f46e5', large: true, show: true },
+                  ].filter(a => a.show).map(a => (
+                    <div key={a.label} style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 8, padding: '12px 20px', minWidth: 130 }}>
+                      <div style={{ fontSize: 11, color: '#94a3b8', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 4 }}>{a.label}</div>
+                      <div style={{ fontSize: a.large ? 22 : 16, fontWeight: 700, color: a.color, fontFamily: 'monospace' }}>{a.value ?? '—'}</div>
                     </div>
+                  ))}
+                </div>
+                {amount.amount_in_words && (
+                  <div style={{ fontSize: 13, color: '#64748b', marginTop: 4 }}>
+                    <span style={{ fontWeight: 600 }}>จำนวนเงินเป็นตัวอักษร: </span>{amount.amount_in_words}
                   </div>
-                ))}
-              </div>
+                )}
+              </>
             )}
           </Section>
 
           {/* Line items */}
           {items.length > 0 && (
             <Section title={`รายการสินค้า (${items.length})`}>
-              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 13 }}>
-                <thead>
-                  <tr style={{ borderBottom: '2px solid #e2e8f0' }}>
-                    {['#', 'รายการ', 'จำนวน', 'หน่วย', 'ราคาต่อหน่วย', 'รวม'].map((h, i) => (
-                      <th key={h} style={{ padding: '6px 8px', textAlign: i >= 3 ? 'right' : 'left', color: '#64748b', fontWeight: 600, fontSize: 11 }}>{h}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {items.map((it, i) => (
-                    <tr key={i} style={{ borderBottom: '1px solid #f1f5f9' }}>
-                      <td style={{ padding: '8px', color: '#94a3b8' }}>{i + 1}</td>
-                      <td style={{ padding: '8px', color: '#1e293b' }}>{it.description || it.name || '—'}</td>
-                      <td style={{ padding: '8px', color: '#374151' }}>{it.quantity ?? '—'}</td>
-                      <td style={{ padding: '8px', textAlign: 'right', color: '#374151' }}>{it.unit || '—'}</td>
-                      <td style={{ padding: '8px', textAlign: 'right', fontFamily: 'monospace', color: '#374151' }}>{fmt(it.unit_price)}</td>
-                      <td style={{ padding: '8px', textAlign: 'right', fontFamily: 'monospace', fontWeight: 600, color: '#0f172a' }}>{fmt(it.amount)}</td>
+              <div style={{ overflowX: 'auto' }}>
+                <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 13 }}>
+                  <thead>
+                    <tr style={{ borderBottom: '2px solid #e2e8f0' }}>
+                      {['#', 'รหัส', 'รายการ / คำอธิบาย', 'จำนวน', 'หน่วย', 'ราคา/หน่วย', 'ส่วนลด', 'รวม'].map((h, i) => (
+                        <th key={h} style={{ padding: '6px 8px', textAlign: i >= 5 ? 'right' : 'left', color: '#64748b', fontWeight: 600, fontSize: 11, whiteSpace: 'nowrap' }}>{h}</th>
+                      ))}
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {items.map((it, i) => (
+                      <tr key={i} style={{ borderBottom: '1px solid #f1f5f9' }}>
+                        <td style={{ padding: '8px', color: '#94a3b8', whiteSpace: 'nowrap' }}>{i + 1}</td>
+                        <td style={{ padding: '8px', color: '#94a3b8', fontSize: 12 }}>{it.code || '—'}</td>
+                        <td style={{ padding: '8px', color: '#1e293b' }}>
+                          <div style={{ fontWeight: 500 }}>{it.name || '—'}</div>
+                          {it.description && it.description !== it.name && (
+                            <div style={{ fontSize: 12, color: '#64748b', marginTop: 2 }}>{it.description}</div>
+                          )}
+                        </td>
+                        <td style={{ padding: '8px', color: '#374151' }}>{it.quantity ?? '—'}</td>
+                        <td style={{ padding: '8px', color: '#64748b' }}>{it.unit || '—'}</td>
+                        <td style={{ padding: '8px', textAlign: 'right', fontFamily: 'monospace', color: '#374151' }}>{fmt(it.unit_price)}</td>
+                        <td style={{ padding: '8px', textAlign: 'right', fontFamily: 'monospace', color: '#dc2626' }}>{it.discount != null ? fmt(it.discount) : '—'}</td>
+                        <td style={{ padding: '8px', textAlign: 'right', fontFamily: 'monospace', fontWeight: 600, color: '#0f172a' }}>{fmt(it.amount ?? it.total)}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </Section>
+          )}
+
+          {/* Bank account */}
+          {(data.bank_account?.bank || data.bank_account?.account_number) && (
+            <Section title="บัญชีธนาคาร">
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(170px, 1fr))', gap: '0 24px' }}>
+                <Field label="ธนาคาร"        value={data.bank_account?.bank} />
+                <Field label="ชื่อบัญชี"     value={data.bank_account?.account_name} />
+                <Field label="เลขที่บัญชี"   value={data.bank_account?.account_number} />
+              </div>
+            </Section>
+          )}
+
+          {/* Notes */}
+          {data.notes && (
+            <Section title="หมายเหตุ">
+              <p style={{ margin: 0, fontSize: 13, color: '#374151', lineHeight: 1.6 }}>{data.notes}</p>
             </Section>
           )}
 
