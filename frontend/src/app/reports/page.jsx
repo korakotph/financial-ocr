@@ -116,8 +116,9 @@ export default function ReportsPage() {
     fetch(`${API}/reports`)
       .then(r => r.json())
       .then(data => {
-        setFiles(data)
-        if (data.length > 0) setSelected(data[0].filename)
+        const list = Array.isArray(data) ? data : []
+        setFiles(list)
+        if (list.length > 0) setSelected(list[0].filename)
       })
       .catch(() => setFiles([]))
   }, [])
@@ -170,7 +171,8 @@ export default function ReportsPage() {
           ))}
         </select>
         <button
-          onClick={() => fetch(`${API}/reports`).then(r=>r.json()).then(setFiles)}
+          onClick={() => fetch(`${API}/reports`).then(r=>r.json()).then(d => setFiles(Array.isArray(d) ? d : []))}
+
           style={{
             background: '#f3f4f6', border: '1px solid #d1d5db',
             borderRadius: 6, padding: '6px 14px', cursor: 'pointer', fontSize: 13,
