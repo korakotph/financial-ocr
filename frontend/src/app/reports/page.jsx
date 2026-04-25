@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 
-const API = 'http://localhost:8000'
+const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8010'
 
 function fmt(seconds) {
   if (seconds == null) return '-'
