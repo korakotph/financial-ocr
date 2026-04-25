@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef } from 'react'
 
-const API = 'http://localhost:8000'
+const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
 
 export default function PromptPage() {
   const [text, setText]       = useState('')
@@ -83,7 +83,7 @@ export default function PromptPage() {
   }[status]
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', height: 'calc(100vh - 108px)' }}>
 
       {/* Header */}
       <div className="page-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexShrink: 0 }}>
