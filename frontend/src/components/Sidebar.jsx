@@ -10,21 +10,12 @@ export default function Sidebar() {
   const [collapsed, setCollapsed] = useState(false)
 
   const menu = [
-    {
-      name: 'Dashboard',
-      path: '/dashboard',
-      icon: '📊'
-    },
-    {
-      name: 'Documents',
-      path: '/documents',
-      icon: '📄'
-    },
-    {
-      name: 'Settings',
-      path: '/settings',
-      icon: '⚙️'
-    },
+    { name: 'Dashboard',  path: '/',          icon: '📊' },
+    { name: 'Documents',  path: '/documents', icon: '📄' },
+    { name: 'Upload',     path: '/upload',    icon: '📤' },
+    { name: 'Reports',    path: '/reports',   icon: '📈' },
+    { name: 'Prompt',     path: '/prompt',    icon: '✏️' },
+    { name: 'Settings',   path: '/settings',  icon: '⚙️' },
   ]
 
   return (
