@@ -1,13 +1,16 @@
-from fastapi import FastAPI, UploadFile, File, Depends
+from fastapi import FastAPI, UploadFile, File, Depends, HTTPException
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
 import shutil, uuid, os
+from pathlib import Path
 
 from app.ocr import extract_text
-from app.typhoon_ai import analyze_finance
+from app.typhoon_ai import analyze_finance, get_prompt, PROMPT_FILE
 from app.summary import detect_abnormal
 from app.utils import trim_ocr
+from app.prompt import FINANCE_PROMPT
 
 import json
 from datetime import datetime
@@ -187,3 +190,33 @@ def get_document(doc_id: str, db: Session = Depends(get_db)):
         "ocr": doc.ocr,
         "analysis": doc.analysis
     }
+
+class AnalysisUpdate(BaseModel):
+    analysis: dict
+
+@app.put("/api/document/{doc_id}")
+def update_document(doc_id: str, body: AnalysisUpdate, db: Session = Depends(get_db)):
+    doc = db.query(Document).filter(Document.id == doc_id).first()
+    if not doc:
+        raise HTTPException(status_code=404, detail="document_not_found")
+    doc.analysis = body.analysis
+    db.commit()
+    return {"ok": True}
+
+class PromptBody(BaseModel):
+    prompt: str
+
+@app.get("/prompt")
+def get_prompt_api():
+    return {"prompt": get_prompt()}
+
+@app.put("/prompt")
+def update_prompt(body: PromptBody):
+    PROMPT_FILE.write_text(body.prompt, encoding="utf-8")
+    return {"ok": True}
+
+@app.post("/prompt/reset")
+def reset_prompt():
+    if PROMPT_FILE.exists():
+        PROMPT_FILE.unlink()
+    return {"prompt": FINANCE_PROMPT}

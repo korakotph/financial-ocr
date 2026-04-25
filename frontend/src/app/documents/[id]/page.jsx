@@ -36,6 +36,29 @@ function Field({ label, value }) {
   )
 }
 
+function EditField({ label, value, onChange, type = 'text' }) {
+  return (
+    <div style={{ marginBottom: 12 }}>
+      <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: '#94a3b8', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 3 }}>
+        {label}
+      </label>
+      <input
+        type={type}
+        value={value ?? ''}
+        onChange={e => onChange(type === 'number' ? (e.target.value === '' ? null : parseFloat(e.target.value)) : e.target.value)}
+        style={{
+          width: '100%', boxSizing: 'border-box',
+          border: '1px solid #e2e8f0', borderRadius: 6,
+          padding: '6px 10px', fontSize: 13.5, color: '#0f172a',
+          outline: 'none', background: '#fff',
+        }}
+        onFocus={e => e.target.style.borderColor = '#6366f1'}
+        onBlur={e => e.target.style.borderColor = '#e2e8f0'}
+      />
+    </div>
+  )
+}
+
 function Section({ title, children }) {
   return (
     <div style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 12, padding: 20, marginBottom: 16 }}>
@@ -51,12 +74,20 @@ function fmt(v) {
   return isNaN(n) ? v : n.toLocaleString('th-TH', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' ฿'
 }
 
+function deepClone(obj) {
+  return JSON.parse(JSON.stringify(obj))
+}
+
 export default function DocumentDetail({ params }) {
   const { id } = use(params)
   const router = useRouter()
-  const [doc, setDoc] = useState(null)
+  const [doc, setDoc]         = useState(null)
   const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(false)
+  const [error, setError]     = useState(false)
+  const [editing, setEditing] = useState(false)
+  const [draft, setDraft]     = useState(null)
+  const [saving, setSaving]   = useState(false)
+  const [saveMsg, setSaveMsg] = useState(null)
 
   useEffect(() => {
     fetch(`${API}/api/document/${id}`)
@@ -65,7 +96,55 @@ export default function DocumentDetail({ params }) {
       .catch(() => { setError(true); setLoading(false) })
   }, [id])
 
-  const analysis = doc?.analysis ?? {}
+  function startEdit() {
+    setDraft(deepClone(doc.analysis))
+    setEditing(true)
+  }
+
+  function cancelEdit() {
+    setDraft(null)
+    setEditing(false)
+  }
+
+  async function saveEdit() {
+    setSaving(true)
+    try {
+      const res = await fetch(`${API}/api/document/${id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ analysis: draft }),
+      })
+      if (!res.ok) throw new Error()
+      setDoc(prev => ({ ...prev, analysis: draft }))
+      setEditing(false)
+      setDraft(null)
+      setSaveMsg('saved')
+      setTimeout(() => setSaveMsg(null), 2500)
+    } catch {
+      setSaveMsg('error')
+      setTimeout(() => setSaveMsg(null), 3000)
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  function setPath(obj, path, value) {
+    const keys = path.split('.')
+    const clone = deepClone(obj)
+    let cur = clone
+    for (let i = 0; i < keys.length - 1; i++) {
+      if (cur[keys[i]] == null) cur[keys[i]] = {}
+      cur = cur[keys[i]]
+    }
+    cur[keys[keys.length - 1]] = value
+    return clone
+  }
+
+  function onDraftChange(path, value) {
+    setDraft(prev => setPath(prev, path, value))
+  }
+
+  const analysis = (editing ? draft : doc?.analysis) ?? {}
   const data     = analysis.data ?? {}
   const amount   = data.amount ?? {}
   const seller   = data.seller ?? {}
@@ -94,7 +173,45 @@ export default function DocumentDetail({ params }) {
           </h1>
           <p style={{ margin: 0, fontSize: 13, color: '#64748b' }}>Document ID: {id}</p>
         </div>
-        {doc && <div style={{ marginLeft: 'auto' }}><Badge status={analysis.status === 'success' ? 'NORMAL' : (analysis.status || 'ERROR').toUpperCase()} /></div>}
+        {doc && <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 8 }}>
+          {saveMsg === 'saved' && <span style={{ fontSize: 13, color: '#15803d', fontWeight: 600 }}>✓ บันทึกแล้ว</span>}
+          {saveMsg === 'error' && <span style={{ fontSize: 13, color: '#dc2626', fontWeight: 600 }}>✕ บันทึกไม่สำเร็จ</span>}
+          <Badge status={analysis.status === 'success' ? 'NORMAL' : (analysis.status || 'ERROR').toUpperCase()} />
+          {!editing ? (
+            <button
+              onClick={startEdit}
+              style={{
+                background: '#eef2ff', color: '#6366f1', border: 'none',
+                borderRadius: 7, padding: '7px 16px', fontSize: 13, fontWeight: 600, cursor: 'pointer',
+              }}
+            >
+              ✏️ แก้ไข
+            </button>
+          ) : (
+            <>
+              <button
+                onClick={cancelEdit}
+                style={{
+                  background: '#f1f5f9', color: '#64748b', border: 'none',
+                  borderRadius: 7, padding: '7px 16px', fontSize: 13, fontWeight: 600, cursor: 'pointer',
+                }}
+              >
+                ยกเลิก
+              </button>
+              <button
+                onClick={saveEdit}
+                disabled={saving}
+                style={{
+                  background: 'linear-gradient(135deg, #6366f1, #4f46e5)', color: '#fff', border: 'none',
+                  borderRadius: 7, padding: '7px 16px', fontSize: 13, fontWeight: 600, cursor: 'pointer',
+                  opacity: saving ? 0.7 : 1,
+                }}
+              >
+                {saving ? 'กำลังบันทึก...' : '💾 บันทึก'}
+              </button>
+            </>
+          )}
+        </div>}
       </div>
 
       {loading && (
@@ -112,43 +229,81 @@ export default function DocumentDetail({ params }) {
           {/* Document info */}
           <Section title="ข้อมูลเอกสาร">
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))', gap: '0 24px' }}>
-              <Field label="ประเภทเอกสาร" value={data.document_type} />
-              <Field label="เลขที่เอกสาร"  value={data.document_number} />
-              <Field label="วันที่เอกสาร"   value={data.document_date} />
-              <Field label="วันที่อัปโหลด"  value={doc.created_at ? new Date(doc.created_at).toLocaleDateString('th-TH') : null} />
+              {editing ? (
+                <>
+                  <EditField label="ประเภทเอกสาร" value={data.document_type} onChange={v => onDraftChange('data.document_type', v)} />
+                  <EditField label="เลขที่เอกสาร"  value={data.document_number} onChange={v => onDraftChange('data.document_number', v)} />
+                  <EditField label="วันที่เอกสาร"   value={data.document_date} onChange={v => onDraftChange('data.document_date', v)} />
+                </>
+              ) : (
+                <>
+                  <Field label="ประเภทเอกสาร" value={data.document_type} />
+                  <Field label="เลขที่เอกสาร"  value={data.document_number} />
+                  <Field label="วันที่เอกสาร"   value={data.document_date} />
+                  <Field label="วันที่อัปโหลด"  value={doc.created_at ? new Date(doc.created_at).toLocaleDateString('th-TH') : null} />
+                </>
+              )}
             </div>
           </Section>
 
           {/* Seller / Buyer */}
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 16 }}>
             <Section title="ผู้ขาย">
-              <Field label="ชื่อ"    value={seller.name} />
-              <Field label="ที่อยู่" value={seller.address} />
-              <Field label="เลขผู้เสียภาษี" value={seller.tax_id} />
+              {editing ? (
+                <>
+                  <EditField label="ชื่อ"    value={seller.name}    onChange={v => onDraftChange('data.seller.name', v)} />
+                  <EditField label="ที่อยู่" value={seller.address} onChange={v => onDraftChange('data.seller.address', v)} />
+                  <EditField label="เลขผู้เสียภาษี" value={seller.tax_id} onChange={v => onDraftChange('data.seller.tax_id', v)} />
+                </>
+              ) : (
+                <>
+                  <Field label="ชื่อ"    value={seller.name} />
+                  <Field label="ที่อยู่" value={seller.address} />
+                  <Field label="เลขผู้เสียภาษี" value={seller.tax_id} />
+                </>
+              )}
             </Section>
             <Section title="ผู้ซื้อ">
-              <Field label="ชื่อ"    value={buyer.name} />
-              <Field label="ที่อยู่" value={buyer.address} />
-              <Field label="เลขผู้เสียภาษี" value={buyer.tax_id} />
+              {editing ? (
+                <>
+                  <EditField label="ชื่อ"    value={buyer.name}    onChange={v => onDraftChange('data.buyer.name', v)} />
+                  <EditField label="ที่อยู่" value={buyer.address} onChange={v => onDraftChange('data.buyer.address', v)} />
+                  <EditField label="เลขผู้เสียภาษี" value={buyer.tax_id} onChange={v => onDraftChange('data.buyer.tax_id', v)} />
+                </>
+              ) : (
+                <>
+                  <Field label="ชื่อ"    value={buyer.name} />
+                  <Field label="ที่อยู่" value={buyer.address} />
+                  <Field label="เลขผู้เสียภาษี" value={buyer.tax_id} />
+                </>
+              )}
             </Section>
           </div>
 
           {/* Amount summary */}
           <Section title="ยอดเงิน">
-            <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
-              {[
-                { label: 'ยอดก่อน VAT', value: fmt(amount.subtotal), color: '#374151' },
-                { label: 'VAT',          value: fmt(amount.vat_amount), color: '#374151' },
-                { label: 'ยอดรวม',       value: fmt(amount.total), color: '#4f46e5', large: true },
-              ].map(a => (
-                <div key={a.label} style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 8, padding: '12px 20px', minWidth: 140 }}>
-                  <div style={{ fontSize: 11, color: '#94a3b8', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 4 }}>{a.label}</div>
-                  <div style={{ fontSize: a.large ? 22 : 18, fontWeight: 700, color: a.color, fontFamily: 'monospace' }}>
-                    {a.value ?? '—'}
+            {editing ? (
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(160px, 1fr))', gap: '0 24px' }}>
+                <EditField label="ยอดก่อน VAT" value={amount.subtotal}   onChange={v => onDraftChange('data.amount.subtotal', v)}   type="number" />
+                <EditField label="VAT"          value={amount.vat_amount} onChange={v => onDraftChange('data.amount.vat_amount', v)} type="number" />
+                <EditField label="ยอดรวม"       value={amount.total}      onChange={v => onDraftChange('data.amount.total', v)}      type="number" />
+              </div>
+            ) : (
+              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
+                {[
+                  { label: 'ยอดก่อน VAT', value: fmt(amount.subtotal),   color: '#374151' },
+                  { label: 'VAT',          value: fmt(amount.vat_amount), color: '#374151' },
+                  { label: 'ยอดรวม',       value: fmt(amount.total),      color: '#4f46e5', large: true },
+                ].map(a => (
+                  <div key={a.label} style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 8, padding: '12px 20px', minWidth: 140 }}>
+                    <div style={{ fontSize: 11, color: '#94a3b8', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 4 }}>{a.label}</div>
+                    <div style={{ fontSize: a.large ? 22 : 18, fontWeight: 700, color: a.color, fontFamily: 'monospace' }}>
+                      {a.value ?? '—'}
+                    </div>
                   </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            )}
           </Section>
 
           {/* Line items */}
