@@ -8,7 +8,7 @@ services:
       - OLLAMA_NUM_PARALLEL=2
       - OLLAMA_MAX_LOADED_MODELS=1
     ports:
-      - "11434:11434"
+      - "11444:11434"
     volumes:
       - ollama_data:/root/.ollama
     command: ["serve"]
@@ -22,7 +22,7 @@ services:
       POSTGRES_PASSWORD: finance_pass
       POSTGRES_DB: finance_db
     ports:
-      - "5433:5432"
+      - "5443:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
 
@@ -35,8 +35,8 @@ services:
       MINIO_ROOT_USER: minioadmin
       MINIO_ROOT_PASSWORD: minioadmin
     ports:
-      - "9000:9000"
-      - "9001:9001"
+      - "9010:9000"
+      - "9011:9001"
     volumes:
       - minio_data:/data
 
@@ -57,7 +57,7 @@ services:
       OLLAMA_LOCAL_URL: http://localhost:11434/api/chat
       OLLAMA_MODEL: scb10x/llama3.1-typhoon2-8b-instruct
     ports:
-      - "8000:8000"
+      - "8010:8000"
 
   frontend:
     build: ./frontend
@@ -68,7 +68,7 @@ services:
     environment:
       NEXT_PUBLIC_API_URL: http://backend:8000
     ports:
-      - "3001:3001"
+      - "3011:3001"
 
 volumes:
   pgdata:
