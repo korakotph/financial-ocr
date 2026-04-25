@@ -16,7 +16,7 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-REPORT_DIR = Path(r"D:\financial-ocr\report")
+REPORT_DIR = Path(__file__).parent / "report"
 
 try:
     import requests
@@ -30,7 +30,7 @@ except ImportError:
 def parse_args():
     parser = argparse.ArgumentParser(description="Batch upload + evaluation")
     parser.add_argument("--url",    default="http://localhost:8010")
-    parser.add_argument("--folder", default=str(Path(__file__).parent.parent / "financial-ocr" / "image_for_test"))
+    parser.add_argument("--folder", default=str(Path(__file__).parent / "image_for_test"))
     parser.add_argument("--rounds", type=int, default=3,   help="Number of upload rounds")
     parser.add_argument("--delay",  type=float, default=1.0, help="Seconds between uploads")
     parser.add_argument("--limit",  type=int, default=None, help="Use first N files (deterministic)")
