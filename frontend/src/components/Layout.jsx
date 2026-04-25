@@ -14,15 +14,15 @@ export default function Layout({ children }) {
   }
 
   return (
-    <div className="layout flex">
-      
+    <div style={{ display: 'flex', height: '100vh', background: '#f8fafc' }}>
+
       <Sidebar />
 
-      <div className="main flex-1">
+      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
 
         <Navbar />
 
-        <div className="content">
+        <div style={{ flex: 1, overflowY: 'auto', padding: 24 }}>
           {children}
         </div>
 
