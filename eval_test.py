@@ -29,7 +29,7 @@ except ImportError:
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Batch upload + evaluation")
-    parser.add_argument("--url",    default="http://localhost:8000")
+    parser.add_argument("--url",    default="http://localhost:8010")
     parser.add_argument("--folder", default=str(Path(__file__).parent.parent / "financial-ocr" / "image_for_test"))
     parser.add_argument("--rounds", type=int, default=3,   help="Number of upload rounds")
     parser.add_argument("--delay",  type=float, default=1.0, help="Seconds between uploads")
