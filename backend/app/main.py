@@ -208,6 +208,21 @@ def update_document(doc_id: str, body: AnalysisUpdate, db: Session = Depends(get
     db.commit()
     return {"ok": True}
 
+@app.delete("/api/document/{doc_id}")
+def delete_document(doc_id: str, db: Session = Depends(get_db)):
+    doc = db.query(Document).filter(Document.id == doc_id).first()
+    if not doc:
+        raise HTTPException(status_code=404, detail="document_not_found")
+    db.delete(doc)
+    db.commit()
+    return {"ok": True}
+
+@app.delete("/api/documents")
+def delete_all_documents(db: Session = Depends(get_db)):
+    db.query(Document).delete()
+    db.commit()
+    return {"ok": True}
+
 class PromptBody(BaseModel):
     prompt: str
 

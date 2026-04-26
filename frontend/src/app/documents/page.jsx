@@ -32,7 +32,7 @@ function fmtDate(iso) {
   return new Date(iso).toLocaleDateString('th-TH', { year: 'numeric', month: 'short', day: 'numeric' })
 }
 
-const COLUMNS = [
+const DATA_COLUMNS = [
   { key: 'filename',      label: 'ชื่อไฟล์',    sortable: true,  align: 'left'  },
   { key: 'document_type', label: 'ประเภท',      sortable: true,  align: 'left'  },
   { key: 'seller',        label: 'ผู้ขาย',      sortable: true,  align: 'left'  },
@@ -54,6 +54,11 @@ export default function DocumentsPage() {
   const [loading, setLoading] = useState(true)
   const [fetchError, setFetchError] = useState(false)
 
+  // Selection
+  const [selected, setSelected] = useState(new Set())
+  const [deleting, setDeleting] = useState(false)
+  const [confirmDelete, setConfirmDelete] = useState(false)
+
   // Filter
   const [search, setSearch]           = useState('')
   const [statusFilter, setStatusFilter] = useState('ALL')
@@ -70,6 +75,7 @@ export default function DocumentsPage() {
   function loadDocs() {
     setLoading(true)
     setFetchError(false)
+    setSelected(new Set())
     fetch(`${API}/summary`)
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() })
       .then(data => { setDocs(Array.isArray(data) ? data : []); setLoading(false) })
@@ -78,7 +84,6 @@ export default function DocumentsPage() {
 
   useEffect(() => { loadDocs() }, [])
 
-  // Reset to page 1 whenever filters/sort change
   useEffect(() => { setPage(1) }, [search, statusFilter, typeFilter, sortKey, sortDir, pageSize])
 
   const docTypes = useMemo(() => {
@@ -117,6 +122,42 @@ export default function DocumentsPage() {
   const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize))
   const pageDocs   = filtered.slice((page - 1) * pageSize, page * pageSize)
 
+  // เลือกทั้งหมดในหน้าปัจจุบัน
+  const pageIds = pageDocs.map(d => d.id)
+  const allPageSelected = pageIds.length > 0 && pageIds.every(id => selected.has(id))
+  const somePageSelected = pageIds.some(id => selected.has(id))
+
+  function toggleSelectAll() {
+    if (allPageSelected) {
+      setSelected(prev => { const s = new Set(prev); pageIds.forEach(id => s.delete(id)); return s })
+    } else {
+      setSelected(prev => { const s = new Set(prev); pageIds.forEach(id => s.add(id)); return s })
+    }
+  }
+
+  function toggleSelect(id) {
+    setSelected(prev => {
+      const s = new Set(prev)
+      s.has(id) ? s.delete(id) : s.add(id)
+      return s
+    })
+  }
+
+  async function deleteSelected() {
+    setDeleting(true)
+    setConfirmDelete(false)
+    try {
+      await Promise.all(
+        [...selected].map(id =>
+          fetch(`${API}/api/document/${id}`, { method: 'DELETE' })
+        )
+      )
+    } finally {
+      setDeleting(false)
+      loadDocs()
+    }
+  }
+
   function toggleSort(key) {
     if (sortKey === key) setSortDir(d => d === 'asc' ? 'desc' : 'asc')
     else { setSortKey(key); setSortDir('asc') }
@@ -143,13 +184,58 @@ export default function DocumentsPage() {
             {loading ? 'กำลังโหลด...' : fetchError ? 'โหลดข้อมูลไม่สำเร็จ' : `${filtered.length} จาก ${docs.length} เอกสาร`}
           </p>
         </div>
-        <button
-          onClick={loadDocs}
-          style={{ background: '#f1f5f9', border: '1px solid #e2e8f0', borderRadius: 7, padding: '6px 14px', fontSize: 13, color: '#374151', cursor: 'pointer', whiteSpace: 'nowrap' }}
-        >
-          ↻ รีเฟรช
-        </button>
+        <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+          {selected.size > 0 && (
+            <button
+              onClick={() => setConfirmDelete(true)}
+              disabled={deleting}
+              style={{
+                background: '#fee2e2', color: '#dc2626', border: '1px solid #fecaca',
+                borderRadius: 7, padding: '6px 14px', fontSize: 13, fontWeight: 600,
+                cursor: deleting ? 'not-allowed' : 'pointer', whiteSpace: 'nowrap',
+                opacity: deleting ? 0.6 : 1,
+              }}
+            >
+              {deleting ? 'กำลังลบ...' : `🗑 ลบที่เลือก (${selected.size})`}
+            </button>
+          )}
+          <button
+            onClick={loadDocs}
+            style={{ background: '#f1f5f9', border: '1px solid #e2e8f0', borderRadius: 7, padding: '6px 14px', fontSize: 13, color: '#374151', cursor: 'pointer', whiteSpace: 'nowrap' }}
+          >
+            ↻ รีเฟรช
+          </button>
+        </div>
       </div>
+
+      {/* Confirm delete dialog */}
+      {confirmDelete && (
+        <div style={{
+          position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.4)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1000,
+        }}>
+          <div style={{ background: '#fff', borderRadius: 14, padding: 28, maxWidth: 380, width: '90%', boxShadow: '0 20px 60px rgba(0,0,0,0.2)' }}>
+            <div style={{ fontSize: 16, fontWeight: 700, color: '#0f172a', marginBottom: 8 }}>ยืนยันการลบ</div>
+            <div style={{ fontSize: 13.5, color: '#64748b', marginBottom: 20 }}>
+              คุณต้องการลบ <strong style={{ color: '#dc2626' }}>{selected.size} เอกสาร</strong> ที่เลือกหรือไม่? การกระทำนี้ไม่สามารถย้อนกลับได้
+            </div>
+            <div style={{ display: 'flex', gap: 10, justifyContent: 'flex-end' }}>
+              <button
+                onClick={() => setConfirmDelete(false)}
+                style={{ padding: '8px 18px', background: '#f1f5f9', color: '#374151', border: '1px solid #e2e8f0', borderRadius: 7, fontSize: 13, fontWeight: 600, cursor: 'pointer' }}
+              >
+                ยกเลิก
+              </button>
+              <button
+                onClick={deleteSelected}
+                style={{ padding: '8px 18px', background: '#dc2626', color: '#fff', border: 'none', borderRadius: 7, fontSize: 13, fontWeight: 600, cursor: 'pointer' }}
+              >
+                ลบเอกสาร
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {fetchError && (
         <div style={{ background: '#fee2e2', border: '1px solid #fecaca', borderRadius: 10, padding: '12px 16px', marginBottom: 14, color: '#991b1b', fontSize: 13, display: 'flex', alignItems: 'center', gap: 8 }}>
@@ -160,7 +246,6 @@ export default function DocumentsPage() {
 
       {/* Filter bar */}
       <div style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '12px 16px', marginBottom: 14, display: 'flex', gap: 10, flexWrap: 'wrap', alignItems: 'center' }}>
-        {/* Search */}
         <div style={{ position: 'relative', flex: '1 1 200px', minWidth: 160 }}>
           <span style={{ position: 'absolute', left: 10, top: '50%', transform: 'translateY(-50%)', color: '#94a3b8', fontSize: 14 }}>🔍</span>
           <input
@@ -171,7 +256,6 @@ export default function DocumentsPage() {
           />
         </div>
 
-        {/* Status filter */}
         <select value={statusFilter} onChange={e => setStatusFilter(e.target.value)} style={selectStyle}>
           <option value="ALL">สถานะทั้งหมด</option>
           <option value="NORMAL">NORMAL</option>
@@ -179,13 +263,11 @@ export default function DocumentsPage() {
           <option value="ERROR">ERROR</option>
         </select>
 
-        {/* Type filter */}
         <select value={typeFilter} onChange={e => setTypeFilter(e.target.value)} style={selectStyle}>
           <option value="ALL">ประเภทเอกสารทั้งหมด</option>
           {docTypes.map(t => <option key={t} value={t}>{t}</option>)}
         </select>
 
-        {/* Clear */}
         {hasFilters && (
           <button
             onClick={clearFilters}
@@ -195,7 +277,6 @@ export default function DocumentsPage() {
           </button>
         )}
 
-        {/* Page size */}
         <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 8 }}>
           <span style={{ fontSize: 13, color: '#64748b', whiteSpace: 'nowrap' }}>แถวต่อหน้า</span>
           <select value={pageSize} onChange={e => setPageSize(Number(e.target.value))} style={selectStyle}>
@@ -217,7 +298,17 @@ export default function DocumentsPage() {
             <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 13.5 }}>
               <thead>
                 <tr style={{ borderBottom: '1px solid #e2e8f0', background: '#f8fafc' }}>
-                  {COLUMNS.map(col => (
+                  {/* Checkbox column */}
+                  <th style={{ padding: '10px 12px 10px 16px', width: 36 }}>
+                    <input
+                      type="checkbox"
+                      checked={allPageSelected}
+                      ref={el => { if (el) el.indeterminate = somePageSelected && !allPageSelected }}
+                      onChange={toggleSelectAll}
+                      style={{ cursor: 'pointer', width: 15, height: 15, accentColor: '#6366f1' }}
+                    />
+                  </th>
+                  {DATA_COLUMNS.map(col => (
                     <th
                       key={col.key}
                       onClick={col.sortable ? () => toggleSort(col.key) : undefined}
@@ -236,36 +327,47 @@ export default function DocumentsPage() {
                 </tr>
               </thead>
               <tbody>
-                {pageDocs.map(doc => (
-                  <tr
-                    key={doc.id}
-                    style={{ borderBottom: '1px solid #f1f5f9', transition: 'background 0.1s' }}
-                    onMouseEnter={e => e.currentTarget.style.background = '#f8fafc'}
-                    onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
-                  >
-                    <td style={{ padding: '11px 16px', color: '#1e293b', fontWeight: 500, maxWidth: 200 }}>
-                      <span style={{ display: 'block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{doc.filename || '—'}</span>
-                    </td>
-                    <td style={{ padding: '11px 16px', color: '#64748b' }}>{doc.document_type || '—'}</td>
-                    <td style={{ padding: '11px 16px', color: '#64748b', maxWidth: 140 }}>
-                      <span style={{ display: 'block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{doc.seller || '—'}</span>
-                    </td>
-                    <td style={{ padding: '11px 16px', color: '#64748b', maxWidth: 140 }}>
-                      <span style={{ display: 'block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{doc.buyer || '—'}</span>
-                    </td>
-                    <td style={{ padding: '11px 16px', textAlign: 'right', fontFamily: 'monospace', color: '#0f172a', fontWeight: 600 }}>{fmt(doc.total)}</td>
-                    <td style={{ padding: '11px 16px' }}><Badge status={doc.status} /></td>
-                    <td style={{ padding: '11px 16px', color: '#94a3b8', fontSize: 12, whiteSpace: 'nowrap' }}>{fmtDate(doc.created_at)}</td>
-                    <td style={{ padding: '11px 16px' }}>
-                      <button
-                        onClick={() => router.push(`/documents/${doc.id}`)}
-                        style={{ background: '#eef2ff', color: '#6366f1', border: 'none', borderRadius: 6, padding: '5px 12px', fontSize: 12, fontWeight: 600, cursor: 'pointer', whiteSpace: 'nowrap' }}
-                      >
-                        รายละเอียด →
-                      </button>
-                    </td>
-                  </tr>
-                ))}
+                {pageDocs.map(doc => {
+                  const isSelected = selected.has(doc.id)
+                  return (
+                    <tr
+                      key={doc.id}
+                      style={{ borderBottom: '1px solid #f1f5f9', transition: 'background 0.1s', background: isSelected ? '#eef2ff' : 'transparent' }}
+                      onMouseEnter={e => { if (!isSelected) e.currentTarget.style.background = '#f8fafc' }}
+                      onMouseLeave={e => { e.currentTarget.style.background = isSelected ? '#eef2ff' : 'transparent' }}
+                    >
+                      <td style={{ padding: '11px 12px 11px 16px' }}>
+                        <input
+                          type="checkbox"
+                          checked={isSelected}
+                          onChange={() => toggleSelect(doc.id)}
+                          style={{ cursor: 'pointer', width: 15, height: 15, accentColor: '#6366f1' }}
+                        />
+                      </td>
+                      <td style={{ padding: '11px 16px', color: '#1e293b', fontWeight: 500, maxWidth: 200 }}>
+                        <span style={{ display: 'block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{doc.filename || '—'}</span>
+                      </td>
+                      <td style={{ padding: '11px 16px', color: '#64748b' }}>{doc.document_type || '—'}</td>
+                      <td style={{ padding: '11px 16px', color: '#64748b', maxWidth: 140 }}>
+                        <span style={{ display: 'block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{doc.seller || '—'}</span>
+                      </td>
+                      <td style={{ padding: '11px 16px', color: '#64748b', maxWidth: 140 }}>
+                        <span style={{ display: 'block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{doc.buyer || '—'}</span>
+                      </td>
+                      <td style={{ padding: '11px 16px', textAlign: 'right', fontFamily: 'monospace', color: '#0f172a', fontWeight: 600 }}>{fmt(doc.total)}</td>
+                      <td style={{ padding: '11px 16px' }}><Badge status={doc.status} /></td>
+                      <td style={{ padding: '11px 16px', color: '#94a3b8', fontSize: 12, whiteSpace: 'nowrap' }}>{fmtDate(doc.created_at)}</td>
+                      <td style={{ padding: '11px 16px' }}>
+                        <button
+                          onClick={() => router.push(`/documents/${doc.id}`)}
+                          style={{ background: '#eef2ff', color: '#6366f1', border: 'none', borderRadius: 6, padding: '5px 12px', fontSize: 12, fontWeight: 600, cursor: 'pointer', whiteSpace: 'nowrap' }}
+                        >
+                          รายละเอียด →
+                        </button>
+                      </td>
+                    </tr>
+                  )
+                })}
               </tbody>
             </table>
           </div>
@@ -276,7 +378,10 @@ export default function DocumentsPage() {
       {!loading && filtered.length > 0 && (
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: 14, flexWrap: 'wrap', gap: 10 }}>
           <span style={{ fontSize: 13, color: '#64748b' }}>
-            แสดง {(page - 1) * pageSize + 1}–{Math.min(page * pageSize, filtered.length)} จาก {filtered.length} รายการ
+            {selected.size > 0
+              ? `เลือก ${selected.size} รายการ · แสดง ${(page - 1) * pageSize + 1}–${Math.min(page * pageSize, filtered.length)} จาก ${filtered.length} รายการ`
+              : `แสดง ${(page - 1) * pageSize + 1}–${Math.min(page * pageSize, filtered.length)} จาก ${filtered.length} รายการ`
+            }
           </span>
 
           <div style={{ display: 'flex', gap: 4, alignItems: 'center' }}>
