@@ -2,6 +2,8 @@
 
 import { useState } from 'react'
 
+const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8010'
+
 function Section({ title, desc, children }) {
   return (
     <div style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 12, overflow: 'hidden', marginBottom: 16 }}>
@@ -35,6 +37,22 @@ export default function SettingsPage() {
   const [password, setPassword] = useState('')
   const [confirm,  setConfirm]  = useState('')
   const [saved, setSaved]       = useState(false)
+
+  const [confirmClearAll, setConfirmClearAll] = useState(false)
+  const [clearing, setClearing]               = useState(false)
+  const [clearDone, setClearDone]             = useState(false)
+
+  async function handleClearAll() {
+    setClearing(true)
+    setConfirmClearAll(false)
+    try {
+      await fetch(`${API}/api/documents`, { method: 'DELETE' })
+      setClearDone(true)
+      setTimeout(() => setClearDone(false), 3000)
+    } finally {
+      setClearing(false)
+    }
+  }
 
   function handleAdd(e) {
     e.preventDefault()
@@ -113,6 +131,63 @@ export default function SettingsPage() {
             )}
           </div>
         </form>
+      </Section>
+
+      {/* Confirm clear all dialog */}
+      {confirmClearAll && (
+        <div style={{
+          position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.4)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1000,
+        }}>
+          <div style={{ background: '#fff', borderRadius: 14, padding: 28, maxWidth: 400, width: '90%', boxShadow: '0 20px 60px rgba(0,0,0,0.2)' }}>
+            <div style={{ fontSize: 16, fontWeight: 700, color: '#0f172a', marginBottom: 8 }}>ยืนยันการลบข้อมูลทั้งหมด</div>
+            <div style={{ fontSize: 13.5, color: '#64748b', marginBottom: 20 }}>
+              คุณต้องการ<strong style={{ color: '#dc2626' }}> ลบเอกสารทั้งหมด </strong>ในระบบหรือไม่?<br />การกระทำนี้ไม่สามารถย้อนกลับได้
+            </div>
+            <div style={{ display: 'flex', gap: 10, justifyContent: 'flex-end' }}>
+              <button
+                onClick={() => setConfirmClearAll(false)}
+                style={{ padding: '8px 18px', background: '#f1f5f9', color: '#374151', border: '1px solid #e2e8f0', borderRadius: 7, fontSize: 13, fontWeight: 600, cursor: 'pointer' }}
+              >
+                ยกเลิก
+              </button>
+              <button
+                onClick={handleClearAll}
+                style={{ padding: '8px 18px', background: '#dc2626', color: '#fff', border: 'none', borderRadius: 7, fontSize: 13, fontWeight: 600, cursor: 'pointer' }}
+              >
+                ลบทั้งหมด
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Danger zone */}
+      <Section title="โซนอันตราย" desc="การกระทำที่ไม่สามารถย้อนกลับได้">
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
+          <div>
+            <div style={{ fontSize: 13.5, fontWeight: 600, color: '#0f172a' }}>ลบเอกสารทั้งหมด</div>
+            <div style={{ fontSize: 12.5, color: '#64748b', marginTop: 2 }}>ลบข้อมูลเอกสารทุกรายการออกจากฐานข้อมูล</div>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+            {clearDone && <span style={{ fontSize: 13, color: '#15803d', fontWeight: 600 }}>✓ ลบข้อมูลทั้งหมดเรียบร้อยแล้ว</span>}
+            <button
+              onClick={() => setConfirmClearAll(true)}
+              disabled={clearing}
+              style={{
+                padding: '8px 20px',
+                background: clearing ? '#f1f5f9' : '#fee2e2',
+                color: clearing ? '#94a3b8' : '#dc2626',
+                border: `1px solid ${clearing ? '#e2e8f0' : '#fecaca'}`,
+                borderRadius: 7, fontSize: 13.5, fontWeight: 600,
+                cursor: clearing ? 'not-allowed' : 'pointer',
+                whiteSpace: 'nowrap',
+              }}
+            >
+              {clearing ? 'กำลังลบ...' : '🗑 ลบเอกสารทั้งหมด'}
+            </button>
+          </div>
+        </div>
       </Section>
 
       {/* Info */}
