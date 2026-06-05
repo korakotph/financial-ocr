@@ -89,8 +89,31 @@ def analyze_document(file: UploadFile = File(...),db: Session = Depends(get_db))
         "stored_filename": f"{timestamp}_{file_id}_{safe_name}",
         "created_at": datetime.now().isoformat(),
         "ocr": ocr_result,
-        "analysis": analysis
+        "analysis": analysis,
+        "is_duplicate": is_duplicate,
+        "duplicate_of": duplicate_of,
     }
+
+    # Duplicate detection: same document_number + document_date + total
+    is_duplicate = False
+    duplicate_of = None
+    if analysis.get("status") == "success":
+        inv = analysis.get("data", {}) or {}
+        doc_num = inv.get("document_number")
+        doc_date = inv.get("document_date")
+        doc_total = (inv.get("amount") or {}).get("total")
+        if doc_num and doc_total:
+            existing_docs = db.query(Document).filter(
+                Document.id != file_id
+            ).all()
+            for ex in existing_docs:
+                ex_data = (ex.analysis or {}).get("data") or {}
+                if (ex_data.get("document_number") == doc_num
+                        and ex_data.get("document_date") == doc_date
+                        and (ex_data.get("amount") or {}).get("total") == doc_total):
+                    is_duplicate = True
+                    duplicate_of = ex.id
+                    break
 
     doc = Document(
         id=file_id,
@@ -159,13 +182,15 @@ def summary(db: Session = Depends(get_db)):
             "stored_filename": doc.stored_filename,
             "created_at": doc.created_at.isoformat(),
             "document_type": invoice.get("document_type"),
+            "document_number": invoice.get("document_number"),
+            "document_date": invoice.get("document_date"),
             "seller": seller.get("name"),
             "buyer": buyer.get("name"),
             "subtotal": amount.get("subtotal"),
             "vat": amount.get("vat_amount"),
             "total": amount.get("total"),
             "status": status,
-            "reason": reason
+            "reason": reason,
         })
 
     return results
