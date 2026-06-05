@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 14.930814799998188,
+        "max": 25.230262400000356,
+        "avg": 19.3131776599992,
+        "total": 193.131776599992
+      },
+      "results": {
+        "เอกสาร invoice_page-0024.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "54349d50-3dd0-46d0-907e-a14a9d97fa5b",
+          "elapsed": 15.98126780000166,
+          "text": "TAX_INVOICE AR-L 103382 บริษัท ไซแมท เลเบล จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด Z00455 OKI-TONER 46844014 BK 9K - ดำ 7000.0"
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b525f589-305f-45f2-8be9-e86ef993945e",
+          "elapsed": 25.230262400000356,
+          "text": "TAX_INVOICE 70985 3A 3 A CENTER CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.07 MM. X 11 CM. X 700 ม.สีใส(10 ม้วน) PVC 0.07 MM. X 15 CM. X 700 ม.สีใส(5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 ม.สีใส(3 ม้วน) 15238.51"
+        },
+        "เอกสาร invoice_page-0065.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ea38754a-acf9-4f0f-a358-e1308ec67a58",
+          "elapsed": 15.518071200000122,
+          "text": "TAX_INVOICE 2569/01234 ห้างหุ้นส่วนจำกัด สำนักพิมพ์ฟิสิกส์เซ็นเตอร์ บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 34775"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d1bb950b-cd9c-4ce1-b4fc-e1446ca9a543",
+          "elapsed": 19.854479099994933,
+          "text": "TAX_INVOICE IV9085469 Vertex Trading Co., Ltd. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ( 200 ใบ*25 แพค ) จำนวน 200 ถัง 119840"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ace10301-22f7-4a37-bb1d-9451ea45d1b2",
+          "elapsed": 16.5871049999987,
+          "text": "TAX_INVOICE IV6901025 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        },
+        "เอกสาร invoice_page-0178.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6fa4f85e-2a4c-4597-9a6a-d4dec5ae27f2",
+          "elapsed": 25.0060106000019,
+          "text": "TAX_INVOICE 70577 บริษัท 3 เอ เซ็นเตอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.07 MM. X 15 CM. X 700 M. สีใส( 3 ม้วน) PVC 0.07 MM. X 11.5 CM. X 700 M. สีใส( 3 ม้วน) 5116.1"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "95f2364b-702d-41d7-80d9-0e43dcbc5a7e",
+          "elapsed": 21.278140500005975,
+          "text": "TAX_INVOICE 70576 3A 3 A CENTER CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        },
+        "เอกสาร invoice_page-0191.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0a3c74b0-32d1-4cdb-bf94-68132e33c453",
+          "elapsed": 14.930814799998188,
+          "text": "TAX_INVOICE IV260113-031 บริษัท เอ็กซ์เซลแพคเกจจิ้ง จำกัด บจก. บราเธอร์ แอนด์ บราเธอร์ บรรจุ 600 ชิ้น/กล่อง จำนวน 100 กล่อง 53286"
+        },
+        "เอกสาร invoice_page-0196.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5a058a2d-bc78-4531-b828-a326f21dfe60",
+          "elapsed": 22.438112699994235,
+          "text": "TAX_INVOICE IV6968145 บริษัท พีเอ็มซี มิลเลนเนียม จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 19527.5"
+        },
+        "เอกสาร invoice_page-0202.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8a88cd7f-fa82-4fba-ae24-cccab87ea146",
+          "elapsed": 16.307512499995937,
+          "text": "TAX_INVOICE IV6901033 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 95016"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 15.025684600004752,
+        "max": 22.421836299996357,
+        "avg": 18.077883990000554,
+        "total": 180.77883990000555
+      },
+      "results": {
+        "เอกสาร invoice_page-0024.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d94c53ba-524c-4830-b430-949b4d954e3e",
+          "elapsed": 16.009619399999792,
+          "text": "TAX_INVOICE AR-L 103382 บริษัท ไซแมท เลเบล จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ZO0455 OKI-TONER 46844014 BK 9K - ดำ 7000.0"
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c7aa19cd-441d-479f-9248-522db63f5c3d",
+          "elapsed": 22.421836299996357,
+          "text": "TAX_INVOICE 70985 3A 3 A CENTER CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.07 MM. X 11 CM. X 700 ม.สีใส(10 ม้วน) PVC 0.07 MM. X 15 CM. X 700 ม.สีใส(5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 ม.สีใส(3 ม้วน) 15238.51"
+        },
+        "เอกสาร invoice_page-0065.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9134f367-21c5-4a3d-9105-bfe1c2d6e9cf",
+          "elapsed": 15.696331200000714,
+          "text": "TAX_INVOICE 2569/01234 ห้างหุ้นส่วนจำกัด สำนักพิมพ์ฟิสิกส์เซ็นเตอร์ บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ G-AROถุงกระดาษน้ำตาลหูเกลียว 32x11x24 ซม. 50 ใบ 34775"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7c183858-9de5-4bfd-b737-6be8f1accd96",
+          "elapsed": 18.08999820000463,
+          "text": "TAX_INVOICE IV9085469 Vertex Trading Co., Ltd. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ( 200 ใบ*25 แพค ) จำนวน 200 ถัง 119840"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c3b5ce63-e3ac-45b1-8e5c-6cd09bf11990",
+          "elapsed": 16.40385019999667,
+          "text": "TAX_INVOICE IV6901025 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        },
+        "เอกสาร invoice_page-0178.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fcfd088a-c608-47b9-b758-d86b2acf93fe",
+          "elapsed": 21.435719799999788,
+          "text": "TAX_INVOICE 70577 บริษัท 3 เอ เซ็นเตอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.07 MM. X 15 CM. X 700 M. สีใส( 3 ม้วน) PVC 0.07 MM. X 11.5 CM. X 700 M. สีใส( 3 ม้วน) 5116.1"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d8495329-a049-4a25-af10-82994e0fb7e5",
+          "elapsed": 20.783536599999934,
+          "text": "TAX_INVOICE 70576 3A 3 A CENTER CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        },
+        "เอกสาร invoice_page-0191.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d3695e12-d120-4ad6-b986-c74e5dcf49f6",
+          "elapsed": 15.025684600004752,
+          "text": "TAX_INVOICE IV260113-031 บริษัท เอ็กซ์เซลแพคเกจจิ้ง จำกัด บจก. บราเธอร์ แอนด์ บราเธอร์ บรรจุ 600 ชิ้น/กล่อง จำนวน 100 กล่อง 53286"
+        },
+        "เอกสาร invoice_page-0196.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "349abac7-0f38-485f-ac00-0e315350ba44",
+          "elapsed": 19.39779290000297,
+          "text": "TAX_INVOICE IV6968145 บริษัท พีเอ็มซี มิลเลนเนียม จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 19527.5"
+        },
+        "เอกสาร invoice_page-0202.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d411c8ce-a781-41e3-a591-616e45080f9d",
+          "elapsed": 15.514470699999947,
+          "text": "TAX_INVOICE IV6901033 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 95016"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 14.343712499998219,
+        "max": 26.06255410000449,
+        "avg": 19.583943569999974,
+        "total": 195.83943569999974
+      },
+      "results": {
+        "เอกสาร invoice_page-0024.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "83c630b6-55dc-4abd-968d-feeae2dd660c",
+          "elapsed": 15.006855699997686,
+          "text": "TAX_INVOICE AR-L 103382 บริษัท ไซแมท เลเบล จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ZO0455 OKI-TONER 46844014 BK 9K - ดำ 7000.0"
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "64379330-b3d0-4043-b616-755fded32980",
+          "elapsed": 24.09151700000075,
+          "text": "TAX_INVOICE 70985 3A 3 A CENTER CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.07 MM. X 11 CM. X 700 M.สีใส(10 ม้วน) PVC 0.07 MM. X 15 CM. X 700 M.สีใส(5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 M.สีใส(3 ม้วน) 15238.51"
+        },
+        "เอกสาร invoice_page-0065.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e8692718-f1e2-4dcc-9090-712ce1985763",
+          "elapsed": 14.343712499998219,
+          "text": "TAX_INVOICE 2569/01234 ห้างหุ้นส่วนจำกัด สำนักพิมพ์ฟิสิกส์เซ็นเตอร์ บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ 50 ใบ 34775"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8f5d8dde-2609-480d-aa78-2dc63b0981a8",
+          "elapsed": 20.41069029999926,
+          "text": "TAX_INVOICE IV9085469 Vertex Trading Co., Ltd. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ( 200 ใบ*25 แพค ) จำนวน 200 ถัง 119840"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f9ed0740-8d87-4a3c-8c53-2abff45e48fa",
+          "elapsed": 15.70599499999662,
+          "text": "TAX_INVOICE IV6901025 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        },
+        "เอกสาร invoice_page-0178.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "293d43af-34df-41b5-aa93-e98239823184",
+          "elapsed": 21.35316099999909,
+          "text": "TAX_INVOICE 70577 บริษัท 3 เอ เซ็นเตอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.07 MM. X 15 CM. X 700 M. สีใส( 3 ม้วน) PVC 0.07 MM. X 11.5 CM. X 700 M. สีใส( 3 ม้วน) 5116.1"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "032920de-0fa1-4704-b92f-d6d5c44069ab",
+          "elapsed": 26.06255410000449,
+          "text": "TAX_INVOICE 70576 3A 3 A CENTER CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        },
+        "เอกสาร invoice_page-0191.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2e102f04-8e26-4d0e-af57-0325e19834c2",
+          "elapsed": 15.61501390000194,
+          "text": "TAX_INVOICE IV260113-031 บริษัท เอ็กซ์เซลแพคเกจจิ้ง จำกัด บจก. บราเธอร์ แอนด์ บราเธอร์ บรรจุ 600 ชิ้น/กล่อง จำนวน 100 กล่อง 53286"
+        },
+        "เอกสาร invoice_page-0196.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4d2ed185-ccbf-42d3-b26a-2fbf2de2815d",
+          "elapsed": 22.889692700002342,
+          "text": "TAX_INVOICE IV6968145 บริษัท พีเอ็มซี มิลเลนเนียม จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 19527.5"
+        },
+        "เอกสาร invoice_page-0202.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ad027f68-8ec3-4e22-a311-37c2c54d36ff",
+          "elapsed": 20.360243499999342,
+          "text": "TAX_INVOICE IV6901033 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 95016"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 14.809276500003762,
+        "max": 26.447997600000235,
+        "avg": 19.735526880002727,
+        "total": 197.35526880002726
+      },
+      "results": {
+        "เอกสาร invoice_page-0024.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ad556db1-2ee3-4ff9-a77b-19ab09659008",
+          "elapsed": 14.952601299999515,
+          "text": "TAX_INVOICE AR-L 103382 บริษัท ไซแมท เลเบล จำกัด สำนักงานใหญ่ บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ZO0455 OKI-TONER 46844014 BK 9K - ดำ 7000.0"
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "078bff8c-3db7-4e1a-b390-9895c6389a13",
+          "elapsed": 26.447997600000235,
+          "text": "TAX_INVOICE 70985 3A 3 A CENTER CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.07 MM. X 11 CM. X 700 ม.สีใส(10 ม้วน) PVC 0.07 MM. X 15 CM. X 700 ม.สีใส(5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 ม.สีใส(3 ม้วน) 15238.51"
+        },
+        "เอกสาร invoice_page-0065.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "afc10368-9b66-4ea9-8abd-a70c46dd23dd",
+          "elapsed": 16.784691300003033,
+          "text": "TAX_INVOICE 2569/01234 ห้างหุ้นส่วนจำกัด สำนักพิมพ์ฟิสิกส์เซ็นเตอร์ บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ 50 ใบ 34775"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d72b033a-6c71-4381-bb5f-0506b41c65b8",
+          "elapsed": 22.370578300004127,
+          "text": "TAX_INVOICE IV9085469 Vertex Trading Co., Ltd. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ( 200 ใบ*25 แพค ) จำนวน 200 ถัง 119840"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7282606f-6b2f-4b51-8ccc-ea78aba015ca",
+          "elapsed": 17.12949070000468,
+          "text": "TAX_INVOICE IV6901025 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        },
+        "เอกสาร invoice_page-0178.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "91e1ed19-813b-495e-9742-ee6ea096937e",
+          "elapsed": 24.524137700005667,
+          "text": "TAX_INVOICE 70577 บริษัท 3 เอ เซ็นเตอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.07 MM. X 15 CM. X 700 M. สีใส( 3 ม้วน) PVC 0.07 MM. X 11.5 CM. X 700 M. สีใส( 3 ม้วน) 5116.1"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3fa69462-9d99-4600-a7f7-a98670157b68",
+          "elapsed": 21.373181500006467,
+          "text": "TAX_INVOICE 70576 3A 3 A CENTER CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        },
+        "เอกสาร invoice_page-0191.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d2ba22ae-640b-4731-9994-77c5f0be9906",
+          "elapsed": 14.809276500003762,
+          "text": "TAX_INVOICE IV260113-031 บริษัท เอ็กซ์เซลแพคเกจจิ้ง จำกัด (สำนักงานใหญ่) บจก. บราเธอร์ แอนด์ บราเธอร์ (สำนักงานใหญ่) บรรจุ 600 ชิ้น/กล่อง จำนวน 100 กล่อง 53286"
+        },
+        "เอกสาร invoice_page-0196.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ffd4d6e5-b591-4de4-814f-d796be3e4751",
+          "elapsed": 22.769199900001695,
+          "text": "TAX_INVOICE IV6968145 บริษัท พีเอ็มซี มิลเลนเนียม จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 19527.5"
+        },
+        "เอกสาร invoice_page-0202.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "58a1a223-7869-460a-a952-e78a7a5ca5ef",
+          "elapsed": 16.19411399999808,
+          "text": "TAX_INVOICE IV6901033 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 95016"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 15.127546999996412,
+        "max": 27.59657860000152,
+        "avg": 20.56321050000115,
+        "total": 205.6321050000115
+      },
+      "results": {
+        "เอกสาร invoice_page-0024.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "754d1a8a-b0aa-4fe8-8761-15d69c31f8f3",
+          "elapsed": 19.561803399999917,
+          "text": "TAX_INVOICE AR-L 103382 บริษัท ไซแมท เลเบล จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ZO0455 OKI-TONER 46844014 BK 9K - ดำ 7000.0"
+        },
+        "เอกสาร invoice_page-0063.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "276b74b1-c548-4387-a911-5f10ee580d16",
+          "elapsed": 27.59657860000152,
+          "text": "TAX_INVOICE 70985 3A 3 A CENTER CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.07 MM. X 11 CM. X 700 ม.สีใส(10 ม้วน) PVC 0.07 MM. X 15 CM. X 700 ม.สีใส(5 ม้วน) PVC 0.07 MM. X 19 CM. X 700 ม.สีใส(3 ม้วน) 15238.51"
+        },
+        "เอกสาร invoice_page-0065.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dd3a213c-a569-4153-ba94-520067a6453a",
+          "elapsed": 15.610208099999,
+          "text": "TAX_INVOICE 2569/01234 ห้างหุ้นส่วนจำกัด สำนักพิมพ์ฟิสิกส์เซ็นเตอร์ บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สำนักงานใหญ่ 50 ใบ 34775"
+        },
+        "เอกสาร invoice_page-0115.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "aa376da4-476b-4390-8828-69a099371f31",
+          "elapsed": 20.77440970000316,
+          "text": "TAX_INVOICE IV9085469 Vertex Trading Co., Ltd. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ( 200 ใบ*25 แพค ) จำนวน 200 ถัง 119840"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9bc2f204-880f-4900-b70d-ee2dd37bb7c4",
+          "elapsed": 15.127546999996412,
+          "text": "TAX_INVOICE IV6901025 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        },
+        "เอกสาร invoice_page-0178.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4dbf5bd5-0b66-4187-b87a-5faedb8d7145",
+          "elapsed": 24.404018600005656,
+          "text": "TAX_INVOICE 70577 บริษัท 3 เอ เซ็นเตอร์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.07 MM. X 15 CM. X 700 M. สีใส( 3 ม้วน) PVC 0.07 MM. X 11.5 CM. X 700 M. สีใส( 3 ม้วน) 5116.1"
+        },
+        "เอกสาร invoice_page-0179.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "20a64fd0-8564-4d20-a406-52782c6383d4",
+          "elapsed": 23.771620899999107,
+          "text": "TAX_INVOICE 70576 3A 3 A CENTER CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PVC 0.15 MM. X 30 CM. X 13 CM. สีใส 12201.21"
+        },
+        "เอกสาร invoice_page-0191.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "56dc142d-a0d9-4cc9-9a4e-bde1c82bd824",
+          "elapsed": 16.263250300005893,
+          "text": "TAX_INVOICE IV260113-031 บริษัท เอ็กซ์เซลแพคเกจจิ้ง จำกัด (สำนักงานใหญ่) บจก. บราเธอร์ แอนด์ บราเธอร์ (สำนักงานใหญ่) บรรจุ 600 ชิ้น/กล่อง จำนวน 100 กล่อง 53286"
+        },
+        "เอกสาร invoice_page-0196.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "23a66ae8-71dc-4b99-8961-cd6493109ff3",
+          "elapsed": 23.816334199997073,
+          "text": "TAX_INVOICE IV6968145 บริษัท พีเอ็มซี มิลเลนเนียม จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 19527.5"
+        },
+        "เอกสาร invoice_page-0202.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2cc9b724-2f41-4977-b756-836eca7e0824",
+          "elapsed": 18.706334200003766,
+          "text": "TAX_INVOICE IV6901033 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) HAVE 6.5 OZ W/H(1PE) (2000/CTN) ลายติดหู 95016"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 15.025684600004752,
+        "max": 22.421836299996357,
+        "avg": 18.077883990000554,
+        "total": 180.77883990000555
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 14.343712499998219,
+        "max": 26.06255410000449,
+        "avg": 19.583943569999974,
+        "total": 195.83943569999974
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 14.809276500003762,
+        "max": 26.447997600000235,
+        "avg": 19.735526880002727,
+        "total": 197.35526880002726
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 15.127546999996412,
+        "max": 27.59657860000152,
+        "avg": 20.56321050000115,
+        "total": 205.6321050000115
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.9922,
+      "per_file": {
+        "เอกสาร invoice_page-0024.jpg": 0.922,
+        "เอกสาร invoice_page-0063.jpg": 1.0,
+        "เอกสาร invoice_page-0065.jpg": 1.0,
+        "เอกสาร invoice_page-0115.jpg": 1.0,
+        "เอกสาร invoice_page-0170.jpg": 1.0,
+        "เอกสาร invoice_page-0178.jpg": 1.0,
+        "เอกสาร invoice_page-0179.jpg": 1.0,
+        "เอกสาร invoice_page-0191.jpg": 1.0,
+        "เอกสาร invoice_page-0196.jpg": 1.0,
+        "เอกสาร invoice_page-0202.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.958,
+      "per_file": {
+        "เอกสาร invoice_page-0024.jpg": 0.922,
+        "เอกสาร invoice_page-0063.jpg": 0.8978,
+        "เอกสาร invoice_page-0065.jpg": 0.7601,
+        "เอกสาร invoice_page-0115.jpg": 1.0,
+        "เอกสาร invoice_page-0170.jpg": 1.0,
+        "เอกสาร invoice_page-0178.jpg": 1.0,
+        "เอกสาร invoice_page-0179.jpg": 1.0,
+        "เอกสาร invoice_page-0191.jpg": 1.0,
+        "เอกสาร invoice_page-0196.jpg": 1.0,
+        "เอกสาร invoice_page-0202.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.9435,
+      "per_file": {
+        "เอกสาร invoice_page-0024.jpg": 0.8508,
+        "เอกสาร invoice_page-0063.jpg": 1.0,
+        "เอกสาร invoice_page-0065.jpg": 0.7601,
+        "เอกสาร invoice_page-0115.jpg": 1.0,
+        "เอกสาร invoice_page-0170.jpg": 1.0,
+        "เอกสาร invoice_page-0178.jpg": 1.0,
+        "เอกสาร invoice_page-0179.jpg": 1.0,
+        "เอกสาร invoice_page-0191.jpg": 0.8245,
+        "เอกสาร invoice_page-0196.jpg": 1.0,
+        "เอกสาร invoice_page-0202.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.9507,
+      "per_file": {
+        "เอกสาร invoice_page-0024.jpg": 0.922,
+        "เอกสาร invoice_page-0063.jpg": 1.0,
+        "เอกสาร invoice_page-0065.jpg": 0.7601,
+        "เอกสาร invoice_page-0115.jpg": 1.0,
+        "เอกสาร invoice_page-0170.jpg": 1.0,
+        "เอกสาร invoice_page-0178.jpg": 1.0,
+        "เอกสาร invoice_page-0179.jpg": 1.0,
+        "เอกสาร invoice_page-0191.jpg": 0.8245,
+        "เอกสาร invoice_page-0196.jpg": 1.0,
+        "เอกสาร invoice_page-0202.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}
