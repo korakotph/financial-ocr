@@ -6,6 +6,9 @@ Usage:
     python eval_test.py --rounds 3
     python eval_test.py --rounds 5 --sample 100          # random 100 files per round
     python eval_test.py --rounds 5 --limit 20 --delay 1
+
+    # Multi-session: สุ่ม 10 ไฟล์ใหม่ต่อ session, รัน 5 รอบต่อ session, ทำ 3 sessions
+    python eval_test.py --sessions 3 --sample 10 --rounds 5
 """
 
 import argparse
@@ -30,15 +33,19 @@ except ImportError:
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Batch upload + evaluation")
-    parser.add_argument("--url",    default="http://localhost:8010")
-    parser.add_argument("--folder", default=str(Path(__file__).parent / "image_for_test"))
-    parser.add_argument("--rounds", type=int, default=3,   help="Number of upload rounds")
-    parser.add_argument("--delay",  type=float, default=1.0, help="Seconds between uploads")
-    parser.add_argument("--limit",  type=int, default=None, help="Use first N files (deterministic)")
-    parser.add_argument("--sample", type=int, default=None, help="Randomly sample N files each round")
-    parser.add_argument("--seed",   type=int, default=None, help="Random seed for reproducibility")
-    parser.add_argument("--output", default=None, help="Override output filename (default: auto in report/)")
-    parser.add_argument("--ext",    default="jpg,jpeg,png,pdf")
+    parser.add_argument("--url",      default="http://localhost:8010")
+    parser.add_argument("--folder",   default=str(Path(__file__).parent / "image_for_test"))
+    parser.add_argument("--sessions", type=int,   default=1,
+                        help="Number of big rounds (outer loops); files re-sampled each session")
+    parser.add_argument("--rounds",   type=int,   default=3,
+                        help="Number of upload rounds per session (inner consistency check)")
+    parser.add_argument("--delay",    type=float, default=1.0, help="Seconds between uploads")
+    parser.add_argument("--limit",    type=int,   default=None, help="Use first N files (deterministic)")
+    parser.add_argument("--sample",   type=int,   default=None,
+                        help="Randomly sample N files per session (new sample each session)")
+    parser.add_argument("--seed",     type=int,   default=None, help="Random seed for reproducibility")
+    parser.add_argument("--output",   default=None, help="Override output filename (default: auto in report/)")
+    parser.add_argument("--ext",      default="jpg,jpeg,png,pdf")
     return parser.parse_args()
 
 
@@ -127,7 +134,6 @@ def compute_bleu_scores(baseline: dict, comparison_rounds: list) -> dict:
     """
     For each round R > 1, compute per-file and average BLEU score
     comparing extracted text vs Round 1 baseline.
-    Returns {round_num: {avg: float, per_file: {filename: float}}}
     """
     scores = {}
     for r_idx, round_data in enumerate(comparison_rounds, start=2):
@@ -206,139 +212,6 @@ def _format_metrics(m: dict, timing: dict = None) -> list:
     return lines
 
 
-# ─── Main ─────────────────────────────────────────────────────────────────────
-
-def main():
-    args = parse_args()
-    folder = Path(args.folder)
-    exts = [e.strip().lower() for e in args.ext.split(",")]
-
-    if not folder.exists():
-        print(f"[ERROR] Folder not found: {folder}")
-        sys.exit(1)
-
-    all_files = sorted(
-        f for f in folder.iterdir()
-        if f.is_file() and f.suffix.lower().lstrip(".") in exts
-    )
-    if args.limit:
-        all_files = all_files[:args.limit]
-    if not all_files:
-        print(f"[ERROR] No files found in {folder}")
-        sys.exit(1)
-
-    rng = random.Random(args.seed)
-
-    # Sample once — same files used in every round
-    if args.sample and args.sample < len(all_files):
-        selected_files = sorted(rng.sample(all_files, args.sample))
-        mode = f"random sample {len(selected_files)} (fixed across all rounds)"
-    else:
-        selected_files = all_files
-        mode = f"all {len(all_files)}"
-
-    REPORT_DIR.mkdir(parents=True, exist_ok=True)
-    run_ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-    print(f"API URL  : {args.url}")
-    print(f"Folder   : {folder}")
-    print(f"Pool     : {len(all_files)} files")
-    print(f"Mode     : {mode} files per round")
-    print(f"Rounds   : {args.rounds}")
-    print(f"Delay    : {args.delay}s")
-    json_path = Path(args.output) if args.output else REPORT_DIR / f"eval_{run_ts}.json"
-    log_path  = REPORT_DIR / f"eval_{run_ts}.log"
-    print(f"Report   : {json_path}")
-    print(f"Log      : {log_path}")
-    print("=" * 70)
-
-    # round_results[r][filename] = {label, status, elapsed, text}
-    round_results   = []
-    round_files     = []
-    round_timing    = []
-
-    log_file = open(log_path, "w", encoding="utf-8")
-
-    def log(msg: str):
-        print(msg)
-        log_file.write(msg + "\n")
-        log_file.flush()
-
-    for round_idx in range(args.rounds):
-        files = selected_files  # same files every round
-
-        total = len(files)
-        log(f"\n--- Round {round_idx + 1}/{args.rounds}  ({total} files) ---")
-        this_round = {}
-        elapsed_times = []
-
-        for idx, file_path in enumerate(files, start=1):
-            tag = f"  [{idx:>3}/{total}]"
-            line_prefix = f"{tag} {file_path.name} ... "
-            print(line_prefix, end="", flush=True)
-
-            t_start = time.perf_counter()
-            try:
-                result    = upload_file(args.url, file_path)
-                elapsed   = time.perf_counter() - t_start
-                label_val = classify(result)
-                status    = result.get("analysis", {}).get("status", "unknown")
-                doc_id    = result.get("id", "?")
-                text      = extract_canonical_text(result)
-                suffix = f"{'OK ' if label_val else 'FAIL'}  {fmt_time(elapsed):>8}  status={status}"
-                print(suffix)
-                log_file.write(line_prefix + suffix + "\n")
-                log_file.flush()
-                this_round[file_path.name] = {
-                    "label": label_val, "status": status,
-                    "id": doc_id, "elapsed": elapsed, "text": text,
-                }
-                elapsed_times.append(elapsed)
-
-            except requests.exceptions.ConnectionError:
-                elapsed = time.perf_counter() - t_start
-                suffix = f"FAIL  {fmt_time(elapsed):>8}  (cannot connect)"
-                print(suffix)
-                log_file.write(line_prefix + suffix + "\n")
-                log_file.flush()
-                this_round[file_path.name] = {
-                    "label": 0, "status": "connection_error", "elapsed": elapsed, "text": "",
-                }
-                log("  Aborting — API unreachable.")
-                round_results.append(this_round)
-                round_files.append(files)
-                round_timing.append(_timing_stats(elapsed_times))
-                _save_and_report(round_results, round_files, round_timing, json_path, log_file)
-                log_file.close()
-                sys.exit(1)
-
-            except Exception as e:
-                elapsed = time.perf_counter() - t_start
-                suffix = f"FAIL  {fmt_time(elapsed):>8}  {e}"
-                print(suffix)
-                log_file.write(line_prefix + suffix + "\n")
-                log_file.flush()
-                this_round[file_path.name] = {
-                    "label": 0, "status": str(e), "elapsed": elapsed, "text": "",
-                }
-                elapsed_times.append(elapsed)
-
-            if idx < total and args.delay > 0:
-                time.sleep(args.delay)
-
-        round_results.append(this_round)
-        round_files.append(files)
-        round_timing.append(_timing_stats(elapsed_times))
-
-        t = round_timing[-1]
-        log(f"  Round {round_idx+1} timing: "
-            f"min={fmt_time(t['min'])}  max={fmt_time(t['max'])}  avg={fmt_time(t['avg'])}  "
-            f"total={fmt_time(t['total'])}")
-
-    _save_and_report(round_results, round_files, round_timing, json_path, log_file)
-    log_file.close()
-
-
 def _timing_stats(elapsed_list: list) -> dict:
     if not elapsed_list:
         return {"min": 0, "max": 0, "avg": 0, "total": 0}
@@ -350,47 +223,44 @@ def _timing_stats(elapsed_list: list) -> dict:
     }
 
 
-def _save_and_report(round_results, round_files, round_timing, json_path, log_file):
+# ─── Session Report ───────────────────────────────────────────────────────────
+
+def _compute_session_report(session_num: int, round_results: list,
+                             round_files: list, round_timing: list, log) -> dict:
+    """Compute consistency metrics for one session. Logs output, returns dict."""
     n_rounds = len(round_results)
-
-    def log(msg: str):
-        print(msg)
-        log_file.write(msg + "\n")
-        log_file.flush()
-
-    # Baseline = Round 1
     baseline = round_results[0]
     baseline_files = [f.name for f in round_files[0]]
 
-    log("\n" + "=" * 70)
-    log("  CONSISTENCY REPORT")
-    log(f"  Baseline : Round 1  ({len(baseline_files)} files)")
-    log(f"  Compare  : Rounds 2 to {n_rounds} vs Round 1")
-    log("=" * 70)
-
-    # Round 1 success/fail distribution
     b_success = sum(v.get("label", 0) for v in baseline.values())
     b_fail    = len(baseline) - b_success
-    log(f"\n  Round 1 (Baseline) Distribution:")
+
+    log(f"\n  Session {session_num} — Round 1 (Baseline) Distribution:")
     log(f"    Success : {b_success}  ({b_success/len(baseline)*100:.1f}%)")
     log(f"    Failure : {b_fail}  ({b_fail/len(baseline)*100:.1f}%)")
     log(f"    Timing  : min={fmt_time(round_timing[0]['min'])}  "
         f"max={fmt_time(round_timing[0]['max'])}  avg={fmt_time(round_timing[0]['avg'])}")
 
     if n_rounds == 1:
-        log("\n  Only 1 round — nothing to compare. Run with --rounds >= 2.")
-        log("=" * 70)
-        _write_json(json_path, n_rounds, round_files, round_results,
-                    round_timing, [], {}, {}, log)
-        return
+        log("\n  Only 1 round — nothing to compare.")
+        return {
+            "session": session_num,
+            "files": baseline_files,
+            "n_rounds": n_rounds,
+            "per_round": [],
+            "avg_metrics": {},
+            "avg_bleu": 0.0,
+            "bleu_scores": {},
+            "inconsistent_files": {},
+            "overall_timing": _timing_stats([]),
+            "round_timing": round_timing,
+        }
 
-    # Compare rounds 2..N vs round 1
     per_round_metrics = []
     inconsistent_per_file = {fname: [] for fname in baseline_files}
 
     for r_idx in range(1, n_rounds):
         common = [f for f in baseline_files if f in round_results[r_idx]]
-
         y_true = [baseline.get(f, {}).get("label", 0) for f in common]
         y_pred = [round_results[r_idx].get(f, {}).get("label", 0) for f in common]
         m = compute_metrics(y_true, y_pred)
@@ -412,15 +282,14 @@ def _save_and_report(round_results, round_files, round_timing, json_path, log_fi
                 })
 
     # Average consistency
-    if per_round_metrics:
-        metrics_only = [m for _, m, _, _ in per_round_metrics]
-        avg = avg_metrics(metrics_only)
-        all_times = [round_results[r][f]["elapsed"]
+    metrics_only  = [m for _, m, _, _ in per_round_metrics]
+    avg           = avg_metrics(metrics_only) if metrics_only else {}
+    all_times     = [round_results[r][f]["elapsed"]
                      for r in range(n_rounds) for f in round_results[r]]
-        overall_timing = _timing_stats(all_times)
+    overall_timing = _timing_stats(all_times)
 
-        log("\n" + "-" * 70)
-        log(f"  AVERAGE CONSISTENCY (rounds 2–{n_rounds} vs round 1)")
+    if avg:
+        log(f"\n  Session {session_num} — Avg Consistency (rounds 2–{n_rounds} vs round 1):")
         log(f"    Accuracy  : {avg['accuracy']:.4f}  ({avg['accuracy']*100:.1f}%)")
         log(f"    Precision : {avg['precision']:.4f}")
         log(f"    Recall    : {avg['recall']:.4f}")
@@ -428,69 +297,324 @@ def _save_and_report(round_results, round_files, round_timing, json_path, log_fi
         log(f"    Time/file : min={fmt_time(overall_timing['min'])}  "
             f"max={fmt_time(overall_timing['max'])}  avg={fmt_time(overall_timing['avg'])}")
         log(f"    Total time: {fmt_time(overall_timing['total'])}")
-    else:
-        avg = {}
 
-    # BLEU scores
-    bleu = compute_bleu_scores(baseline, round_results[1:])
+    # BLEU
+    bleu     = compute_bleu_scores(baseline, round_results[1:])
+    avg_bleu = sum(v["avg"] for v in bleu.values()) / len(bleu) if bleu else 0.0
     if bleu:
-        avg_bleu = sum(v["avg"] for v in bleu.values()) / len(bleu)
-        log("\n" + "-" * 70)
-        log(f"  BLEU SCORE (text consistency vs Round 1)")
+        log(f"\n  BLEU scores (text consistency vs Round 1):")
         for rn, data in bleu.items():
             log(f"    Round {rn} avg BLEU : {data['avg']:.4f}  ({data['avg']*100:.1f}%)")
-        log(f"    Overall avg BLEU  : {avg_bleu:.4f}  ({avg_bleu*100:.1f}%)")
+        log(f"    Session avg BLEU  : {avg_bleu:.4f}  ({avg_bleu*100:.1f}%)")
 
     # Inconsistent files
     flipped = {f: v for f, v in inconsistent_per_file.items() if v}
-    log("\n" + "-" * 70)
-    log(f"  INCONSISTENT FILES ({len(flipped)} files changed result vs round 1)")
-    if flipped:
-        for fname, changes in list(flipped.items())[:20]:
-            change_str = ", ".join(
-                f"r{c['round']}:{c['this_round']}" for c in changes
-            )
-            b_label = "success" if baseline.get(fname, {}).get("label", 0) == 1 else "failure"
-            log(f"    {fname}: baseline={b_label} → {change_str}")
-        if len(flipped) > 20:
-            log(f"    ... and {len(flipped)-20} more")
-    else:
-        log("    All files gave identical results in every round.")
+    log(f"\n  Inconsistent files: {len(flipped)}")
+    for fname, changes in list(flipped.items())[:10]:
+        change_str = ", ".join(f"r{c['round']}:{c['this_round']}" for c in changes)
+        b_label    = "success" if baseline.get(fname, {}).get("label", 0) == 1 else "failure"
+        log(f"    {fname}: baseline={b_label} → {change_str}")
+    if len(flipped) > 10:
+        log(f"    ... and {len(flipped)-10} more")
 
-    log("=" * 70)
-    _write_json(json_path, n_rounds, round_files, round_results,
-                round_timing, per_round_metrics, avg, bleu, log, flipped)
-
-
-def _write_json(json_path, n_rounds, round_files, round_results,
-                round_timing, per_round_metrics, avg, bleu, log, flipped=None):
-    output_data = {
-        "config": {
-            "rounds": n_rounds,
-            "files_per_round": len(round_files[0]) if round_files else 0,
-            "mode": "consistency — rounds 2..N vs round 1 baseline",
-        },
-        "per_round": [
-            {
-                "round": r + 1,
-                "role": "baseline" if r == 0 else "comparison",
-                "files": len(round_files[r]),
-                "timing": round_timing[r],
-                "results": round_results[r],
-            }
-            for r in range(n_rounds)
-        ],
-        "consistency_vs_baseline": [
+    return {
+        "session":            session_num,
+        "files":              baseline_files,
+        "n_rounds":           n_rounds,
+        "per_round":          [
             {"round": rn, "common_files": cf, "metrics": m, "timing": t}
             for rn, m, t, cf in per_round_metrics
         ],
-        "average_consistency": avg,
-        "bleu_scores": bleu,
-        "inconsistent_files": flipped or {},
+        "avg_metrics":        avg,
+        "avg_bleu":           avg_bleu,
+        "bleu_scores":        bleu,
+        "inconsistent_files": flipped,
+        "overall_timing":     overall_timing,
+        "round_timing":       round_timing,
     }
-    with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(output_data, f, ensure_ascii=False, indent=2)
-    log(f"\n  JSON  saved to: {Path(json_path).resolve()}")
+
+
+# ─── Cross-Session Summary ────────────────────────────────────────────────────
+
+def _cross_session_summary(all_sessions: list, log) -> dict:
+    """Compute and log averages across all sessions."""
+    valid = [s for s in all_sessions if s.get("avg_metrics")]
+    if not valid:
+        return {}
+
+    keys  = ["accuracy", "precision", "recall", "f1"]
+    cross = {}
+    for k in keys:
+        vals    = [s["avg_metrics"][k] for s in valid if k in s["avg_metrics"]]
+        cross[k] = sum(vals) / len(vals) if vals else 0.0
+
+    bleu_vals          = [s["avg_bleu"] for s in valid]
+    cross["avg_bleu"]  = sum(bleu_vals) / len(bleu_vals) if bleu_vals else 0.0
+
+    incon_vals                        = [len(s.get("inconsistent_files", {})) for s in all_sessions]
+    cross["avg_inconsistent_files"]   = sum(incon_vals) / len(incon_vals) if incon_vals else 0.0
+
+    log("\n" + "=" * 70)
+    log(f"  CROSS-SESSION SUMMARY  ({len(all_sessions)} sessions)")
+    log("=" * 70)
+    log(f"    Avg Accuracy  : {cross['accuracy']:.4f}  ({cross['accuracy']*100:.1f}%)")
+    log(f"    Avg Precision : {cross['precision']:.4f}")
+    log(f"    Avg Recall    : {cross['recall']:.4f}")
+    log(f"    Avg F1-score  : {cross['f1']:.4f}")
+    log(f"    Avg BLEU      : {cross['avg_bleu']:.4f}  ({cross['avg_bleu']*100:.1f}%)")
+    log(f"    Avg Inconsistent Files: {cross['avg_inconsistent_files']:.1f}")
+
+    # Per-session table
+    log("\n  Per-session breakdown:")
+    log(f"    {'Session':>7}  {'Files':>5}  {'Accuracy':>8}  {'F1':>6}  {'BLEU':>6}  {'Inconsistent':>12}")
+    log(f"    {'─'*7}  {'─'*5}  {'─'*8}  {'─'*6}  {'─'*6}  {'─'*12}")
+    for s in all_sessions:
+        m = s.get("avg_metrics", {})
+        log(f"    {s['session']:>7}  {len(s.get('files', [])):>5}  "
+            f"{m.get('accuracy', 0):.4f}    {m.get('f1', 0):.4f}  "
+            f"{s.get('avg_bleu', 0):.4f}  {len(s.get('inconsistent_files', {})):>12}")
+    log("=" * 70)
+
+    return cross
+
+
+# ─── JSON Writers ─────────────────────────────────────────────────────────────
+
+def _session_json_path(base: Path, session_num: int) -> Path:
+    """Return path for a single session file, e.g. eval_20260606_120000_s1.json"""
+    return base.parent / f"{base.name}_s{session_num}.json"
+
+
+def _summary_json_path(base: Path) -> Path:
+    """Return path for cross-session summary file."""
+    return base.parent / f"{base.name}_summary.json"
+
+
+def _write_session_json(base: Path, args, session_data: dict, log):
+    """Write one session's results to its own file immediately after it completes."""
+    path = _session_json_path(base, session_data["session"])
+    output = {
+        "config": {
+            "session":           session_data["session"],
+            "rounds_per_session": args.rounds,
+            "sample_per_session": args.sample,
+            "delay":             args.delay,
+            "url":               args.url,
+        },
+        "session":                 session_data["session"],
+        "files":                   session_data["files"],
+        "n_rounds":                session_data["n_rounds"],
+        "per_round_consistency":   session_data["per_round"],
+        "avg_metrics":             session_data["avg_metrics"],
+        "avg_bleu":                session_data["avg_bleu"],
+        "bleu_scores":             session_data["bleu_scores"],
+        "inconsistent_files":      session_data.get("inconsistent_files", {}),
+        "overall_timing":          session_data.get("overall_timing", {}),
+        "round_timing":            session_data["round_timing"],
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    log(f"  JSON saved to: {path.resolve()}")
+
+
+def _write_summary_json(base: Path, args, all_sessions: list, cross_summary: dict, log):
+    """Write cross-session summary after all sessions complete."""
+    path = _summary_json_path(base)
+    output = {
+        "config": {
+            "sessions":           args.sessions,
+            "rounds_per_session": args.rounds,
+            "sample_per_session": args.sample,
+            "delay":              args.delay,
+            "url":                args.url,
+        },
+        "session_files": [
+            str(_session_json_path(base, s["session"]).name)
+            for s in all_sessions
+        ],
+        "per_session": [
+            {
+                "session":     s["session"],
+                "files":       s["files"],
+                "avg_metrics": s["avg_metrics"],
+                "avg_bleu":    s["avg_bleu"],
+                "inconsistent_count": len(s.get("inconsistent_files", {})),
+            }
+            for s in all_sessions
+        ],
+        "cross_session_summary": cross_summary,
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    log(f"  Summary saved to: {path.resolve()}")
+
+
+# ─── Main ─────────────────────────────────────────────────────────────────────
+
+def main():
+    args   = parse_args()
+    folder = Path(args.folder)
+    exts   = [e.strip().lower() for e in args.ext.split(",")]
+
+    if not folder.exists():
+        print(f"[ERROR] Folder not found: {folder}")
+        sys.exit(1)
+
+    all_files = sorted(
+        f for f in folder.iterdir()
+        if f.is_file() and f.suffix.lower().lstrip(".") in exts
+    )
+    if args.limit:
+        all_files = all_files[: args.limit]
+    if not all_files:
+        print(f"[ERROR] No files found in {folder}")
+        sys.exit(1)
+
+    rng = random.Random(args.seed)
+
+    REPORT_DIR.mkdir(parents=True, exist_ok=True)
+    run_ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    # base path (no extension) — session files append _s{n}.json, summary appends _summary.json
+    if args.output:
+        base = Path(args.output)
+        base = base.parent / base.stem   # strip .json if user added it
+    else:
+        base = REPORT_DIR / f"eval_{run_ts}"
+    base.parent.mkdir(parents=True, exist_ok=True)
+
+    log_path = base.parent / f"{base.name}.log"
+
+    print(f"API URL  : {args.url}")
+    print(f"Folder   : {folder}")
+    print(f"Pool     : {len(all_files)} files")
+    print(f"Sessions : {args.sessions}  (re-sampled each session)")
+    print(f"Rounds   : {args.rounds} per session")
+    print(f"Sample   : {args.sample if args.sample else 'all'} files per session")
+    print(f"Delay    : {args.delay}s")
+    print(f"Output   : {base}_s{{n}}.json  (one file per session)")
+    if args.sessions > 1:
+        print(f"Summary  : {_summary_json_path(base)}")
+    print(f"Log      : {log_path}")
+    print("=" * 70)
+
+    log_file = open(log_path, "w", encoding="utf-8")
+
+    def log(msg: str):
+        print(msg)
+        log_file.write(msg + "\n")
+        log_file.flush()
+
+    all_sessions_data: list[dict] = []
+
+    for session_idx in range(args.sessions):
+        # Re-sample files for each session
+        if args.sample and args.sample < len(all_files):
+            selected_files = sorted(rng.sample(all_files, args.sample))
+            mode = f"random sample {len(selected_files)}"
+        else:
+            selected_files = all_files
+            mode = f"all {len(all_files)}"
+
+        log(f"\n{'='*70}")
+        log(f"  SESSION {session_idx+1}/{args.sessions}  |  {mode} files  |  {args.rounds} rounds")
+        log(f"{'='*70}")
+
+        round_results: list[dict] = []
+        round_files:   list       = []
+        round_timing:  list[dict] = []
+        aborted = False
+
+        for round_idx in range(args.rounds):
+            total = len(selected_files)
+            log(f"\n--- Round {round_idx+1}/{args.rounds}  ({total} files) ---")
+            this_round:    dict  = {}
+            elapsed_times: list  = []
+
+            for idx, file_path in enumerate(selected_files, start=1):
+                tag         = f"  [{idx:>3}/{total}]"
+                line_prefix = f"{tag} {file_path.name} ... "
+                print(line_prefix, end="", flush=True)
+
+                t_start = time.perf_counter()
+                try:
+                    result    = upload_file(args.url, file_path)
+                    elapsed   = time.perf_counter() - t_start
+                    label_val = classify(result)
+                    status    = result.get("analysis", {}).get("status", "unknown")
+                    doc_id    = result.get("id", "?")
+                    text      = extract_canonical_text(result)
+                    suffix    = f"{'OK ' if label_val else 'FAIL'}  {fmt_time(elapsed):>8}  status={status}"
+                    print(suffix)
+                    log_file.write(line_prefix + suffix + "\n")
+                    log_file.flush()
+                    this_round[file_path.name] = {
+                        "label": label_val, "status": status,
+                        "id": doc_id, "elapsed": elapsed, "text": text,
+                    }
+                    elapsed_times.append(elapsed)
+
+                except requests.exceptions.ConnectionError:
+                    elapsed = time.perf_counter() - t_start
+                    suffix  = f"FAIL  {fmt_time(elapsed):>8}  (cannot connect)"
+                    print(suffix)
+                    log_file.write(line_prefix + suffix + "\n")
+                    log_file.flush()
+                    this_round[file_path.name] = {
+                        "label": 0, "status": "connection_error", "elapsed": elapsed, "text": "",
+                    }
+                    log("  Aborting — API unreachable.")
+                    round_results.append(this_round)
+                    round_files.append(selected_files)
+                    round_timing.append(_timing_stats(elapsed_times))
+                    aborted = True
+                    break
+
+                except Exception as e:
+                    elapsed = time.perf_counter() - t_start
+                    suffix  = f"FAIL  {fmt_time(elapsed):>8}  {e}"
+                    print(suffix)
+                    log_file.write(line_prefix + suffix + "\n")
+                    log_file.flush()
+                    this_round[file_path.name] = {
+                        "label": 0, "status": str(e), "elapsed": elapsed, "text": "",
+                    }
+                    elapsed_times.append(elapsed)
+
+                if idx < total and args.delay > 0:
+                    time.sleep(args.delay)
+
+            round_results.append(this_round)
+            round_files.append(selected_files)
+            round_timing.append(_timing_stats(elapsed_times))
+
+            t = round_timing[-1]
+            log(f"  Round {round_idx+1} timing: "
+                f"min={fmt_time(t['min'])}  max={fmt_time(t['max'])}  avg={fmt_time(t['avg'])}  "
+                f"total={fmt_time(t['total'])}")
+
+            if aborted:
+                break
+
+        session_data = _compute_session_report(
+            session_idx + 1, round_results, round_files, round_timing, log
+        )
+        all_sessions_data.append(session_data)
+
+        # บันทึกไฟล์ session ทันทีที่จบ
+        _write_session_json(base, args, session_data, log)
+
+        if aborted:
+            if len(all_sessions_data) > 1:
+                cross = _cross_session_summary(all_sessions_data, log)
+                _write_summary_json(base, args, all_sessions_data, cross, log)
+            log_file.close()
+            sys.exit(1)
+
+    cross = _cross_session_summary(all_sessions_data, log)
+    if args.sessions > 1:
+        _write_summary_json(base, args, all_sessions_data, cross, log)
+    log_file.close()
 
 
 if __name__ == "__main__":
