@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 12.923976500002027,
+        "max": 18.14215449999756,
+        "avg": 15.233841329999269,
+        "total": 152.33841329999268
+      },
+      "results": {
+        "เอกสาร invoice_page-0032.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "054cfcc0-1df1-4307-8a76-edae40d86e76",
+          "elapsed": 15.402738199998566,
+          "text": "TAX_INVOICE IV6901467 PRIMAX GENERAL CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง35x49x43cm. ด้านA+B 13135.32"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6d705632-28ff-430b-ae29-880ed369db01",
+          "elapsed": 17.594292800000403,
+          "text": "TAX_INVOICE IV6901053 K.S.PACKAGING CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0053.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "864d7cfc-cdf7-4f95-9254-ae2789835b09",
+          "elapsed": 18.14215449999756,
+          "text": "TAX_INVOICE IV 26012746 CAPRIC (THAILAND) CO.,LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด เทปOPP กาวน้ำ Nuvo Stick สีใส 2 (48mm x 100y (90m)) (ไม่คิดบาร์) 30880.2"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "203f632f-a7c0-486b-8894-16621f27b168",
+          "elapsed": 14.598048100000597,
+          "text": "TAX_INVOICE DINVSTP/40137 บริษัทสยามทบพันแพคเกจจิ้ง จำกัด บจก.บราเธอร์ แอนด์ บราเธอร์ กล่องหูฟ้าขาว OTOP เซส L 55212"
+        },
+        "เอกสาร invoice_page-0083.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ffaa400c-b6d5-42e2-b1fc-c95edfc939d4",
+          "elapsed": 14.234143199995742,
+          "text": "TAX_INVOICE IV6901167 บริษัท อมตะ พริ้นท์ติ้ง ซัพพลายส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด L1-Duplex Board Grey Back 270g 25x36 11323.02"
+        },
+        "เอกสาร invoice_page-0091.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a20579e3-cd9b-499a-a698-1eb55c4860b5",
+          "elapsed": 13.321667800002615,
+          "text": "TAX_INVOICE 202601001 บริษัท พิกเจอเรียน โปรดักชั่นเฮาส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ที่ปรึกษางานProduction รายเดือน แบรนด์ Boxjourney (สัญญาต่อเนื่อง 12 เดือน) ประจำเดือนมกราคม 2569 31200"
+        },
+        "เอกสาร invoice_page-0113.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "63b9071a-1852-4c8f-96f6-949c033a0a85",
+          "elapsed": 15.801626899999974,
+          "text": "TAX_INVOICE TX69110061 บริษัท ยูนิเวอร์แซล เทรส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด คราฟท์น้ำตาล KP 385G 31X43\" 44284.63"
+        },
+        "เอกสาร invoice_page-0130.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c6d069ed-dd16-4663-a9f7-3fa7c2d3713c",
+          "elapsed": 14.60268139999971,
+          "text": "TAX_INVOICE IV260108-164 บริษัท เอ็กซ์เซลแพคเกจจิ้ง จำกัด (สำนักงานใหญ่) บจก. บราเธอร์ แอนด์ บราเธอร์ (สำนักงานใหญ่) บรรจุ 500 ชิ้น/กล่อง จำนวน 3 กล่อง 1765.5"
+        },
+        "เอกสาร invoice_page-0156.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "80213395-8f90-47fa-b2fb-553733095b90",
+          "elapsed": 12.923976500002027,
+          "text": "TAX_INVOICE E202601055 บริษัท อีซี เคลียร์ จำกัด บริษัท บาร์เธอร์ แอนด์ บาร์เธอร์ จำกัด Clearance service fee 6760"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6041a477-9f31-4778-96e2-bf4d9bf8daa5",
+          "elapsed": 15.717083899995487,
+          "text": "TAX_INVOICE IV6901034 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 12.603640900000755,
+        "max": 21.613852000002225,
+        "avg": 16.31495317000008,
+        "total": 163.1495317000008
+      },
+      "results": {
+        "เอกสาร invoice_page-0032.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d202300e-7c80-41c9-884e-1c665d4c4b73",
+          "elapsed": 14.365147900003649,
+          "text": "TAX_INVOICE IV6901467 PRIMAX GENERAL CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง35x49x43cm. ด้านA+B 13135.32"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5e84b4e2-00d7-4cec-81f6-b8e012f774d0",
+          "elapsed": 21.613852000002225,
+          "text": "TAX_INVOICE IV6901053 K.S.PACKAGING CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0053.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f4d48cec-41ed-458b-951f-f9cbf358a8b9",
+          "elapsed": 19.269912900002964,
+          "text": "TAX_INVOICE IV 26012746 CAPRIC (THAILAND) CO.,LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด เทปOPP กาวน้ำ Nuvo Stick สีใส 2 (48mm x 100y (90m)) (ไม่คิดบาร์) 30880.2"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "21b2e203-1b68-46cf-b87b-3f7045eb86d2",
+          "elapsed": 17.439813500001037,
+          "text": "TAX_INVOICE DINVSTP/40137 บริษัทสยามทบพันแพคเกจจิ้ง จำกัด บจก.บราเธอร์ แอนด์ บราเธอร์ กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0083.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8aaf329d-b13a-4529-9e7c-3f30e8f8b218",
+          "elapsed": 20.101623599999584,
+          "text": "TAX_INVOICE IV6901167 บริษัท อมตะ พริ้นท์ติ้ง ซัพพลายส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด L1-Duplex Board Grey Back 270g 25x36 11323.02"
+        },
+        "เอกสาร invoice_page-0091.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6ed02763-3325-43c5-9bf1-b01509dd6cd6",
+          "elapsed": 13.892265399997996,
+          "text": "TAX_INVOICE 202601001 บริษัท พิกเจอเรียน โปรดักชั่นเฮาส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ที่ปรึกษางานProduction รายเดือน แบรนด์ Boxjourney (สัญญาต่อเนื่อง 12 เดือน) ประจำเดือนมกราคม 2569 31200"
+        },
+        "เอกสาร invoice_page-0113.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4fec5767-8c40-4140-885d-31a3f657b8de",
+          "elapsed": 12.603640900000755,
+          "text": "TAX_INVOICE TX69110061 บริษัท ยูนิเวอร์แซล เทรส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด คราฟท์น้ำตาล KP 385G 31X43\" 44284.63"
+        },
+        "เอกสาร invoice_page-0130.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3f22356f-7f17-4608-b9f1-882171dd5ad8",
+          "elapsed": 15.350403800002823,
+          "text": "TAX_INVOICE IV260108-164 บริษัท เอ็กซ์เซลแพคเกจจิ้ง จำกัด (สำนักงานใหญ่) บจก. บราเธอร์ แอนด์ บราเธอร์ (สำนักงานใหญ่) บรรจุ 500 ชิ้น/กล่อง จำนวน 3 กล่อง 1765.5"
+        },
+        "เอกสาร invoice_page-0156.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5b4ce8a9-0a45-4c8a-b74f-0cb2553f6acb",
+          "elapsed": 13.472203399993305,
+          "text": "TAX_INVOICE E202601055 บริษัท อีซี เคลียร์ จำกัด บริษัท บาร์เธอร์ แอนด์ บาร์เธอร์ จำกัด Clearance service fee 6760"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "06a8649e-c4c3-4217-8a3e-3a6aa61b2ae0",
+          "elapsed": 15.040668299996469,
+          "text": "TAX_INVOICE IV6901034 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 11.030547799993656,
+        "max": 21.669004700001096,
+        "avg": 15.042991849999089,
+        "total": 150.4299184999909
+      },
+      "results": {
+        "เอกสาร invoice_page-0032.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4350093e-da52-45cb-a54a-c129b939ea4f",
+          "elapsed": 13.820866000001843,
+          "text": "TAX_INVOICE IV6901467 PRIMAX GENERAL CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง35x49x43cm. ด้านA+B 13135.32"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d43718b2-231f-4f7f-bc2d-4a4145475ecf",
+          "elapsed": 18.35505049999483,
+          "text": "TAX_INVOICE IV6901053 บริษัท เค.เอส.บรรจุภัณฑ์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0053.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "828191fe-21ec-4a2a-a453-dcf1e2a22efb",
+          "elapsed": 21.669004700001096,
+          "text": "TAX_INVOICE IV 26012746 CAPRIC (THAILAND) CO.,LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด เทปOPP กาวน้ำ Nuvo Stick สีใส 2 (48mm x 100y (90m)) (ไม่คิดบาร์) 30880.2"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "939606cc-5936-47f0-9908-051b69f9c21a",
+          "elapsed": 16.090295000001788,
+          "text": "TAX_INVOICE DINVSTP/40137 บริษัทสยามทบพันแพคเกจจิ้ง จำกัด บจก.บราเธอร์ แอนด์ บราเธอร์ กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0083.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "beeac967-537b-4c21-9328-6e0f4fac7797",
+          "elapsed": 17.218901000000187,
+          "text": "TAX_INVOICE Iv6901167 บริษัท อมตะ พริ้นท์ติ้ง ซัพพลายส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด L1-Duplex Board Grey Back 270g 25x36 11323.02"
+        },
+        "เอกสาร invoice_page-0091.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0dd5e41b-9928-4366-9171-182482370f86",
+          "elapsed": 13.86535119999462,
+          "text": "TAX_INVOICE 202601001 บริษัท พิกเจอเรียน โปรดักชั่นเฮาส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ที่ปรึกษางานProduction รายเดือน แบรนด์ Boxjourney (สัญญาต่อเนื่อง 12 เดือน) ประจำเดือนมกราคม 2569 31200"
+        },
+        "เอกสาร invoice_page-0113.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ba13483d-2460-4d14-8e29-b5015844f90e",
+          "elapsed": 11.90159660000063,
+          "text": "TAX_INVOICE TX69110061 บริษัท ยูนิเวอร์แซล เทรส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด คราฟท์น้ำตาล KP 385G 31X43\" 44284.63"
+        },
+        "เอกสาร invoice_page-0130.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8a1f2ea1-9efb-4727-845d-c2084d7f881b",
+          "elapsed": 13.161308499998995,
+          "text": "TAX_INVOICE IV260108-164 บริษัท เอ็กซ์เซลแพคเกจจิ้ง จำกัด (สำนักงานใหญ่) บจก. บราเธอร์ แอนด์ บราเธอร์ (สำนักงานใหญ่) บรรจุ 500 ชิ้น/กล่อง จำนวน 3 กล่อง 1765.5"
+        },
+        "เอกสาร invoice_page-0156.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a006034b-ef2e-488e-bdfd-6673cacf347a",
+          "elapsed": 11.030547799993656,
+          "text": "TAX_INVOICE E202601055 บริษัท อีซี เคลียร์ จำกัด บริษัท บาร์เธอร์ แอนด์ บาร์เธอร์ จำกัด Clearance service fee 6760"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "af05ae64-30c5-4474-b0b1-09b9e9f1f504",
+          "elapsed": 13.316997200003243,
+          "text": "TAX_INVOICE IV6901034 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918.0"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 11.962745199998608,
+        "max": 19.455739500001073,
+        "avg": 14.729380649999802,
+        "total": 147.29380649999803
+      },
+      "results": {
+        "เอกสาร invoice_page-0032.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "08c83cf3-710c-4f5f-94a3-b80957b3b13d",
+          "elapsed": 14.085181999995257,
+          "text": "TAX_INVOICE IV6901467 PRIMAX GENERAL CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง35x49x43cm. ด้านA+B 13135.32"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7c7ffc6c-f76d-49d0-b105-8057829fde44",
+          "elapsed": 14.943221599998651,
+          "text": "TAX_INVOICE IV6901053 บริษัท เค.เอส.บรรจุภัณฑ์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0053.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "32fc6325-ca7f-4622-9247-f140e39d8cb6",
+          "elapsed": 19.455739500001073,
+          "text": "TAX_INVOICE IV 26012746 CAPRIC (THAILAND) CO.,LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด เทปOPP กาวน้ำ Nuvo Stick สีใส 2 (48mm x 100y (90m)) (ไม่คิดบาร์) 30880.2"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fc68a3b7-658f-4a49-9244-63d6fb032ab1",
+          "elapsed": 17.618963000000804,
+          "text": "TAX_INVOICE DINVSTP/40137 บริษัทสยามทบพันแพคเกจจิ้ง จำกัด บจก.บราเธอร์ แอนด์ บราเธอร์ กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0083.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "d11dc351-96ca-4ee6-9e95-6e5084130f8e",
+          "elapsed": 15.441178399996716,
+          "text": "TAX_INVOICE IV6901167 บริษัท อมตะ พริ้นท์ติ้ง ซัพพลายส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด L1-Duplex Board Grey Back 270g 25x36 11323.02"
+        },
+        "เอกสาร invoice_page-0091.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "4b88d34a-2225-4be2-8804-783854f0f08e",
+          "elapsed": 13.862493200002064,
+          "text": "TAX_INVOICE 202601001 บริษัท พิกเจอเรียน โปรดักชั่นเฮาส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ที่ปรึกษางานProduction รายเดือน แบรนด์ Boxjourney (สัญญาต่อเนื่อง 12 เดือน) ประจำเดือนมกราคม 2569 31200"
+        },
+        "เอกสาร invoice_page-0113.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "75b89692-2cfb-4519-84d3-e479b12f5907",
+          "elapsed": 14.353312400002324,
+          "text": "TAX_INVOICE TX69110061 บริษัท ยูนิเวอร์แซล เทรส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด คราฟท์น้ำตาล KP 385G 31X43\" 44284.63"
+        },
+        "เอกสาร invoice_page-0130.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b4e1b5f3-861c-4058-bc4d-a1188d87fc1a",
+          "elapsed": 13.233847200004675,
+          "text": "TAX_INVOICE IV260108-164 บริษัท เอ็กซ์เซลแพคเกจจิ้ง จำกัด บจก. บราเธอร์ แอนด์ บราเธอร์ บรรจุ 500 ชิ้น/กล่อง จำนวน 3 กล่อง 1765.5"
+        },
+        "เอกสาร invoice_page-0156.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7a982cad-8e53-482e-8ee1-538e3fc73c76",
+          "elapsed": 11.962745199998608,
+          "text": "TAX_INVOICE E202601055 บริษัท อีซี เคลียร์ จำกัด บริษัท บาร์เธอร์ แอนด์ บาร์เธอร์ จำกัด Clearance service fee 6760"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "bfaee24f-f450-4607-9918-d9ec9eb68ee4",
+          "elapsed": 12.337123999997857,
+          "text": "TAX_INVOICE IV6901034 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 11.231660099998408,
+        "max": 18.633304899994982,
+        "avg": 14.384413539998786,
+        "total": 143.84413539998786
+      },
+      "results": {
+        "เอกสาร invoice_page-0032.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "85de3c9e-313d-4d87-81d6-a2d985e10d4a",
+          "elapsed": 13.41676830000506,
+          "text": "TAX_INVOICE IV6901467 PRIMAX GENERAL CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง35x49x43cm. ด้านA+B 13135.32"
+        },
+        "เอกสาร invoice_page-0050.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a9387bc2-0535-4fd2-875a-a2bd7ef39e2b",
+          "elapsed": 18.633304899994982,
+          "text": "TAX_INVOICE IV6901053 K.S.PACKAGING CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด กล่องกระดาษลูกฟูก 3 ชั้น 41x54x24 cm. บล็อกพิมพ์ลังลูกฟูก 3 ชั้น 41x54x24 cm. 54197.64"
+        },
+        "เอกสาร invoice_page-0053.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "74a205d2-064f-4003-a5c8-6ea8c17a7c64",
+          "elapsed": 16.751011599997582,
+          "text": "TAX_INVOICE IV 26012746 CAPRIC (THAILAND) CO.,LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด เทปOPP กาวน้ำ Nuvo Stick สีใส 2 (48mm x 100y (90m)) (ไม่คิดบาร์) 30880.2"
+        },
+        "เอกสาร invoice_page-0075.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "3fec8e10-b779-40e2-b69d-29e75026a96c",
+          "elapsed": 15.105111400000169,
+          "text": "TAX_INVOICE DINVSTP/40137 บริษัทสยามทบพันแพคเกจจิ้ง จำกัด บจก.บราเธอร์ แอนด์ บราเธอร์ กล่องหูฟ้าขาว OTOP เซล L 55212"
+        },
+        "เอกสาร invoice_page-0083.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "a0144f66-2e0a-44b1-a8fe-a7bb9fde49ff",
+          "elapsed": 17.63601650000055,
+          "text": "TAX_INVOICE Iv6901167 บริษัท อมตะ พริ้นท์ติ้ง ซัพพลายส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด L1-Duplex Board Grey Back 270g 25x36 11323.02"
+        },
+        "เอกสาร invoice_page-0091.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "fb35c2ef-dd7c-4826-a2d5-4988aaed42a5",
+          "elapsed": 13.85312829999748,
+          "text": "TAX_INVOICE 202601001 บริษัท พิกเจอเรียน โปรดักชั่นเฮาส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ที่ปรึกษางานProduction รายเดือน แบรนด์ Boxjourney (สัญญาต่อเนื่อง 12 เดือน) ประจำเดือนมกราคม 2569 31200"
+        },
+        "เอกสาร invoice_page-0113.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b2262fb6-c635-40ca-9f31-3eb319f5e728",
+          "elapsed": 11.28743409999879,
+          "text": "TAX_INVOICE TX69110061 บริษัท ยูนิเวอร์แซล เทรส์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด คราฟท์น้ำตาล KP 385G 31X43\" 44284.63"
+        },
+        "เอกสาร invoice_page-0130.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "7f3d02e5-3db2-43f2-985e-5d95907f0027",
+          "elapsed": 11.774866499996278,
+          "text": "TAX_INVOICE IV260108-164 บริษัท เอ็กซ์เซลแพคเกจจิ้ง จำกัด บจก. บราเธอร์ แอนด์ บราเธอร์ บรรจุ 500 ชิ้น/กล่อง จำนวน 3 กล่อง 1765.5"
+        },
+        "เอกสาร invoice_page-0156.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "df963b56-0486-4ace-b900-0eb4cbc9ced9",
+          "elapsed": 11.231660099998408,
+          "text": "TAX_INVOICE E202601055 บริษัท อีซี เคลียร์ จำกัด บริษัท บาร์เธอร์ แอนด์ บาร์เธอร์ จำกัด Clearance service fee 6760"
+        },
+        "เอกสาร invoice_page-0201.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ff486e24-fb6f-4960-9e94-c29f3658e0b4",
+          "elapsed": 14.154833699998562,
+          "text": "TAX_INVOICE IV6901034 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) PAPER CUP 6.5 OZ 1PE (2000/CTN) ลายติดหู 7918"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 12.603640900000755,
+        "max": 21.613852000002225,
+        "avg": 16.31495317000008,
+        "total": 163.1495317000008
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 11.030547799993656,
+        "max": 21.669004700001096,
+        "avg": 15.042991849999089,
+        "total": 150.4299184999909
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 11.962745199998608,
+        "max": 19.455739500001073,
+        "avg": 14.729380649999802,
+        "total": 147.29380649999803
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 11.231660099998408,
+        "max": 18.633304899994982,
+        "avg": 14.384413539998786,
+        "total": 143.84413539998786
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.9866,
+      "per_file": {
+        "เอกสาร invoice_page-0032.jpg": 1.0,
+        "เอกสาร invoice_page-0050.jpg": 1.0,
+        "เอกสาร invoice_page-0053.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 0.866,
+        "เอกสาร invoice_page-0083.jpg": 1.0,
+        "เอกสาร invoice_page-0091.jpg": 1.0,
+        "เอกสาร invoice_page-0113.jpg": 1.0,
+        "เอกสาร invoice_page-0130.jpg": 1.0,
+        "เอกสาร invoice_page-0156.jpg": 1.0,
+        "เอกสาร invoice_page-0201.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.9645,
+      "per_file": {
+        "เอกสาร invoice_page-0032.jpg": 1.0,
+        "เอกสาร invoice_page-0050.jpg": 0.8281,
+        "เอกสาร invoice_page-0053.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 0.866,
+        "เอกสาร invoice_page-0083.jpg": 1.0,
+        "เอกสาร invoice_page-0091.jpg": 1.0,
+        "เอกสาร invoice_page-0113.jpg": 1.0,
+        "เอกสาร invoice_page-0130.jpg": 1.0,
+        "เอกสาร invoice_page-0156.jpg": 1.0,
+        "เอกสาร invoice_page-0201.jpg": 0.9512
+      }
+    },
+    "4": {
+      "avg": 0.9516,
+      "per_file": {
+        "เอกสาร invoice_page-0032.jpg": 1.0,
+        "เอกสาร invoice_page-0050.jpg": 0.8281,
+        "เอกสาร invoice_page-0053.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 0.866,
+        "เอกสาร invoice_page-0083.jpg": 1.0,
+        "เอกสาร invoice_page-0091.jpg": 1.0,
+        "เอกสาร invoice_page-0113.jpg": 1.0,
+        "เอกสาร invoice_page-0130.jpg": 0.8216,
+        "เอกสาร invoice_page-0156.jpg": 1.0,
+        "เอกสาร invoice_page-0201.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.9688,
+      "per_file": {
+        "เอกสาร invoice_page-0032.jpg": 1.0,
+        "เอกสาร invoice_page-0050.jpg": 1.0,
+        "เอกสาร invoice_page-0053.jpg": 1.0,
+        "เอกสาร invoice_page-0075.jpg": 0.866,
+        "เอกสาร invoice_page-0083.jpg": 1.0,
+        "เอกสาร invoice_page-0091.jpg": 1.0,
+        "เอกสาร invoice_page-0113.jpg": 1.0,
+        "เอกสาร invoice_page-0130.jpg": 0.8216,
+        "เอกสาร invoice_page-0156.jpg": 1.0,
+        "เอกสาร invoice_page-0201.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}

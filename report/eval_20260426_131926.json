@@ -1,0 +1,575 @@
+{
+  "config": {
+    "rounds": 5,
+    "files_per_round": 10,
+    "mode": "consistency — rounds 2..N vs round 1 baseline"
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "role": "baseline",
+      "files": 10,
+      "timing": {
+        "min": 12.279158500001358,
+        "max": 18.98908580000716,
+        "avg": 15.433151900001395,
+        "total": 154.33151900001394
+      },
+      "results": {
+        "เอกสาร invoice_page-0009.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "e3ad94f6-62b8-461a-84bb-38d34b7e2901",
+          "elapsed": 12.516964200003713,
+          "text": "TAX_INVOICE IV6901445 PIMAX GENERAL CO.,LTD. บริษัท บรา เฮอร์ แอนด์ บรา เฮอร์ จำกัด สัง 35.5x35.5x46.5 cm.มีปรุ 14712.5"
+        },
+        "เอกสาร invoice_page-0016.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c0d727eb-29a2-442e-b426-8f5adee80a5a",
+          "elapsed": 15.769811699996353,
+          "text": "TAX_INVOICE IVG901353 บริษัท เคพีเค คิวพลัส จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ค่าเพลทไตคัท BT02GA-FLATBOX15-0520 6420"
+        },
+        "เอกสาร invoice_page-0032.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "efc7a12b-5496-4ee1-8832-c322c5e5bef1",
+          "elapsed": 13.703150000001187,
+          "text": "TAX_INVOICE IV6901467 PRIMAX GENERAL CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง35x49x43cm. ด้านA+B 13135.32"
+        },
+        "เอกสาร invoice_page-0054.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b1fb4c95-42a5-46af-9f83-84c9181f5e57",
+          "elapsed": 18.98908580000716,
+          "text": "TAX_INVOICE IV9088001 Vertex Trading Co., Ltd. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) กล่อง 5 รีม/กล่อง 7383"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "946e9b93-6bc7-4164-9154-791afcbc6190",
+          "elapsed": 17.308717899999465,
+          "text": "TAX_INVOICE IV6968393 บริษัท พีเอ็มซี มิลเลนเนียม จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0093.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "164d0c0e-3554-4225-a32c-826022e2b985",
+          "elapsed": 16.981401600001846,
+          "text": "TAX_INVOICE IV69/01025 บริษัท เซน อินเตอร์เทรด แอนด์ เซอร์วิส (ประเทศไทย) จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ค่าเช่าเครื่องถ่ายเอกสารประจำเดือน 12/2568 35180.66"
+        },
+        "เอกสาร invoice_page-0101.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b47cd576-6038-4ef6-a8a6-8b23e4740db8",
+          "elapsed": 12.700375899999926,
+          "text": "TAX_INVOICE IV6904004 บริษัท เอ็มพีเอช ก่อสร้าง จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สายชำระชุมโคนโยม ปลายรับป พต. ซุบ ไดชาร์ปโครเมียม(หอลสแตนเลส) 1180.0"
+        },
+        "เอกสาร invoice_page-0119.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1f80e922-e52f-4f58-8ed2-a4974b56f7ef",
+          "elapsed": 15.731119299998682,
+          "text": "TAX_INVOICE IV6901006 K.S.PACKAGING CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ก. ลูกฟูกอเนกประสงค์+ฝาหน้าต่าง 31x50. 7x9. 3cm. 47700.6"
+        },
+        "เอกสาร invoice_page-0141.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "47703eb2-cce9-485a-b0df-19c64594c5d4",
+          "elapsed": 12.279158500001358,
+          "text": "INVOICE INV26/020 บริษัท บียูเอฟู้ดส์ จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) กระปุก PET 10x10 CM. ฝาใส 576 ใบ 6480"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8fac2c1e-59b2-411f-82a4-c503dbafb4cb",
+          "elapsed": 18.35173410000425,
+          "text": "TAX_INVOICE IV6901025 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 15.752257899999677,
+        "max": 26.086665500006347,
+        "avg": 19.53155263000008,
+        "total": 195.31552630000078
+      },
+      "results": {
+        "เอกสาร invoice_page-0009.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "facc47b9-63f5-4ac3-b87b-b2102e4d71e0",
+          "elapsed": 15.752257899999677,
+          "text": "TAX_INVOICE IV6901445 PIMAX GENERAL CO.,LTD. บริษัท บรา เฮอร์ แอนด์ บรา เฮอร์ จำกัด สัง 35.5x35.5x46.5 cm.มีปรุ 14712.5"
+        },
+        "เอกสาร invoice_page-0016.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "caa509f6-fb0c-4522-aadc-f79e7ab2104f",
+          "elapsed": 18.143784699997923,
+          "text": "TAX_INVOICE IVG901353 บริษัท เคพีเค คิวพลัส จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ค่าเพลทไตคัท BT02GA-FLATBOX15-0520 6420"
+        },
+        "เอกสาร invoice_page-0032.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f5ce19b3-c5af-4068-8cbd-954b26dcb00c",
+          "elapsed": 16.327733800004353,
+          "text": "TAX_INVOICE IV6901467 PRIMAX GENERAL CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง35x49x43cm. ด้านA+B 13135.32"
+        },
+        "เอกสาร invoice_page-0054.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8be56a05-fdb4-47b8-acc7-3ab529e6329f",
+          "elapsed": 25.413352399998985,
+          "text": "TAX_INVOICE IV9088001 Vertex Trading Co., Ltd. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) กระดาษถ่ายA4(70/500)AL.COTTฟ้าดำ(กล่อง 5 รีม/กล่อง) 7383"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "342348d6-3bd6-48b9-880b-da8445259dd0",
+          "elapsed": 26.086665500006347,
+          "text": "TAX_INVOICE IV6968393 บริษัท พีเอ็มซี มิลเลนเนียม จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0093.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1882eb5f-060b-4e03-99f4-1a32d1f322d8",
+          "elapsed": 20.415130399996997,
+          "text": "TAX_INVOICE IV69/01025 บริษัท เซน อินเตอร์เทรด แอนด์ เซอร์วิส (ประเทศไทย) จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ค่าเช่าเครื่องถ่ายเอกสารประจำเดือน 12/2568 35180.66"
+        },
+        "เอกสาร invoice_page-0101.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "883e69b0-789a-44ee-9f46-9d765243db70",
+          "elapsed": 17.370669999996608,
+          "text": "TAX_INVOICE IV6904004 บริษัท เอ็มพีเอช ก่อสร้าง จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สายชำระชุมโคนโยม สายชำรับ พล. ซุบ สายชำรับโครเมียม(หุ้มสเตนเลส) 1180.0"
+        },
+        "เอกสาร invoice_page-0119.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "58792c9a-9066-4f44-b785-530e317628f8",
+          "elapsed": 21.711469900001248,
+          "text": "TAX_INVOICE IV6901006 K.S.PACKAGING CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ก. ลูกฟูกอเนกประสงค์+ฝาหน้าต่าง 31x50. 7x9. 3cm. 47700.6"
+        },
+        "เอกสาร invoice_page-0141.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "67285497-5f2e-40f6-b59a-edb9d6a80894",
+          "elapsed": 16.133775700000115,
+          "text": "INVOICE INV26/020 บริษัท บียูเอฟู้ดส์ จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) กระปุก PET 10x10 CM. ฝาใส 576 ใบ 6480"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "1d39befa-5803-4e97-8209-e5288af401b8",
+          "elapsed": 17.96068599999853,
+          "text": "TAX_INVOICE IV6901025 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        }
+      }
+    },
+    {
+      "round": 3,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 15.520753699995112,
+        "max": 22.262508400002844,
+        "avg": 18.11001871999906,
+        "total": 181.10018719999061
+      },
+      "results": {
+        "เอกสาร invoice_page-0009.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "07a56da3-5f7b-4a4c-a5c5-2d0fa146da43",
+          "elapsed": 15.520753699995112,
+          "text": "TAX_INVOICE IV6901445 PIMAX GENERAL CO.,LTD. บริษัท บรา เฮอร์ แอนด์ บรา เฮอร์ จำกัด สัง 35.5x35.5x46.5 cm.มีปรุ 14712.5"
+        },
+        "เอกสาร invoice_page-0016.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "30f98c7e-f100-4dc0-a83e-339370901ba9",
+          "elapsed": 16.460261100000935,
+          "text": "TAX_INVOICE IV6901353 บริษัท เคพีเค คิวพลัส จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ค่าเพลทไตคัท BT02GA-FLATBOX15-0520 6420"
+        },
+        "เอกสาร invoice_page-0032.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8f4d48ed-3928-461f-906b-dcb4308767b4",
+          "elapsed": 16.006908099996508,
+          "text": "TAX_INVOICE IV6901467 PRIMAX GENERAL CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง35x49x43cm. ด้านA+B 13135.32"
+        },
+        "เอกสาร invoice_page-0054.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b552ce0a-d6b6-4208-9085-7312f447b36d",
+          "elapsed": 22.262508400002844,
+          "text": "TAX_INVOICE IV9088001 Vertex Trading Co., Ltd. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) กล่อง 5 รีม/กล่อง 7383"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "ac055a18-dd8b-4a25-9a98-553946310266",
+          "elapsed": 21.694462899999053,
+          "text": "TAX_INVOICE IV6968393 บริษัท พีเอ็มซี มิลเลนเนียม จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0093.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "befbddfb-3917-4769-995e-6b8ae83e8d20",
+          "elapsed": 21.761299400001008,
+          "text": "TAX_INVOICE IV69/01025 บริษัท เซน อินเตอร์เทรด แอนด์ เซอร์วิส (ประเทศไทย) จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ค่าเช่าเครื่องถ่ายเอกสารประจำเดือน 12/2568 35180.66"
+        },
+        "เอกสาร invoice_page-0101.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "71e5ad1c-eaae-4079-9d96-e90525aee83e",
+          "elapsed": 17.658020999995642,
+          "text": "TAX_INVOICE IV6904004 บริษัท เอ็มพีเอช ก่อสร้าง จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สายชำระชุมโคนโยม ปลายรับป พต. ซุบ ไดชาร์ปโครเมียม(หอลสแตนเลส) 1180.0"
+        },
+        "เอกสาร invoice_page-0119.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "75d298e2-52e1-42aa-8b95-ba0a92597568",
+          "elapsed": 17.602705600002082,
+          "text": "TAX_INVOICE IV6901006 บริษัท เค.เอส.บรรจุภัณฑ์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ก. ลูกฟูกอเนกประสงค์+ฝาหน้าต่าง 31x50. 7x9. 3cm. 47700.6"
+        },
+        "เอกสาร invoice_page-0141.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "6141af4d-9b7d-480e-8a06-9a2a4686fdba",
+          "elapsed": 16.42069690000062,
+          "text": "INVOICE INV26/020 บริษัท บียูเอฟู้ดส์ จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) กระปุก PET 10x10 CM. ฝาใส 576 ใบ 6480"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cefcc289-e11a-45bb-a767-26ae3ed0c049",
+          "elapsed": 15.71257009999681,
+          "text": "TAX_INVOICE IV6901025 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        }
+      }
+    },
+    {
+      "round": 4,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 14.48342810000031,
+        "max": 21.18826970000373,
+        "avg": 17.17257453000129,
+        "total": 171.72574530001293
+      },
+      "results": {
+        "เอกสาร invoice_page-0009.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f5bd84b5-3d59-4582-ad03-fc1711af68c3",
+          "elapsed": 14.48342810000031,
+          "text": "TAX_INVOICE IV6901445 PIMAX GENERAL CO.,LTD. บริษัท บรา เฮอร์ แอนด์ บรา เฮอร์ จำกัด สัง 35.5x35.5x46.5 cm.มีปรุ 14712.5"
+        },
+        "เอกสาร invoice_page-0016.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "93c43415-6972-4922-b9b8-d322cbbbc140",
+          "elapsed": 15.272034500005248,
+          "text": "TAX_INVOICE IV6901353 บริษัท เคพีเค คิวพลัส จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ค่าเพลทไตคัท BT02GA-FLATBOX15-0520 6420"
+        },
+        "เอกสาร invoice_page-0032.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "b91156ad-5154-4851-91da-7cb6443c09c4",
+          "elapsed": 16.01119469999685,
+          "text": "TAX_INVOICE IV6901467 PRIMAX GENERAL CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง35x49x43cm. ด้านA+B 13135.32"
+        },
+        "เอกสาร invoice_page-0054.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "960c2fc8-939c-4c9c-a1d6-a9f417938fe7",
+          "elapsed": 19.43264800000179,
+          "text": "TAX_INVOICE IV9088001 Vertex Trading Co., Ltd. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) กล่อง 5 รีม/กล่อง 7383"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5792c610-6a07-4389-b28f-e38c89a52da7",
+          "elapsed": 18.43890790000296,
+          "text": "TAX_INVOICE IV6968393 บริษัท พีเอ็มซี มิลเลนเนียม จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0093.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "9bc325fa-ea18-46e5-bb96-3b59931e1d62",
+          "elapsed": 21.18826970000373,
+          "text": "TAX_INVOICE IV69/01025 บริษัท เซน อินเตอร์เทรด แอนด์ เซอร์วิส (ประเทศไทย) จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ค่าเช่าเครื่องถ่ายเอกสารประจำเดือน 12/2568 35180.66"
+        },
+        "เอกสาร invoice_page-0101.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2f4cc7be-85be-4dea-ba52-69304cf87e73",
+          "elapsed": 17.112966399996367,
+          "text": "TAX_INVOICE IV6904004 บริษัท เอ็มพีเอช ก่อสร้าง จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สายชำระชุมโคนโยม สายชำรับ พล. ซุบ สายชำรับโครเมียม(หุ้มสเตนเลส) 1180.0"
+        },
+        "เอกสาร invoice_page-0119.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5ff93075-2249-4482-b7d3-ea6ae7724cd6",
+          "elapsed": 16.475868500005163,
+          "text": "TAX_INVOICE IV6901006 K.S.PACKAGING CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ก. ลูกฟูกอเนกประสงค์+ฝาหน้าต่าง 31x50. 7x9. 3cm. 47700.6"
+        },
+        "เอกสาร invoice_page-0141.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "2e87557e-b485-4a94-8b5b-e8a8905fcbcb",
+          "elapsed": 16.15244779999921,
+          "text": "TAX_INVOICE INV26/020 บริษัท บียูเอฟู้ดส์ จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) กระปุก PET 10x10 CM. ฝาใส 576 ใบ 6480"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "88ada4b1-5407-4341-a817-46f9186b8fec",
+          "elapsed": 17.157979700001306,
+          "text": "TAX_INVOICE IV6901025 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        }
+      }
+    },
+    {
+      "round": 5,
+      "role": "comparison",
+      "files": 10,
+      "timing": {
+        "min": 15.569057000000612,
+        "max": 22.99830859999929,
+        "avg": 18.453671220000253,
+        "total": 184.5367122000025
+      },
+      "results": {
+        "เอกสาร invoice_page-0009.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "dc1e533b-9a82-4609-ba35-162f06999ae6",
+          "elapsed": 15.569057000000612,
+          "text": "TAX_INVOICE IV6901445 PIMAX GENERAL CO.,LTD. บริษัท บรา เฮอร์ แอนด์ บรา เฮอร์ จำกัด สัง 35.5x35.5x46.5 cm.มีปรุ 14712.5"
+        },
+        "เอกสาร invoice_page-0016.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "5a876226-5c3f-4c10-a417-22501a4df736",
+          "elapsed": 17.067503700003726,
+          "text": "TAX_INVOICE IVG901353 บริษัท เคพีเค คิวพลัส จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ค่าเพลทไตคัท BT02GA-FLATBOX15-0520 6420"
+        },
+        "เอกสาร invoice_page-0032.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "8e5e3a49-8c76-4970-8a35-13289d2dda7a",
+          "elapsed": 16.540400600002613,
+          "text": "TAX_INVOICE IV6901467 PRIMAX GENERAL CO., LTD. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ลัง35x49x43cm. ด้านA+B 13135.32"
+        },
+        "เอกสาร invoice_page-0054.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "0e4104f7-6ee0-4be1-b1ac-9e1059b46aaa",
+          "elapsed": 22.26827549999871,
+          "text": "TAX_INVOICE IV9088001 Vertex Trading Co., Ltd. บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) กล่อง 5 รีม/กล่อง 7383"
+        },
+        "เอกสาร invoice_page-0055.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "49875552-3324-4a44-b5cb-5af0e353ff72",
+          "elapsed": 22.99830859999929,
+          "text": "TAX_INVOICE IV6968393 บริษัท พีเอ็มซี มิลเลนเนียม จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด P961SL2 พีเอ็มซี บอนด์ 961SL2 (50*10 Kgs.) 18992.5"
+        },
+        "เอกสาร invoice_page-0093.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "c0654c6b-2c7a-4047-b9cc-221c5950b2cc",
+          "elapsed": 22.076312600001984,
+          "text": "TAX_INVOICE IV69/01025 บริษัท เซน อินเตอร์เทรด แอนด์ เซอร์วิส (ประเทศไทย) จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) ค่าเช่าเครื่องถ่ายเอกสารประจำเดือน 12/2568 35180.66"
+        },
+        "เอกสาร invoice_page-0101.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "62e25bfd-f270-4e06-9d20-9ab6fa769bad",
+          "elapsed": 17.71168800000305,
+          "text": "TAX_INVOICE IV6904004 บริษัท เอ็มพีเอช ก่อสร้าง จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด สายชำระชุมโคนโยม สายชำรับ พล. ซุบ สายชำรับโครเมียม(หุ้มสเตนเลส) 1180.0"
+        },
+        "เอกสาร invoice_page-0119.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "cae96a1d-f948-479a-b0c5-d17a8ab53d76",
+          "elapsed": 18.50999060000322,
+          "text": "TAX_INVOICE IV6901006 บริษัท เค.เอส.บรรจุภัณฑ์ จำกัด บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด ก. ลูกฟูกอเนกประสงค์+ฝาหน้าต่าง 31x50. 7x9. 3cm. 47700.6"
+        },
+        "เอกสาร invoice_page-0141.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "26031820-291b-44db-b95c-88a1aeda9b73",
+          "elapsed": 15.879086999993888,
+          "text": "TAX_INVOICE INV26/020 บริษัท บียูเอฟู้ดส์ จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) กระปุก PET 10x10 CM. ฝาใส 576 ใบ 6480"
+        },
+        "เอกสาร invoice_page-0170.jpg": {
+          "label": 1,
+          "status": "success",
+          "id": "f333ddfe-f949-4efb-a448-06dc5252663d",
+          "elapsed": 15.916088599995419,
+          "text": "TAX_INVOICE IV6901025 บริษัท โลตัส แพค จำกัด (สำนักงานใหญ่) บริษัท บราเธอร์ แอนด์ บราเธอร์ จำกัด (สำนักงานใหญ่) WHITE 6.5 OZ W/H (2000/CTN) ติดหู(1PE) สีขาว 30816"
+        }
+      }
+    }
+  ],
+  "consistency_vs_baseline": [
+    {
+      "round": 2,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 15.752257899999677,
+        "max": 26.086665500006347,
+        "avg": 19.53155263000008,
+        "total": 195.31552630000078
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 15.520753699995112,
+        "max": 22.262508400002844,
+        "avg": 18.11001871999906,
+        "total": 181.10018719999061
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 14.48342810000031,
+        "max": 21.18826970000373,
+        "avg": 17.17257453000129,
+        "total": 171.72574530001293
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 10,
+      "metrics": {
+        "tp": 10,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 15.569057000000612,
+        "max": 22.99830859999929,
+        "avg": 18.453671220000253,
+        "total": 184.5367122000025
+      }
+    }
+  ],
+  "average_consistency": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "bleu_scores": {
+    "2": {
+      "avg": 0.9466,
+      "per_file": {
+        "เอกสาร invoice_page-0009.jpg": 1.0,
+        "เอกสาร invoice_page-0016.jpg": 1.0,
+        "เอกสาร invoice_page-0032.jpg": 1.0,
+        "เอกสาร invoice_page-0054.jpg": 0.801,
+        "เอกสาร invoice_page-0055.jpg": 1.0,
+        "เอกสาร invoice_page-0093.jpg": 0.9129,
+        "เอกสาร invoice_page-0101.jpg": 0.7524,
+        "เอกสาร invoice_page-0119.jpg": 1.0,
+        "เอกสาร invoice_page-0141.jpg": 1.0,
+        "เอกสาร invoice_page-0170.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.9658,
+      "per_file": {
+        "เอกสาร invoice_page-0009.jpg": 1.0,
+        "เอกสาร invoice_page-0016.jpg": 0.8864,
+        "เอกสาร invoice_page-0032.jpg": 1.0,
+        "เอกสาร invoice_page-0054.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 1.0,
+        "เอกสาร invoice_page-0093.jpg": 1.0,
+        "เอกสาร invoice_page-0101.jpg": 1.0,
+        "เอกสาร invoice_page-0119.jpg": 0.7719,
+        "เอกสาร invoice_page-0141.jpg": 1.0,
+        "เอกสาร invoice_page-0170.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.9588,
+      "per_file": {
+        "เอกสาร invoice_page-0009.jpg": 1.0,
+        "เอกสาร invoice_page-0016.jpg": 0.8864,
+        "เอกสาร invoice_page-0032.jpg": 1.0,
+        "เอกสาร invoice_page-0054.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 1.0,
+        "เอกสาร invoice_page-0093.jpg": 1.0,
+        "เอกสาร invoice_page-0101.jpg": 0.7524,
+        "เอกสาร invoice_page-0119.jpg": 1.0,
+        "เอกสาร invoice_page-0141.jpg": 0.9487,
+        "เอกสาร invoice_page-0170.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.9473,
+      "per_file": {
+        "เอกสาร invoice_page-0009.jpg": 1.0,
+        "เอกสาร invoice_page-0016.jpg": 1.0,
+        "เอกสาร invoice_page-0032.jpg": 1.0,
+        "เอกสาร invoice_page-0054.jpg": 1.0,
+        "เอกสาร invoice_page-0055.jpg": 1.0,
+        "เอกสาร invoice_page-0093.jpg": 1.0,
+        "เอกสาร invoice_page-0101.jpg": 0.7524,
+        "เอกสาร invoice_page-0119.jpg": 0.7719,
+        "เอกสาร invoice_page-0141.jpg": 0.9487,
+        "เอกสาร invoice_page-0170.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {}
+}
