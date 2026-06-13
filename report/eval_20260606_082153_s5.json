@@ -1,0 +1,271 @@
+{
+  "config": {
+    "session": 5,
+    "rounds_per_session": 5,
+    "sample_per_session": 20,
+    "delay": 1.0,
+    "url": "http://localhost:8010"
+  },
+  "session": 5,
+  "files": [
+    "เอกสาร invoice_page-0007.jpg",
+    "เอกสาร invoice_page-0009.jpg",
+    "เอกสาร invoice_page-0010.jpg",
+    "เอกสาร invoice_page-0016.jpg",
+    "เอกสาร invoice_page-0022.jpg",
+    "เอกสาร invoice_page-0027.jpg",
+    "เอกสาร invoice_page-0044.jpg",
+    "เอกสาร invoice_page-0051.jpg",
+    "เอกสาร invoice_page-0054.jpg",
+    "เอกสาร invoice_page-0065.jpg",
+    "เอกสาร invoice_page-0080.jpg",
+    "เอกสาร invoice_page-0097.jpg",
+    "เอกสาร invoice_page-0098.jpg",
+    "เอกสาร invoice_page-0115.jpg",
+    "เอกสาร invoice_page-0116.jpg",
+    "เอกสาร invoice_page-0131.jpg",
+    "เอกสาร invoice_page-0137.jpg",
+    "เอกสาร invoice_page-0149.jpg",
+    "เอกสาร invoice_page-0179.jpg",
+    "เอกสาร invoice_page-0183.jpg"
+  ],
+  "n_rounds": 5,
+  "per_round_consistency": [
+    {
+      "round": 2,
+      "common_files": 20,
+      "metrics": {
+        "tp": 20,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 14.687680799997906,
+        "max": 32.74704059999931,
+        "avg": 20.704030355000214,
+        "total": 414.0806071000043
+      }
+    },
+    {
+      "round": 3,
+      "common_files": 20,
+      "metrics": {
+        "tp": 20,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 13.742883900002198,
+        "max": 34.41164209999988,
+        "avg": 21.310139009999876,
+        "total": 426.2027801999975
+      }
+    },
+    {
+      "round": 4,
+      "common_files": 20,
+      "metrics": {
+        "tp": 19,
+        "tn": 0,
+        "fp": 0,
+        "fn": 1,
+        "accuracy": 0.95,
+        "precision": 1.0,
+        "recall": 0.95,
+        "f1": 0.9743589743589743
+      },
+      "timing": {
+        "min": 14.598937700000533,
+        "max": 33.60448170000018,
+        "avg": 20.498201375000644,
+        "total": 409.9640275000129
+      }
+    },
+    {
+      "round": 5,
+      "common_files": 20,
+      "metrics": {
+        "tp": 20,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "timing": {
+        "min": 12.497415699999692,
+        "max": 30.421294099996885,
+        "avg": 21.391873434999617,
+        "total": 427.8374686999923
+      }
+    }
+  ],
+  "avg_metrics": {
+    "accuracy": 0.9875,
+    "precision": 1.0,
+    "recall": 0.9875,
+    "f1": 0.9935897435897436
+  },
+  "avg_bleu": 0.9152,
+  "bleu_scores": {
+    "2": {
+      "avg": 0.9121,
+      "per_file": {
+        "เอกสาร invoice_page-0007.jpg": 1.0,
+        "เอกสาร invoice_page-0009.jpg": 1.0,
+        "เอกสาร invoice_page-0010.jpg": 1.0,
+        "เอกสาร invoice_page-0016.jpg": 0.663,
+        "เอกสาร invoice_page-0022.jpg": 0.9014,
+        "เอกสาร invoice_page-0027.jpg": 0.6355,
+        "เอกสาร invoice_page-0044.jpg": 1.0,
+        "เอกสาร invoice_page-0051.jpg": 0.6994,
+        "เอกสาร invoice_page-0054.jpg": 0.801,
+        "เอกสาร invoice_page-0065.jpg": 1.0,
+        "เอกสาร invoice_page-0080.jpg": 1.0,
+        "เอกสาร invoice_page-0097.jpg": 1.0,
+        "เอกสาร invoice_page-0098.jpg": 1.0,
+        "เอกสาร invoice_page-0115.jpg": 0.7068,
+        "เอกสาร invoice_page-0116.jpg": 1.0,
+        "เอกสาร invoice_page-0131.jpg": 1.0,
+        "เอกสาร invoice_page-0137.jpg": 1.0,
+        "เอกสาร invoice_page-0149.jpg": 0.8341,
+        "เอกสาร invoice_page-0179.jpg": 1.0,
+        "เอกสาร invoice_page-0183.jpg": 1.0
+      }
+    },
+    "3": {
+      "avg": 0.943,
+      "per_file": {
+        "เอกสาร invoice_page-0007.jpg": 1.0,
+        "เอกสาร invoice_page-0009.jpg": 1.0,
+        "เอกสาร invoice_page-0010.jpg": 1.0,
+        "เอกสาร invoice_page-0016.jpg": 0.5883,
+        "เอกสาร invoice_page-0022.jpg": 1.0,
+        "เอกสาร invoice_page-0027.jpg": 1.0,
+        "เอกสาร invoice_page-0044.jpg": 0.7719,
+        "เอกสาร invoice_page-0051.jpg": 0.6994,
+        "เอกสาร invoice_page-0054.jpg": 0.801,
+        "เอกสาร invoice_page-0065.jpg": 1.0,
+        "เอกสาร invoice_page-0080.jpg": 1.0,
+        "เอกสาร invoice_page-0097.jpg": 1.0,
+        "เอกสาร invoice_page-0098.jpg": 1.0,
+        "เอกสาร invoice_page-0115.jpg": 1.0,
+        "เอกสาร invoice_page-0116.jpg": 1.0,
+        "เอกสาร invoice_page-0131.jpg": 1.0,
+        "เอกสาร invoice_page-0137.jpg": 1.0,
+        "เอกสาร invoice_page-0149.jpg": 1.0,
+        "เอกสาร invoice_page-0179.jpg": 1.0,
+        "เอกสาร invoice_page-0183.jpg": 1.0
+      }
+    },
+    "4": {
+      "avg": 0.8786,
+      "per_file": {
+        "เอกสาร invoice_page-0007.jpg": 0.8771,
+        "เอกสาร invoice_page-0009.jpg": 1.0,
+        "เอกสาร invoice_page-0010.jpg": 1.0,
+        "เอกสาร invoice_page-0016.jpg": 0.663,
+        "เอกสาร invoice_page-0022.jpg": 0.9014,
+        "เอกสาร invoice_page-0027.jpg": 1.0,
+        "เอกสาร invoice_page-0044.jpg": 0.7719,
+        "เอกสาร invoice_page-0051.jpg": 0.6994,
+        "เอกสาร invoice_page-0054.jpg": 1.0,
+        "เอกสาร invoice_page-0065.jpg": 0.7719,
+        "เอกสาร invoice_page-0080.jpg": 1.0,
+        "เอกสาร invoice_page-0097.jpg": 1.0,
+        "เอกสาร invoice_page-0098.jpg": 1.0,
+        "เอกสาร invoice_page-0115.jpg": 0.0,
+        "เอกสาร invoice_page-0116.jpg": 1.0,
+        "เอกสาร invoice_page-0131.jpg": 1.0,
+        "เอกสาร invoice_page-0137.jpg": 1.0,
+        "เอกสาร invoice_page-0149.jpg": 0.8871,
+        "เอกสาร invoice_page-0179.jpg": 1.0,
+        "เอกสาร invoice_page-0183.jpg": 1.0
+      }
+    },
+    "5": {
+      "avg": 0.9271,
+      "per_file": {
+        "เอกสาร invoice_page-0007.jpg": 1.0,
+        "เอกสาร invoice_page-0009.jpg": 1.0,
+        "เอกสาร invoice_page-0010.jpg": 1.0,
+        "เอกสาร invoice_page-0016.jpg": 0.663,
+        "เอกสาร invoice_page-0022.jpg": 0.9014,
+        "เอกสาร invoice_page-0027.jpg": 0.5064,
+        "เอกสาร invoice_page-0044.jpg": 1.0,
+        "เอกสาร invoice_page-0051.jpg": 0.6994,
+        "เอกสาร invoice_page-0054.jpg": 1.0,
+        "เอกสาร invoice_page-0065.jpg": 0.7719,
+        "เอกสาร invoice_page-0080.jpg": 1.0,
+        "เอกสาร invoice_page-0097.jpg": 1.0,
+        "เอกสาร invoice_page-0098.jpg": 1.0,
+        "เอกสาร invoice_page-0115.jpg": 1.0,
+        "เอกสาร invoice_page-0116.jpg": 1.0,
+        "เอกสาร invoice_page-0131.jpg": 1.0,
+        "เอกสาร invoice_page-0137.jpg": 1.0,
+        "เอกสาร invoice_page-0149.jpg": 1.0,
+        "เอกสาร invoice_page-0179.jpg": 1.0,
+        "เอกสาร invoice_page-0183.jpg": 1.0
+      }
+    }
+  },
+  "inconsistent_files": {
+    "เอกสาร invoice_page-0115.jpg": [
+      {
+        "round": 4,
+        "baseline": "success",
+        "this_round": "failure"
+      }
+    ]
+  },
+  "overall_timing": {
+    "min": 12.497415699999692,
+    "max": 42.017745100001775,
+    "avg": 21.389274933000124,
+    "total": 2138.9274933000124
+  },
+  "round_timing": [
+    {
+      "min": 13.627105999999912,
+      "max": 42.017745100001775,
+      "avg": 23.04213049000027,
+      "total": 460.84260980000545
+    },
+    {
+      "min": 14.687680799997906,
+      "max": 32.74704059999931,
+      "avg": 20.704030355000214,
+      "total": 414.0806071000043
+    },
+    {
+      "min": 13.742883900002198,
+      "max": 34.41164209999988,
+      "avg": 21.310139009999876,
+      "total": 426.2027801999975
+    },
+    {
+      "min": 14.598937700000533,
+      "max": 33.60448170000018,
+      "avg": 20.498201375000644,
+      "total": 409.9640275000129
+    },
+    {
+      "min": 12.497415699999692,
+      "max": 30.421294099996885,
+      "avg": 21.391873434999617,
+      "total": 427.8374686999923
+    }
+  ]
+}
