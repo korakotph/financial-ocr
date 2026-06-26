@@ -82,18 +82,6 @@ def analyze_document(file: UploadFile = File(...),db: Session = Depends(get_db))
     t_ai = time.time()
     print(f"[TIMING] AI:  {t_ai - t_ocr:.2f}s", flush=True)
     print(f"[TIMING] Total: {t_ai - t0:.2f}s", flush=True)
-    # รวมผลลัพธ์ทั้งหมด
-    result = {
-        "id": file_id,
-        "filename": safe_name,
-        "stored_filename": f"{timestamp}_{file_id}_{safe_name}",
-        "created_at": datetime.now().isoformat(),
-        "ocr": ocr_result,
-        "analysis": analysis,
-        "is_duplicate": is_duplicate,
-        "duplicate_of": duplicate_of,
-    }
-
     # Duplicate detection: same document_number + document_date + total
     is_duplicate = False
     duplicate_of = None
@@ -114,6 +102,17 @@ def analyze_document(file: UploadFile = File(...),db: Session = Depends(get_db))
                     is_duplicate = True
                     duplicate_of = ex.id
                     break
+
+    result = {
+        "id": file_id,
+        "filename": safe_name,
+        "stored_filename": f"{timestamp}_{file_id}_{safe_name}",
+        "created_at": datetime.now().isoformat(),
+        "ocr": ocr_result,
+        "analysis": analysis,
+        "is_duplicate": is_duplicate,
+        "duplicate_of": duplicate_of,
+    }
 
     doc = Document(
         id=file_id,
